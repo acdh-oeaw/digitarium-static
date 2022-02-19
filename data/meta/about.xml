@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/digitarium" xml:id="about.xml">
     <teiHeader>
         <fileDesc>
            <titleStmt>
@@ -19,4 +19,3 @@
         </body>
     </text>
   </TEI>
-  
