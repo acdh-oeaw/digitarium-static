@@ -1,7 +1,7 @@
 # bin/bash
 rm -rf tempdir && mkdir tempdir && rm dl.tar.gz
 rm -rf ./data/editions && mkdir -p ./data/editions
-curl -H "Authorization: token ${GITHUB_TOKEN}" -L https://api.github.com/repos/dariok/wienerdiarium/tarball > dl.tar.gz
+curl -H "Authorization: token ${GITLAB_TOKEN}" -L https://api.github.com/repos/dariok/wienerdiarium/tarball > dl.tar.gz
 tar -xf dl.tar.gz -C tempdir && rm dl.tar.gz
 python copy_files.py
 echo "delete invalid files"
