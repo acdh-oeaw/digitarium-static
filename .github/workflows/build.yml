@@ -33,7 +33,7 @@ jobs:
         ant
     - name: Build Index
       run: |
-        ls
+        ./build_index.sh
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
