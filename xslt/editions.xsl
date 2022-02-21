@@ -100,7 +100,7 @@
                                     </xsl:variable>
                                     <div class="row">
                                         <div class="col-md-5">
-                                            <xsl:apply-templates select="//tei:div[@type='page'] | //tei:front"/>
+                                            <xsl:apply-templates/>
                                         </div>
                                         <div class="col-md-7">
                                             <div class="card">
