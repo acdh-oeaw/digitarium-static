@@ -1,0 +1,3083 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed__1714-01-03.xml" xml:base="https://id.acdh.oeaw.ac.at/digitarium" prev="https://id.acdh.oeaw.ac.at/digitarium/ed__1713-09-27.xml" next="https://id.acdh.oeaw.ac.at/digitarium/ed__1714-01-13.xml">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+					<title type="main">Wienerisches Diarium</title>
+                <title type="sub">Digitale Edition</title>
+                <title type="num">Nr. 1087, 30. Dezember 1713–2. Jänner 1714</title>
+                <editor>Resch, Claudia</editor>
+                <editor>Kampkaspar, Dario</editor>
+                <funder>Austrian Academy of Sciences, go!digital 2.0</funder>
+				</titleStmt>
+			<publicationStmt>
+					<publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                <pubPlace>Vienna, Austria</pubPlace>
+                <availability>
+                    <licence>CC-By-SA 4.0 – https://creativecommons.org/licenses/by-sa/4.0/</licence>
+                </availability>
+				</publicationStmt>
+			<sourceDesc>
+					<biblStruct>
+                    <monogr>
+                        <idno/>
+                        <title>
+                            <date type="published" when="1714-01-03"/>
+                            <date type="run"/>
+                        </title>
+                        <imprint>
+                            <publisher>Johann Baptist Schönwetter</publisher>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>Wiennerisches Diarium –
+								<date when="1714">Jahrgang 1714</date>
+                        </title>
+                    </series>
+                    <series>
+                        <title>Wiener Zeitung</title>
+                    </series>
+                </biblStruct>
+                <list>
+                    <item xml:id="i1"/>
+                </list>
+				</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+					<p xml:id="p1">Digitarium – Wien[n]erisches Diarium digital. https://digitarium.acdh.oeaw.ac.at</p>
+                <p xml:id="p2">Created using Transkribus – model ID 804</p>
+				</projectDesc>
+			<tagsDecl>
+					<rendition xml:id="f">Full width text, aligned left</rendition>
+                <rendition xml:id="fc">Full width text, centered</rendition>
+                <rendition xml:id="fh">Full width text, with hanging indent</rendition>
+                <rendition xml:id="fr">Full width text, aligned right</rendition>
+                <rendition xml:id="l">Text aligned left in a full width region</rendition>
+                <rendition xml:id="r">Text aligned right in a full width region</rendition>
+                <rendition xml:id="ll">Text aligned left (or justified) in a left column</rendition>
+                <rendition xml:id="lc">Text centered in a left column</rendition>
+                <rendition xml:id="lr">Text aligned right in a left column</rendition>
+                <rendition xml:id="lh">Text aligned left (or justified) in a left column with the first line hanging</rendition>
+                <rendition xml:id="rl">Text aligned left (or justified) in a right column</rendition>
+                <rendition xml:id="rc">Text centered in a right column</rendition>
+                <rendition xml:id="rr">Text aligned right in a right column</rendition>
+                <rendition xml:id="rh">Text aligned left (or justified) in a right column with the first line hanging</rendition>
+                <rendition xml:id="c">Text within the middle of a three column region, aligned left</rendition>
+                <rendition xml:id="cl">Text within the middle of a three column region, aligned left</rendition>
+                <rendition xml:id="cc">Text centered in a middle or centered column</rendition>
+                <rendition xml:id="cr">Text aligned right in a middle or centered column</rendition>
+                <rendition xml:id="ch">Text aligned left (or justified) in a middle or centered column with the first line hanging</rendition>
+				</tagsDecl>
+			<listPrefixDef>
+					<prefixDef ident="anno" matchPattern=".*(\d{3})(\d)(\d{2})(\d{2})-(\d+)\..*" replacementPattern="https://diarium-images.acdh-dev.oeaw.ac.at/$10/$1$2/$3/$1$2$3$4/$1$2$3$4-$5">
+                    <p xml:id="p3">Ggf. nachbearbeitete ANNO-Bilder auf Diarium-IIIF</p>
+                </prefixDef>
+				</listPrefixDef>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+					<language ident="de-AT-Goth">18th century German as used in Austria (Vienna) in broken script</language>
+                <language ident="fr">18th century French</language>
+                <language ident="it">18th century Italian</language>
+                <language ident="la">Latin</language>
+				</langUsage>
+			<textClass>
+					<keywords scheme="https://d-nb.info/gnd/">
+                    <term ref="https://d-nb.info/gnd/4067510-5/about/lds.rdf">Zeitung</term>
+                </keywords>
+				</textClass>
+		</profileDesc>
+		<revisionDesc status="draft">
+            <list>
+                <item>Korrektur durch Dienstleister</item><!--<item>2. Korrekturdurchlauf</item>--><!--<item>3. Korrekturdurchlauf</item>-->
+            </list>
+        </revisionDesc>
+    </teiHeader>
+	<facsimile>
+		<surface ulx="0" uly="0" lrx="2294" lry="3184" xml:id="facs_1">
+			<graphic url="anno:17140103-000.jpg" width="2294px" height="3184px"/>
+			<zone rendition="printspace" points="0,0 2294,0 2294,3184 0,3184"/>
+			<zone rendition="TextRegion" xml:id="facs_1_r_2_1" subtype="header" points="635,511 1066,511 1066,600 635,600">
+					<zone rendition="Line" xml:id="facs_1_r_2_1l1" points="632,512 1057,512 1057,596 632,596"/>
+				</zone>
+			<zone rendition="Graphic" xml:id="facs_1_Graphic_1531834817847_9" points="13,590 284,590 284,772 13,772"/>
+			<zone rendition="TextRegion" xml:id="facs_1_r_2_2" subtype="header" points="294,596 1416,596 1416,767 294,767">
+					<zone rendition="Line" xml:id="facs_1_r_2_2l3" points="334,620 1353,620 1353,755 334,755"/>
+				</zone>
+			<zone rendition="Graphic" xml:id="facs_1_Graphic_1531834821890_10" points="1430,588 1732,588 1732,758 1430,758"/>
+			<zone rendition="TextRegion" xml:id="facs_1_TextRegion_1531834774579_8" subtype="heading" points="7,772 1720,772 1720,1179 7,1179">
+					<zone rendition="Line" xml:id="facs_1_r_2_3l2" points="1,749 1717,749 1717,877 1,877"/>
+                <zone rendition="Line" xml:id="facs_1_r_2_4l1" points="11,826 1718,826 1718,942 11,942"/>
+                <zone rendition="Line" xml:id="facs_1_r_2_4l2" points="-3,903 1723,903 1723,1006 -3,1006"/>
+                <zone rendition="Line" xml:id="facs_1_r_2_5l1" points="4,961 1717,961 1717,1052 4,1052"/>
+                <zone rendition="Line" xml:id="facs_1_r_2_6l1" points="64,1011 1645,1011 1645,1105 64,1105"/>
+                <zone rendition="Line" xml:id="facs_1_r_2_6l2" points="312,1063 1403,1063 1403,1145 312,1145"/>
+                <zone rendition="Line" xml:id="facs_1_r_2_7l1" points="755,1118 967,1118 967,1178 755,1178"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_1_TextRegion_1531834741958_5" subtype="heading" points="69,1160 1655,1160 1655,1305 69,1305">
+					<zone rendition="Line" xml:id="facs_1_r_2_8l1" points="59,1055 1660,1055 1660,1287 59,1287"/>
+                <zone rendition="Line" xml:id="facs_1_r_2_9l1" points="598,1237 1119,1237 1119,1303 598,1303"/>
+				</zone>
+			<zone rendition="Separator" xml:id="facs_1_Separator_1531834833193_11" points="8,1295 1518,1295 1518,1354 8,1354"/>
+			<zone rendition="TextRegion" xml:id="facs_1_r_4_1" subtype="heading" points="134,1337 1588,1337 1588,1432 134,1432">
+					<zone rendition="Line" xml:id="facs_1_r_4_1l1" points="135,1335 1588,1335 1588,1431 135,1431"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_1_TextRegion_1531834597131_2" subtype="paragraph" points="0,1433 1760,1433 1760,2600 0,2600">
+					<zone rendition="Line" xml:id="facs_1_r_4_2l1" points="23,1404 1721,1404 1721,1613 23,1613"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_2l3" points="185,1489 1736,1489 1736,1569 185,1569"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_2l4" points="187,1547 1732,1547 1732,1627 187,1627"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_2l5" points="17,1599 1740,1599 1740,1690 17,1690"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_2l6" points="23,1660 1731,1660 1731,1753 23,1753"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_2l7" points="19,1716 1738,1716 1738,1814 19,1814"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_2l8" points="24,1775 1728,1775 1728,1867 24,1867"/>
+                <zone rendition="Line" xml:id="facs_1_line_1531835127494_12" points="343,1834 1730,1834 1730,1918 343,1918"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_3l1" points="23,1890 1740,1890 1740,1977 23,1977"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_3l2" points="22,1951 1757,1951 1757,2035 22,2035"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_3l3" points="11,2007 1750,2007 1750,2090 11,2090"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_3l4" points="26,2073 1751,2073 1751,2152 26,2152"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_3l5" points="36,2114 1749,2114 1749,2208 36,2208"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_3l6" points="35,2186 1752,2186 1752,2269 35,2269"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_3l8" points="29,2247 1751,2247 1751,2320 29,2320"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_3l9" points="40,2302 1752,2302 1752,2383 40,2383"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_3l10" points="33,2360 1752,2360 1752,2441 33,2441"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_3l11" points="32,2423 1753,2423 1753,2499 32,2499"/>
+                <zone rendition="Line" xml:id="facs_1_r_4_3l13" points="14,2479 1753,2479 1753,2568 14,2568"/>
+                <zone rendition="Line" xml:id="facs_1_line_1531835180935_13" points="54,2541 1444,2541 1444,2614 54,2614"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_1_TextRegion_1531834617877_3" subtype="paragraph" points="50,2603 1767,2603 1767,2740 50,2740">
+					<zone rendition="Line" xml:id="facs_1_line_1531835193849_14" points="155,2592 1759,2592 1759,2675 155,2675"/>
+                <zone rendition="Line" xml:id="facs_1_line_1531835207367_15" points="51,2647 1760,2647 1760,2751 51,2751"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_1_region_1531834668887_4" subtype="catch-word" points="1536,2721 1771,2721 1771,2793 1536,2793">
+					<zone rendition="Line" xml:id="facs_1_r_5_1l3" points="1554,2714 1751,2714 1751,2788 1554,2788"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_1_r_4_5" subtype="signature-mark" points="884,2725 992,2725 992,2802 884,2802">
+					<zone rendition="Line" xml:id="facs_1_r_4_5l1" points="885,2723 970,2723 970,2789 885,2789"/>
+				</zone>
+		</surface>
+		<surface ulx="0" uly="0" lrx="2294" lry="3232" xml:id="facs_2">
+			<graphic url="anno:17140103-001.jpg" width="2294px" height="3232px"/>
+			<zone rendition="printspace" points="0,0 2294,0 2294,3232 0,3232"/>
+			<zone rendition="TextRegion" xml:id="facs_2_TextRegion_1531835261869_16" subtype="paragraph" points="343,418 2103,418 2103,1328 343,1328">
+					<zone rendition="Line" xml:id="facs_2_r_5_1l1" points="338,388 2081,388 2081,517 338,517"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_1l2" points="344,473 2079,473 2079,581 344,581"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_1l3" points="342,535 2087,535 2087,636 342,636"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_1l4" points="498,591 2080,591 2080,694 498,694"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_1l5" points="353,654 2102,654 2102,759 353,759"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_1l6" points="348,715 2066,715 2066,815 348,815"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_2l1" points="345,772 2075,772 2075,875 345,875"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_2l2" points="337,832 2068,832 2068,929 337,929"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_2l3" points="342,890 2098,890 2098,990 342,990"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_2l4" points="332,950 2072,950 2072,1050 332,1050"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_2l5" points="342,1008 2065,1008 2065,1111 342,1111"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_2l6" points="335,1067 2075,1067 2075,1164 335,1164"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_2l7" points="342,1129 2066,1129 2066,1224 342,1224"/>
+                <zone rendition="Line" xml:id="facs_2_line_1531836680993_18" points="340,1184 2060,1184 2060,1288 340,1288"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_3l1" points="336,1240 1122,1240 1122,1325 336,1325"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_2_r_5_4" subtype="paragraph" points="338,1321 2095,1321 2095,1730 338,1730">
+					<zone rendition="Line" xml:id="facs_2_r_5_4l1" points="486,1303 2075,1303 2075,1402 486,1402"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_4l2" points="340,1360 2067,1360 2067,1449 340,1449"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_4l3" points="330,1424 2089,1424 2089,1515 330,1515"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_4l4" points="337,1480 2065,1480 2065,1582 337,1582"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_4l5" points="341,1542 2076,1542 2076,1634 341,1634"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_4l6" points="328,1601 2073,1601 2073,1695 328,1695"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_4l7" points="335,1661 778,1661 778,1738 335,1738"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_2_r_5_5" subtype="paragraph" points="337,1732 2098,1732 2098,2079 337,2079">
+					<zone rendition="Line" xml:id="facs_2_r_5_5l1" points="444,1709 2055,1709 2055,1807 444,1807"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_5l2" points="330,1774 2069,1774 2069,1868 330,1868"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_5l3" points="330,1841 2078,1841 2078,1928 330,1928"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_5l4" points="331,1893 2066,1893 2066,1987 331,1987"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_5l5" points="332,1951 2086,1951 2086,2042 332,2042"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_5l6" points="337,2010 1370,2010 1370,2093 337,2093"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_2_r_5_6" subtype="paragraph" points="334,2079 2106,2079 2106,2671 334,2671">
+					<zone rendition="Line" xml:id="facs_2_r_5_6l1" points="439,2072 2066,2072 2066,2163 439,2163"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_6l2" points="334,2129 2053,2129 2053,2221 334,2221"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_6l3" points="337,2191 2095,2191 2095,2277 337,2277"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_6l4" points="340,2248 2078,2248 2078,2333 340,2333"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_6l5" points="340,2307 2057,2307 2057,2390 340,2390"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_6l6" points="327,2367 2063,2367 2063,2451 327,2451"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_6l7" points="354,2426 2062,2426 2062,2507 354,2507"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_6l8" points="352,2481 2083,2481 2083,2566 352,2566"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_6l9" points="343,2541 2090,2541 2090,2642 343,2642"/>
+                <zone rendition="Line" xml:id="facs_2_r_5_6l10" points="340,2597 2052,2597 2052,2690 340,2690"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_2_region_1531835318391_17" points="1851,2681 2054,2681 2054,2743 1851,2743">
+					<zone rendition="Line" xml:id="facs_2_r_5_6l11" points="1847,2673 2069,2673 2069,2742 1847,2742"/>
+				</zone>
+		</surface>
+		<surface ulx="0" uly="0" lrx="2294" lry="3232" xml:id="facs_3">
+			<graphic url="anno:17140103-002.jpg" width="2294px" height="3232px"/>
+			<zone rendition="printspace" points="0,0 2294,0 2294,3232 0,3232"/>
+			<zone rendition="TextRegion" xml:id="facs_3_r_1_1" subtype="paragraph" points="0,451 1720,451 1720,1335 0,1335">
+					<zone rendition="Line" xml:id="facs_3_r_1_1l1" points="-10,445 1690,445 1690,543 -10,543"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l2" points="-8,514 1700,514 1700,602 -8,602"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l3" points="-6,567 1713,567 1713,657 -6,657"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l4" points="-12,629 1692,629 1692,716 -12,716"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l5" points="-11,688 1690,688 1690,769 -11,769"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l6" points="-5,728 1700,728 1700,827 -5,827"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l7" points="5,806 1691,806 1691,890 5,890"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l8" points="2,864 1684,864 1684,952 2,952"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l9" points="2,924 1697,924 1697,1009 2,1009"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l10" points="3,980 1691,980 1691,1063 3,1063"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l11" points="0,1038 1672,1038 1672,1120 0,1120"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l12" points="-10,1097 1678,1097 1678,1187 -10,1187"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l13" points="-3,1154 1675,1154 1675,1235 -3,1235"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l15" points="-2,1213 1684,1213 1684,1296 -2,1296"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_1l16" points="-4,1277 1279,1277 1279,1350 -4,1350"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_3_TextRegion_1533114078025_1" subtype="paragraph" points="0,1346 1693,1346 1693,2733 0,2733">
+					<zone rendition="Line" xml:id="facs_3_r_1_2l1" points="74,1312 1686,1312 1686,1403 74,1403"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_2l2" points="-4,1384 1686,1384 1686,1464 -4,1464"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_2l3" points="-12,1448 1690,1448 1690,1525 -12,1525"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_2l4" points="-10,1507 1690,1507 1690,1588 -10,1588"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_2l5" points="-12,1565 1684,1565 1684,1641 -12,1641"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_2l6" points="-10,1621 1684,1621 1684,1695 -10,1695"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_2l7" points="-3,1680 1687,1680 1687,1758 -3,1758"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_2l8" points="-10,1738 1690,1738 1690,1811 -10,1811"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_2l9" points="0,1795 1682,1795 1682,1868 0,1868"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_2l10" points="0,1853 1694,1853 1694,1929 0,1929"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_2l11" points="-11,1894 1681,1894 1681,1987 -11,1987"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l1" points="-1,1966 1695,1966 1695,2042 -1,2042"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l2" points="-11,2025 1699,2025 1699,2098 -11,2098"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l3" points="-10,2081 1690,2081 1690,2161 -10,2161"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l4" points="0,2143 1683,2143 1683,2222 0,2222"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l5" points="-3,2201 1680,2201 1680,2275 -3,2275"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l6" points="1,2253 1684,2253 1684,2331 1,2331"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l7" points="-2,2310 1698,2310 1698,2393 -2,2393"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l8" points="1,2370 1686,2370 1686,2452 1,2452"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l9" points="-5,2427 1692,2427 1692,2509 -5,2509"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l10" points="-5,2479 1693,2479 1693,2567 -5,2567"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l11" points="-5,2542 1693,2542 1693,2624 -5,2624"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l12" points="-10,2595 1677,2595 1677,2712 -10,2712"/>
+                <zone rendition="Line" xml:id="facs_3_r_1_3l13" points="-7,2648 431,2648 431,2751 -7,2751"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_3_TextRegion_1531836848554_19" subtype="catch-word" points="1507,2676 1691,2676 1691,2733 1507,2733">
+					<zone rendition="Line" xml:id="facs_3_line_1531836848632_21" points="1547,2674 1682,2674 1682,2731 1547,2731"/>
+				</zone>
+		</surface>
+		<surface ulx="0" uly="0" lrx="2294" lry="3200" xml:id="facs_4">
+			<graphic url="anno:17140103-003.jpg" width="2294px" height="3200px"/>
+			<zone rendition="printspace" points="0,0 2294,0 2294,3200 0,3200"/>
+			<zone rendition="TextRegion" xml:id="facs_4_r_3_1" subtype="heading" points="548,518 1948,518 1948,605 548,605">
+					<zone rendition="Line" xml:id="facs_4_r_3_1l1" points="553,514 1950,514 1950,615 553,615"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_6_1" subtype="heading" points="546,608 1073,608 1073,666 546,666">
+					<zone rendition="Line" xml:id="facs_4_r_6_1l1" points="556,610 1075,610 1075,666 556,666"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1531836983521_23" subtype="list" points="407,651 1234,651 1234,809 407,809">
+					<zone rendition="Line" xml:id="facs_4_line_1532002970358_30" points="408,653 1231,653 1231,720 408,720"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532002974125_31" points="463,697 1223,697 1223,757 463,757"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532002980344_32" points="456,753 829,753 829,807 456,807"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1531837214761_24" subtype="list" points="411,805 1246,805 1246,991 411,991">
+					<zone rendition="Line" xml:id="facs_4_r_6_3l1" points="405,788 1231,788 1231,865 405,865"/>
+                <zone rendition="Line" xml:id="facs_4_r_6_3l2" points="461,833 1232,833 1232,912 461,912"/>
+                <zone rendition="Line" xml:id="facs_4_r_6_4l1" points="463,890 1245,890 1245,954 463,954"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532002999260_33" points="461,945 584,945 584,1003 461,1003"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_6_6" subtype="heading" points="690,991 978,991 978,1040 690,1040">
+					<zone rendition="Line" xml:id="facs_4_r_6_6l1" points="683,985 974,985 974,1043 683,1043"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1531837283855_27" subtype="list" points="413,1041 1264,1041 1264,1129 413,1129">
+					<zone rendition="Line" xml:id="facs_4_r_6_7l1" points="422,1035 1252,1035 1252,1099 422,1099"/>
+                <zone rendition="Line" xml:id="facs_4_r_6_7l2" points="474,1069 1076,1069 1076,1150 474,1150"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1531837283855_26" subtype="list" points="417,1136 1270,1136 1270,1280 417,1280">
+					<zone rendition="Line" xml:id="facs_4_r_6_7l3" points="422,1128 1243,1128 1243,1190 422,1190"/>
+                <zone rendition="Line" xml:id="facs_4_r_6_7l4" points="468,1177 1253,1177 1253,1239 468,1239"/>
+                <zone rendition="Line" xml:id="facs_4_r_6_7l5" points="473,1232 821,1232 821,1295 473,1295"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_7_1" subtype="paragraph" points="1483,599 1893,599 1893,638 1483,638">
+					<zone rendition="Line" xml:id="facs_4_r_7_1l1" points="1487,594 1889,594 1889,646 1487,646"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_7_2" subtype="list" points="1278,650 2110,650 2110,731 1278,731">
+					<zone rendition="Line" xml:id="facs_4_r_7_2l1" points="1287,636 2111,636 2111,701 1287,701"/>
+                <zone rendition="Line" xml:id="facs_4_r_7_2l2" points="1323,684 1986,684 1986,744 1323,744"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_7_3" subtype="list" points="1279,741 2117,741 2117,875 1279,875">
+					<zone rendition="Line" xml:id="facs_4_r_7_3l1" points="1284,732 2114,732 2114,791 1284,791"/>
+                <zone rendition="Line" xml:id="facs_4_r_7_3l2" points="1337,780 2111,780 2111,835 1337,835"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003082344_34" points="1333,832 1636,832 1636,890 1333,890"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_region_1531837347382_28" subtype="heading" points="1754,830 2023,830 2023,873 1754,873">
+					<zone rendition="Line" xml:id="facs_4_r_7_3l3" points="1752,826 2029,826 2029,870 1752,870"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_7_4" subtype="list" points="1280,878 2119,878 2119,983 1280,983">
+					<zone rendition="Line" xml:id="facs_4_r_7_4l1" points="1295,865 2117,865 2117,940 1295,940"/>
+                <zone rendition="Line" xml:id="facs_4_r_7_4l2" points="1329,923 1796,923 1796,984 1329,984"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_7_5" subtype="list" points="1286,986 2137,986 2137,1125 1286,1125">
+					<zone rendition="Line" xml:id="facs_4_r_7_5l1" points="1286,968 2123,968 2123,1028 1286,1028"/>
+                <zone rendition="Line" xml:id="facs_4_r_7_5l2" points="1334,1018 2120,1018 2120,1075 1334,1075"/>
+                <zone rendition="Line" xml:id="facs_4_r_7_5l3" points="1328,1071 1730,1071 1730,1124 1328,1124"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_7_6" subtype="list" points="1288,1109 2131,1109 2131,1270 1288,1270">
+					<zone rendition="Line" xml:id="facs_4_r_7_6l1" points="1302,1109 2113,1109 2113,1179 1302,1179"/>
+                <zone rendition="Line" xml:id="facs_4_r_7_6l2" points="1344,1159 2114,1159 2114,1221 1344,1221"/>
+                <zone rendition="Line" xml:id="facs_4_r_7_6l3" points="1350,1205 1825,1205 1825,1271 1350,1271"/>
+				</zone>
+			<zone rendition="Separator" xml:id="facs_4_Separator_1531837397249_30" points="429,1251 2136,1251 2136,1313 429,1313"/>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1531837359767_29" subtype="heading" points="643,1285 1898,1285 1898,1378 643,1378">
+					<zone rendition="Line" xml:id="facs_4_line_1532003133027_35" points="645,1283 1891,1283 1891,1380 645,1380"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_8_2" subtype="heading" points="549,1381 1133,1381 1133,1423 549,1423">
+					<zone rendition="Line" xml:id="facs_4_r_8_2l1" points="543,1364 1121,1364 1121,1429 543,1429"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_region_1531837474141_31" subtype="heading" points="697,1426 983,1426 983,1466 697,1466">
+					<zone rendition="Line" xml:id="facs_4_line_1531837483938_32" points="711,1421 975,1421 975,1476 711,1476"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_8_3" subtype="list" points="422,1468 1259,1468 1259,1624 422,1624">
+					<zone rendition="Line" xml:id="facs_4_r_8_3l1" points="426,1458 1249,1458 1249,1539 426,1539"/>
+                <zone rendition="Line" xml:id="facs_4_r_8_3l2" points="486,1507 1261,1507 1261,1569 486,1569"/>
+                <zone rendition="Line" xml:id="facs_4_r_8_3l3" points="473,1562 949,1562 949,1625 473,1625"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_8_4" subtype="heading" points="660,1614 1018,1614 1018,1662 660,1662">
+					<zone rendition="Line" xml:id="facs_4_r_8_4l1" points="684,1612 1016,1612 1016,1661 684,1661"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000461963_3" subtype="list" points="437,1651 1269,1651 1269,1809 437,1809">
+					<zone rendition="Line" xml:id="facs_4_line_1532003156018_36" points="437,1650 1267,1650 1267,1717 437,1717"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003164895_37" points="483,1690 1263,1690 1263,1778 483,1778"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003168718_38" points="503,1744 1241,1744 1241,1824 503,1824"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000461963_2" subtype="list" points="437,1809 1269,1809 1269,1949 437,1949">
+					<zone rendition="Line" xml:id="facs_4_line_1532003188326_39" points="446,1795 1274,1795 1274,1864 446,1864"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003193014_40" points="479,1841 1274,1841 1274,1912 479,1912"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003201953_41" points="496,1903 762,1903 762,1975 496,1975"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000500345_8" subtype="list" points="452,1933 1282,1933 1282,2053 452,2053">
+					<zone rendition="Line" xml:id="facs_4_r_8_7l1" points="457,1927 1282,1927 1282,2005 457,2005"/>
+                <zone rendition="Line" xml:id="facs_4_r_8_8l1" points="500,1980 1258,1980 1258,2053 500,2053"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000500329_7" subtype="list" points="453,2031 1284,2031 1284,2149 453,2149">
+					<zone rendition="Line" xml:id="facs_4_r_8_8l2" points="461,2027 1276,2027 1276,2111 461,2111"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003222342_42" points="502,2091 773,2091 773,2149 502,2149"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000541243_10" subtype="list" points="462,2129 1287,2129 1287,2191 462,2191">
+					<zone rendition="Line" xml:id="facs_4_line_1532003353576_44" points="539,2127 1211,2127 1211,2190 539,2190"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000541243_9" subtype="list" points="462,2169 1294,2169 1294,2331 462,2331">
+					<zone rendition="Line" xml:id="facs_4_line_1532003366577_45" points="466,2172 1286,2172 1286,2244 466,2244"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003371109_46" points="509,2215 1286,2215 1286,2309 509,2309"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003375047_47" points="509,2287 712,2287 712,2351 509,2351"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000602708_17" subtype="list" points="463,2315 1298,2315 1298,2435 463,2435">
+					<zone rendition="Line" xml:id="facs_4_line_1532003394558_48" points="750,2311 1298,2311 1298,2372 750,2372"/>
+                <zone rendition="Line" xml:id="facs_4_r_13_1l1" points="516,2366 1234,2366 1234,2436 516,2436"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000615606_19" subtype="list" points="464,2406 1297,2406 1297,2527 464,2527">
+					<zone rendition="Line" xml:id="facs_4_r_13_1l2" points="468,2413 1297,2413 1297,2481 468,2481"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532000615907_21" points="524,2466 965,2466 965,2526 524,2526"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000615606_18" subtype="list" points="466,2498 1301,2498 1301,2617 466,2617">
+					<zone rendition="Line" xml:id="facs_4_r_13_1l4" points="461,2502 1298,2502 1298,2575 461,2575"/>
+                <zone rendition="Line" xml:id="facs_4_r_13_1l5" points="522,2550 1265,2550 1265,2617 522,2617"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_13_2" subtype="list" points="469,2601 1314,2601 1314,2759 469,2759">
+					<zone rendition="Line" xml:id="facs_4_r_13_2l1" points="480,2598 1304,2598 1304,2676 480,2676"/>
+                <zone rendition="Line" xml:id="facs_4_r_13_2l2" points="516,2643 1304,2643 1304,2724 516,2724"/>
+                <zone rendition="Line" xml:id="facs_4_r_13_2l3" points="529,2703 1012,2703 1012,2760 529,2760"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000704500_22" subtype="list" points="489,2740 1329,2740 1329,2857 489,2857">
+					<zone rendition="Line" xml:id="facs_4_line_1532003462207_49" points="495,2739 1333,2739 1333,2820 495,2820"/>
+                <zone rendition="Line" xml:id="facs_4_r_13_4l1" points="548,2784 1331,2784 1331,2862 548,2862"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_14_2" subtype="heading" points="1498,1363 1921,1363 1921,1397 1498,1397">
+					<zone rendition="Line" xml:id="facs_4_r_14_2l1" points="1497,1355 1910,1355 1910,1404 1497,1404"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_14_3" subtype="heading" points="1573,1399 1862,1399 1862,1444 1573,1444">
+					<zone rendition="Line" xml:id="facs_4_r_14_3l1" points="1573,1399 1862,1399 1862,1454 1573,1454"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_14_4" subtype="list" points="1292,1438 2136,1438 2136,1602 1292,1602">
+					<zone rendition="Line" xml:id="facs_4_r_14_4l1" points="1307,1438 2135,1438 2135,1504 1307,1504"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_4l2" points="1350,1486 2137,1486 2137,1554 1350,1554"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_4l3" points="1353,1547 1637,1547 1637,1601 1353,1601"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_14_5" subtype="heading" points="1536,1589 1887,1589 1887,1638 1536,1638">
+					<zone rendition="Line" xml:id="facs_4_line_1532003486282_50" points="1555,1588 1869,1588 1869,1637 1555,1637"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_14_6" subtype="list" points="1307,1630 2162,1630 2162,1788 1307,1788">
+					<zone rendition="Line" xml:id="facs_4_r_14_6l1" points="1317,1624 2149,1624 2149,1702 1317,1702"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_6l2" points="1362,1668 2152,1668 2152,1740 1362,1740"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003503006_51" points="1357,1734 1627,1734 1627,1789 1357,1789"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_14_7" subtype="list" points="1310,1765 2160,1765 2160,1928 1310,1928">
+					<zone rendition="Line" xml:id="facs_4_r_14_7l1" points="1313,1763 2144,1763 2144,1835 1313,1835"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_7l2" points="1367,1812 2148,1812 2148,1884 1367,1884"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_7l3" points="1357,1861 2005,1861 2005,1926 1357,1926"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000839613_24" subtype="heading" points="1315,1909 2157,1909 2157,1975 1315,1975">
+					<zone rendition="Line" xml:id="facs_4_line_1532000839814_26" points="1416,1907 2052,1907 2052,1968 1416,1968"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000839613_23" subtype="list" points="1315,1950 2170,1950 2170,2113 1315,2113">
+					<zone rendition="Line" xml:id="facs_4_r_14_8l2" points="1319,1948 2155,1948 2155,2024 1319,2024"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_8l3" points="1373,1998 2155,1998 2155,2067 1373,2067"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003549841_52" points="1373,2065 1568,2065 1568,2117 1373,2117"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_14_9" subtype="list" points="1324,2095 2166,2095 2166,2254 1324,2254">
+					<zone rendition="Line" xml:id="facs_4_r_14_9l1" points="1334,2092 2150,2092 2150,2163 1334,2163"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_9l2" points="1386,2139 2149,2139 2149,2208 1386,2208"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003568035_53" points="1377,2200 1815,2200 1815,2257 1377,2257"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_14_10" subtype="list" points="1325,2240 2184,2240 2184,2415 1325,2415">
+					<zone rendition="Line" xml:id="facs_4_r_14_10l1" points="1341,2233 2162,2233 2162,2305 1341,2305"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_10l2" points="1386,2281 2161,2281 2161,2357 1386,2357"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003580209_54" points="1374,2354 1578,2354 1578,2405 1374,2405"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_r_14_11" subtype="list" points="1327,2380 2193,2380 2193,2557 1327,2557">
+					<zone rendition="Line" xml:id="facs_4_r_14_11l1" points="1343,2378 2176,2378 2176,2457 1343,2457"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_11l2" points="1380,2420 2178,2420 2178,2499 1380,2499"/>
+                <zone rendition="Line" xml:id="facs_4_line_1532003595459_55" points="1380,2493 1602,2493 1602,2551 1380,2551"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000972202_28" subtype="list" points="1337,2517 2191,2517 2191,2691 1337,2691">
+					<zone rendition="Line" xml:id="facs_4_r_14_12l1" points="1350,2515 2164,2515 2164,2591 1350,2591"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_12l2" points="1395,2564 2183,2564 2183,2641 1395,2641"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_12l3" points="1398,2619 2078,2619 2078,2686 1398,2686"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_TextRegion_1532000972202_27" subtype="list" points="1344,2650 2202,2650 2202,2791 1344,2791">
+					<zone rendition="Line" xml:id="facs_4_r_14_12l4" points="1349,2655 2194,2655 2194,2737 1349,2737"/>
+                <zone rendition="Line" xml:id="facs_4_r_14_12l5" points="1410,2708 2159,2708 2159,2784 1410,2784"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_4_region_1532000997118_29" subtype="catch-word" points="1997,2765 2203,2765 2203,2811 1997,2811">
+					<zone rendition="Line" xml:id="facs_4_r_14_12l6" points="2006,2756 2186,2756 2186,2815 2006,2815"/>
+				</zone>
+		</surface>
+		<surface ulx="0" uly="0" lrx="2294" lry="3200" xml:id="facs_5">
+			<graphic url="anno:17140103-004.jpg" width="2294px" height="3200px"/>
+			<zone rendition="printspace" points="0,0 2294,0 2294,3200 0,3200"/>
+			<zone rendition="TextRegion" xml:id="facs_5_r_2_1" subtype="paragraph" points="10,528 1750,528 1750,705 10,705">
+					<zone rendition="Line" xml:id="facs_5_r_2_1l2" points="10,536 1759,536 1759,650 10,650"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_1l3" points="11,599 1760,599 1760,734 11,734"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_2l1" points="-1,661 183,661 183,725 -1,725"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_5_r_2_2" subtype="paragraph" points="-1,721 1759,721 1759,1199 -1,1199">
+					<zone rendition="Line" xml:id="facs_5_r_2_2l2" points="128,710 1755,710 1755,821 128,821"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_2l3" points="0,771 1758,771 1758,881 0,881"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_2l4" points="7,828 1752,828 1752,935 7,935"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_2l5" points="-7,886 1749,886 1749,997 -7,997"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_2l6" points="-11,946 1758,946 1758,1058 -11,1058"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_2l7" points="-11,1005 1753,1005 1753,1111 -11,1111"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_2l8" points="-6,1063 1743,1063 1743,1174 -6,1174"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_2l9" points="-10,1120 230,1120 230,1188 -10,1188"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_5_r_2_3" subtype="paragraph" points="-5,1196 1756,1196 1756,1612 -5,1612">
+					<zone rendition="Line" xml:id="facs_5_r_2_3l1" points="108,1175 1745,1175 1745,1284 108,1284"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_3l2" points="-10,1238 1737,1238 1737,1353 -10,1353"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_3l3" points="1,1293 1739,1293 1739,1408 1,1408"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_3l4" points="-5,1348 1733,1348 1733,1465 -5,1465"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_3l5" points="-12,1411 1733,1411 1733,1520 -12,1520"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_3l6" points="0,1467 1734,1467 1734,1589 0,1589"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_3l7" points="-11,1526 1059,1526 1059,1612 -11,1612"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_5_TextRegion_1532003774173_57" subtype="paragraph" points="0,1583 1740,1583 1740,2388 0,2388">
+					<zone rendition="Line" xml:id="facs_5_r_2_4l1" points="95,1583 1730,1583 1730,1697 95,1697"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l2" points="-3,1638 1727,1638 1727,1763 -3,1763"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l3" points="-11,1689 1727,1689 1727,1816 -11,1816"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l4" points="-5,1750 1718,1750 1718,1873 -5,1873"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l5" points="-3,1808 1724,1808 1724,1929 -3,1929"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l6" points="7,1863 1729,1863 1729,1986 7,1986"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l7" points="-5,1921 1718,1921 1718,2042 -5,2042"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l8" points="-3,1979 1724,1979 1724,2106 -3,2106"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l9" points="-10,2036 1717,2036 1717,2164 -10,2164"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l10" points="-2,2095 1708,2095 1708,2220 -2,2220"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l11" points="-1,2151 1709,2151 1709,2283 -1,2283"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l12" points="-12,2216 1705,2216 1705,2355 -12,2355"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l13" points="-10,2272 1432,2272 1432,2385 -10,2385"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_5_TextRegion_1532003774173_56" subtype="paragraph" points="-1,2325 1708,2325 1708,2761 -1,2761">
+					<zone rendition="Line" xml:id="facs_5_r_2_4l14" points="61,2329 1699,2329 1699,2457 61,2457"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l15" points="-12,2383 1716,2383 1716,2508 -12,2508"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l16" points="3,2439 1707,2439 1707,2566 3,2566"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l17" points="-11,2493 1704,2493 1704,2627 -11,2627"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l18" points="-11,2554 1695,2554 1695,2684 -11,2684"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l19" points="-11,2609 1679,2609 1679,2765 -11,2765"/>
+                <zone rendition="Line" xml:id="facs_5_r_2_4l20" points="-11,2671 872,2671 872,2772 -11,2772"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_5_r_4_1" subtype="catch-word" points="1538,2792 1676,2792 1676,2866 1538,2866">
+					<zone rendition="Line" xml:id="facs_5_r_2_5l3" points="1541,2794 1658,2794 1658,2860 1541,2860"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_5_r_2_5" subtype="signature-mark" points="772,2763 927,2763 927,2837 772,2837">
+					<zone rendition="Line" xml:id="facs_5_r_2_5l1" points="780,2762 944,2762 944,2831 780,2831"/>
+				</zone>
+		</surface>
+		<surface ulx="0" uly="0" lrx="2294" lry="3216" xml:id="facs_6">
+			<graphic url="anno:17140103-005.jpg" width="2294px" height="3216px"/>
+			<zone rendition="printspace" points="0,0 2294,0 2294,3216 0,3216"/>
+			<zone rendition="TextRegion" xml:id="facs_6_TextRegion_1532004461239_63" subtype="paragraph" points="365,471 2122,471 2122,856 365,856">
+					<zone rendition="Line" xml:id="facs_6_r_4_1l1" points="484,464 2116,464 2116,566 484,566"/>
+                <zone rendition="Line" xml:id="facs_6_line_1532004589997_66" points="369,540 2115,540 2115,633 369,633"/>
+                <zone rendition="Line" xml:id="facs_6_r_5_2l1" points="381,592 2118,592 2118,687 381,687"/>
+                <zone rendition="Line" xml:id="facs_6_line_1532004618535_67" points="377,660 2119,660 2119,753 377,753"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_2l1" points="378,713 2115,713 2115,813 378,813"/>
+                <zone rendition="Line" xml:id="facs_6_line_1532004540254_65" points="360,779 1775,779 1775,861 360,861"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_6_r_7_3" subtype="paragraph" points="392,835 2140,835 2140,1219 392,1219">
+					<zone rendition="Line" xml:id="facs_6_r_7_3l1" points="510,819 2130,819 2130,922 510,922"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_3l2" points="396,885 2140,885 2140,984 396,984"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_3l3" points="396,945 2137,945 2137,1049 396,1049"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_3l4" points="398,1001 2137,1001 2137,1097 398,1097"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_3l5" points="394,1058 2141,1058 2141,1157 394,1157"/>
+                <zone rendition="Line" xml:id="facs_6_line_1532004672693_68" points="396,1121 1514,1121 1514,1223 396,1223"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_6_r_7_4" subtype="paragraph" points="409,1181 2151,1181 2151,1448 409,1448">
+					<zone rendition="Line" xml:id="facs_6_r_7_4l1" points="522,1176 2143,1176 2143,1269 522,1269"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_4l2" points="407,1236 2146,1236 2146,1339 407,1339"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_4l3" points="414,1300 2149,1300 2149,1395 414,1395"/>
+                <zone rendition="Line" xml:id="facs_6_line_1532004690804_69" points="418,1366 1188,1366 1188,1466 418,1466"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_6_TextRegion_1532004371119_62" subtype="paragraph" points="383,1416 2173,1416 2173,1797 383,1797">
+					<zone rendition="Line" xml:id="facs_6_r_7_5l1" points="526,1409 2157,1409 2157,1501 526,1501"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_6l1" points="420,1465 2149,1465 2149,1579 420,1579"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_7l1" points="413,1528 2159,1528 2159,1630 413,1630"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_7l2" points="417,1588 2165,1588 2165,1702 417,1702"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_7l3" points="420,1639 2168,1639 2168,1751 420,1751"/>
+                <zone rendition="Line" xml:id="facs_6_line_1532004738792_70" points="420,1729 576,1729 576,1813 420,1813"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_6_TextRegion_1532004327435_61" subtype="paragraph" points="434,1759 2174,1759 2174,2316 434,2316">
+					<zone rendition="Line" xml:id="facs_6_line_1532004753616_71" points="543,1748 2162,1748 2162,1852 543,1852"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_9l3" points="435,1809 2166,1809 2166,1924 435,1924"/>
+                <zone rendition="Line" xml:id="facs_6_r_7_9l4" points="437,1865 2173,1865 2173,1982 437,1982"/>
+                <zone rendition="Line" xml:id="facs_6_r_8_1l1" points="450,1920 2170,1920 2170,2037 450,2037"/>
+                <zone rendition="Line" xml:id="facs_6_line_1532004808387_72" points="450,1978 2163,1978 2163,2104 450,2104"/>
+                <zone rendition="Line" xml:id="facs_6_r_9_2l1" points="458,2036 2174,2036 2174,2151 458,2151"/>
+                <zone rendition="Line" xml:id="facs_6_r_9_2l2" points="459,2096 2181,2096 2181,2216 459,2216"/>
+                <zone rendition="Line" xml:id="facs_6_r_9_2l3" points="451,2152 2173,2152 2173,2269 451,2269"/>
+                <zone rendition="Line" xml:id="facs_6_r_9_3l1" points="458,2259 598,2259 598,2334 458,2334"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_6_r_9_3" subtype="paragraph" points="464,2274 2209,2274 2209,2669 464,2669">
+					<zone rendition="Line" xml:id="facs_6_r_9_3l2" points="574,2267 2188,2267 2188,2379 574,2379"/>
+                <zone rendition="Line" xml:id="facs_6_r_9_3l3" points="469,2328 2192,2328 2192,2452 469,2452"/>
+                <zone rendition="Line" xml:id="facs_6_r_9_3l4" points="473,2387 2201,2387 2201,2505 473,2505"/>
+                <zone rendition="Line" xml:id="facs_6_r_9_3l5" points="470,2441 2196,2441 2196,2569 470,2569"/>
+                <zone rendition="Line" xml:id="facs_6_r_9_3l6" points="462,2503 2192,2503 2192,2619 462,2619"/>
+                <zone rendition="Line" xml:id="facs_6_r_9_3l7" points="472,2568 1923,2568 1923,2684 472,2684"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_6_r_9_4" subtype="paragraph" points="586,2626 2212,2626 2212,2717 586,2717">
+					<zone rendition="Line" xml:id="facs_6_r_9_4l1" points="600,2622 2210,2622 2210,2743 600,2743"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_6_region_1532004221843_58" subtype="catch-word" points="2035,2681 2209,2681 2209,2738 2035,2738">
+					<zone rendition="Line" xml:id="facs_6_r_9_4l2" points="2049,2677 2194,2677 2194,2740 2049,2740"/>
+				</zone>
+		</surface>
+		<surface ulx="0" uly="0" lrx="2294" lry="3216" xml:id="facs_7">
+			<graphic url="anno:17140103-006.jpg" width="2294px" height="3216px"/>
+			<zone rendition="printspace" points="0,0 2294,0 2294,3216 0,3216"/>
+			<zone rendition="TextRegion" xml:id="facs_7_TextRegion_1532008726041_73" subtype="paragraph" points="15,483 1737,483 1737,689 15,689">
+					<zone rendition="Line" xml:id="facs_7_line_1532008893053_84" points="39,453 1741,453 1741,581 39,581"/>
+                <zone rendition="Line" xml:id="facs_7_line_1532008902148_85" points="16,537 1744,537 1744,635 16,635"/>
+                <zone rendition="Line" xml:id="facs_7_line_1532008909728_86" points="13,626 395,626 395,705 13,705"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_7_r_4_4" subtype="paragraph" points="14,679 1746,679 1746,1201 14,1201">
+					<zone rendition="Line" xml:id="facs_7_r_4_4l1" points="127,628 1744,628 1744,740 127,740"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_4l2" points="5,719 1738,719 1738,802 5,802"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_4l3" points="11,775 1742,775 1742,865 11,865"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_4l4" points="9,830 1751,830 1751,918 9,918"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_4l5" points="12,888 1739,888 1739,977 12,977"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_4l6" points="6,941 1744,941 1744,1034 6,1034"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_4l7" points="16,1008 1741,1008 1741,1092 16,1092"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_4l8" points="9,1060 1744,1060 1744,1157 9,1157"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_4l9" points="13,1123 1304,1123 1304,1211 13,1211"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_7_r_4_5" subtype="paragraph" points="11,1196 1752,1196 1752,2001 11,2001">
+					<zone rendition="Line" xml:id="facs_7_r_4_5l1" points="121,1179 1757,1179 1757,1260 121,1260"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l2" points="9,1239 1754,1239 1754,1324 9,1324"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l3" points="18,1297 1755,1297 1755,1382 18,1382"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l4" points="15,1350 1758,1350 1758,1437 15,1437"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l5" points="13,1409 1750,1409 1750,1489 13,1489"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l6" points="16,1468 1762,1468 1762,1547 16,1547"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l7" points="5,1524 1760,1524 1760,1618 5,1618"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l8" points="14,1583 1761,1583 1761,1661 14,1661"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l9" points="22,1644 1757,1644 1757,1718 22,1718"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l10" points="12,1701 1756,1701 1756,1777 12,1777"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l11" points="18,1757 1752,1757 1752,1835 18,1835"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l12" points="17,1818 1752,1818 1752,1891 17,1891"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l13" points="12,1869 1760,1869 1760,1951 12,1951"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_5l14" points="31,1932 951,1932 951,2002 31,2002"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_7_r_4_6" subtype="paragraph" points="32,1989 1751,1989 1751,2286 32,2286">
+					<zone rendition="Line" xml:id="facs_7_r_4_6l1" points="130,1991 1759,1991 1759,2061 130,2061"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_6l2" points="31,2047 1756,2047 1756,2120 31,2120"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_6l3" points="35,2104 1756,2104 1756,2180 35,2180"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_6l4" points="25,2163 1757,2163 1757,2257 25,2257"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_6l5" points="25,2221 444,2221 444,2290 25,2290"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_7_TextRegion_1532008827874_75" subtype="paragraph" points="28,2282 1751,2282 1751,2698 28,2698">
+					<zone rendition="Line" xml:id="facs_7_r_4_7l1" points="139,2248 1750,2248 1750,2356 139,2356"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_7l2" points="24,2331 1754,2331 1754,2416 24,2416"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_7l3" points="33,2393 1748,2393 1748,2468 33,2468"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_7l4" points="30,2453 1752,2453 1752,2525 30,2525"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_7l5" points="34,2502 1754,2502 1754,2581 34,2581"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_7l6" points="33,2564 1755,2564 1755,2647 33,2647"/>
+                <zone rendition="Line" xml:id="facs_7_r_4_7l7" points="34,2623 1756,2623 1756,2723 34,2723"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_7_TextRegion_1532008835860_76" subtype="catch-word" points="1660,2692 1751,2692 1751,2757 1660,2757">
+					<zone rendition="Line" xml:id="facs_7_line_1532008835876_78" points="1655,2704 1745,2704 1745,2755 1655,2755"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_7_TextRegion_1532008837923_81" subtype="signature-mark" points="871,2688 1024,2688 1024,2765 871,2765">
+					<zone rendition="Line" xml:id="facs_7_line_1532008837938_83" points="880,2691 1025,2691 1025,2755 880,2755"/>
+				</zone>
+		</surface>
+		<surface ulx="0" uly="0" lrx="2294" lry="3216" xml:id="facs_8">
+			<graphic url="anno:17140103-007.jpg" width="2294px" height="3216px"/>
+			<zone rendition="printspace" points="0,0 2294,0 2294,3216 0,3216"/>
+			<zone rendition="TextRegion" xml:id="facs_8_r_5_1" subtype="paragraph" points="503,543 2216,543 2216,734 503,734">
+					<zone rendition="Line" xml:id="facs_8_r_5_1l1" points="504,537 2211,537 2211,618 504,618"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_1l2" points="507,605 2219,605 2219,686 507,686"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_1l3" points="501,664 1878,664 1878,739 501,739"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_8_r_5_2" subtype="paragraph" points="510,729 2229,729 2229,1067 510,1067">
+					<zone rendition="Line" xml:id="facs_8_r_5_2l1" points="631,720 2221,720 2221,791 631,791"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_2l2" points="499,779 2221,779 2221,850 499,850"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_2l3" points="504,837 2227,837 2227,918 504,918"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_2l4" points="505,895 2227,895 2227,969 505,969"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_2l5" points="499,953 2230,953 2230,1046 499,1046"/>
+                <zone rendition="Line" xml:id="facs_8_line_1532018803224_88" points="517,1013 989,1013 989,1090 517,1090"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_8_r_5_3" subtype="paragraph" points="510,1064 2227,1064 2227,1484 510,1484">
+					<zone rendition="Line" xml:id="facs_8_r_5_3l1" points="612,1061 2237,1061 2237,1142 612,1142"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_3l2" points="499,1131 2236,1131 2236,1208 499,1208"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_3l3" points="510,1188 2228,1188 2228,1261 510,1261"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_3l4" points="498,1243 2226,1243 2226,1321 498,1321"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_3l5" points="501,1303 2229,1303 2229,1384 501,1384"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_3l6" points="512,1360 2227,1360 2227,1435 512,1435"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_3l7" points="513,1428 881,1428 881,1489 513,1489"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_8_r_5_4" subtype="paragraph" points="510,1481 2235,1481 2235,2060 510,2060">
+					<zone rendition="Line" xml:id="facs_8_r_5_4l1" points="633,1474 2235,1474 2235,1549 633,1549"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_4l2" points="505,1534 2235,1534 2235,1613 505,1613"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_4l3" points="497,1591 2240,1591 2240,1667 497,1667"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_4l4" points="510,1651 2234,1651 2234,1726 510,1726"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_4l5" points="505,1710 2235,1710 2235,1779 505,1779"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_4l6" points="515,1762 2238,1762 2238,1844 515,1844"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_4l7" points="517,1823 2228,1823 2228,1903 517,1903"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_4l8" points="505,1879 2233,1879 2233,1955 505,1955"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_4l9" points="504,1937 2234,1937 2234,2017 504,2017"/>
+                <zone rendition="Line" xml:id="facs_8_line_1532018828806_89" points="507,2009 688,2009 688,2084 507,2084"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_8_r_5_5" subtype="paragraph" points="519,2055 2232,2055 2232,2361 519,2361">
+					<zone rendition="Line" xml:id="facs_8_r_5_5l1" points="629,2052 2241,2052 2241,2131 629,2131"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_5l2" points="520,2110 2241,2110 2241,2191 520,2191"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_5l3" points="511,2168 2238,2168 2238,2255 511,2255"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_5l4" points="530,2230 2243,2230 2243,2309 530,2309"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_5l5" points="511,2296 1103,2296 1103,2368 511,2368"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_8_r_5_6" subtype="paragraph" points="519,2368 2233,2368 2233,2661 519,2661">
+					<zone rendition="Line" xml:id="facs_8_r_5_6l1" points="628,2344 2236,2344 2236,2421 628,2421"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_6l2" points="516,2404 2235,2404 2235,2479 516,2479"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_6l3" points="522,2463 2241,2463 2241,2542 522,2542"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_6l4" points="521,2522 2231,2522 2231,2597 521,2597"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_6l5" points="714,2562 1986,2562 1986,2656 714,2656"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_8_r_5_7" subtype="paragraph" points="533,2655 2231,2655 2231,2764 533,2764">
+					<zone rendition="Line" xml:id="facs_8_r_5_7l1" points="662,2632 2228,2632 2228,2713 662,2713"/>
+                <zone rendition="Line" xml:id="facs_8_r_5_7l2" points="523,2696 2228,2696 2228,2780 523,2780"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_8_region_1532018761072_87" subtype="catch-word" points="2074,2763 2245,2763 2245,2829 2074,2829">
+					<zone rendition="Line" xml:id="facs_8_line_1532018862627_90" points="2091,2754 2233,2754 2233,2833 2091,2833"/>
+				</zone>
+		</surface>
+		<surface ulx="0" uly="0" lrx="2294" lry="3216" xml:id="facs_9">
+			<graphic url="anno:17140103-008.jpg" width="2294px" height="3216px"/>
+			<zone rendition="printspace" points="0,0 2294,0 2294,3216 0,3216"/>
+			<zone rendition="TextRegion" xml:id="facs_9_TextRegion_1532018913272_91" subtype="heading" points="14,504 1716,504 1716,768 14,768">
+					<zone rendition="Line" xml:id="facs_9_r_4_1l1" points="12,492 1720,492 1720,622 12,622"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_2l1" points="10,600 1717,600 1717,709 10,709"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_2l2" points="49,688 1699,688 1699,782 49,782"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_r_4_3" subtype="paragraph" points="11,787 1718,787 1718,942 11,942">
+					<zone rendition="Line" xml:id="facs_9_r_4_3l1" points="11,779 1715,779 1715,892 11,892"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_3l2" points="137,811 1723,811 1723,907 137,907"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_3l3" points="11,876 1350,876 1350,949 11,949"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_r_4_4" subtype="paragraph" points="8,929 1724,929 1724,1078 8,1078">
+					<zone rendition="Line" xml:id="facs_9_r_4_4l1" points="102,917 1717,917 1717,992 102,992"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_4l2" points="7,974 1729,974 1729,1054 7,1054"/>
+                <zone rendition="Line" xml:id="facs_9_line_1532019106172_100" points="-2,1036 215,1036 215,1100 -2,1100"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_r_4_5" subtype="paragraph" points="11,1075 1721,1075 1721,1181 11,1181">
+					<zone rendition="Line" xml:id="facs_9_r_4_5l1" points="110,1069 1717,1069 1717,1151 110,1151"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_5l2" points="11,1119 1560,1119 1560,1186 11,1186"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_r_4_6" subtype="paragraph" points="8,1176 1732,1176 1732,1467 8,1467">
+					<zone rendition="Line" xml:id="facs_9_r_4_6l1" points="98,1146 1740,1146 1740,1231 98,1231"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_6l2" points="7,1212 1741,1212 1741,1281 7,1281"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_6l3" points="9,1259 1746,1259 1746,1329 9,1329"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_6l4" points="9,1304 1739,1304 1739,1373 9,1373"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_6l5" points="10,1338 1740,1338 1740,1435 10,1435"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_6l6" points="10,1404 1189,1404 1189,1468 10,1468"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_r_4_7" subtype="paragraph" points="12,1461 1732,1461 1732,1698 12,1698">
+					<zone rendition="Line" xml:id="facs_9_r_4_7l1" points="110,1450 1739,1450 1739,1521 110,1521"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_7l2" points="0,1500 1737,1500 1737,1569 0,1569"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_7l3" points="2,1551 1739,1551 1739,1614 2,1614"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_7l4" points="0,1595 1739,1595 1739,1663 0,1663"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_7l5" points="42,1645 1182,1645 1182,1704 42,1704"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_r_4_8" subtype="paragraph" points="8,1698 1728,1698 1728,1842 8,1842">
+					<zone rendition="Line" xml:id="facs_9_r_4_8l1" points="100,1687 1740,1687 1740,1754 100,1754"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_8l2" points="10,1735 1726,1735 1726,1799 10,1799"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_8l3" points="7,1785 1727,1785 1727,1847 7,1847"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_r_4_9" subtype="paragraph" points="8,1843 1740,1843 1740,2030 8,2030">
+					<zone rendition="Line" xml:id="facs_9_r_4_9l1" points="96,1832 1738,1832 1738,1895 96,1895"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_9l2" points="7,1882 1736,1882 1736,1944 7,1944"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_9l3" points="10,1928 1740,1928 1740,2013 10,2013"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_9l4" points="5,1978 990,1978 990,2041 5,2041"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_r_4_10" subtype="paragraph" points="12,2040 1730,2040 1730,2364 12,2364">
+					<zone rendition="Line" xml:id="facs_9_r_4_10l1" points="91,2006 1738,2006 1738,2085 91,2085"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_10l2" points="1,2071 1734,2071 1734,2134 1,2134"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_10l3" points="11,2119 1727,2119 1727,2181 11,2181"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_10l4" points="7,2169 1736,2169 1736,2237 7,2237"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_10l5" points="12,2217 1739,2217 1739,2280 12,2280"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_10l6" points="13,2265 1738,2265 1738,2345 13,2345"/>
+                <zone rendition="Line" xml:id="facs_9_line_1532019152820_101" points="5,2314 1053,2314 1053,2374 5,2374"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_r_4_11" subtype="paragraph" points="12,2375 1729,2375 1729,2660 12,2660">
+					<zone rendition="Line" xml:id="facs_9_r_4_11l1" points="104,2338 1738,2338 1738,2424 104,2424"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_11l2" points="7,2409 1737,2409 1737,2475 7,2475"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_11l3" points="12,2457 1736,2457 1736,2525 12,2525"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_11l4" points="12,2502 1725,2502 1725,2567 12,2567"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_11l5" points="12,2552 1734,2552 1734,2638 12,2638"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_11l6" points="4,2597 614,2597 614,2664 4,2664"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_r_4_12" subtype="paragraph" points="9,2660 1731,2660 1731,2754 9,2754">
+					<zone rendition="Line" xml:id="facs_9_r_4_12l1" points="96,2637 1730,2637 1730,2713 96,2713"/>
+                <zone rendition="Line" xml:id="facs_9_r_4_12l2" points="-1,2694 1735,2694 1735,2786 -1,2786"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_TextRegion_1532019000884_92" subtype="catch-word" points="1643,2750 1724,2750 1724,2804 1643,2804">
+					<zone rendition="Line" xml:id="facs_9_line_1532019000931_94" points="1642,2761 1715,2761 1715,2806 1642,2806"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_9_TextRegion_1532019003759_98" subtype="signature-mark" points="816,2750 962,2750 962,2804 816,2804">
+					<zone rendition="Line" xml:id="facs_9_r_4_13l2" points="829,2753 937,2753 937,2804 829,2804"/>
+				</zone>
+		</surface>
+		<surface ulx="0" uly="0" lrx="2294" lry="3184" xml:id="facs_10">
+			<graphic url="anno:17140103-009.jpg" width="2294px" height="3184px"/>
+			<zone rendition="printspace" points="0,0 2294,0 2294,3184 0,3184"/>
+			<zone rendition="TextRegion" xml:id="facs_10_r_6_1" subtype="paragraph" points="511,481 2240,481 2240,676 511,676">
+					<zone rendition="Line" xml:id="facs_10_r_6_1l1" points="507,469 2236,469 2236,577 507,577"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_1l2" points="507,542 2230,542 2230,628 507,628"/>
+                <zone rendition="Line" xml:id="facs_10_line_1532019509742_104" points="508,622 712,622 712,687 508,687"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_10_r_6_2" subtype="paragraph" points="515,639 2256,639 2256,919 515,919">
+					<zone rendition="Line" xml:id="facs_10_r_6_2l1" points="613,637 2241,637 2241,725 613,725"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_2l2" points="509,685 2240,685 2240,772 509,772"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_2l3" points="516,735 2249,735 2249,821 516,821"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_2l4" points="522,781 2244,781 2244,873 522,873"/>
+                <zone rendition="Line" xml:id="facs_10_line_1532019538987_105" points="516,852 1190,852 1190,921 516,921"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_10_r_6_3" subtype="paragraph" points="516,879 2258,879 2258,1261 516,1261">
+					<zone rendition="Line" xml:id="facs_10_line_1532019547862_106" points="606,878 2261,878 2261,969 606,969"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_3l3" points="513,930 2258,930 2258,1022 513,1022"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_3l4" points="523,978 2255,978 2255,1074 523,1074"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_3l5" points="521,1025 2261,1025 2261,1119 521,1119"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_3l6" points="519,1071 2260,1071 2260,1162 519,1162"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_3l7" points="523,1119 2261,1119 2261,1208 523,1208"/>
+                <zone rendition="Line" xml:id="facs_10_line_1532019569449_107" points="523,1189 1235,1189 1235,1265 523,1265"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_10_r_6_4" subtype="paragraph" points="526,1209 2259,1209 2259,1497 526,1497">
+					<zone rendition="Line" xml:id="facs_10_r_6_4l1" points="631,1202 2258,1202 2258,1304 631,1304"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_4l2" points="538,1259 2266,1259 2266,1351 538,1351"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_4l3" points="538,1307 2262,1307 2262,1405 538,1405"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_4l4" points="530,1355 2260,1355 2260,1449 530,1449"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_4l5" points="538,1417 1862,1417 1862,1497 538,1497"/>
+				</zone>
+			<zone rendition="Separator" xml:id="facs_10_Separator_1532019331706_102" points="526,1479 2262,1479 2262,1551 526,1551"/>
+			<zone rendition="TextRegion" xml:id="facs_10_r_6_5" subtype="heading" points="724,1534 2077,1534 2077,1650 724,1650">
+					<zone rendition="Line" xml:id="facs_10_line_1532019599223_108" points="727,1528 2082,1528 2082,1645 727,1645"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_10_TextRegion_1532019382968_103" subtype="heading" points="537,1631 2266,1631 2266,1909 537,1909">
+					<zone rendition="Line" xml:id="facs_10_line_1532019608128_109" points="541,1612 2272,1612 2272,1761 541,1761"/>
+                <zone rendition="Line" xml:id="facs_10_line_1532019616746_110" points="771,1728 2084,1728 2084,1853 771,1853"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_8l1" points="921,1819 1943,1819 1943,1909 921,1909"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_10_r_6_9" subtype="paragraph" points="543,1876 2289,1876 2289,2447 543,2447">
+					<zone rendition="Line" xml:id="facs_10_r_6_9l1" points="553,1867 2278,1867 2278,2015 553,2015"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_9l2" points="672,1913 2279,1913 2279,2021 672,2021"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_9l3" points="557,1962 2275,1962 2275,2078 557,2078"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_9l4" points="559,2004 2279,2004 2279,2118 559,2118"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_9l5" points="556,2056 2284,2056 2284,2166 556,2166"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_9l6" points="561,2101 2279,2101 2279,2219 561,2219"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_9l7" points="555,2149 2286,2149 2286,2265 555,2265"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_9l8" points="564,2196 2280,2196 2280,2306 564,2306"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_9l9" points="557,2246 2279,2246 2279,2354 557,2354"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_9l10" points="567,2295 2288,2295 2288,2404 567,2404"/>
+                <zone rendition="Line" xml:id="facs_10_line_1532019673187_111" points="566,2370 1521,2370 1521,2453 566,2453"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_10_r_6_10" subtype="paragraph" points="549,2395 2288,2395 2288,2629 549,2629">
+					<zone rendition="Line" xml:id="facs_10_r_6_10l1" points="660,2385 2299,2385 2299,2490 660,2490"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_10l2" points="576,2432 2287,2432 2287,2541 576,2541"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_10l3" points="579,2485 2282,2485 2282,2594 579,2594"/>
+                <zone rendition="Line" xml:id="facs_10_line_1532019702226_112" points="578,2554 1755,2554 1755,2640 578,2640"/>
+				</zone>
+			<zone rendition="TextRegion" xml:id="facs_10_r_6_11" subtype="paragraph" points="566,2589 2288,2589 2288,2781 566,2781">
+					<zone rendition="Line" xml:id="facs_10_r_6_11l1" points="675,2573 2286,2573 2286,2683 675,2683"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_11l2" points="586,2629 2277,2629 2277,2736 586,2736"/>
+                <zone rendition="Line" xml:id="facs_10_r_6_11l3" points="586,2702 1571,2702 1571,2783 586,2783"/>
+				</zone>
+		</surface>
+	</facsimile>
+	<text>
+		<front>
+			<titlePage>
+					<pb xml:id="pag1" n="1" facs="#facs_1"/>
+				<docTitle>
+                    <titlePart xml:id="tit1" type="num" facs="#facs_1_r_2_1" rendition="#fc">
+						<lb xml:id="z1" facs="#facs_1_r_2_1l1"/>
+                        <hi style="font-family: Antiqua;">
+                            <w xml:id="w1">Num</w>
+                            <pc xml:id="w2">.</pc>
+                        </hi> <w xml:id="w3">1087</w>
+                        <pc xml:id="w4">.</pc>
+                    </titlePart>
+                    <titlePart xml:id="tit2" type="main" facs="#facs_1_r_2_2" rendition="#fc">
+						<lb xml:id="z2" facs="#facs_1_r_2_2l3"/>
+                        <w xml:id="w5">Wienerisches</w> <hi style="font-family: Antiqua;">
+                            <w xml:id="w6">Diarium</w>
+                        </hi>
+                        <pc xml:id="w7">,</pc>
+                    </titlePart>
+                </docTitle>
+                <fw xml:id="fw1" facs="#facs_1_Graphic_1531834817847_9" rendition="#l">
+                    <figure type="graphic" facs="#facs_1_Graphic_1531834817847_9"/>
+                </fw>
+				</titlePage>
+		</front>
+		<body>
+			<div type="page" n="1">
+					<fw xml:id="fw2" facs="#facs_1_Graphic_1531834821890_10" rendition="#rr">
+                    <figure type="graphic" facs="#facs_1_Graphic_1531834821890_10"/>
+                </fw>
+                <div xml:id="d2">
+					<head xml:id="hl1" rendition="#f" facs="#facs_1_TextRegion_1531834774579_8">
+						<lb xml:id="z3" facs="#facs_1_r_2_3l2"/>
+                        Enthaltend / alles das jenige /
+                        was von Tag zu Tag / sowol
+						<lb xml:id="z4" facs="#facs_1_r_2_4l1"/>
+                        in dieser Residenz
+                        =
+                        Stadt Wien Denkwürdiges / und Neues sich
+						<lb xml:id="z5" facs="#facs_1_r_2_4l2"/>
+                        zugetragen
+                        ; Als auch / was dergleichen nachrichtlich alda eingeloffen
+                        ;
+						<lb xml:id="z6" facs="#facs_1_r_2_5l1"/>
+                        samt einem Anhang jedermaliger Verzeichnuß
+                        ; Erstlich derer täglich allhier
+						Ankom=
+                            <lb xml:id="z7" facs="#facs_1_r_2_6l1"/>menden
+                        ; Zweytens als in
+                        = und vor derStadt getauff<unclear>t</unclear>en Kindern
+                        ; Drittens
+						<lb xml:id="z8" facs="#facs_1_r_2_6l2"/>
+                        aber Verehlichter / und Vierdtens aller verstorbenen
+						<lb xml:id="z9" facs="#facs_1_r_2_7l1"/>
+                        Personen
+                        .
+                    </head>
+                </div>
+				<div xml:id="d3">
+					<head xml:id="hl2" rendition="#f" facs="#facs_1_TextRegion_1531834741958_5">
+						<lb xml:id="z10" facs="#facs_1_r_2_8l1"/>
+                        Mit Jhrer Römisch
+                        =
+                        Kaiserlichen Majestät allergnädigstem Privilegio
+                        .
+						<lb xml:id="z11" facs="#facs_1_r_2_9l1"/>
+                        Zufinden im rothen Ygel
+                        .
+                    </head>
+                    <milestone type="separator" rend="horizontal" unit="section" rendition="#l"/>
+                </div>
+				<div xml:id="d4">
+					<head xml:id="hl3" rendition="#fc" facs="#facs_1_r_4_1">
+						<lb xml:id="z12" facs="#facs_1_r_4_1l1"/>
+                        Wien / von 30
+                        . December / 1713
+                        . bis 2
+                        . Jenner /
+                        1714
+                        .
+                    </head>
+					<p xml:id="p4" rendition="#f" facs="#facs_1_TextRegion_1531834597131_2">
+						<lb xml:id="z13" facs="#facs_1_r_4_2l1"/>
+                        SAmstag /
+                        den 30
+                        . December
+                        . Heut ware der Herr General <hi style="font-family: Antiqua;">
+						Sor-
+                                <lb xml:id="z14" facs="#facs_1_r_4_2l3"/>mani
+                        </hi> von hier nacher Steurmarke zu denen dasiger Orten aus dem
+						<lb xml:id="z15" facs="#facs_1_r_4_2l4"/>
+                        Mailändischen Staat erwarteten Truppen abgangen
+                        ; von dannen /
+						<lb xml:id="z16" facs="#facs_1_r_4_2l5"/>
+                        nemlich / aus Mailand / mit Briefen / untern 20
+                        . dieses Nachrichtlich
+						ein=
+                            <lb xml:id="z17" facs="#facs_1_r_4_2l6"/>geloffen
+                        ; wie daß man aus Catalonien abermalen die Zeitung erhalten /
+						<lb xml:id="z18" facs="#facs_1_r_4_2l7"/>
+                        daß / nachdeme die Franzosen vor <hi style="font-family: Antiqua;">
+                            Barcellona
+                        </hi> abgezogen / den d<unclear>ari</unclear>nnen sich
+						<lb xml:id="z19" facs="#facs_1_r_4_2l8"/>
+                        befindlichen Cataloniern der Mut um so mehr gewachsen / das sie auf des
+						<lb xml:id="z20" facs="#facs_1_line_1531835127494_12"/>
+                        Herzogen von <hi style="font-family: Antiqua;">
+                            Anjou
+                        </hi> Truppen / C<unclear>astilli</unclear>aner genant / den 21
+                        . November
+						<lb xml:id="z21" facs="#facs_1_r_4_3l1"/>
+                        mehrmalen einen Ausfall gethan / und davon viele hundert getödet / auch
+						<lb xml:id="z22" facs="#facs_1_r_4_3l2"/>
+                        gefangen / sodan mit diesen / und einer guten Beute glücklich zu besagtem
+						<lb xml:id="z23" facs="#facs_1_r_4_3l3"/>
+                        <hi style="font-family: Antiqua;">
+                            Barcellona
+                        </hi> zuruk gelanget
+                        , allda zu gleicher Zeit die C
+                        <gap/>
+                        sche Schiffe
+						<lb xml:id="z24" facs="#facs_1_r_4_3l4"/>
+                        ein Französischen West Jndien Fahrer / so mit Stucken <unclear>
+                            versehen
+                        </unclear>
+						gewe=
+                            <lb xml:id="z25" facs="#facs_1_r_4_3l5"/>sen und an Ba
+                        <gap/>
+                        schaften / ausser seiner Ladung / 100000
+                        . <gap/>
+						<lb xml:id="z26" facs="#facs_1_r_4_3l6"/>
+                        ten aufg<unclear>e</unclear>habt / glücklich eingebracht
+                        ; Ubrigens wäre man in d
+                        <gap/>
+                        s
+						ge=
+                            <lb xml:id="z27" facs="#facs_1_r_4_3l8"/>meldtem <hi style="font-family: Antiqua;">
+                            Barcellona
+                        </hi> ohne sonderbarer Bekümmernus / und <gap/>
+                        chte in
+						da=
+                            <lb xml:id="z28" facs="#facs_1_r_4_3l9"/>selbsten deren Castillianern Be
+                        <gap/>
+                        hungen gar nichts
+                        ; zum a
+                        <gap/>
+                        lant /
+						<lb xml:id="z29" facs="#facs_1_r_4_3l10"/>
+                        daß in ihrem Lager an Kriegs
+                        = und Lebens
+                        =
+                        <gap/> grosser Mangel
+                        :
+						hin=
+                            <lb xml:id="z30" facs="#facs_1_r_4_3l11"/>gegen in der Stadt <hi style="font-family: Antiqua;">
+                            Barcellona
+                        </hi> von allen <unclear>
+                            Uberflus </unclear> 
+                            <unclear>vorhan</unclear>den / und
+						<lb xml:id="z31" facs="#facs_1_r_4_3l13"/>
+                        man sich täglich mehrers damit versehe / die <gap/>
+						ver=
+                            <lb xml:id="z32" facs="#facs_1_line_1531835180935_13"/>mehre
+                        ; wie solch alles aus beygehendem <gap/>
+                    </p>
+					<p xml:id="p5" rendition="#f" facs="#facs_1_TextRegion_1531834617877_3">
+						<lb xml:id="z33" facs="#facs_1_line_1531835193849_14"/>
+                        Sonntag / Den 31
+                        . December
+                        . Heute / Nachmittag /
+                        als am Neu
+                        =
+						<lb xml:id="z34" facs="#facs_1_line_1531835207367_15"/>
+                        Jahrs
+                        =
+                        Abend / haben Jhre Regierende / Kaiserlich
+                        = und Königlich
+                        =
+                        
+                            <choice>
+                                <orig>Ca</orig>
+                                <reg>Catholische</reg>
+                            </choice>
+                        
+                        =
+                    </p>
+                </div>
+                <fw xml:id="fw3" facs="#facs_1_region_1531834668887_4" type="catch" rendition="#rr">
+						<lb xml:id="z35" facs="#facs_1_r_5_1l3"/>
+                    tholische
+                </fw>
+                <fw xml:id="fw4" type="sig" facs="#facs_1_r_4_5" rendition="#r">
+						<lb xml:id="z36" facs="#facs_1_r_4_5l1"/>
+                    )(
+                </fw>
+				</div>
+			<div type="page" n="2">
+					<pb xml:id="pag2" n="2" facs="#facs_2"/>
+				<div xml:id="d6">
+					<p xml:id="p6" rendition="#f" facs="#facs_2_TextRegion_1531835261869_16">
+						<lb xml:id="z37" facs="#facs_2_r_5_1l1"/>
+                        tholische Majestäten / in Begleitung des Venetianischen Herrn
+						Bott=
+                            <lb xml:id="z38" facs="#facs_2_r_5_1l2"/>schafters / nebst den Rittern des goldenen <hi style="font-family: Antiqua;">
+                            Vellas
+                        </hi>
+                        , in der Hof
+                        =
+                        Kapellen
+						<lb xml:id="z39" facs="#facs_2_r_5_1l3"/>
+                        dem Gottes
+                        =
+                        Dienst Jhrer Hochwürden / Tit
+                        . Herrn Anton / Abten des
+						<lb xml:id="z40" facs="#facs_2_r_5_1l4"/>
+                        Kaiserlichen Stifts und Klosters von <hi style="font-family: Antiqua;">
+                            Montserrat
+                            ,
+                        </hi> Benedict
+                        . Ordens
+                        :
+						<lb xml:id="z41" facs="#facs_2_r_5_1l5"/>
+                        dan Jhre Majestät / die Verwittibte Kaiserin / <hi style="font-family: Antiqua;">
+                            Eleonora Magdalena
+						The-
+                                <lb xml:id="z42" facs="#facs_2_r_5_1l6"/>resia
+                        </hi>
+                        , samt der Durchl
+                        . jungen Herrschaft / in der Kirchen des
+						Kaiserli=
+                            <lb xml:id="z43" facs="#facs_2_r_5_2l1"/>chen Pofeß
+                        =
+                        Haus / <hi style="font-family: Antiqua;">
+                            S
+                            . J
+                            .
+                        </hi> an Hof / der Abend
+                        =
+                        Andacht / und Ambrosianischem
+						<lb xml:id="z44" facs="#facs_2_r_5_2l2"/>
+                        Lobgesang beygewohnet
+                        ; so Jhre Hochwürd
+                        . Titl
+                        . Hr
+                        . Johann Mathias / des
+						<lb xml:id="z45" facs="#facs_2_r_5_2l3"/>
+                        H
+                        . R
+                        . Reichs Graf von Thurn und <hi style="font-family: Antiqua;">
+                            Valsassina
+                            ,
+                        </hi> beyder Domstiftern /
+						<lb xml:id="z46" facs="#facs_2_r_5_2l4"/>
+                        zu Ollmütz und Breslau / dan dasel<unclear>b</unclear>stiger <hi style="font-family: Antiqua;">
+                            Collegiat
+                        </hi>
+                        -
+                        Kirchen zum Heil
+                        .
+						<lb xml:id="z47" facs="#facs_2_r_5_2l5"/>
+                        Kreutz / <hi style="font-family: Antiqua;">
+                            Canonicus
+                            ,
+                        </hi> wie auch 
+                            <hi style="font-family: Antiqua;">infuli</hi>rter Probst der <hi style="font-family: Antiqua;">
+                            Collegiat
+                        </hi>
+                        -
+                        Kirchen
+						<lb xml:id="z48" facs="#facs_2_r_5_2l6"/>
+                        St
+                        . Peter / auf dem Petersberg / zu Brün / und Jhrer Hochfürstlichen
+						<lb xml:id="z49" facs="#facs_2_r_5_2l7"/>
+                        <hi style="font-family: Antiqua;">
+                            Eminenz
+                            ,
+                        </hi> des Herrn Cardinalen und Bischoffen zu Ollmütz / Raht und
+						<lb xml:id="z50" facs="#facs_2_line_1531836680993_18"/>
+                        <hi style="font-family: Antiqua;">
+                            Consistorial
+                            -
+                            Assessor
+                        </hi>
+                        : die Predig aber <hi style="font-family: Antiqua;">
+                            A
+                            . R
+                            . P
+                            . Thomas Winter
+                            , S
+                            . J
+                            .
+						<lb xml:id="z51" facs="#facs_2_r_5_3l1"/>
+                            Concionator emeritus
+                        </hi>
+                        , gehalten
+                        .
+                    </p>
+					<p xml:id="p7" rendition="#f" facs="#facs_2_r_5_4">
+						<lb xml:id="z52" facs="#facs_2_r_5_4l1"/>
+                        <hi style="font-family: Antiqua;">
+                            Dito
+                        </hi> haben Heut Jhr Römisch
+                        =
+                        Kaiserlich
+                        = und Königlich
+                        =
+						Catho=
+                            <lb xml:id="z53" facs="#facs_2_r_5_4l2"/>lischer Majestät Dero General
+                        =
+                        Hof
+                        =
+                        Zahl
+                        =
+                        Maistern / <hi style="font-family: Antiqua;">
+                            Don Salomon
+						Piazzo-
+                                <lb xml:id="z54" facs="#facs_2_r_5_4l3"/>ni
+                        </hi> und Dero Rent
+                        =
+                        Maistern im Marggraftum Mähren / Titl
+                        . Herrn
+						<lb xml:id="z55" facs="#facs_2_r_5_4l4"/>
+                        Johann Caspar von Keill / in allermildester Erwegung Dero
+						treugeleiste=
+                            <lb xml:id="z56" facs="#facs_2_r_5_4l5"/>ter Diensten / und andurch erworbener Verdiensten / auch
+						beywohnend=
+                            <lb xml:id="z57" facs="#facs_2_r_5_4l6"/>guten Eigenschaften und Erfahrenheit / zu Dero Hof
+                        =
+                        Kammer
+                        =
+                        Raht
+						aller=
+                            <lb xml:id="z58" facs="#facs_2_r_5_4l7"/>gnädigst ernennet
+                        .
+                    </p>
+					<p xml:id="p8" rendition="#f" facs="#facs_2_r_5_5">
+						<lb xml:id="z59" facs="#facs_2_r_5_5l1"/>
+                        <hi style="font-family: Antiqua;">
+                            Eodem
+                        </hi> ist Jhrer Römisch
+                        =
+                        Kaiserlich
+                        = und Königlich
+                        =
+                        Catholischen
+						<lb xml:id="z60" facs="#facs_2_r_5_5l2"/>
+                        Majestät würklicher Hof
+                        =
+                        Kriegs
+                        =
+                        Raht / und General
+                        =
+                        Feld
+                        =
+                        Marschall
+                        =
+						Lieu=
+                            <lb xml:id="z61" facs="#facs_2_r_5_5l3"/>tenant / wie auch Commendant auf der Vestung Spielberg / zu Brün /
+						<lb xml:id="z62" facs="#facs_2_r_5_5l4"/>
+                        Titl
+                        . Herr Graf von Welczeck / von Tyrnau / nachdem sich aldasige
+						Ver=
+                            <lb xml:id="z63" facs="#facs_2_r_5_5l5"/>samlung der 27
+                        . December geendet / wieder dahier angekommen / um den
+						<lb xml:id="z64" facs="#facs_2_r_5_5l6"/>
+                        Kaiserl Hof davon den Bericht zuertheilen
+                        .
+                    </p>
+					<p xml:id="p9" rendition="#f" facs="#facs_2_r_5_6">
+						<lb xml:id="z65" facs="#facs_2_r_5_6l1"/>
+                        Montag / den 1
+                        . Jenner / 1714
+                        . Heut / als am Neu Jahrs
+                        =
+                        Tag /
+						wur=
+                            <lb xml:id="z66" facs="#facs_2_r_5_6l2"/>den bey den gesamten / Regierend
+                        = und Verwittibten / Kaiserlichen Höfen /
+						<lb xml:id="z67" facs="#facs_2_r_5_6l3"/>
+                        die Glückwünschungen abgeleget
+                        ; Nachdeme haben die Regierende
+						<lb xml:id="z68" facs="#facs_2_r_5_6l4"/>
+                        Kaiserlich
+                        = und Königlich
+                        =
+                        Catholische Majestäten / in Gefolg des
+						Vene=
+                            <lb xml:id="z69" facs="#facs_2_r_5_6l5"/>tianischen Herrn Bottschafters / samt den Rittern des goldenen <hi style="font-family: Antiqua;">
+                            Vellus
+                        </hi>
+                        ,
+						<lb xml:id="z70" facs="#facs_2_r_5_6l6"/>
+                        und viel
+                        =
+                        andern hohen Stands
+                        =
+                        Personen / beyderley Geschlechts / in
+						be=
+                            <lb xml:id="z71" facs="#facs_2_r_5_6l7"/>sagtem Pofeß
+                        =
+                        Hauß
+                        : Jhre Majestät / die lezt
+                        =
+                        Verwittibte Kaiserin /
+						<lb xml:id="z72" facs="#facs_2_r_5_6l8"/>
+                        <hi style="font-family: Antiqua;">
+                            Wilhelmina Amalia
+                        </hi>
+                        , aber / nebst der Durchleuchtigst
+                        = Jungen Herrschaft /
+						<lb xml:id="z73" facs="#facs_2_r_5_6l9"/>
+                        mit der gewöhnlichen Hofstatt / in der 
+                            <hi style="font-family: Antiqua;">Academi</hi>schen Kirchen des
+						Kaiser=
+                            <lb xml:id="z74" facs="#facs_2_r_5_6l10"/>lichen <hi style="font-family: Antiqua;">
+                            Colleg
+                            : S
+                            . J
+                            .
+                        </hi> dem Gottes
+                        =
+                        Dienst abgewartet
+                        ; jenen hat schon 
+                            <choice>
+                                <orig>wol</orig>
+                                <reg>wolgemeld</reg>
+                            </choice>
+                        
+                        =
+                    </p>
+					<p xml:id="p10" rendition="#rr" facs="#facs_2_region_1531835318391_17">
+						<lb xml:id="z75" facs="#facs_2_r_5_6l11"/>
+                        
+                            <choice>
+                                <orig>gemeld</orig>
+                                <reg>gemeldsas</reg>
+                            </choice>
+                        
+                        =
+                    </p>
+                </div>
+				</div>
+			<div type="page" n="3">
+					<pb xml:id="pag3" n="3" facs="#facs_3"/>
+				<div xml:id="d8">
+					<p xml:id="p11" rendition="#f" facs="#facs_3_r_1_1">
+						<lb xml:id="z76" facs="#facs_3_r_1_1l1"/>
+                        <unclear>
+                            sas
+                        </unclear> längst des Rheins bis an die Pfalz bezogen / der übrige Theil nach
+						<lb xml:id="z77" facs="#facs_3_r_1_1l2"/>
+                        
+                            <unclear>d</unclear>er Freyen Grafschaft / und <hi style="font-family: Antiqua;">
+                            Champagne
+                        </hi> in Marsch begriffen wäre
+                        ;
+						da=
+                            <lb xml:id="z78" facs="#facs_3_r_1_1l3"/>
+                            <unclear>b</unclear>ey verlaute / daß gleichfals einige Mannschaft in Lothringen ( aldorten
+						<lb xml:id="z79" facs="#facs_3_r_1_1l4"/>
+                        
+                            <unclear>d</unclear>er Herr Baron Fo<unclear>r</unclear>stner aus Engelland wieder angekommen  und den
+						<lb xml:id="z80" facs="#facs_3_r_1_1l5"/>
+                        
+                            <unclear>a</unclear>nliegenden 3
+                        . Bistümern verleget werden solle
+                        ; Vermög Pariser
+						Brief=
+                            <lb xml:id="z81" facs="#facs_3_r_1_1l6"/>
+                            <unclear>e</unclear>n / solle man daselbsten den gewesten Churfürsten von Bayern schon vor
+						<lb xml:id="z82" facs="#facs_3_r_1_1l7"/>
+                        
+                            <unclear>T</unclear>od halten
+                        ; seithero der <hi style="font-family: Antiqua;">
+                            Marquis
+                        </hi> von <hi style="font-family: Antiqua;">
+                            Tor<unclear>o</unclear>y
+                        </hi> von <hi style="font-family: Antiqua;">
+                            Compiegne
+                        </hi>
+						zuruckge=
+                            <lb xml:id="z83" facs="#facs_3_r_1_1l8"/>
+                            <unclear>la</unclear>nget
+                        ; Diesem <hi style="font-family: Antiqua;">
+                            Marquis
+                        </hi> wäre der gemeine Mann / so wegen der
+						Theu=
+                            <lb xml:id="z84" facs="#facs_3_r_1_1l9"/>
+                            <unclear>ru</unclear>ng deren Früchten ganz schwürig / durchgehends gehässig
+                        ; weilen
+						der=
+                            <lb xml:id="z85" facs="#facs_3_r_1_1l10"/>
+                            <unclear>se</unclear>lbe die einzige Ursach seye / daß der allgemeine Friede so schwer gemacht
+						<lb xml:id="z86" facs="#facs_3_r_1_1l11"/>
+                        
+                            <unclear>w</unclear>erde
+                        . Sonsten wäre von <hi style="font-family: Antiqua;">
+                            Langeais
+                        </hi>
+                        , aus dem Herzogtum <hi style="font-family: Antiqua;">
+                            de Luynes
+                        </hi>
+                        ,
+						<lb xml:id="z87" facs="#facs_3_r_1_1l12"/>
+                        
+                            <unclear>b</unclear>ericht worden
+                        ; wie daß aldorten die Wölffe mit den Leuten und Vieh
+						<lb xml:id="z88" facs="#facs_3_r_1_1l13"/>
+                        
+                            <unclear>g</unclear>rausamlich gehauset
+                        ; wie man dan bis hundert Personen gezählet / so
+						<lb xml:id="z89" facs="#facs_3_r_1_1l15"/>
+                        
+                            <unclear>d</unclear>ie Wölff bey etlich Monat her verzehret
+                        ; dahero der König der Jägerey
+						<lb xml:id="z90" facs="#facs_3_r_1_1l16"/>
+                        
+                            <unclear>d</unclear>en Befehl ertheilen lassen / auf alle Weis auszurotten
+                        .
+                    </p>
+					<p xml:id="p12" rendition="#f" facs="#facs_3_TextRegion_1533114078025_1">
+						<lb xml:id="z91" facs="#facs_3_r_1_2l1"/>
+                        Von dem Elbstrom / vom 28
+                        . December
+                        . Daß / zufolg der
+						Nach=
+                            <lb xml:id="z92" facs="#facs_3_r_1_2l2"/>
+                            <unclear>ri</unclear>cht von Petersburg / alda den 18
+                        . November der Fürst Menzikoff
+						ange=
+                            <lb xml:id="z93" facs="#facs_3_r_1_2l3"/>
+                            <unclear>la</unclear>nget / und so gleich mit Jhro Czaarischen Majestät ein lange
+						Unterre=
+                            <lb xml:id="z94" facs="#facs_3_r_1_2l4"/>
+                            <unclear>d</unclear>ung gepflogen
+                        ; welche nachgehends / als den 23
+                        . <hi style="font-family: Antiqua;">
+                            Dito
+                        </hi>
+                        , mit ihme
+						ge=
+                            <lb xml:id="z95" facs="#facs_3_r_1_2l5"/>
+                            <unclear>r</unclear>eiset / dan / nach der Taffel / ein Currier nach Koppenhagen abgefertiget
+                        ;
+						<lb xml:id="z96" facs="#facs_3_r_1_2l6"/>
+                        
+                            <unclear>m</unclear>it der Nachricht / daß Jhre Majestät beschlossen / diesen Winter noch
+						<lb xml:id="z97" facs="#facs_3_r_1_2l7"/>
+                        
+                            <unclear>ei</unclear>n wichtiges Vorhaben auszuführen
+                        ; Von besagtem Koppenhagen wäre
+						<lb xml:id="z98" facs="#facs_3_r_1_2l8"/>
+                        
+                            <unclear>d</unclear>er <hi style="font-family: Antiqua;">
+                            Vice
+                        </hi>
+                        -
+                        Statthalter / Herr Baron Krag / nach Norwegen abgangen
+                        ;
+						<lb xml:id="z99" facs="#facs_3_r_1_2l9"/>
+                        
+                            <unclear>V</unclear>ermög des Schwedischen Passes / so von der Prinzessin <hi style="font-family: Antiqua;">
+                            Ulrica
+                        </hi> und den
+						<lb xml:id="z100" facs="#facs_3_r_1_2l10"/>
+                        
+                            <unclear>k</unclear>öniglichen Räthen unterschrieben gewesen
+                        ; inzwischen wäre aus
+						ge=
+                            <lb xml:id="z101" facs="#facs_3_r_1_2l11"/>
+                            <unclear>m</unclear>eldtem Norwegen grosse Gelt
+                        =
+                        Summ zu Koppenhagen angelanget
+                        ;
+						<lb xml:id="z102" facs="#facs_3_r_1_3l1"/>
+                        
+                            <unclear>Z</unclear>u Stockholm mache man die Anstalten zu Auswechslung deren alda ge
+                        =
+						<lb xml:id="z103" facs="#facs_3_r_1_3l2"/>
+                        <gap/>
+                        ngen sitzende Moskowitter / darunter viele Prinzen und andere
+						vor=
+                            <lb xml:id="z104" facs="#facs_3_r_1_3l3"/>
+                            <unclear>n</unclear>ehme Persohnen / um diese gegen die Schwedische in Moskau
+						auszuwechs=
+                            <lb xml:id="z105" facs="#facs_3_r_1_3l4"/>
+                            <unclear>le</unclear>n
+                        ; zu erwehntem Stockholm wäre der ehedessen geweste General
+                        =
+                        <hi style="font-family: Antiqua;">
+						Gou-
+                                <lb xml:id="z106" facs="#facs_3_r_1_3l5"/>
+                                <unclear>v</unclear>erneur
+                        </hi> in Pommern / Graf <hi style="font-family: Antiqua;">
+                            Bielcke
+                        </hi>
+                        , zum 
+                            <hi style="font-family: Antiqua;">Commandi</hi>renden General
+                        =
+						<lb xml:id="z107" facs="#facs_3_r_1_3l6"/>
+                        
+                            <unclear>F</unclear>eld
+                        =
+                        Marschallen ernennet worden
+                        ; und / wie von dorten / nemlichen
+						<lb xml:id="z108" facs="#facs_3_r_1_3l7"/>
+                        
+                            <unclear>v</unclear>on Stettin / verlaute / solle dasige Besatzung / zum besten deren
+						Jnwoh=
+                            <lb xml:id="z109" facs="#facs_3_r_1_3l8"/>
+                            <unclear>n</unclear>ern / beyderseits geminderet werden
+                        ; Von Hamburg verlaute / daß der
+						<lb xml:id="z110" facs="#facs_3_r_1_3l9"/>
+                        <gap/> General Graf Welling / mit den Generalen / Crassau / Stromberg /
+						<lb xml:id="z111" facs="#facs_3_r_1_3l10"/>
+                        <gap/>
+                        iesenhausen / und andern auf dem Grasbrock sich unterredet
+                        ; Von
+						Ber=
+                            <lb xml:id="z112" facs="#facs_3_r_1_3l11"/>
+                            <unclear>li</unclear>n werde berichtet / daß der aldasige <hi style="font-family: Antiqua;">
+                            Gouverneur
+                            ,
+                        </hi> Herr General von Ha
+                        =
+						<lb xml:id="z113" facs="#facs_3_r_1_3l12"/>
+                        <gap/>
+                        e /
+                        und der General und <hi style="font-family: Antiqua;">
+                            Gouverneur
+                        </hi> von Spandau / Herr von Tettau
+						<lb xml:id="z114" facs="#facs_3_r_1_3l13"/>
+                        
+                            <unclear>m</unclear>it Tod abgangen
+                        .
+                    </p>
+                </div>
+                <fw xml:id="fw5" facs="#facs_3_TextRegion_1531836848554_19" type="catch" rendition="#rr">
+						<lb xml:id="z115" facs="#facs_3_line_1531836848632_21"/>
+                    An
+                    =
+                </fw>
+				</div>
+			<div type="page" n="4">
+					<pb xml:id="pag4" n="4" facs="#facs_4"/>
+				<div xml:id="d10">
+					<head xml:id="hl4" rendition="#fc" facs="#facs_4_r_3_1">
+						<lb xml:id="z116" facs="#facs_4_r_3_1l1"/>
+                        Ankunft derer Hoh
+                        = und Niederen Stands
+                        =
+                        Personen
+                        .
+                    </head>
+                </div>
+				<div xml:id="d11">
+					<head xml:id="hl5" rendition="#lc" facs="#facs_4_r_6_1">
+						<lb xml:id="z117" facs="#facs_4_r_6_1l1"/>
+                        Den 30
+                        . December / 1713
+                        .
+                    </head>
+                    <list rendition="#l">
+                        <item xml:id="i2" facs="#facs_4_TextRegion_1531836983521_23" rendition="#l">
+						<lb xml:id="z118" facs="#facs_4_line_1532002970358_30"/>
+                            Neu
+                            =
+                            Thor
+                            . Herr Graf Gab<unclear>r</unclear>
+                            
+                            <unclear/> / komt
+						<lb xml:id="z119" facs="#facs_4_line_1532002974125_31"/>
+                            von Crembs / log
+                            . auf der Fischerstigen /
+						<lb xml:id="z120" facs="#facs_4_line_1532002980344_32"/>
+                            im Baderis Haus
+                            .
+                        </item>
+                        <item xml:id="i3" facs="#facs_4_TextRegion_1531837214761_24" rendition="#l">
+						<lb xml:id="z121" facs="#facs_4_r_6_3l1"/>
+                            Stuben
+                            =
+                            Thor
+                            . Herr Johann von
+						Bro=
+                                <lb xml:id="z122" facs="#facs_4_r_6_3l2"/>sammer / Kriegs
+                            =
+                            <hi style="font-family: Antiqua;">
+                                Commissarius
+                            </hi>
+                            , komt
+						<lb xml:id="z123" facs="#facs_4_r_6_4l1"/>
+                            von Tyrnau / logirt beym steinernen
+						<lb xml:id="z124" facs="#facs_4_line_1532002999260_33"/>
+                            Rößl
+                            .
+                        </item>
+                    </list>
+                </div>
+				<div xml:id="d12">
+					<head xml:id="hl6" rendition="#lc" facs="#facs_4_r_6_6">
+						<lb xml:id="z125" facs="#facs_4_r_6_6l1"/>
+                        Den 31
+                        . Dito
+                        .
+                    </head>
+                    <list rendition="#l">
+                        <item xml:id="i4" facs="#facs_4_TextRegion_1531837283855_27" rendition="#l">
+						<lb xml:id="z126" facs="#facs_4_r_6_7l1"/>
+                            Herr <hi style="font-family: Antiqua;">
+                                Baron
+                            </hi> von Süssenberg / komt von
+						<lb xml:id="z127" facs="#facs_4_r_6_7l2"/>
+                            Caschau / log
+                            . in seinem Haus
+                            .
+                        </item>
+                        <item xml:id="i5" facs="#facs_4_TextRegion_1531837283855_26" rendition="#l">
+						<lb xml:id="z128" facs="#facs_4_r_6_7l3"/>
+                            Kärntner
+                            =
+                            Thor
+                            . Herrn General / Graf von
+						<lb xml:id="z129" facs="#facs_4_r_6_7l4"/>
+                            Welzeck / komt von Tyrnau / log
+                            . im
+						<lb xml:id="z130" facs="#facs_4_r_6_7l5"/>
+                            Michaeler Haus
+                            .
+                        </item>
+                    </list>
+					<p xml:id="p13" rendition="#rc" facs="#facs_4_r_7_1">
+						<lb xml:id="z131" facs="#facs_4_r_7_1l1"/>
+                        Den 1
+                        . Jener / 1714
+                        .
+                    </p>
+                    <list rendition="#r">
+                        <item xml:id="i6" facs="#facs_4_r_7_2" rendition="#r">
+						<lb xml:id="z132" facs="#facs_4_r_7_2l1"/>
+                            Herr Obrist von Liebenberg / komt von
+						Al=
+                                <lb xml:id="z133" facs="#facs_4_r_7_2l2"/>tenburg / log
+                            . im Faberis
+                            . Haus
+                            .
+                        </item>
+                        <item xml:id="i7" facs="#facs_4_r_7_3" rendition="#r">
+						<lb xml:id="z134" facs="#facs_4_r_7_3l1"/>
+                            Stuben
+                            =
+                            Thor
+                            . Herr Caspar Madeak /
+						<lb xml:id="z135" facs="#facs_4_r_7_3l2"/>
+                            Currier
+                            / komt von Tyrnau / log
+                            . beym
+						<lb xml:id="z136" facs="#facs_4_line_1532003082344_34"/>
+                            goldenen Bärn
+                            .
+                        </item>
+                    </list>
+                </div>
+				<div xml:id="d13">
+					<head xml:id="hl7" rendition="#rc" facs="#facs_4_region_1531837347382_28">
+						<lb xml:id="z137" facs="#facs_4_r_7_3l3"/>
+                        Den 2
+                        . Dito
+                        .
+                    </head>
+                    <list rendition="#r">
+                        <item xml:id="i8" facs="#facs_4_r_7_4" rendition="#r">
+						<lb xml:id="z138" facs="#facs_4_r_7_4l1"/>
+                            Herr von Mannerstorf / komt von Gräz /
+						<lb xml:id="z139" facs="#facs_4_r_7_4l2"/>
+                            log
+                            . im Neuberger
+                            =
+                            Hof
+                            .
+                        </item>
+                        <item xml:id="i9" facs="#facs_4_r_7_5" rendition="#r">
+						<lb xml:id="z140" facs="#facs_4_r_7_5l1"/>
+                            Kärntner
+                            =
+                            Thor
+                            . Herr General / Graf
+						<lb xml:id="z141" facs="#facs_4_r_7_5l2"/>
+                            Draschkowitz / komt aus Croaten / log
+                            .
+						<lb xml:id="z142" facs="#facs_4_r_7_5l3"/>
+                            im weißen Schwan
+                            .
+                        </item>
+                        <item xml:id="i10" facs="#facs_4_r_7_6" rendition="#r">
+						<lb xml:id="z143" facs="#facs_4_r_7_6l1"/>
+                            Herr Carl Antonio Z<unclear>e</unclear>schgi / komt / samt
+						sei=
+                                <lb xml:id="z144" facs="#facs_4_r_7_6l2"/>nem Herrn Bruder / aus Jnsprug /
+						lo=
+                                <lb xml:id="z145" facs="#facs_4_r_7_6l3"/>giren im wilden Mann
+                            .
+                        </item>
+                    </list>
+                    <milestone type="separator" rend="horizontal" unit="section" rendition="#f"/>
+                </div>
+				<div xml:id="d14">
+					<head xml:id="hl8" rendition="#fc" facs="#facs_4_TextRegion_1531837359767_29">
+						<lb xml:id="z146" facs="#facs_4_line_1532003133027_35"/>
+                        Lista aller Verstorbenen in
+                        = und vor der Stadt
+                        .
+                    </head>
+                </div>
+				<div xml:id="d15">
+					<head xml:id="hl9" rendition="#lc" facs="#facs_4_r_8_2">
+						<lb xml:id="z147" facs="#facs_4_r_8_2l1"/>
+                        Den 30
+                        . December / 1713
+                        . starb
+                    </head>
+                </div>
+				<div xml:id="d16">
+					<head xml:id="hl10" rendition="#lc" facs="#facs_4_region_1531837474141_31">
+						<lb xml:id="z148" facs="#facs_4_line_1531837483938_32"/>
+                        Jn der Stadt
+                        .
+                    </head>
+                    <list rendition="#l">
+                        <item xml:id="i11" facs="#facs_4_r_8_3" rendition="#l">
+						<lb xml:id="z149" facs="#facs_4_r_8_3l1"/>
+                            <hi style="font-family: Antiqua;">
+                                R
+                                . P
+                                .
+                            </hi> Richardus S<unclear>ti</unclear>melhamer / <hi style="font-family: Antiqua;">
+                                Ord
+                                . St
+                                .
+						<lb xml:id="z150" facs="#facs_4_r_8_3l2"/>
+                                Francisci
+                            </hi>
+                            , Beicht
+                            =
+                            Vatter / im Königl
+                            .
+						<lb xml:id="z151" facs="#facs_4_r_8_3l3"/>
+                            Kloster / alt 66
+                            . Jahr
+                            .
+                        </item>
+                    </list>
+                </div>
+				<div xml:id="d17">
+					<head xml:id="hl11" rendition="#lc" facs="#facs_4_r_8_4">
+						<lb xml:id="z152" facs="#facs_4_r_8_4l1"/>
+                        Vor der Stadt
+                        .
+                    </head>
+                    <list rendition="#l">
+                        <item xml:id="i12" facs="#facs_4_TextRegion_1532000461963_3" rendition="#l">
+						<lb xml:id="z153" facs="#facs_4_line_1532003156018_36"/>
+                            Dem Leonhard Neubauer / Schleiffer /
+						<lb xml:id="z154" facs="#facs_4_line_1532003164895_37"/>
+                            beym goldenen Einhorn / auf der
+						Leim=
+                                <lb xml:id="z155" facs="#facs_4_line_1532003168718_38"/>gruben / sein
+                            . Weib Barbara / alt 42 J
+                            .
+                        </item>
+                        <item xml:id="i13" facs="#facs_4_TextRegion_1532000461963_2" rendition="#l">
+						<lb xml:id="z156" facs="#facs_4_line_1532003188326_39"/>
+                            Philipp Stattmühler / Fleischhacker / beym
+						<lb xml:id="z157" facs="#facs_4_line_1532003193014_40"/>
+                            blauen Stüft / in der Leopold
+                            =
+                            Stadt /
+						<lb xml:id="z158" facs="#facs_4_line_1532003201953_41"/>
+                            alt 72
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i14" facs="#facs_4_TextRegion_1532000500345_8" rendition="#l">
+						<lb xml:id="z159" facs="#facs_4_r_8_7l1"/>
+                            Margaretha
+                            . N
+                            . armes Weib / im Primeris
+                            .
+						<lb xml:id="z160" facs="#facs_4_r_8_8l1"/>
+                            Haus / auf der Wendlstatt / alt 42 J
+                            .
+                        </item>
+                        <item xml:id="i15" facs="#facs_4_TextRegion_1532000500329_7" rendition="#l">
+						<lb xml:id="z161" facs="#facs_4_r_8_8l2"/>
+                            Christoph Schmid / in der Leopold
+                            =
+                            Stadt /
+						<lb xml:id="z162" facs="#facs_4_line_1532003222342_42"/>
+                            alt 43
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i16" facs="#facs_4_TextRegion_1532000541243_10" rendition="#l">
+						<lb xml:id="z163" facs="#facs_4_line_1532003353576_44"/>
+                            Den 31 Dito
+                            . Jn der Stadt
+                            .
+                        </item>
+                        <item xml:id="i17" facs="#facs_4_TextRegion_1532000541243_9" rendition="#l">
+						<lb xml:id="z164" facs="#facs_4_line_1532003366577_45"/>
+                            Carl Dub<unclear>r</unclear>ak / Hofbefr
+                            . Peruquenmacher /
+						<lb xml:id="z165" facs="#facs_4_line_1532003371109_46"/>
+                            im Ferneris
+                            . Haus / am Graben / alt
+						<lb xml:id="z166" facs="#facs_4_line_1532003375047_47"/>
+                            48
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i18" facs="#facs_4_TextRegion_1532000602708_17" rendition="#l">
+						<lb xml:id="z167" facs="#facs_4_line_1532003394558_48"/>
+                            Georg W
+                            <gap/>
+                            inmann / Gardi
+                            =
+                            Soldat / auf
+						<lb xml:id="z168" facs="#facs_4_r_13_1l1"/>
+                            der Münich
+                            =
+                            Pastey / alt 58
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i19" facs="#facs_4_TextRegion_1532000615606_19" rendition="#l">
+						<lb xml:id="z169" facs="#facs_4_r_13_1l2"/>
+                            Barbara Dattlbergerin / im Burger
+						<lb xml:id="z170" facs="#facs_4_line_1532000615907_21"/>
+                            Spital / alt 80 Jahr
+                            .
+                        </item>
+                        <item xml:id="i20" facs="#facs_4_TextRegion_1532000615606_18" rendition="#l">
+						<lb xml:id="z171" facs="#facs_4_r_13_1l4"/>
+                            Lorenz Heyer / Sperrer / beym goldenen
+						<lb xml:id="z172" facs="#facs_4_r_13_1l5"/>
+                            Stuck / am Spitlberg / alt 66
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i21" facs="#facs_4_r_13_2" rendition="#l">
+						<lb xml:id="z173" facs="#facs_4_r_13_2l1"/>
+                            Der Magdalena Kernin / Wittib / beym
+						<lb xml:id="z174" facs="#facs_4_r_13_2l2"/>
+                            rothen Krebsen / am Thury / ihr Kind
+						<lb xml:id="z175" facs="#facs_4_r_13_2l3"/>
+                            <unclear>
+                                Richard
+                            </unclear> /
+                            alt 7
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i22" facs="#facs_4_TextRegion_1532000704500_22" rendition="#l">
+						<lb xml:id="z176" facs="#facs_4_line_1532003462207_49"/>
+                            Egidi Steinl / armer Mann / bey der
+						golde=
+                                <lb xml:id="z177" facs="#facs_4_r_13_4l1"/>nen<unclear>Kand</unclear>l
+                            / aussers Klagbaum / alt 97
+                            . J
+                            .
+                        </item>
+                        </list>
+				</div>
+				<div xml:id="d18">
+					<head xml:id="hl12" rendition="#rc" facs="#facs_4_r_14_2">
+						<lb xml:id="z178" facs="#facs_4_r_14_2l1"/>
+                        Den 1
+                        . Jener / 1714
+                        .
+                    </head>
+                </div>
+				<div xml:id="d19">
+					<head xml:id="hl13" rendition="#rc" facs="#facs_4_r_14_3">
+						<lb xml:id="z179" facs="#facs_4_r_14_3l1"/>
+                        Jn der Stadt
+                        .
+                    </head>
+                    <list rendition="#r">
+                        <item xml:id="i23" facs="#facs_4_r_14_4" rendition="#r">
+						<lb xml:id="z180" facs="#facs_4_r_14_4l1"/>
+                            <hi style="font-family: Antiqua;">
+                                R
+                                . D
+                                .
+                            </hi>
+                            . Joseph Portner / im
+						Bachma=
+                                <lb xml:id="z181" facs="#facs_4_r_14_4l2"/>nischen Haus / in der Riemmerstrassen /
+						<lb xml:id="z182" facs="#facs_4_r_14_4l3"/>
+                            alt 43
+                            . Jahr
+                            .
+                        </item>
+                    </list>
+                </div>
+				<div xml:id="d20">
+					<head xml:id="hl14" rendition="#rc" facs="#facs_4_r_14_5">
+						<lb xml:id="z183" facs="#facs_4_line_1532003486282_50"/>
+                        Vor der Stadt
+                        .
+                    </head>
+                    <list rendition="#r">
+                        <item xml:id="i24" facs="#facs_4_r_14_6" rendition="#r">
+						<lb xml:id="z184" facs="#facs_4_r_14_6l1"/>
+                            Helena Niedingerin / led
+                            . Mensch / im
+						<lb xml:id="z185" facs="#facs_4_r_14_6l2"/>
+                            Grasis
+                            . Haus / auf der Laimgruben /
+						<lb xml:id="z186" facs="#facs_4_line_1532003503006_51"/>
+                            alt 58
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i25" facs="#facs_4_r_14_7" rendition="#r">
+						<lb xml:id="z187" facs="#facs_4_r_14_7l1"/>
+                            Dem Paul Edlinger / Haußknecht / beym
+						<lb xml:id="z188" facs="#facs_4_r_14_7l2"/>
+                            goldenen Kreuz am Liechtenthal / sein
+						<lb xml:id="z189" facs="#facs_4_r_14_7l3"/>
+                            Kind Maria / alt 6 viertl Jahr
+                            .
+                        </item>
+                    </list>
+                </div>
+				<div xml:id="d21">
+					<head xml:id="hl15" rendition="#r" facs="#facs_4_TextRegion_1532000839613_24">
+						<lb xml:id="z190" facs="#facs_4_line_1532000839814_26"/>
+                        Den 2
+                        . Dito
+                        . Jn der Stadt
+                        .
+                    </head>
+                    <list rendition="#r">
+                        <item xml:id="i26" facs="#facs_4_TextRegion_1532000839613_23" rendition="#r">
+						<lb xml:id="z191" facs="#facs_4_r_14_8l2"/>
+                            Ehrhard K
+                            <gap/>
+                            tzerer
+                            , M<unclear>aurer</unclear>gesell / beym
+						gol=
+                                <lb xml:id="z192" facs="#facs_4_r_14_8l3"/>denen Väßl / am Peters
+                            =
+                            Freithof / alt
+						<lb xml:id="z193" facs="#facs_4_line_1532003549841_52"/>
+                            45
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i27" facs="#facs_4_r_14_9" rendition="#r">
+						<lb xml:id="z194" facs="#facs_4_r_14_9l1"/>
+                            <hi style="font-family: Antiqua;">
+                                R
+                                . P
+                                . Theodorus â Crunce Ord
+                                . Carmelitar
+                                .
+						<lb xml:id="z195" facs="#facs_4_r_14_9l2"/>
+                                Discalc
+                                .
+                            </hi> / in Kloster / in der Leopold
+                            =
+						<lb xml:id="z196" facs="#facs_4_line_1532003568035_53"/>
+                            Stadt / alt 50
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i28" facs="#facs_4_r_14_10" rendition="#r">
+						<lb xml:id="z197" facs="#facs_4_r_14_10l1"/>
+                            Andre Schelder / gewester Pfleger / im
+						Gro=
+                                <lb xml:id="z198" facs="#facs_4_r_14_10l2"/>sis
+                            . Haus / auf der Laimgruben / alt
+						<lb xml:id="z199" facs="#facs_4_line_1532003580209_54"/>
+                            67
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i29" facs="#facs_4_r_14_11" rendition="#r">
+						<lb xml:id="z200" facs="#facs_4_r_14_11l1"/>
+                            Jacob Monß / gewester Schuchmacher /
+						<lb xml:id="z201" facs="#facs_4_r_14_11l2"/>
+                            in sein
+                            . Haus / am Spitlberg / alt
+						<lb xml:id="z202" facs="#facs_4_line_1532003595459_55"/>
+                            75
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i30" facs="#facs_4_TextRegion_1532000972202_28" rendition="#r">
+						<lb xml:id="z203" facs="#facs_4_r_14_12l1"/>
+                            Dem Andre Hofer / Gardi
+                            =
+                            Soldat / bey
+						<lb xml:id="z204" facs="#facs_4_r_14_12l2"/>
+                            der grünen W<unclear>eint</unclear>raub / am Neubau /
+						<lb xml:id="z205" facs="#facs_4_r_14_12l3"/>
+                            sein Kind Johann / alt 5
+                            . Jahr
+                            .
+                        </item>
+                        <item xml:id="i31" facs="#facs_4_TextRegion_1532000972202_27" rendition="#r">
+						<lb xml:id="z206" facs="#facs_4_r_14_12l4"/>
+                            Anna Peyerin / Wittib / im Beckis
+                            . Haus /
+						<lb xml:id="z207" facs="#facs_4_r_14_12l5"/>
+                            in der Leopold
+                            =
+                            Stadt / alt 68
+                            . Jahr
+                            .
+                        </item>
+                    </list>
+                </div>
+                <fw xml:id="fw6" facs="#facs_4_region_1532000997118_29" type="catch" rendition="#rr">
+						<lb xml:id="z208" facs="#facs_4_r_14_12l6"/>
+                    Fernerer
+                </fw>
+				</div>
+			<div type="page" n="5">
+					<pb xml:id="pag5" n="5" facs="#facs_5"/>
+				<div xml:id="d23">
+					<p xml:id="p14" rendition="#f" facs="#facs_5_r_2_1">
+						<lb xml:id="z209" facs="#facs_5_r_2_1l2"/>
+                        gemeldter Herr Graf von Thurn und <hi style="font-family: Antiqua;">
+                            Valsassina
+                            :
+                        </hi> dan dieser des Herr Probst
+						<lb xml:id="z210" facs="#facs_5_r_2_1l3"/>
+                        bey St
+                        . Dorothe / Titl
+                        . Herr Ferdinand / <hi style="font-family: Antiqua;">
+                            Can
+                            . Reg
+                            . S
+                            . Augusti
+                        </hi>
+						ver=
+                            <lb xml:id="z211" facs="#facs_5_r_2_2l1"/>richtet
+                        .
+                    </p>
+					<p xml:id="p15" rendition="#f" facs="#facs_5_r_2_2">
+						<lb xml:id="z212" facs="#facs_5_r_2_2l2"/>
+                        Eben Heute haben Sich Jhre Majestät / die Verwittibte Kaiserin /
+						<lb xml:id="z213" facs="#facs_5_r_2_2l3"/>
+                        <hi style="font-family: Antiqua;">
+                            Eleonora Magdalena Theresia
+                        </hi>
+                        , samt Dero Durchleuchtigst jungen
+						Herr=
+                            <lb xml:id="z214" facs="#facs_5_r_2_2l4"/>schafft / in üblicher Begleitung Dero Hofstatt / Vormittag in der
+						Kir=
+                            <lb xml:id="z215" facs="#facs_5_r_2_2l5"/>chen des Kaiserl
+                        . Prob
+                        =
+                        Hauß / bey St
+                        . Anna / <hi style="font-family: Antiqua;">
+                            S
+                            . J
+                            .
+                        </hi> des Nachmittags aber
+						<lb xml:id="z216" facs="#facs_5_r_2_2l6"/>
+                        in der Kirchen derer WW
+                        . EE
+                        . <hi style="font-family: Antiqua;">
+                            PP
+                            . Dominican
+                        </hi>
+                        . bey dem GOttes
+                        =
+                        Dienst
+						<lb xml:id="z217" facs="#facs_5_r_2_2l7"/>
+                        eingefunden
+                        ; Diesen hat der Herr Bischoff von <hi style="font-family: Antiqua;">
+                            Sibenico
+                            ,
+                        </hi> Titl Herr
+						<lb xml:id="z218" facs="#facs_5_r_2_2l8"/>
+                        <hi style="font-family: Antiqua;">
+                            de Lovina
+                        </hi>
+                        : jenen aber der Herr Dom
+                        =
+                        Probst / Titl Herr Breitenbücher /
+						<lb xml:id="z219" facs="#facs_5_r_2_2l9"/>
+                        versehen
+                        .
+                    </p>
+					<p xml:id="p16" rendition="#f" facs="#facs_5_r_2_3">
+						<lb xml:id="z220" facs="#facs_5_r_2_3l1"/>
+                        Dienstag / den 2 Jenner
+                        . Heut wurde mit Brieffen / unterm 28
+                        .
+						De=
+                            <lb xml:id="z221" facs="#facs_5_r_2_3l2"/>cember dieses jetzt
+                        =
+                        verflossenen Jahrs / von Augspurg berichtet
+                        ; wie daß
+						<lb xml:id="z222" facs="#facs_5_r_2_3l3"/>
+                        alda den 23
+                        . <hi style="font-family: Antiqua;">
+                            Dito
+                        </hi> Jhre Hoheit / der Königlich
+                        . Polnisch
+                        = und Chur
+                        =
+						<lb xml:id="z223" facs="#facs_5_r_2_3l4"/>
+                        Sächsische Erb
+                        =
+                        Prinz / mit ein zimlichem Gefolg / angelanget seye
+                        ; an
+						<lb xml:id="z224" facs="#facs_5_r_2_3l5"/>
+                        welchem Tag eben auch / vermög Brieffen aus Sachsen / Dero Herr
+						Vat=
+                            <lb xml:id="z225" facs="#facs_5_r_2_3l6"/>ter / Jhre
+                        . Königlich
+                        =
+                        Polnische Majestät / vor Warschau zu Dresden Sich
+						<lb xml:id="z226" facs="#facs_5_r_2_3l7"/>
+                        wieder / zu Jedermans Freuden / eingefunden
+                        .
+                    </p>
+					<p xml:id="p17" rendition="#f" facs="#facs_5_TextRegion_1532003774173_57">
+						<lb xml:id="z227" facs="#facs_5_r_2_4l1"/>
+                        Aus Polen / von dem 25
+                        . December
+                        . Daß die Moskowitsche
+						Völ=
+                            <lb xml:id="z228" facs="#facs_5_r_2_4l2"/>ker / so jüngstens aus Pommern in der Gegend Warschau eingerucket / bey
+						<lb xml:id="z229" facs="#facs_5_r_2_4l3"/>
+                        gefallener Weichsel / den Marsch wieder fortzusetzen angefangen
+                        ;
+						dahinge=
+                            <lb xml:id="z230" facs="#facs_5_r_2_4l4"/>gen die Sächsische aus Pommern angekommene Truppen in Gros
+                        =
+                        Polen
+						<lb xml:id="z231" facs="#facs_5_r_2_4l5"/>
+                        die Winter
+                        =
+                        Quartier beziehen
+                        ; Von Lemberg wäre die Nachricht kommen /
+						<lb xml:id="z232" facs="#facs_5_r_2_4l6"/>
+                        daß zu <hi style="font-family: Antiqua;">
+                            Chocim
+                        </hi> ein Thurn kürzlich eingefallen seye
+                        ; welches die Türken
+						<lb xml:id="z233" facs="#facs_5_r_2_4l7"/>
+                        als ein übles Zeichen hielten
+                        ; wann ihr Gros
+                        =
+                        Sultan ein neue
+						Bünd=
+                            <lb xml:id="z234" facs="#facs_5_r_2_4l8"/>
+                            <unclear>n</unclear>uß machen / und den Frieden mit den Christlichen Potentaten brechen
+						<lb xml:id="z235" facs="#facs_5_r_2_4l9"/>
+                        
+                            <unclear>s</unclear>olte
+                        ; Jn besagtem <hi style="font-family: Antiqua;">
+                            Chocim
+                        </hi> solle / nach dem Hunger / nunmehr auch das
+						<lb xml:id="z236" facs="#facs_5_r_2_4l10"/>
+                        Sterben eingerissen seyn
+                        ; daß derohalben der a<unclear>ll</unclear>dasige Seraskier viele
+						<lb xml:id="z237" facs="#facs_5_r_2_4l11"/>
+                        Mannschaft hinweg geschicket / und nicht mehr behalten / als er zu
+						Bese=
+                            <lb xml:id="z238" facs="#facs_5_r_2_4l12"/>
+                            <unclear>tz</unclear>ung derer Posten nöhtig habe
+                        ; Sonsten folge hierbey die <hi style="font-family: Antiqua;">
+                            Continuatio
+						<lb xml:id="z239" facs="#facs_5_r_2_4l13"/>
+                            Diarii
+                        </hi> aus Kamieniec / von dem 25
+                        . dis 27
+                        . November / 1713
+                        .
+                    </p>
+					<p xml:id="p18" rendition="#f" facs="#facs_5_TextRegion_1532003774173_56">
+						<lb xml:id="z240" facs="#facs_5_r_2_4l14"/>
+                        Aus Neapel / von dem 12
+                        . December
+                        . Daß über 60
+                        . Mann / so zu
+						<lb xml:id="z241" facs="#facs_5_r_2_4l15"/>
+                        <hi style="font-family: Antiqua;">
+                            
+                                <unclear>M</unclear>essina
+                        </hi> gefangen gesessen / dem im <hi style="font-family: Antiqua;">
+                            Reggio </hi>
+                        
+                            <hi style="font-family: Antiqua;">commandi</hi>renden Kaiserl
+                        .
+						Ob=
+                            <lb xml:id="z242" facs="#facs_5_r_2_4l16"/>
+                            <unclear>ri</unclear>sten / ohne dagegen was zufordern / ausgefolget worden
+                        ; besagte Stadt
+						<lb xml:id="z243" facs="#facs_5_r_2_4l17"/>
+                        
+                            <unclear>M</unclear>essina werde / wie all
+                        =
+                        andere Stadt dieses Königreichs / mit Volk
+						<lb xml:id="z244" facs="#facs_5_r_2_4l18"/>
+                        und L<unclear>e</unclear>bens
+                        =
+                        Mittlen überflüssig versehen
+                        ; So habe man auch in dem
+						<lb xml:id="z245" facs="#facs_5_r_2_4l19"/>
+                        
+                            <unclear>M</unclear>ün<unclear>z</unclear>
+                        
+                        =
+                        Haus zu öfters gemeldtem <hi style="font-family: Antiqua;">
+                            Messina
+                        </hi> eine Million an Schied
+                        =
+                        Münz
+						<lb xml:id="z246" facs="#facs_5_r_2_4l20"/>
+                        <gap/>
+                        hoben / um diese wieder umzumünzen
+                        .
+                    </p>
+                </div>
+                <fw xml:id="fw7" facs="#facs_5_r_4_1" type="catch" rendition="#rr">
+						<lb xml:id="z247" facs="#facs_5_r_2_5l3"/>
+                    Aus
+                </fw>
+                <fw xml:id="fw8" type="sig" facs="#facs_5_r_2_5" rendition="#fc">
+						<lb xml:id="z248" facs="#facs_5_r_2_5l1"/>
+                    )( 2
+                </fw>
+				</div>
+			<div type="page" n="6">
+					<pb xml:id="pag6" n="6" facs="#facs_6"/>
+				<div xml:id="d25">
+					<p xml:id="p19" rendition="#f" facs="#facs_6_TextRegion_1532004461239_63">
+						<lb xml:id="z249" facs="#facs_6_r_4_1l1"/>
+                        Aus Rom / von dem 16
+                        . December
+                        . Daß Jhre Päbstl
+                        . Heiligkeit /
+						<lb xml:id="z250" facs="#facs_6_line_1532004589997_66"/>
+                        so nicht allein der offentlichen Andacht / sondern auch dem <hi style="font-family: Antiqua;">
+                            Consistorio
+                        </hi>
+						<lb xml:id="z251" facs="#facs_6_r_5_2l1"/>
+                        wieder beygewohnet / allen Generalen der Regulirten Orden bedeuten
+						las=
+                            <lb xml:id="z252" facs="#facs_6_line_1532004618535_67"/>sen / ihren Ordens
+                        =
+                        Leuten in Sicilien anzubefehlen / dem ausgangenen
+						<lb xml:id="z253" facs="#facs_6_r_7_2l1"/>
+                        Kirchen
+                        =
+                        Gebott auf alle Weis nachzukommen
+                        ; Sonsten habe sich der <hi style="font-family: Antiqua;">
+                            Don
+						<lb xml:id="z254" facs="#facs_6_line_1532004540254_65"/>
+                            Carlo Albani
+                        </hi> von <hi style="font-family: Antiqua;">
+                            Urbino
+                        </hi> jüngstens eingefunden
+                        . </p>
+					<p xml:id="p20" rendition="#f" facs="#facs_6_r_7_3">
+						<lb xml:id="z255" facs="#facs_6_r_7_3l1"/>
+                        Aus Livorno / von dem 15
+                        . December
+                        . Daß / vermög der Nachricht
+						<lb xml:id="z256" facs="#facs_6_r_7_3l2"/>
+                        aus <hi style="font-family: Antiqua;">
+                            Smirna
+                            ,
+                        </hi> im <hi style="font-family: Antiqua;">
+                            Arcipelago
+                        </hi> bis 100
+                        . Fahrzeuge sich befindeten / die
+						Ge=
+                            <lb xml:id="z257" facs="#facs_6_r_7_3l3"/>trayd und andere Ladungen suchten
+                        ; Jn Erwartung der <hi style="font-family: Antiqua;">
+                            Caravana
+                        </hi> mit
+						<lb xml:id="z258" facs="#facs_6_r_7_3l4"/>
+                        der neuerzeugten Seyden
+                        ; welche sehr groß seyn so<unclear>ll</unclear>e
+                        ; Hingegen solle
+						<lb xml:id="z259" facs="#facs_6_r_7_3l5"/>
+                        das Oel etwas weniger in Candia ausgeben
+                        ; daß also die Türken für
+						<lb xml:id="z260" facs="#facs_6_line_1532004672693_68"/>
+                        sich selbsten schwerlich gungsam samlen können
+                        .
+                    </p>
+					<p xml:id="p21" rendition="#f" facs="#facs_6_r_7_4">
+						<lb xml:id="z261" facs="#facs_6_r_7_4l1"/>
+                        Aus Genua / von dem 16
+                        . December
+                        . Daß alda ein Genu<unclear>e</unclear>sisches
+						<lb xml:id="z262" facs="#facs_6_r_7_4l2"/>
+                        Fahrzeug mit 150
+                        . Castillianern / so nach <hi style="font-family: Antiqua;">
+                            Alicante
+                        </hi> geführet werden sollen /
+						<lb xml:id="z263" facs="#facs_6_r_7_4l3"/>
+                        wegen Ungestimme des Meers / einlauffen / und einer Squadra von 40
+                        .
+						<lb xml:id="z264" facs="#facs_6_line_1532004690804_69"/>
+                        Schiffen sich absöndern müssen
+                        .
+                    </p>
+					<p xml:id="p22" rendition="#f" facs="#facs_6_TextRegion_1532004371119_62">
+						<lb xml:id="z265" facs="#facs_6_r_7_5l1"/>
+                        Aus Mailand / von dem 20
+                        . December
+                        . Daß der Herr <hi style="font-family: Antiqua;">
+                            Marches
+						<lb xml:id="z266" facs="#facs_6_r_7_6l1"/>
+                            del Borro
+                        </hi>
+                        , ein Florentiner / ein neues Werk erfunden
+                        ; mittels dessen /
+						<lb xml:id="z267" facs="#facs_6_r_7_7l1"/>
+                        bey Ermanglung des Zug
+                        =
+                        Viehs / man die Aecker bey dem Bau
+                        : und
+						<lb xml:id="z268" facs="#facs_6_r_7_7l2"/>
+                        die Früchten erhalten könne
+                        ; derohalben einig
+                        =
+                        verständige Personen
+						ver=
+                            <lb xml:id="z269" facs="#facs_6_r_7_7l3"/>ordnet worden / um die Sach zu überlegen / sodan alles
+						zubewerkstel=
+                            <lb xml:id="z270" facs="#facs_6_line_1532004738792_70"/>ligen
+                        .
+                    </p>
+					<p xml:id="p23" rendition="#f" facs="#facs_6_TextRegion_1532004327435_61">
+						<lb xml:id="z271" facs="#facs_6_line_1532004753616_71"/>
+                        Aus Venedig / von dem 23
+                        . December
+                        . Daß alda von dasigem
+						Pa=
+                            <lb xml:id="z272" facs="#facs_6_r_7_9l3"/>triarchen eine Procession aus der Kirchen von St
+                        . Peter nach der
+						Her=
+                            <lb xml:id="z273" facs="#facs_6_r_7_9l4"/>zoglichen Haupt
+                        =
+                        Kirchen zu Sr
+                        . Marx angestellet worden
+                        ; dabey ein
+						<lb xml:id="z274" facs="#facs_6_r_8_1l1"/>
+                        Menge der Geistlichkeit und des Volks sich eingefunden / auch daselbsten
+						<lb xml:id="z275" facs="#facs_6_line_1532004808387_72"/>
+                        mit der Andacht bey grossem Zulauf fortgefahren werde
+                        ; Sonsten
+						wä=
+                            <lb xml:id="z276" facs="#facs_6_r_9_2l1"/>ren Brieffe von Constantinopel eingelanget
+                        : des Jnnhalts
+                        : daß der
+						je=
+                            <lb xml:id="z277" facs="#facs_6_r_9_2l2"/>tige Gros
+                        =
+                        Vezier ein starker Feind deren Christen seye / und alle / so
+						<lb xml:id="z278" facs="#facs_6_r_9_2l3"/>
+                        diesen gewogen seyn mögten / durchgehends abzusetzen sich befleissen
+						<lb xml:id="z279" facs="#facs_6_r_9_3l1"/>
+                        solle
+                        .
+                    </p>
+					<p xml:id="p24" rendition="#f" facs="#facs_6_r_9_3">
+						<lb xml:id="z280" facs="#facs_6_r_9_3l2"/>
+                        Aus Portugall / von dem 20
+                        . November
+                        . Daß zu Lisabon / alda
+						<lb xml:id="z281" facs="#facs_6_r_9_3l3"/>
+                        Jhre Majestät / die Königin / Sich wieder gesegnetes Leibs befinden /
+						<lb xml:id="z282" facs="#facs_6_r_9_3l4"/>
+                        und deswegen schon Sich tragen lassen / der Königliche Befehl
+						abgan=
+                            <lb xml:id="z283" facs="#facs_6_r_9_3l5"/>gen / das Einlauffen der Hamburger
+                        =
+                        Schiffen in die Königl
+                        . Häven
+						durch=
+                            <lb xml:id="z284" facs="#facs_6_r_9_3l6"/>aus nicht zugestatten
+                        ; Betreffend sonsten den Frieden mit dem
+						Herzo=
+                            <lb xml:id="z285" facs="#facs_6_r_9_3l7"/>gen von <hi style="font-family: Antiqua;">
+                            Anjou
+                            ,
+                        </hi> solle dermalen deswegen grosse Hofnung seyn
+                        .
+                    </p>
+					<p xml:id="p25" rendition="#?12-88-100--221-1847" facs="#facs_6_r_9_4">
+						<lb xml:id="z286" facs="#facs_6_r_9_4l1"/>
+                        Aus Spannien / von dem 30
+                        . November
+                        . Daß der Herzog von
+                    </p>
+                </div>
+                <fw xml:id="fw9" facs="#facs_6_region_1532004221843_58" type="catch" rendition="#rr">
+						<lb xml:id="z287" facs="#facs_6_r_9_4l2"/>
+                    <hi style="font-family: Antiqua;">
+                        Anjou
+                    </hi>
+                </fw>
+				</div>
+			<div type="page" n="7">
+					<pb xml:id="pag7" n="7" facs="#facs_7"/>
+				<div xml:id="d27">
+					<p xml:id="p26" rendition="#f" facs="#facs_7_TextRegion_1532008726041_73">
+						<lb xml:id="z288" facs="#facs_7_line_1532008893053_84"/>
+                        <hi style="font-family: Antiqua;">
+                            Anjou
+                        </hi> die <hi style="font-family: Antiqua;">
+                            Gouverneur
+                        </hi>
+                        -
+                        Stell vom dem <hi style="font-family: Antiqua;">
+                            Castel Ciutad
+                        </hi> einem Officier
+						<lb xml:id="z289" facs="#facs_7_line_1532008902148_85"/>
+                        der <gap/> Cardi / und das von Be<unclear>rg</unclear>a / in Catalonien einem
+						Franzo=
+                            <lb xml:id="z290" facs="#facs_7_line_1532008909728_86"/>sen anvertrauet
+                        .
+                    </p>
+					<p xml:id="p27" rendition="#f" facs="#facs_7_r_4_4">
+						<lb xml:id="z291" facs="#facs_7_r_4_4l1"/>
+                        Aus Gros
+                        =
+                        Britannien / von dem 12
+                        . December
+                        . Daß man zu
+						Lon=
+                            <lb xml:id="z292" facs="#facs_7_r_4_4l2"/>den die Nachricht erhalten
+                        ; wie daß kürzlichen zwischen <hi style="font-family: Antiqua;">
+                            Calais
+                        </hi> und
+						Gr<unclear>e</unclear>
+                            =
+                            <lb xml:id="z293" facs="#facs_7_r_4_4l3"/>v<unclear>eli</unclear>ngen 20
+                        . Schiffe / meistens Enge<unclear>l</unclear>lische / durch Ungestimme zugrund
+                        :
+						<lb xml:id="z294" facs="#facs_7_r_4_4l4"/>
+                        und damit verschiedene Personen verlohren gangen
+                        ; Zu besagtem
+						Lon=
+                            <lb xml:id="z295" facs="#facs_7_r_4_4l5"/>den sollen einige Personen beflissen seyn / auf ihre Gefahr Schiffe mit
+						Le=
+                            <lb xml:id="z296" facs="#facs_7_r_4_4l6"/>bens Mittlen zuladen / und diese nach Töningen zuführen
+                        ; Ubrigens
+						sol=
+                            <lb xml:id="z297" facs="#facs_7_r_4_4l7"/>len die Parteyen von Torris und Wiggs noch immer gegen einander sich
+						<lb xml:id="z298" facs="#facs_7_r_4_4l8"/>
+                        sehr erhitzen / auch / da die Schmäh
+                        =
+                        Schriften nichts mehr helffen wollen /
+						<lb xml:id="z299" facs="#facs_7_r_4_4l9"/>
+                        anjetzo mit allerhand Prophezeyhungen hervorkommen
+                        .
+                    </p>
+					<p xml:id="p28" rendition="#f" facs="#facs_7_r_4_5">
+						<lb xml:id="z300" facs="#facs_7_r_4_5l1"/>
+                        Aus Holland / von dem 22
+                        . December
+                        . Daß der Französische
+						Ge=
+                            <lb xml:id="z301" facs="#facs_7_r_4_5l2"/>sandter / <hi style="font-family: Antiqua;">
+                            Comte de Chateauneuf
+                        </hi>
+                        , den <hi style="font-family: Antiqua;">
+                            Duca di Pinto
+                        </hi> nach Utrecht
+						abge=
+                            <lb xml:id="z302" facs="#facs_7_r_4_5l3"/>schicket / und den daselbst befindlichen Gevollmächtigten des <hi style="font-family: Antiqua;">
+                            Duc d'Anjou
+                        </hi>
+						<lb xml:id="z303" facs="#facs_7_r_4_5l4"/>
+                        zuwissen gemacht / daß der Punct / wegen der Grafschaft Chiny
+                        , für die
+						<lb xml:id="z304" facs="#facs_7_r_4_5l5"/>
+                        Princesse des U<unclear>rsin</unclear>s
+                        , seine Richtigkeit habe
+                        ; Sie / Gevollmächtigten
+						mög=
+                            <lb xml:id="z305" facs="#facs_7_r_4_5l6"/>ten demnach so bald möglich nach dem Haag kommen / und der Friedens
+                        =
+						<lb xml:id="z306" facs="#facs_7_r_4_5l7"/>
+                        Handlung ein End machen
+                        ; darauf von Utrecht die Antwort zwar /
+                        aber
+						<lb xml:id="z307" facs="#facs_7_r_4_5l8"/>
+                        etwas <gap/> / weilen eben damalen ein Currier von dem <hi style="font-family: Antiqua;">
+                            Villars
+                        </hi> aus
+						Ra=
+                            <lb xml:id="z308" facs="#facs_7_r_4_5l9"/>statt bey dem Duca d'O<unclear>ssinn</unclear>a angelanget / und dieser mit dem Engellischen
+						<lb xml:id="z309" facs="#facs_7_r_4_5l10"/>
+                        G<unclear>e</unclear>vollmächtigten ein gar lange Unterredung gepflogen / zuruckommen / daß
+						<lb xml:id="z310" facs="#facs_7_r_4_5l11"/>
+                        solches nächstens / und zwar noch vor End dieses Jahr geschehen werde
+                        ;
+						<lb xml:id="z311" facs="#facs_7_r_4_5l12"/>
+                        Welchemnach mit Ausrüstung einer Jacht von Staat geeilet werde
+                        ; als
+						<lb xml:id="z312" facs="#facs_7_r_4_5l13"/>
+                        mit dieser die Holändis
+                        . Gesandten bis nach Brüssel fahren / sodan von
+						<lb xml:id="z313" facs="#facs_7_r_4_5l14"/>
+                        dar über Land nach Paris gehen sollen
+                        .
+                    </p>
+					<p xml:id="p29" rendition="#f" facs="#facs_7_r_4_6">
+						<lb xml:id="z314" facs="#facs_7_r_4_6l1"/>
+                        Aus Flan<unclear>d</unclear>ern / von dem 21
+                        . December
+                        . Daß man daselbsten die
+						<lb xml:id="z315" facs="#facs_7_r_4_6l2"/>
+                        Zeitung erhalten
+                        ; als ob der geweste Churfürst von Bayern zu <hi style="font-family: Antiqua;">
+						Com-
+                                <lb xml:id="z316" facs="#facs_7_r_4_6l3"/>piegne
+                        </hi> in den lezten Zügen geleg<unclear>e</unclear>n / und seines Aufkommens keine
+						Hof=
+                            <lb xml:id="z317" facs="#facs_7_r_4_6l4"/>nung mehr wäre
+                        ; welches sein bekanter Fall / so auf der Jagd geschehen /
+						<lb xml:id="z318" facs="#facs_7_r_4_6l5"/>
+                        Ursach seyn solle
+                        .
+                    </p>
+					<p xml:id="p30" rendition="#f" facs="#facs_7_TextRegion_1532008827874_75">
+						<lb xml:id="z319" facs="#facs_7_r_4_7l1"/>
+                        Aus Brabant / von dem 22
+                        . December
+                        . Daß die Regierung zu
+						<lb xml:id="z320" facs="#facs_7_r_4_7l2"/>
+                        Brüssel dem Engellischen Minister zuversehen gegeben
+                        ; daß / wan er nicht
+						<lb xml:id="z321" facs="#facs_7_r_4_7l3"/>
+                        bey seiner Königin auswürken werde / daß Selbe die Verfügu<unclear>n</unclear>g 
+                            <unclear>tu</unclear>he /
+						<lb xml:id="z322" facs="#facs_7_r_4_7l4"/>
+                        damit die zwey unlängstgedacht
+                        =
+                        
+                            <hi style="font-family: Antiqua;">reformir</hi>te Regimenter / so sich <unclear>
+                            bey den
+                        </unclear>
+						<lb xml:id="z323" facs="#facs_7_r_4_7l5"/>
+                        Bauren eigenmächtig einqua<unclear>rtire</unclear>t / und nach Gefallen leben / alsobald
+						<lb xml:id="z324" facs="#facs_7_r_4_7l6"/>
+                        zuruck beruffen würden / man ausser Verantwortung seyn wolte / wan
+						<lb xml:id="z325" facs="#facs_7_r_4_7l7"/>
+                        aus der solangen Gedult des armen Landmanns was anders entstehen 
+                            <choice>
+                                <orig>sol</orig>
+                                <reg>solte</reg>
+                            </choice>
+                        
+                        =
+                    </p>
+                </div>
+                <fw xml:id="fw10" facs="#facs_7_TextRegion_1532008835860_76" type="catch" rendition="#rr">
+						<lb xml:id="z326" facs="#facs_7_line_1532008835876_78"/>
+                    te
+                    ;
+                </fw>
+                <fw xml:id="fw11" type="sig" facs="#facs_7_TextRegion_1532008837923_81" rendition="#r">
+						<lb xml:id="z327" facs="#facs_7_line_1532008837938_83"/>
+                    )( 3
+                </fw>
+				</div>
+			<div type="page" n="8">
+					<pb xml:id="pag8" n="8" facs="#facs_8"/>
+				<div xml:id="d29">
+					<p xml:id="p31" rendition="#f" facs="#facs_8_r_5_1">
+						<lb xml:id="z328" facs="#facs_8_r_5_1l1"/>
+                        te
+                        ; Sonsten habe von Dünkirchen verlauten wollen / daß nunmehro
+						da=
+                            <lb xml:id="z329" facs="#facs_8_r_5_1l2"/>selbsten alle feste Werker übern Hauffen geworffen worden
+                        ; und solle man
+						<lb xml:id="z330" facs="#facs_8_r_5_1l3"/>
+                        nun daran seyn / daß der Haven ausgefüllet werden solle
+                        .
+                    </p>
+					<p xml:id="p32" rendition="#f" facs="#facs_8_r_5_2">
+						<lb xml:id="z331" facs="#facs_8_r_5_2l1"/>
+                        Von dem Maesstom / von 23
+                        . December
+                        . Daß der Französische
+						<lb xml:id="z332" facs="#facs_8_r_5_2l2"/>
+                        Gouverneur zu Sedan an dem Holländischen <hi style="font-family: Antiqua;">
+                            Gouverneur
+                        </hi> des Castells
+						<lb xml:id="z333" facs="#facs_8_r_5_2l3"/>
+                        zu Lüttig begehren lassen / um jenem 9
+                        . Teutsche Soldaten auszulieffern /
+						<lb xml:id="z334" facs="#facs_8_r_5_2l4"/>
+                        welche in der Vorstadt zu Lüttig gefänglich genommen worden / um Willen
+						<lb xml:id="z335" facs="#facs_8_r_5_2l5"/>
+                        dieselbe kürzlichen etliche Wägen von besagtem Sedan angegriffen / und
+						<lb xml:id="z336" facs="#facs_8_line_1532018803224_88"/>
+                        ausgeraubet hätten
+                        .
+                    </p>
+					<p xml:id="p33" rendition="#f" facs="#facs_8_r_5_3">
+						<lb xml:id="z337" facs="#facs_8_r_5_3l1"/>
+                        Von dem Moselstrom / von 24
+                        . December
+                        . Daß / ungeachtet zu
+						<lb xml:id="z338" facs="#facs_8_r_5_3l2"/>
+                        dem allgemeinen Frieden noch schlechte Hofnung / wären doch neulich zu
+						<lb xml:id="z339" facs="#facs_8_r_5_3l3"/>
+                        Metz 3
+                        . Regimenter abgedanket worden
+                        ; dabey den Officieren / bey
+						Kö=
+                            <lb xml:id="z340" facs="#facs_8_r_5_3l4"/>nigl Ungnad / verbotten worden / sich in Jahr und Tag am Königl
+                        . Hof
+						<lb xml:id="z341" facs="#facs_8_r_5_3l5"/>
+                        nicht anzumelden / um eine Gnad oder Vergeltung anzuhalten
+                        ;
+						desglei=
+                            <lb xml:id="z342" facs="#facs_8_r_5_3l6"/>chen auch 2
+                        . andern Regimentern / die eben das Glück gehabt /
+						ange=
+                            <lb xml:id="z343" facs="#facs_8_r_5_3l7"/>deutet worden
+                        .
+                    </p>
+					<p xml:id="p34" rendition="#f" facs="#facs_8_r_5_4">
+						<lb xml:id="z344" facs="#facs_8_r_5_4l1"/>
+                        Von dem Nieder
+                        =
+                        Rheinstrom / vom 24
+                        . December
+                        . Daß zu Cölln
+						<lb xml:id="z345" facs="#facs_8_r_5_4l2"/>
+                        dasiger Herr Dom
+                        =
+                        Dechant / Herr Graf von Königseck / Bischof zu
+						Leit=
+                            <lb xml:id="z346" facs="#facs_8_r_5_4l3"/>maritz / von dem obern Rhein wieder zuruckgelanget
+                        ; So wären auch
+						<lb xml:id="z347" facs="#facs_8_r_5_4l4"/>
+                        in der Gegend Cöln die in 
+                            <hi style="font-family: Antiqua;">Cataloni</hi>en gestanden
+                        = Chur
+                        =
+                        Pfältzische
+						Regi=
+                            <lb xml:id="z348" facs="#facs_8_r_5_4l5"/>menter / von Barbo / Bentheim / Schonenberg / und noch ein anders zu
+						<lb xml:id="z349" facs="#facs_8_r_5_4l6"/>
+                        Fus angekommen
+                        ; Jn besagter Stadt Cölln hätten die Preussische
+						Wer=
+                            <lb xml:id="z350" facs="#facs_8_r_5_4l7"/>bungen / so einige Zeit eingehalten worden / wieder ihren Anfang
+						genom=
+                            <lb xml:id="z351" facs="#facs_8_r_5_4l8"/>men
+                        ; und solle an verschieden
+                        = andern Oertern ein Gleichen geschehen
+                        ;
+						<lb xml:id="z352" facs="#facs_8_r_5_4l9"/>
+                        Sonsten hätten sich von einer Zeit die feindliche Parteyen ganz still
+						ge=
+                            <lb xml:id="z353" facs="#facs_8_line_1532018828806_89"/>halten
+                        .
+                    </p>
+					<p xml:id="p35" rendition="#f" facs="#facs_8_r_5_5">
+						<lb xml:id="z354" facs="#facs_8_r_5_5l1"/>
+                        Von dem Maynstrom / von 26
+                        . December
+                        . Daß aldasiger Orten /
+						<lb xml:id="z355" facs="#facs_8_r_5_5l2"/>
+                        das Getrayd abgeschlagen / nunmehr aber der Preiß / weilen man sich
+						<lb xml:id="z356" facs="#facs_8_r_5_5l3"/>
+                        schlechte Hofnung / wegen eines Friedens / mache / wieder ausgestiegen
+                        ;
+						<lb xml:id="z357" facs="#facs_8_r_5_5l4"/>
+                        Sonsten marschirten noch immer durch Frankfurt einige Truppen nach
+						ih=
+                            <lb xml:id="z358" facs="#facs_8_r_5_5l5"/>ten Winter
+                        =
+                        Quartieren
+                        .
+                    </p>
+					<p xml:id="p36" rendition="#f" facs="#facs_8_r_5_6">
+						<lb xml:id="z359" facs="#facs_8_r_5_6l1"/>
+                        Von dem Ober
+                        =
+                        Rheinstrom / von 26
+                        . December
+                        . Daß man die
+						<lb xml:id="z360" facs="#facs_8_r_5_6l2"/>
+                        Nachricht aus dem Elsas habe
+                        ; wie daß aldorten und im Breisgau das
+						<lb xml:id="z361" facs="#facs_8_r_5_6l3"/>
+                        Hinfalen unter dem Vieh sich stark vermehre / solches auch bereits an den
+						<lb xml:id="z362" facs="#facs_8_r_5_6l4"/>
+                        Schweitzerischen Gränzen verspühret werde
+                        ; als daselbsten ohne dem /
+						we=
+                            <lb xml:id="z363" facs="#facs_8_r_5_6l5"/>gen Theurung deren Früchten / das Elend sich vermehren solle
+                        .
+                    </p>
+					<p xml:id="p37" rendition="#f" facs="#facs_8_r_5_7">
+						<lb xml:id="z364" facs="#facs_8_r_5_7l1"/>
+                        Aus der Schweitz / von dem 25
+                        . December
+                        . Daß / nachdeme das
+						<lb xml:id="z365" facs="#facs_8_r_5_7l2"/>
+                        meiste Französische Fus
+                        =
+                        Volk die Winter
+                        =
+                        Quartieren im Breisgau / und
+                    </p>
+                </div>
+                <fw xml:id="fw12" facs="#facs_8_region_1532018761072_87" type="catch" rendition="#rr">
+						<lb xml:id="z366" facs="#facs_8_line_1532018862627_90"/>
+                    meiste
+                </fw>
+				</div>
+			<div type="page" n="9">
+					<pb xml:id="pag9" n="9" facs="#facs_9"/>
+				<div xml:id="d31">
+					<head xml:id="hl16" rendition="#f" facs="#facs_9_TextRegion_1532018913272_91">
+						<lb xml:id="z367" facs="#facs_9_r_4_1l1"/>
+                        Fernerer Bericht von denen Vorteilen / so die
+						<lb xml:id="z368" facs="#facs_9_r_4_2l1"/>
+                        Catalonier in der Stadt <hi style="font-family: Antiqua;">
+                            Barcellona
+                            ,
+                        </hi> über des Herzogen
+						<lb xml:id="z369" facs="#facs_9_r_4_2l2"/>
+                        von <hi style="font-family: Antiqua;">
+                            Anjou
+                        </hi> Truppen / 
+                            <hi style="font-family: Antiqua;">Castillia</hi>ner genannt / abermalen erhalten
+                        .
+                    </head>
+					<p xml:id="p38" rendition="#f" facs="#facs_9_r_4_3">
+						<lb xml:id="z370" facs="#facs_9_r_4_3l1"/>
+                        NAchdeme jüngstens gemeldtet worden
+                        ; wie daß die Franzosen sich aus dem Lager
+						<lb xml:id="z371" facs="#facs_9_r_4_3l2"/>
+                        vor <hi style="font-family: Antiqua;">
+                            Barcellona
+                        </hi> hinweg begeben / und schon dazumalen sich bis 13
+                        . Meilen von
+						<lb xml:id="z372" facs="#facs_9_r_4_3l3"/>
+                        <hi style="font-family: Antiqua;">
+                            Barcellona
+                        </hi> entfernet / seithero aber 
+                            <hi style="font-family: Antiqua;">Cataloni</hi>en fast völlig verlassen
+                        ;
+                    </p>
+					<p xml:id="p39" rendition="#f" facs="#facs_9_r_4_4">
+						<lb xml:id="z373" facs="#facs_9_r_4_4l1"/>
+                        So ware der Mut deren Einwohnern zu gemeldtem <hi style="font-family: Antiqua;">
+                            Barcellona
+                        </hi> um ein
+						merk=
+                            <lb xml:id="z374" facs="#facs_9_r_4_4l2"/>liches wieder gestiegen
+                        ; da sie dan ihre Kräften abermalen zusammen gezogen / und
+						<lb xml:id="z375" facs="#facs_9_line_1532019106172_100"/>
+                        folglichen /
+                    </p>
+					<p xml:id="p40" rendition="#f" facs="#facs_9_r_4_5">
+						<lb xml:id="z376" facs="#facs_9_r_4_5l1"/>
+                        Den 21
+                        . November / 1713
+                        . einen Ausfall auf des Herzogen von <hi style="font-family: Antiqua;">
+                            Anjou
+                        </hi> Truppen / so
+						<lb xml:id="z377" facs="#facs_9_r_4_5l2"/>
+                        man die 
+                            <hi style="font-family: Antiqua;">Castillia</hi>ner nennet / unerschrocken gewaget
+                        ; und zwar dergestalten
+                        :
+                    </p>
+					<p xml:id="p41" rendition="#f" facs="#facs_9_r_4_6">
+						<lb xml:id="z378" facs="#facs_9_r_4_6l1"/>
+                        Es ware der Herr General von der Reuterey / <hi style="font-family: Antiqua;">
+                            D
+                            . Neboth
+                        </hi>
+                        , und der Herr General
+						<lb xml:id="z379" facs="#facs_9_r_4_6l2"/>
+                        von dem Fus
+                        =
+                        Volk / <hi style="font-family: Antiqua;">
+                            Don Joseph Baron Martini
+                        </hi> mit 8
+                        . Regimentern / so bis 4000
+                        . Mann
+						<lb xml:id="z380" facs="#facs_9_r_4_6l3"/>
+                        ausgemacht / selbige Nacht ganz in der Still ausmarschiret / und ohne verrathen / oder
+						<lb xml:id="z381" facs="#facs_9_r_4_6l4"/>
+                        verkundschaft zuwerden / bis vor das Kloster / <hi style="font-family: Antiqua;">
+                            la Vierge de Grace
+                        </hi>
+                        , angerucket
+                        ; mit
+						Hin=
+                            <lb xml:id="z382" facs="#facs_9_r_4_6l5"/>terlassung des General
+                        =
+                        Wacht
+                        =
+                        Meisters <hi style="font-family: Antiqua;">
+                            Villeroy
+                            ,
+                        </hi> eines Spanniers
+                        ; so bey dem
+						Capu=
+                            <lb xml:id="z383" facs="#facs_9_r_4_6l6"/>ciner
+                        =
+                        Kloster mit einiger Mannschaft sich postiren müssen
+                        ;
+                    </p>
+					<p xml:id="p42" rendition="#f" facs="#facs_9_r_4_7">
+						<lb xml:id="z384" facs="#facs_9_r_4_7l1"/>
+                        Als nun die beede Herren Generalen / <hi style="font-family: Antiqua;">
+                            Neboth
+                        </hi> und <hi style="font-family: Antiqua;">
+                            Martini
+                        </hi>
+                        , vor besagtem Kloster /
+						<lb xml:id="z385" facs="#facs_9_r_4_7l2"/>
+                        <hi style="font-family: Antiqua;">
+                            la Vierge de Grace
+                        </hi>
+                        , angerucket waren / hatten sie dieses beherzt angegriffen / und / nach
+						<lb xml:id="z386" facs="#facs_9_r_4_7l3"/>
+                        einigem Widerstand / solches behauptet
+                        / dabey 600
+                        . Castillianer niedergemacht / und 400
+                        .
+						<lb xml:id="z387" facs="#facs_9_r_4_7l4"/>
+                        gezwungen / sich als Gefangene zu ergeben
+                        ; darunter ein Obrist / 2
+                        . Obrist
+                        =
+                        Lieutenants /
+						<lb xml:id="z388" facs="#facs_9_r_4_7l5"/>
+                        10 Capitains / und 30
+                        . geringere Officiers gezehlet wurden
+                        .
+                    </p>
+					<p xml:id="p43" rendition="#f" facs="#facs_9_r_4_8">
+						<lb xml:id="z389" facs="#facs_9_r_4_8l1"/>
+                        Dahingegen von Seiten deren Cataloniern nur 100 Mann gemisset wurden / so
+						<lb xml:id="z390" facs="#facs_9_r_4_8l2"/>
+                        theils getödet / und theils verwundet worden
+                        ; unter den erstern der Obrist
+                        =
+                        Lieutenant
+						<lb xml:id="z391" facs="#facs_9_r_4_8l3"/>
+                        von der <hi style="font-family: Antiqua;">
+                            Deputation
+                        </hi> sich befunden
+                        ; welcher wegen seiner Tapferkeit sehr beklaget werde
+                        .
+                    </p>
+					<p xml:id="p44" rendition="#f" facs="#facs_9_r_4_9">
+						<lb xml:id="z392" facs="#facs_9_r_4_9l1"/>
+                        Während
+                        =
+                        diesem Gefecht ware das völlig
+                        =
+                        
+                            <hi style="font-family: Antiqua;">Castilliani</hi>sche Lager zun Waffen
+						kom=
+                            <lb xml:id="z393" facs="#facs_9_r_4_9l2"/>men / und hatte die Reuterey zu dem Fuß
+                        =
+                        Volk stossen müssen / um gesamter Hand auf
+						<lb xml:id="z394" facs="#facs_9_r_4_9l3"/>
+                        die Catalonier loszugehen / und ihnen den Rückweg nach der Stadt / wo nicht gänzlich
+						<lb xml:id="z395" facs="#facs_9_r_4_9l4"/>
+                        zuverwehren / wenigstens doch schwer zu machen
+                        ;
+                    </p>
+					<p xml:id="p45" rendition="#f" facs="#facs_9_r_4_10">
+						<lb xml:id="z396" facs="#facs_9_r_4_10l1"/>
+                        Allein die commandirende Generalen deren Cataloniern hatten sich alsobalden /
+						<lb xml:id="z397" facs="#facs_9_r_4_10l2"/>
+                        nachdeme sie solches wahrgenommen / in schöner Ordnung / und bey guter Zeit wieder
+						<lb xml:id="z398" facs="#facs_9_r_4_10l3"/>
+                        zuruck gezogen / und sich nach den vorgemeldten Capuciner
+                        =
+                        Kloster begeben / von dar
+						<lb xml:id="z399" facs="#facs_9_r_4_10l4"/>
+                        dieselbe auch / samt allen Gefangenen / und reicher Beut von Pferden / Maulthieren
+						<lb xml:id="z400" facs="#facs_9_r_4_10l5"/>
+                        und andern Sachen / glücklich in <hi style="font-family: Antiqua;">
+                            Barcellona
+                        </hi> zuruck gelanget
+                        ; Zu welcher glücklichen
+						<lb xml:id="z401" facs="#facs_9_r_4_10l6"/>
+                        Zurucklangung der bey berührtem Kloster gestandene Herr General
+                        =
+                        Wacht
+                        =
+                        Maister <hi style="font-family: Antiqua;">
+						Vil-
+                                <lb xml:id="z402" facs="#facs_9_line_1532019152820_101"/>leroy
+                        </hi>
+                        , nebst seiner Mannschaft / vieles beygetragen
+                        ;
+                    </p>
+					<p xml:id="p46" rendition="#f" facs="#facs_9_r_4_11">
+						<lb xml:id="z403" facs="#facs_9_r_4_11l1"/>
+                        Der <hi style="font-family: Antiqua;">
+                            Duca de Popoli
+                        </hi>
+                        , welcher / samt seinen 
+                            <hi style="font-family: Antiqua;">Castilia</hi>nern / über diesen Streich nicht
+						<lb xml:id="z404" facs="#facs_9_r_4_11l2"/>
+                        wenig bestürtzet worden / hatte hierauf beschlossen / um dergleichen Ausfälle nicht
+						meh=
+                            <lb xml:id="z405" facs="#facs_9_r_4_11l3"/>rers zu erwarten / von den äussersten Posten die Mannschaft zuruck zunehmen / und
+						<lb xml:id="z406" facs="#facs_9_r_4_11l4"/>
+                        besser zusammen zuziehen / dan sich bestmögligst zu verschanzen
+                        ; damit das Volk in
+						et=
+                            <lb xml:id="z407" facs="#facs_9_r_4_11l5"/>was verschonet werde
+                        ; als welches bishero durch das starcke Ausreissen / und vi<unclear>elen</unclear>
+                        
+						<lb xml:id="z408" facs="#facs_9_r_4_11l6"/>
+                        Ausfällen sehr abgenommen
+                        ;
+                    </p>
+					<p xml:id="p47" rendition="#f" facs="#facs_9_r_4_12">
+						<lb xml:id="z409" facs="#facs_9_r_4_12l1"/>
+                        Wie dan auch der <hi style="font-family: Antiqua;">
+                            General de Braccamonte
+                        </hi> das Schlos <hi style="font-family: Antiqua;">
+                            Cardona
+                        </hi> fruchtlos
+						bela=
+                            <lb xml:id="z410" facs="#facs_9_r_4_12l2"/>gert / und davor bis 600 Mann sitzen lassen
+                        ; ohne denjenigen Verlust / welchen <unclear>
+                            ihme
+                        </unclear>
+                    </p>
+                </div>
+                <fw xml:id="fw13" facs="#facs_9_TextRegion_1532019000884_92" type="catch" rendition="#rr">
+						<lb xml:id="z411" facs="#facs_9_line_1532019000931_94"/>
+                    der
+                </fw>
+                <fw xml:id="fw14" type="sig" facs="#facs_9_TextRegion_1532019003759_98" rendition="#r">
+						<lb xml:id="z412" facs="#facs_9_r_4_13l2"/>
+                    )( )(
+                </fw>
+				</div>
+			<div type="page" n="10">
+					<pb xml:id="pag10" n="10" facs="#facs_10"/>
+				<div xml:id="d33">
+					<p xml:id="p48" rendition="#f" facs="#facs_10_r_6_1">
+						<lb xml:id="z413" facs="#facs_10_r_6_1l1"/>
+                        der Obrist <hi style="font-family: Antiqua;">
+                            Ferret
+                        </hi> mit seinem Regiment <unclear>
+                            Miqueletten
+                        </unclear> beygebracht
+                        ; da dieses in die Nach
+                        =
+						<lb xml:id="z414" facs="#facs_10_r_6_1l2"/>
+                        Truppen des <hi style="font-family: Antiqua;">
+                            Generalen de Braccamonte
+                        </hi> gefallen / und ein guten Theil davon auch
+						<lb xml:id="z415" facs="#facs_10_line_1532019509742_104"/>
+                        zernichtet
+                        .
+                    </p>
+					<p xml:id="p49" rendition="#f" facs="#facs_10_r_6_2">
+						<lb xml:id="z416" facs="#facs_10_r_6_2l1"/>
+                        Ubrigens seye in <hi style="font-family: Antiqua;">
+                            Barcellona
+                        </hi> alles voller Freuden / und ohne geringste
+						Bekümmer=
+                            <lb xml:id="z417" facs="#facs_10_r_6_2l2"/>nus /
+                        daß diesen Winter / bey nunmehrigem Abzug deren Franzosen / von den
+						Castillia=
+                            <lb xml:id="z418" facs="#facs_10_r_6_2l3"/>nern etwas unternommen werden könne
+                        ; als deren Bedrohungen für nichts geachtet
+						<lb xml:id="z419" facs="#facs_10_r_6_2l4"/>
+                        würden
+                        ; Zumalen / da bekant / daß in ihrem Lager ein ziemlicher Abgang an Kriegs
+                        =
+						<lb xml:id="z420" facs="#facs_10_line_1532019538987_105"/>
+                        und Lebens
+                        =
+                        Mittlen vorhanden
+                        ;
+                    </p>
+					<p xml:id="p50" rendition="#f" facs="#facs_10_r_6_3">
+						<lb xml:id="z421" facs="#facs_10_line_1532019547862_106"/>
+                        Dahingegen in <hi style="font-family: Antiqua;">
+                            Barcellona
+                        </hi> alles überflüssig / und man daselbsten noch Täglich sich
+						<lb xml:id="z422" facs="#facs_10_r_6_3l3"/>
+                        in bessern Stand setze
+                        ; sonderlich / was die See
+                        =
+                        Macht betreffe
+                        ; welche / mit den
+						an=
+                            <lb xml:id="z423" facs="#facs_10_r_6_3l4"/>gekommenen Schiffen / ohne die Fregatten und anderen Barken / eine Squadra von
+						<lb xml:id="z424" facs="#facs_10_r_6_3l5"/>
+                        14
+                        . Schiffen ausmache / deren <hi style="font-family: Antiqua;">
+                            Capitains
+                        </hi> den Befehl empfangen / alle Schiffe / deren
+						<lb xml:id="z425" facs="#facs_10_r_6_3l6"/>
+                        Ladung in Lebens
+                        =
+                        Mitlen bestehe / aus was Land sie auch seyn mögen / anzuhalten
+                        ;
+						<lb xml:id="z426" facs="#facs_10_r_6_3l7"/>
+                        denen nachgehends die Ladung baar gutgemacht werden solle
+                        ; gleichwie bereits mit
+						<lb xml:id="z427" facs="#facs_10_line_1532019569449_107"/>
+                        3
+                        . Engellischen Schiffen geschehen
+                        .
+                    </p>
+					<p xml:id="p51" rendition="#f" facs="#facs_10_r_6_4">
+						<lb xml:id="z428" facs="#facs_10_r_6_4l1"/>
+                        Aber ein Französischen West
+                        =
+                        Jndien
+                        =
+                        Fahrer / so mit 30
+                        . Stucken versehen gewesen /
+						<lb xml:id="z429" facs="#facs_10_r_6_4l2"/>
+                        und an Baarschaften / ausser seiner Ladung / bis 100000
+                        . Stuck von Achten
+						aufge=
+                            <lb xml:id="z430" facs="#facs_10_r_6_4l3"/>habt / habe das Unglück getroffen / eben selbigen Tag / als der glückliche Ausfall
+						<lb xml:id="z431" facs="#facs_10_r_6_4l4"/>
+                        den 21
+                        . November geschehen / von einigen Barcellonischen Schiffen hinweggenommen
+                        ;
+						<lb xml:id="z432" facs="#facs_10_r_6_4l5"/>
+                        und / als gute Beut / nach der Stadt <hi style="font-family: Antiqua;">
+                            Barcellona
+                        </hi> gebracht zuwerden
+                        .
+                    </p>
+                    <milestone type="separator" rend="horizontal" unit="section" rendition="#f"/>
+                </div>
+				<div xml:id="d34">
+					<head xml:id="hl17" rendition="#fc" facs="#facs_10_r_6_5">
+						<lb xml:id="z433" facs="#facs_10_line_1532019599223_108"/>
+                        <hi style="font-family: Antiqua;">
+                            CONTINUATIO DIARII
+                        </hi>
+                    </head>
+                </div>
+				<div xml:id="d35">
+					<head xml:id="hl18" rendition="#f" facs="#facs_10_TextRegion_1532019382968_103">
+						<lb xml:id="z434" facs="#facs_10_line_1532019608128_109"/>
+                        Von Kamieniec / als der Königlichen Haupt
+                        =
+						<lb xml:id="z435" facs="#facs_10_line_1532019616746_110"/>
+                        Vestung und Stadt / in Ober
+                        =
+                        Podolien /
+						<lb xml:id="z436" facs="#facs_10_r_6_8l1"/>
+                        von dem 25
+                        . bis 27
+                        . November / 1713
+                        .
+                    </head>
+					<p xml:id="p52" rendition="#f" facs="#facs_10_r_6_9">
+						<lb xml:id="z437" facs="#facs_10_r_6_9l1"/>
+                        DEn 25
+                        . November
+                        . Man hatte dahier die Nachricht von den Moskowittern
+						erhal=
+                            <lb xml:id="z438" facs="#facs_10_r_6_9l2"/>ten
+                        ; wie daß ihr General
+                        =
+                        Abmiral Herr Graf von Apraxin / zu Petersburg aus
+						<lb xml:id="z439" facs="#facs_10_r_6_9l3"/>
+                        Finnland angelanget wäre / und dem Czaaren die Nachricht selbsten von einem Gefecht
+						<lb xml:id="z440" facs="#facs_10_r_6_9l4"/>
+                        mitgebracht habe / so besagter Herr Graf von Apraxin mit den Schweden bey dem Paß
+						<lb xml:id="z441" facs="#facs_10_r_6_9l5"/>
+                        <unclear>
+                            Velken
+                        </unclear> den 17
+                        . October gehabt / und diese ge<unclear>z</unclear>wungen / mit Verlust vieler Toden und
+						<lb xml:id="z442" facs="#facs_10_r_6_9l6"/>
+                        Hinterlassung verschiedener Gefangenen / besagten Paß zu verlassen / dan sich / so gut
+						mög=
+                            <lb xml:id="z443" facs="#facs_10_r_6_9l7"/>lich / nach Tämmersfors zuruckzuziehen
+                        ; und habe man / wegen dieses / und anderer über
+						<lb xml:id="z444" facs="#facs_10_r_6_9l8"/>
+                        die Schweden dieses Jahr befochtenen Vorteilen / zu besagtem Petersburg ein herrliches
+						<lb xml:id="z445" facs="#facs_10_r_6_9l9"/>
+                        Danck
+                        =
+                        Fest gehalten
+                        ; haben die eroberte Stucke / Fahnen und Gefangene offentlich
+						aus=
+                            <lb xml:id="z446" facs="#facs_10_r_6_9l10"/>gestellet
+                        : dan des Nachts sowol die Palläst und Häuser mit Fackeln / als auch die allda
+						<lb xml:id="z447" facs="#facs_10_line_1532019673187_111"/>
+                        liegende Schiffe mit Laternen beleuchtet worden
+                        .
+                    </p>
+					<p xml:id="p53" rendition="#f" facs="#facs_10_r_6_10">
+						<lb xml:id="z448" facs="#facs_10_r_6_10l1"/>
+                        Den 26
+                        . Dito
+                        . Uberläuffer / so von der widrig
+                        =
+                        Polnischen Partey dahier / zu
+						Ka=
+                            <lb xml:id="z449" facs="#facs_10_r_6_10l2"/>mieniec / angekommen / berichten einhellig / daß in <hi style="font-family: Antiqua;">
+                            Chocim
+                        </hi> grosser Mangel an Proviant
+						<lb xml:id="z450" facs="#facs_10_r_6_10l3"/>
+                        seye / und dahero habe sich der darinnige Seraskier / Abdy Bassa / bemüssiget befunden /
+						<lb xml:id="z451" facs="#facs_10_line_1532019702226_112"/>
+                        von seiner Besatzung die Hälfte anderwärtshin zu schicken
+                        .
+                    </p>
+					<p xml:id="p54" rendition="#f" facs="#facs_10_r_6_11">
+						<lb xml:id="z452" facs="#facs_10_r_6_11l1"/>
+                        Den 27
+                        . Dito
+                        . Von Lemberg kame die Nachricht / daß die aldasige Zusammenkunft /
+						<lb xml:id="z453" facs="#facs_10_r_6_11l2"/>
+                        wegen deren Winter
+                        =
+                        Quartieren / sich geendiget
+                        ; als von welcher verschiedene
+						Deputir=
+                            <lb xml:id="z454" facs="#facs_10_r_6_11l3"/>ten zu Jhro Königl
+                        . Majestät abgeschicket worden
+                        .
+                    </p>
+                </div>
+				</div>
+		</body>
+	</text>
+</TEI>

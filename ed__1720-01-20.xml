@@ -1,0 +1,3175 @@
+<?xml-model href="/exist/apps/edoc/data/schema/diarium.rnc"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="ed__1720-01-20.xml" xml:base="https://id.acdh.oeaw.ac.at/digitarium" prev="https://id.acdh.oeaw.ac.at/digitarium/ed__1720-01-17.xml" next="https://id.acdh.oeaw.ac.at/digitarium/ed__1720-01-24.xml">
+	<tei:teiHeader>
+		<tei:fileDesc>
+			<tei:titleStmt>
+					<tei:title type="main">Wienerisches Diarium</tei:title>
+                <tei:title type="sub">Digitale Edition</tei:title>
+                <tei:title type="num">Nr. 1719, 20.-23. Jänner 1720</tei:title>
+                <tei:editor>Resch, Claudia</tei:editor>
+                <tei:editor>Kampkaspar, Dario</tei:editor>
+                <tei:funder>Austrian Academy of Sciences, go!digital 2.0</tei:funder>
+				</tei:titleStmt>
+			<tei:publicationStmt>
+					<tei:publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</tei:publisher>
+                <tei:pubPlace>Vienna, Austria</tei:pubPlace>
+                <tei:availability>
+                    <tei:licence>CC-By-SA 4.0 – https://creativecommons.org/licenses/by-sa/4.0/</tei:licence>
+                </tei:availability>
+				<tei:idno type="URI">http://hdl.handle.net/21.11115/0000-000C-369F-5</tei:idno>
+            </tei:publicationStmt>
+			<tei:sourceDesc>
+					<tei:biblStruct>
+                    <tei:monogr>
+                        <tei:idno/>
+                        <tei:title>
+                            <tei:date type="published" when="1720-01-20"/>
+                            <tei:date type="run"/>
+                        </tei:title>
+                        <tei:imprint>
+                            <tei:publisher>Johann Baptist Schönwetter</tei:publisher>
+                        </tei:imprint>
+                    </tei:monogr>
+                    <tei:series>
+                        <tei:title>Wiennerisches Diarium –
+								<tei:date when="1720">Jahrgang 1720</tei:date>
+                        </tei:title>
+                    </tei:series>
+                    <tei:series>
+                        <tei:title>Wiener Zeitung</tei:title>
+                    </tei:series>
+                </tei:biblStruct>
+                <tei:list>
+                    <tei:item xml:id="i1"/>
+                </tei:list>
+				</tei:sourceDesc>
+		</tei:fileDesc>
+		<tei:encodingDesc>
+			<tei:projectDesc>
+					<tei:p xml:id="p1">Digitarium – Wien[n]erisches Diarium digital. https://digitarium.acdh.oeaw.ac.at</tei:p>
+                <tei:p xml:id="p2">Created using Transkribus – model ID 10585</tei:p>
+				</tei:projectDesc>
+			<tei:tagsDecl>
+					<tei:rendition xml:id="f">Full width text, aligned left</tei:rendition>
+                <tei:rendition xml:id="fc">Full width text, centered</tei:rendition>
+                <tei:rendition xml:id="fh">Full width text, with hanging indent</tei:rendition>
+                <tei:rendition xml:id="fr">Full width text, aligned right</tei:rendition>
+                <tei:rendition xml:id="l">Text aligned left in a full width region</tei:rendition>
+                <tei:rendition xml:id="r">Text aligned right in a full width region</tei:rendition>
+                <tei:rendition xml:id="ll">Text aligned left (or justified) in a left column</tei:rendition>
+                <tei:rendition xml:id="lc">Text centered in a left column</tei:rendition>
+                <tei:rendition xml:id="lr">Text aligned right in a left column</tei:rendition>
+                <tei:rendition xml:id="lh">Text aligned left (or justified) in a left column with the first line hanging</tei:rendition>
+                <tei:rendition xml:id="rl">Text aligned left (or justified) in a right column</tei:rendition>
+                <tei:rendition xml:id="rc">Text centered in a right column</tei:rendition>
+                <tei:rendition xml:id="rr">Text aligned right in a right column</tei:rendition>
+                <tei:rendition xml:id="rh">Text aligned left (or justified) in a right column with the first line hanging</tei:rendition>
+                <tei:rendition xml:id="c">Text within the middle of a three column region, aligned left</tei:rendition>
+                <tei:rendition xml:id="cl">Text within the middle of a three column region, aligned left</tei:rendition>
+                <tei:rendition xml:id="cc">Text centered in a middle or centered column</tei:rendition>
+                <tei:rendition xml:id="cr">Text aligned right in a middle or centered column</tei:rendition>
+                <tei:rendition xml:id="ch">Text aligned left (or justified) in a middle or centered column with the first line hanging</tei:rendition>
+				</tei:tagsDecl>
+			<tei:listPrefixDef>
+					<tei:prefixDef ident="anno" matchPattern=".*(\d{3})(\d)(\d{2})(\d{2})-(\d+)\..*" replacementPattern="https://diarium-images.acdh-dev.oeaw.ac.at/$10/$1$2/$3/$1$2$3$4/$1$2$3$4-$5">
+                    <tei:p xml:id="p3">Ggf. nachbearbeitete ANNO-Bilder auf Diarium-IIIF</tei:p>
+                </tei:prefixDef>
+				</tei:listPrefixDef>
+		</tei:encodingDesc>
+		<tei:profileDesc>
+			<tei:langUsage>
+					<tei:language ident="de-AT-Goth">18th century German as used in Austria (Vienna) in broken script</tei:language>
+                <tei:language ident="fr">18th century French</tei:language>
+                <tei:language ident="it">18th century Italian</tei:language>
+                <tei:language ident="la">Latin</tei:language>
+				</tei:langUsage>
+			<tei:textClass>
+					<tei:keywords scheme="https://d-nb.info/gnd/">
+                    <tei:term ref="https://d-nb.info/gnd/4067510-5/about/lds.rdf">Zeitung</tei:term>
+                </tei:keywords>
+				</tei:textClass>
+		</tei:profileDesc>
+		<tei:revisionDesc status="draft">
+            <tei:list>
+                <tei:item>Korrektur 2019-10-15T13:03:22.94Z</tei:item>
+            </tei:list>
+        </tei:revisionDesc>
+    </tei:teiHeader>
+	<tei:facsimile>
+		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_1">
+			<tei:graphic url="anno:17200120-000.jpg" width="1453px" height="1981px"/>
+			<tei:zone rendition="printspace" points="26,21 1383,21 1383,1900 26,1900"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_1_r_1_1" subtype="paragraph" points="510,47 845,47 845,117 510,117">
+					<tei:zone rendition="Line" xml:id="facs_1_r_1_1l1" points="506,41 852,41 852,121 506,121"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_1_r_1_2" subtype="paragraph" points="46,229 1338,229 1338,316 46,316">
+					<tei:zone rendition="Line" xml:id="facs_1_r_1_2l1" points="208,189 275,189 275,269 208,269"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_1_2l2" points="423,227 1335,227 1335,310 423,310"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_1_r_1_3" subtype="paragraph" points="50,296 1340,296 1340,525 50,525">
+					<tei:zone rendition="Line" xml:id="facs_1_r_1_3l1" points="49,288 1348,288 1348,368 49,368"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_1_3l2" points="42,344 1341,344 1341,424 42,424"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_1_3l3" points="43,389 1347,389 1347,457 43,457"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_1_3l4" points="92,429 1290,429 1290,490 92,490"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_1_3l5" points="216,467 1180,467 1180,528 216,528"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_1_r_1_4" subtype="paragraph" points="78,519 1319,519 1319,673 78,673">
+					<tei:zone rendition="Line" xml:id="facs_1_r_1_4l1" points="72,514 1324,514 1324,588 72,588"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_1_4l2" points="159,570 1228,570 1228,635 159,635"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_1_4l3" points="479,626 914,626 914,676 479,676"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_1_r_2_1" subtype="paragraph" points="331,706 1098,706 1098,767 331,767">
+					<tei:zone rendition="Line" xml:id="facs_1_r_2_1l1" points="323,703 1105,703 1105,766 323,766"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_1_r_2_2" subtype="paragraph" points="49,764 1352,764 1352,1335 49,1335">
+					<tei:zone rendition="Line" xml:id="facs_1_r_2_2l1" points="85,760 1348,760 1348,858 85,858"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_2l2" points="177,809 1359,809 1359,876 177,876"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_2l3" points="90,853 1356,853 1356,924 90,924"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_2l4" points="47,901 1355,901 1355,969 47,969"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_2l5" points="44,945 1358,945 1358,1009 44,1009"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_2l6" points="43,993 1352,993 1352,1061 43,1061"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_2l7" points="50,1038 1361,1038 1361,1106 50,1106"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_2l8" points="45,1085 1353,1085 1353,1154 45,1154"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_2l9" points="45,1132 1361,1132 1361,1196 45,1196"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_2l10" points="42,1178 1351,1178 1351,1240 42,1240"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_2l11" points="48,1222 1357,1222 1357,1290 48,1290"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_1_r_2_3" subtype="paragraph" points="64,1314 1356,1314 1356,1849 64,1849">
+					<tei:zone rendition="Line" xml:id="facs_1_r_2_3l1" points="159,1316 1358,1316 1358,1382 159,1382"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_3l2" points="55,1365 1362,1365 1362,1430 55,1430"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_3l3" points="61,1410 1360,1410 1360,1475 61,1475"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_3l4" points="56,1459 1362,1459 1362,1523 56,1523"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_3l5" points="60,1504 1364,1504 1364,1566 60,1566"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_3l6" points="55,1550 1364,1550 1364,1613 55,1613"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_3l7" points="60,1598 1359,1598 1359,1662 60,1662"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_3l8" points="58,1641 1364,1641 1364,1709 58,1709"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_3l9" points="56,1690 1358,1690 1358,1751 56,1751"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_3l10" points="59,1734 1360,1734 1360,1800 59,1800"/>
+                <tei:zone rendition="Line" xml:id="facs_1_r_2_3l11" points="60,1784 926,1784 926,1855 60,1855"/>
+				</tei:zone>
+			<tei:zone rendition="Separator" xml:id="facs_1_r_3" points="60,679 1344,679 1344,705 60,705"/>
+		</tei:surface>
+		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_2">
+			<tei:graphic url="anno:17200120-001.jpg" width="1453px" height="1981px"/>
+			<tei:zone rendition="printspace" points="98,34 1416,34 1416,1890 98,1890"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_2_r_1_1" subtype="paragraph" points="112,41 1404,41 1404,323 112,323">
+					<tei:zone rendition="Line" xml:id="facs_2_r_1_1l1" points="193,37 1405,37 1405,98 193,98"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_1l2" points="107,85 1408,85 1408,143 107,143"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_1l3" points="115,130 1410,130 1410,189 115,189"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_1l4" points="112,177 1401,177 1401,236 112,236"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_1l5" points="106,223 1400,223 1400,282 106,282"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_1l6" points="107,269 1250,269 1250,326 107,326"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_2_r_1_2" subtype="paragraph" points="114,318 1404,318 1404,779 114,779">
+					<tei:zone rendition="Line" xml:id="facs_2_r_1_2l1" points="199,314 1402,314 1402,374 199,374"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_2l2" points="106,360 1397,360 1397,420 106,420"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_2l3" points="114,405 1403,405 1403,465 114,465"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_2l4" points="108,451 1403,451 1403,509 108,509"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_2l5" points="107,497 1404,497 1404,559 107,559"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_2l6" points="114,544 1400,544 1400,603 114,603"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_2l7" points="113,588 1403,588 1403,649 113,649"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_2l8" points="109,635 1395,635 1395,694 109,694"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_2l9" points="113,680 1404,680 1404,742 113,742"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_2l10" points="108,725 1048,725 1048,783 108,783"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_2_r_1_3" subtype="paragraph" points="115,776 1394,776 1394,1241 115,1241">
+					<tei:zone rendition="Line" xml:id="facs_2_r_1_3l1" points="195,773 1397,773 1397,834 195,834"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_3l2" points="107,818 1397,818 1397,880 107,880"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_3l3" points="111,865 1399,865 1399,924 111,924"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_3l4" points="108,909 1391,909 1391,968 108,968"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_3l5" points="112,955 1394,955 1394,1012 112,1012"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_3l6" points="113,1000 1391,1000 1391,1059 113,1059"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_3l7" points="115,1046 1395,1046 1395,1104 115,1104"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_3l8" points="107,1092 1401,1092 1401,1149 107,1149"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_3l9" points="112,1137 1398,1137 1398,1197 112,1197"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_3l10" points="108,1183 1224,1183 1224,1244 108,1244"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_2_r_1_4" subtype="paragraph" points="336,1251 1147,1251 1147,1304 336,1304"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_2_r_1_5" subtype="paragraph" points="411,1300 1093,1300 1093,1351 411,1351">
+					<tei:zone rendition="Line" xml:id="facs_2_r_1_5l1" points="407,1296 1091,1296 1091,1353 407,1353"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_2_r_1_6" subtype="paragraph" points="341,1346 1173,1346 1173,1394 341,1394">
+					<tei:zone rendition="Line" xml:id="facs_2_r_1_6l1" points="342,1342 1178,1342 1178,1395 342,1395"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_2_r_1_7" subtype="paragraph" points="398,1393 1107,1393 1107,1442 398,1442">
+					<tei:zone rendition="Line" xml:id="facs_2_r_1_7l1" points="390,1389 1107,1389 1107,1444 390,1444"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_2_r_1_8" subtype="paragraph" points="112,1462 1402,1462 1402,1841 112,1841">
+					<tei:zone rendition="Line" xml:id="facs_2_r_1_8l1" points="194,1458 1406,1458 1406,1517 194,1517"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_8l2" points="110,1503 1397,1503 1397,1560 110,1560"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_8l3" points="111,1548 1398,1548 1398,1608 111,1608"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_8l4" points="103,1593 1394,1593 1394,1656 103,1656"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_8l5" points="104,1639 1398,1639 1398,1701 104,1701"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_8l6" points="107,1687 1400,1687 1400,1748 107,1748"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_8l7" points="110,1731 1400,1731 1400,1794 110,1794"/>
+                <tei:zone rendition="Line" xml:id="facs_2_r_1_8l8" points="105,1779 1396,1779 1396,1843 105,1843"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_2_r_1_9" subtype="paragraph" points="1287,1836 1395,1836 1395,1882 1287,1882">
+					<tei:zone rendition="Line" xml:id="facs_2_r_1_9l1" points="1279,1831 1400,1831 1400,1885 1279,1885"/>
+				</tei:zone>
+		</tei:surface>
+		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_3">
+			<tei:graphic url="anno:17200120-002.jpg" width="1453px" height="1981px"/>
+			<tei:zone rendition="printspace" points="27,62 1452,62 1452,1938 27,1938"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_1" subtype="paragraph" points="35,69 1323,69 1323,173 35,173">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_1l1" points="31,65 1323,65 1323,127 31,127"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_1l2" points="28,117 485,117 485,176 28,176"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_2" subtype="paragraph" points="507,167 835,167 835,206 507,206">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_2l1" points="499,161 840,161 840,215 499,215"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_3" subtype="paragraph" points="484,219 877,219 877,260 484,260">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_3l1" points="479,212 881,212 881,266 479,266"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_4" subtype="paragraph" points="525,272 837,272 837,317 525,317">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_4l1" points="517,268 838,268 838,320 517,320"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_5" subtype="paragraph" points="353,322 1009,322 1009,436 353,436">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_5l1" points="499,319 868,319 868,368 499,368"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_5l2" points="353,382 1011,382 1011,438 353,438"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_6" subtype="paragraph" points="37,441 1331,441 1331,867 37,867">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_6l1" points="112,437 1328,437 1328,505 112,505"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_6l2" points="34,488 1328,488 1328,553 34,553"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_6l3" points="32,531 1333,531 1333,592 32,592"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_6l4" points="36,580 1334,580 1334,642 36,642"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_6l5" points="31,625 1338,625 1338,688 31,688"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_6l6" points="34,669 1332,669 1332,733 34,733"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_6l7" points="29,714 1335,714 1335,776 29,776"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_6l8" points="32,762 1338,762 1338,826 32,826"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_6l9" points="158,811 866,811 866,869 158,869"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_6l10" points="91,826 121,826 121,860 91,860"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_7" subtype="paragraph" points="39,858 1335,858 1335,1143 39,1143">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_7l1" points="125,853 1339,853 1339,914 125,914"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_7l2" points="47,899 1340,899 1340,963 47,963"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_7l3" points="37,946 1335,946 1335,1004 37,1004"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_7l4" points="39,990 1339,990 1339,1053 39,1053"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_7l5" points="33,1038 1336,1038 1336,1100 33,1100"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_7l6" points="43,1083 1340,1083 1340,1144 43,1144"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_8" subtype="paragraph" points="42,1134 1332,1134 1332,1232 42,1232">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_8l1" points="40,1131 1339,1131 1339,1193 40,1193"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_8l2" points="34,1176 1338,1176 1338,1238 34,1238"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_9" subtype="paragraph" points="45,1227 1275,1227 1275,1279 45,1279">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_9l1" points="46,1223 1280,1223 1280,1283 46,1283"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_10" subtype="paragraph" points="41,1271 1336,1271 1336,1511 41,1511">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_10l1" points="127,1268 1338,1268 1338,1331 127,1331"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_10l2" points="42,1316 1341,1316 1341,1375 42,1375"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_10l3" points="38,1362 1335,1362 1335,1425 38,1425"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_10l4" points="34,1415 66,1415 66,1449 34,1449"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_10l5" points="37,1407 1344,1407 1344,1466 37,1466"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_10l6" points="33,1456 1113,1456 1113,1513 33,1513"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_11" subtype="paragraph" points="42,1502 1339,1502 1339,1837 42,1837">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_11l1" points="141,1496 1338,1496 1338,1559 141,1559"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_11l2" points="34,1545 1338,1545 1338,1606 34,1606"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_11l3" points="40,1592 1338,1592 1338,1651 40,1651"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_11l4" points="43,1638 1339,1638 1339,1699 43,1699"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_11l5" points="42,1683 1341,1683 1341,1745 42,1745"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_11l6" points="35,1732 1347,1732 1347,1793 35,1793"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_11l7" points="36,1777 164,1777 164,1837 36,1837"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_11l8" points="282,1779 914,1779 914,1837 282,1837"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_12" subtype="paragraph" points="133,1826 1434,1826 1434,1888 133,1888">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_12l1" points="131,1820 1431,1820 1431,1886 131,1886"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_13" subtype="paragraph" points="694,1875 1337,1875 1337,1928 694,1928">
+					<tei:zone rendition="Line" xml:id="facs_3_r_1_13l1" points="1272,1870 1332,1870 1332,1928 1272,1928"/>
+                <tei:zone rendition="Line" xml:id="facs_3_r_1_13l2" points="686,1872 793,1872 793,1933 686,1933"/>
+				</tei:zone>
+		</tei:surface>
+		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_4">
+			<tei:graphic url="anno:17200120-003.jpg" width="1453px" height="1981px"/>
+			<tei:zone rendition="printspace" points="75,44 1419,44 1419,1927 75,1927"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_4_r_1_1" subtype="paragraph" points="104,51 1387,51 1387,477 104,477">
+					<tei:zone rendition="Line" xml:id="facs_4_r_1_1l1" points="95,55 1394,55 1394,119 95,119"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_1l2" points="100,102 1389,102 1389,163 100,163"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_1l3" points="102,149 1394,149 1394,212 102,212"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_1l4" points="100,194 1392,194 1392,261 100,261"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_1l5" points="95,240 1388,240 1388,304 95,304"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_1l6" points="105,288 1391,288 1391,350 105,350"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_1l7" points="96,330 1394,330 1394,394 96,394"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_1l8" points="102,375 1387,375 1387,443 102,443"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_1l9" points="139,425 341,425 341,483 139,483"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_4_r_1_2" subtype="paragraph" points="100,466 1386,466 1386,1072 100,1072">
+					<tei:zone rendition="Line" xml:id="facs_4_r_1_2l1" points="190,465 1394,465 1394,536 190,536"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_2l2" points="92,508 1395,508 1395,577 92,577"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_2l3" points="99,558 1389,558 1389,624 99,624"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_2l4" points="96,602 1384,602 1384,674 96,674"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_2l5" points="95,649 1384,649 1384,715 95,715"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_2l6" points="95,696 1391,696 1391,759 95,759"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_2l7" points="99,738 1393,738 1393,806 99,806"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_2l8" points="97,785 1391,785 1391,848 97,848"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_2l9" points="93,831 1384,831 1384,887 93,887"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_2l10" points="95,877 1386,877 1386,938 95,938"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_2l11" points="98,922 1384,922 1384,986 98,986"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_2l12" points="94,968 1393,968 1393,1036 94,1036"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_4_r_1_3" subtype="paragraph" points="99,1058 1382,1058 1382,1269 99,1269">
+					<tei:zone rendition="Line" xml:id="facs_4_r_1_3l1" points="183,1058 1382,1058 1382,1126 183,1126"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_3l2" points="96,1106 1382,1106 1382,1169 96,1169"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_3l3" points="93,1151 1382,1151 1382,1217 93,1217"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_3l4" points="158,1197 814,1197 814,1257 158,1257"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_4_r_1_4" subtype="paragraph" points="95,1242 1382,1242 1382,1531 95,1531">
+					<tei:zone rendition="Line" xml:id="facs_4_r_1_4l1" points="92,1240 1384,1240 1384,1308 92,1308"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_4l2" points="96,1286 1390,1286 1390,1351 96,1351"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_4l3" points="94,1330 1382,1330 1382,1402 94,1402"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_4l4" points="88,1379 1386,1379 1386,1445 88,1445"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_4l5" points="94,1423 1387,1423 1387,1496 94,1496"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_4l6" points="137,1470 361,1470 361,1530 137,1530"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_4_r_1_5" subtype="paragraph" points="87,1518 1390,1518 1390,1920 87,1920">
+					<tei:zone rendition="Line" xml:id="facs_4_r_1_5l1" points="176,1515 1395,1515 1395,1586 176,1586"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_5l2" points="84,1559 1398,1559 1398,1629 84,1629"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_5l3" points="84,1606 1398,1606 1398,1677 84,1677"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_5l4" points="84,1655 1395,1655 1395,1725 84,1725"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_5l5" points="81,1700 1394,1700 1394,1772 81,1772"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_5l6" points="79,1745 1393,1745 1393,1818 79,1818"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_5l7" points="83,1791 1390,1791 1390,1863 83,1863"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_5l8" points="80,1836 935,1836 935,1902 80,1902"/>
+                <tei:zone rendition="Line" xml:id="facs_4_r_1_5l9" points="1277,1854 1388,1854 1388,1923 1277,1923"/>
+				</tei:zone>
+		</tei:surface>
+		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_5">
+			<tei:graphic url="anno:17200120-004.jpg" width="1453px" height="1981px"/>
+			<tei:zone rendition="printspace" points="18,43 1365,43 1365,1918 18,1918"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_5_r_1_1" subtype="paragraph" points="29,50 1321,50 1321,395 29,395">
+					<tei:zone rendition="Line" xml:id="facs_5_r_1_1l1" points="119,47 1325,47 1325,113 119,113"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_1l2" points="28,97 1322,97 1322,164 28,164"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_1l3" points="25,141 1324,141 1324,207 25,207"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_1l4" points="26,188 1320,188 1320,262 26,262"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_1l5" points="22,232 1324,232 1324,303 22,303"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_1l6" points="22,278 1319,278 1319,349 22,349"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_1l7" points="740,329 890,329 890,381 740,381"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_5_r_1_2" subtype="paragraph" points="35,370 1343,370 1343,1081 35,1081">
+					<tei:zone rendition="Line" xml:id="facs_5_r_1_2l1" points="115,365 1339,365 1339,435 115,435"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l2" points="27,415 1336,415 1336,481 27,481"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l3" points="33,465 1344,465 1344,533 33,533"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l4" points="33,508 1339,508 1339,579 33,579"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l5" points="32,552 1333,552 1333,619 32,619"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l6" points="33,600 1342,600 1342,668 33,668"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l7" points="28,646 1350,646 1350,710 28,710"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l8" points="31,691 1344,691 1344,760 31,760"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l9" points="29,738 1348,738 1348,806 29,806"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l10" points="35,783 1349,783 1349,853 35,853"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l11" points="30,830 1346,830 1346,897 30,897"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l12" points="39,876 1346,876 1346,944 39,944"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l13" points="36,922 1345,922 1345,986 36,986"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_2l14" points="36,967 1342,967 1342,1032 36,1032"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_5_r_1_3" subtype="paragraph" points="53,1058 1350,1058 1350,1539 53,1539">
+					<tei:zone rendition="Line" xml:id="facs_5_r_1_3l1" points="136,1056 1354,1056 1354,1126 136,1126"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_3l2" points="46,1106 1350,1106 1350,1174 46,1174"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_3l3" points="51,1147 1349,1147 1349,1218 51,1218"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_3l4" points="56,1195 1352,1195 1352,1263 56,1263"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_3l5" points="47,1242 1355,1242 1355,1309 47,1309"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_3l6" points="46,1288 1354,1288 1354,1364 46,1364"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_3l7" points="48,1333 1354,1333 1354,1401 48,1401"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_3l8" points="52,1380 1350,1380 1350,1448 52,1448"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_3l9" points="49,1427 1353,1427 1353,1495 49,1495"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_3l10" points="920,1473 1185,1473 1185,1530 920,1530"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_3l11" points="711,1475 831,1475 831,1527 711,1527"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_5_r_1_4" subtype="paragraph" points="62,1520 1358,1520 1358,1904 62,1904">
+					<tei:zone rendition="Line" xml:id="facs_5_r_1_4l1" points="143,1516 1357,1516 1357,1581 143,1581"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_4l2" points="56,1564 1349,1564 1349,1631 56,1631"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_4l3" points="55,1610 1356,1610 1356,1682 55,1682"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_4l4" points="59,1656 1354,1656 1354,1726 59,1726"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_4l5" points="57,1704 1357,1704 1357,1774 57,1774"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_4l6" points="59,1750 1353,1750 1353,1821 59,1821"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_4l7" points="59,1791 1355,1791 1355,1868 59,1868"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_4l8" points="1271,1848 1359,1848 1359,1900 1271,1900"/>
+                <tei:zone rendition="Line" xml:id="facs_5_r_1_4l9" points="647,1848 754,1848 754,1906 647,1906"/>
+				</tei:zone>
+		</tei:surface>
+		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_6">
+			<tei:graphic url="anno:17200120-005.jpg" width="1453px" height="1981px"/>
+			<tei:zone rendition="printspace" points="49,33 1425,33 1425,1885 49,1885"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_1" subtype="paragraph" points="104,40 1397,40 1397,145 104,145">
+					<tei:zone rendition="Line" xml:id="facs_6_r_1_1l1" points="104,49 1398,49 1398,123 104,123"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_2" subtype="paragraph" points="106,134 1394,134 1394,310 106,310">
+					<tei:zone rendition="Line" xml:id="facs_6_r_1_2l1" points="194,141 1396,141 1396,214 194,214"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_2l2" points="104,188 1397,188 1397,262 104,262"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_3" subtype="paragraph" points="102,274 1395,274 1395,473 102,473">
+					<tei:zone rendition="Line" xml:id="facs_6_r_1_3l1" points="186,280 1403,280 1403,355 186,355"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_3l2" points="95,323 1399,323 1399,395 95,395"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_3l3" points="96,368 1391,368 1391,444 96,444"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_4" subtype="paragraph" points="99,454 1391,454 1391,627 99,627">
+					<tei:zone rendition="Line" xml:id="facs_6_r_1_4l1" points="195,459 1398,459 1398,534 195,534"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_4l2" points="93,504 1390,504 1390,584 93,584"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_4l3" points="94,540 134,540 134,597 94,597"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_5" subtype="paragraph" points="95,591 1382,591 1382,1100 95,1100">
+					<tei:zone rendition="Line" xml:id="facs_6_r_1_5l1" points="182,596 1383,596 1383,674 182,674"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_5l2" points="95,641 1390,641 1390,716 95,716"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_5l3" points="88,686 1385,686 1385,766 88,766"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_5l4" points="92,731 1387,731 1387,811 92,811"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_5l5" points="87,779 1386,779 1386,855 87,855"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_5l6" points="90,825 1388,825 1388,906 90,906"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_5l7" points="91,871 1385,871 1385,949 91,949"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_5l8" points="87,915 1384,915 1384,994 87,994"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_5l9" points="89,963 1385,963 1385,1038 89,1038"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_5l10" points="95,1007 666,1007 666,1064 95,1064"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_6" subtype="paragraph" points="92,1062 1377,1062 1377,1148 92,1148">
+					<tei:zone rendition="Line" xml:id="facs_6_r_1_6l1" points="91,1075 337,1075 337,1119 91,1119"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_6l2" points="354,1076 485,1076 485,1123 354,1123"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_7" subtype="paragraph" points="160,1109 1376,1109 1376,1451 160,1451">
+					<tei:zone rendition="Line" xml:id="facs_6_r_1_7l1" points="545,1117 1381,1117 1381,1185 545,1185"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_7l2" points="159,1150 1384,1150 1384,1223 159,1223"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_7l3" points="155,1187 1383,1187 1383,1259 155,1259"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_7l4" points="159,1223 1375,1223 1375,1298 159,1298"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_7l5" points="154,1261 1377,1261 1377,1336 154,1336"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_7l6" points="154,1298 1372,1298 1372,1374 154,1374"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_7l7" points="152,1330 1378,1330 1378,1412 152,1412"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_7l8" points="161,1372 1376,1372 1376,1454 161,1454"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_7l9" points="152,1411 369,1411 369,1451 152,1451"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_8" subtype="paragraph" points="192,1458 1263,1458 1263,1552 192,1552">
+					<tei:zone rendition="Line" xml:id="facs_6_r_1_8l1" points="183,1470 987,1470 987,1537 183,1537"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_8l2" points="1150,1494 1270,1494 1270,1555 1150,1555"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_9" subtype="paragraph" points="223,1530 1155,1530 1155,1595 223,1595">
+					<tei:zone rendition="Line" xml:id="facs_6_r_1_9l1" points="217,1526 269,1526 269,1568 217,1568"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_10" subtype="paragraph" points="82,1561 1369,1561 1369,1716 82,1716">
+					<tei:zone rendition="Line" xml:id="facs_6_r_1_10l1" points="74,1559 1376,1559 1376,1640 74,1640"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_10l2" points="112,1601 1378,1601 1378,1678 112,1678"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_10l3" points="108,1642 311,1642 311,1687 108,1687"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_11" subtype="paragraph" points="82,1677 1369,1677 1369,1870 82,1870">
+					<tei:zone rendition="Line" xml:id="facs_6_r_1_11l1" points="522,1687 1369,1687 1369,1753 522,1753"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_11l2" points="108,1716 1370,1716 1370,1792 108,1792"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_11l3" points="108,1754 1374,1754 1374,1831 108,1831"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_11l4" points="108,1789 216,1789 216,1837 108,1837"/>
+                <tei:zone rendition="Line" xml:id="facs_6_r_1_11l5" points="759,1805 1371,1805 1371,1874 759,1874"/>
+				</tei:zone>
+			<tei:zone rendition="Separator" xml:id="facs_6_r_2" points="135,1058 1360,1058 1360,1102 135,1102"/>
+			<tei:zone rendition="Separator" xml:id="facs_6_r_3" points="86,1457 1365,1457 1365,1500 86,1500"/>
+		</tei:surface>
+		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_7">
+			<tei:graphic url="anno:17200120-006.jpg" width="1453px" height="1981px"/>
+			<tei:zone rendition="printspace" points="23,17 1349,17 1349,1882 23,1882"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_1" subtype="paragraph" points="200,27 1167,27 1167,92 200,92">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_1l1" points="191,22 1169,22 1169,93 191,93"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_2" subtype="paragraph" points="178,89 1126,89 1126,141 178,141">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_2l1" points="887,86 1125,86 1125,131 887,131"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_3" subtype="paragraph" points="42,121 1325,121 1325,215 42,215">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_3l1" points="39,96 1332,96 1332,186 39,186"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_3l2" points="788,159 1329,159 1329,206 788,206"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_4" subtype="paragraph" points="46,198 1325,198 1325,291 46,291">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_4l1" points="45,173 1330,173 1330,271 45,271"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_5" subtype="paragraph" points="82,273 1324,273 1324,363 82,363">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_5l1" points="81,269 1329,269 1329,332 81,332"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_5l2" points="739,310 1136,310 1136,354 739,354"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_6" subtype="paragraph" points="45,347 1327,347 1327,440 45,440">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_6l1" points="37,342 1325,342 1325,410 37,410"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_6l2" points="724,382 1329,382 1329,434 724,434"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_7" subtype="paragraph" points="48,424 1121,424 1121,478 48,478">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_7l1" points="875,420 1123,420 1123,463 875,463"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_7l2" points="44,436 89,436 89,479 44,479"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_8" subtype="paragraph" points="86,459 1327,459 1327,515 86,515">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_8l1" points="685,454 1328,454 1328,509 685,509"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_9" subtype="paragraph" points="47,501 922,501 922,557 47,557">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_9l1" points="732,496 929,496 929,540 732,540"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_9l2" points="38,508 80,508 80,561 38,561"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_10" subtype="paragraph" points="83,535 1324,535 1324,591 83,591">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_10l1" points="691,531 1326,531 1326,592 691,592"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_10l2" points="79,512 250,512 250,596 79,596"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_11" subtype="paragraph" points="245,572 881,572 881,621 245,621"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_12" subtype="paragraph" points="48,608 1328,608 1328,700 48,700">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_12l1" points="46,605 1335,605 1335,668 46,668"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_12l2" points="723,644 1217,644 1217,691 723,691"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_13" subtype="paragraph" points="48,684 1327,684 1327,777 48,777">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_13l1" points="48,679 1327,679 1327,743 48,743"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_13l2" points="721,724 754,724 754,764 721,764"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_13l3" points="751,721 998,721 998,769 751,769"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_14" subtype="paragraph" points="47,758 1328,758 1328,852 47,852">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_14l1" points="39,754 1334,754 1334,822 39,822"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_14l2" points="728,794 1182,794 1182,846 728,846"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_15" subtype="paragraph" points="48,834 1329,834 1329,934 48,934">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_15l1" points="45,831 1335,831 1335,896 45,896"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_15l2" points="78,885 242,885 242,923 78,923"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_16" subtype="paragraph" points="125,920 1198,920 1198,993 125,993">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_16l1" points="118,930 1200,930 1200,998 118,998"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_17" subtype="paragraph" points="175,991 1329,991 1329,1046 175,1046">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_17l1" points="725,985 1326,985 1326,1040 725,1040"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_18" subtype="paragraph" points="47,1029 1328,1029 1328,1123 47,1123">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_18l1" points="43,1003 1334,1003 1334,1088 43,1088"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_18l2" points="350,1075 379,1075 379,1104 350,1104"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_18l3" points="728,1065 1332,1065 1332,1117 728,1117"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_19" subtype="paragraph" points="49,1107 1331,1107 1331,1197 49,1197">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_19l1" points="44,1105 1332,1105 1332,1165 44,1165"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_19l2" points="661,1142 1335,1142 1335,1192 661,1192"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_20" subtype="paragraph" points="49,1181 1330,1181 1330,1272 49,1272">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_20l1" points="44,1179 1330,1179 1330,1234 44,1234"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_20l2" points="731,1217 1259,1217 1259,1265 731,1265"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_20l3" points="70,1226 251,1226 251,1274 70,1274"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_21" subtype="paragraph" points="249,1255 1329,1255 1329,1307 249,1307">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_21l1" points="976,1255 1331,1255 1331,1298 976,1298"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_21l2" points="784,1259 870,1259 870,1301 784,1301"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_22" subtype="paragraph" points="48,1292 1327,1292 1327,1349 48,1349">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_22l1" points="728,1283 1329,1283 1329,1343 728,1343"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_23" subtype="paragraph" points="83,1332 1329,1332 1329,1386 83,1386">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_23l1" points="848,1330 1333,1330 1333,1378 848,1378"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_24" subtype="paragraph" points="84,1367 1276,1367 1276,1423 84,1423">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_24l1" points="735,1369 1280,1369 1280,1417 735,1417"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_25" subtype="paragraph" points="46,1408 1330,1408 1330,1500 46,1500">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_25l1" points="44,1403 1336,1403 1336,1461 44,1461"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_25l2" points="1023,1444 1079,1444 1079,1487 1023,1487"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_25l3" points="1132,1444 1331,1444 1331,1492 1132,1492"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_26" subtype="paragraph" points="46,1478 1130,1478 1130,1534 46,1534">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_26l1" points="892,1483 1129,1483 1129,1523 892,1523"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_27" subtype="paragraph" points="46,1519 1329,1519 1329,1651 46,1651">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_27l1" points="68,1515 1331,1515 1331,1572 68,1572"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_27l2" points="47,1557 1329,1557 1329,1613 47,1613"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_27l3" points="763,1597 1334,1597 1334,1644 763,1644"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_28" subtype="paragraph" points="46,1631 1333,1631 1333,1762 46,1762">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_28l1" points="43,1633 1329,1633 1329,1695 43,1695"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_28l2" points="720,1669 1336,1669 1336,1719 720,1719"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_28l3" points="83,1677 614,1677 614,1726 83,1726"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_28l4" points="762,1710 1028,1710 1028,1757 762,1757"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_29" subtype="paragraph" points="50,1746 1329,1746 1329,1842 50,1842">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_29l1" points="689,1746 1329,1746 1329,1790 689,1790"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_29l2" points="80,1749 623,1749 623,1800 80,1800"/>
+                <tei:zone rendition="Line" xml:id="facs_7_r_1_29l3" points="43,1783 1328,1783 1328,1842 43,1842"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_30" subtype="paragraph" points="1256,1828 1333,1828 1333,1863 1256,1863">
+					<tei:zone rendition="Line" xml:id="facs_7_r_1_30l1" points="1247,1823 1336,1823 1336,1868 1247,1868"/>
+				</tei:zone>
+			<tei:zone rendition="Separator" xml:id="facs_7_r_2" points="224,919 1332,919 1332,936 224,936"/>
+			<tei:zone rendition="Separator" xml:id="facs_7_r_3" points="48,932 202,932 202,942 48,942"/>
+		</tei:surface>
+		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_8">
+			<tei:graphic url="anno:17200120-007.jpg" width="1453px" height="1981px"/>
+			<tei:zone rendition="printspace" points="123,20 1453,20 1453,1904 123,1904"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_1" subtype="paragraph" points="160,29 1436,29 1436,94 160,94">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_1l1" points="159,24 596,24 596,82 159,82"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_2" subtype="paragraph" points="162,69 1444,69 1444,169 162,169">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_2l1" points="190,65 1443,65 1443,130 190,130"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_2l2" points="154,102 470,102 470,153 154,153"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_2l3" points="1241,125 1447,125 1447,185 1241,185"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_3" subtype="paragraph" points="200,142 1244,142 1244,202 200,202">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_3l1" points="194,140 414,140 414,182 194,182"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_4" subtype="paragraph" points="162,177 1445,177 1445,280 162,280">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_4l1" points="160,172 1447,172 1447,249 160,249"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_4l2" points="189,214 418,214 418,261 189,261"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_5" subtype="paragraph" points="163,253 1443,253 1443,319 163,319">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_5l1" points="156,248 1167,248 1167,313 156,313"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_5l2" points="1300,275 1449,275 1449,320 1300,320"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_6" subtype="paragraph" points="276,306 1306,306 1306,386 276,386">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_6l1" points="270,312 1158,312 1158,380 270,380"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_7" subtype="paragraph" points="241,373 1439,373 1439,436 241,436">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_7l1" points="243,368 717,368 717,425 243,425"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_8" subtype="paragraph" points="357,413 1439,413 1439,474 357,474">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_8l1" points="358,408 544,408 544,452 358,452"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_9" subtype="paragraph" points="162,446 1439,446 1439,513 162,513">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_9l1" points="161,438 544,438 544,491 161,491"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_9l2" points="1059,461 1443,461 1443,512 1059,512"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_10" subtype="paragraph" points="200,483 1065,483 1065,543 200,543">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_10l1" points="195,465 509,465 509,534 195,534"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_11" subtype="paragraph" points="160,522 1440,522 1440,660 160,660">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_11l1" points="155,505 1439,505 1439,585 155,585"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_11l2" points="187,560 1440,560 1440,625 187,625"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_11l3" points="184,592 533,592 533,646 184,646"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_12" subtype="paragraph" points="343,636 1434,636 1434,699 343,699">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_12l1" points="340,627 498,627 498,673 340,673"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_12l2" points="1242,649 1438,649 1438,702 1242,702"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_13" subtype="paragraph" points="157,669 1238,669 1238,726 157,726">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_13l1" points="160,664 628,664 628,716 160,716"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_13l2" points="632,671 690,671 690,715 632,715"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_14" subtype="paragraph" points="158,705 1436,705 1436,808 158,808">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_14l1" points="182,704 722,704 722,758 182,758"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_14l2" points="801,717 1443,717 1443,771 801,771"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_14l3" points="155,738 647,738 647,796 155,796"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_15" subtype="paragraph" points="161,783 1441,783 1441,881 161,881">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_15l1" points="190,779 1448,779 1448,845 190,845"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_15l2" points="162,814 629,814 629,865 162,865"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_16" subtype="paragraph" points="153,857 1434,857 1434,955 153,955">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_16l1" points="187,853 1439,853 1439,919 187,919"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_16l2" points="147,888 677,888 677,945 147,945"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_17" subtype="paragraph" points="155,932 1435,932 1435,1032 155,1032">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_17l1" points="186,930 1439,930 1439,995 186,995"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_17l2" points="150,960 530,960 530,1017 150,1017"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_18" subtype="paragraph" points="193,1005 1435,1005 1435,1070 193,1070">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_18l1" points="189,1001 409,1001 409,1049 189,1049"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_19" subtype="paragraph" points="152,1041 1431,1041 1431,1107 152,1107">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_19l1" points="198,1042 438,1042 438,1086 198,1086"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_20" subtype="paragraph" points="152,1081 1434,1081 1434,1259 152,1259">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_20l1" points="220,1079 1434,1079 1434,1145 220,1145"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_20l2" points="149,1111 791,1111 791,1171 149,1171"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_20l3" points="871,1129 1358,1129 1358,1175 871,1175"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_20l4" points="187,1152 1439,1152 1439,1216 187,1216"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_20l5" points="186,1190 654,1190 654,1242 186,1242"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_21" subtype="paragraph" points="151,1231 1431,1231 1431,1331 151,1331">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_21l1" points="249,1216 710,1216 710,1275 249,1275"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_21l2" points="790,1202 1430,1202 1430,1293 790,1293"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_21l3" points="145,1261 512,1261 512,1313 145,1313"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_21l4" points="1234,1284 1430,1284 1430,1333 1234,1333"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_22" subtype="paragraph" points="193,1304 1242,1304 1242,1363 193,1363">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_22l1" points="188,1303 512,1303 512,1352 188,1352"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_23" subtype="paragraph" points="150,1342 1432,1342 1432,1481 150,1481">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_23l1" points="146,1331 1432,1331 1432,1407 146,1407"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_23l2" points="178,1377 1430,1377 1430,1443 178,1443"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_23l3" points="333,1417 591,1417 591,1461 333,1461"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_23l4" points="1350,1434 1432,1434 1432,1475 1350,1475"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_24" subtype="paragraph" points="150,1455 1353,1455 1353,1513 150,1513">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_24l1" points="150,1450 309,1450 309,1494 150,1494"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_25" subtype="paragraph" points="148,1488 1432,1488 1432,1661 148,1661">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_25l1" points="188,1489 1437,1489 1437,1554 188,1554"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_25l2" points="143,1524 1438,1524 1438,1591 143,1591"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_25l3" points="145,1563 1433,1563 1433,1630 145,1630"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_25l4" points="143,1600 784,1600 784,1653 143,1653"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_26" subtype="paragraph" points="147,1641 1433,1641 1433,1782 147,1782">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_26l1" points="171,1641 1434,1641 1434,1709 171,1709"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_26l2" points="141,1669 1327,1669 1327,1741 141,1741"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_26l3" points="173,1714 561,1714 561,1768 173,1768"/>
+                <tei:zone rendition="Line" xml:id="facs_8_r_1_26l4" points="1220,1732 1432,1732 1432,1785 1220,1785"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_27" subtype="paragraph" points="237,1755 1220,1755 1220,1813 237,1813">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_27l1" points="231,1756 307,1756 307,1795 231,1795"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_28" subtype="paragraph" points="243,1790 1357,1790 1357,1856 243,1856">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_28l1" points="235,1789 1361,1789 1361,1860 235,1860"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_29" subtype="paragraph" points="1360,1851 1437,1851 1437,1887 1360,1887">
+					<tei:zone rendition="Line" xml:id="facs_8_r_1_29l1" points="1352,1845 1443,1845 1443,1898 1352,1898"/>
+				</tei:zone>
+			<tei:zone rendition="Separator" xml:id="facs_8_r_2" points="157,301 1445,301 1445,336 157,336"/>
+		</tei:surface>
+		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_9">
+			<tei:graphic url="anno:17200120-008.jpg" width="1453px" height="1981px"/>
+			<tei:zone rendition="printspace" points="0,25 1324,25 1324,1931 0,1931"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_1" subtype="paragraph" points="5,33 1291,33 1291,99 5,99">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_1l1" points="383,27 1290,27 1290,99 383,99"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_2" subtype="paragraph" points="10,81 1292,81 1292,205 10,205">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_2l1" points="3,76 1296,76 1296,138 3,138"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_2l2" points="75,114 1217,114 1217,173 75,173"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_2l3" points="419,158 851,158 851,207 419,207"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_3" subtype="paragraph" points="13,214 1298,214 1298,308 13,308">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_3l1" points="79,211 1299,211 1299,271 79,271"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_3l2" points="720,251 1297,251 1297,299 720,299"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_4" subtype="paragraph" points="9,290 1297,290 1297,378 9,378">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_4l1" points="104,284 1304,284 1304,343 104,343"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_4l2" points="7,300 42,300 42,365 7,365"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_5" subtype="paragraph" points="36,333 775,333 775,379 36,379"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_6" subtype="paragraph" points="11,362 1294,362 1294,455 11,455">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_6l1" points="80,358 1297,358 1297,418 80,418"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_6l2" points="709,401 918,401 918,444 709,444"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_7" subtype="paragraph" points="12,437 1299,437 1299,568 12,568">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_7l1" points="75,433 1299,433 1299,488 75,488"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_7l2" points="7,473 1303,473 1303,530 7,530"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_8" subtype="paragraph" points="12,549 1298,549 1298,640 12,640">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_8l1" points="75,545 1297,545 1297,605 75,605"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_8l2" points="585,590 728,590 728,636 585,636"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_9" subtype="paragraph" points="10,623 1298,623 1298,716 10,716">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_9l1" points="75,620 1303,620 1303,677 75,677"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_9l2" points="440,661 1159,661 1159,708 440,708"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_10" subtype="paragraph" points="12,701 1307,701 1307,793 12,793">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_10l1" points="83,696 1306,696 1306,755 83,755"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_10l2" points="10,712 86,712 86,793 10,793"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_11" subtype="paragraph" points="88,775 1300,775 1300,827 88,827">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_11l1" points="118,769 1301,769 1301,832 118,832"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_12" subtype="paragraph" points="15,820 678,820 678,865 15,865">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_12l1" points="349,817 673,817 673,865 349,865"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_13" subtype="paragraph" points="7,851 1293,851 1293,940 7,940">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_13l1" points="76,833 1300,833 1300,904 76,904"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_14" subtype="paragraph" points="8,922 1301,922 1301,1054 8,1054">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_14l1" points="78,918 1301,918 1301,986 78,986"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_14l2" points="7,957 1301,957 1301,1025 7,1025"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_14l3" points="5,1008 45,1008 45,1047 5,1047"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_15" subtype="paragraph" points="39,1036 1315,1036 1315,1089 39,1089">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_15l1" points="76,1020 1320,1020 1320,1104 76,1104"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_16" subtype="paragraph" points="9,1082 569,1082 569,1128 9,1128">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_16l1" points="32,1056 87,1056 87,1124 32,1124"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_17" subtype="paragraph" points="8,1114 1300,1114 1300,1201 8,1201">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_17l1" points="79,1098 1307,1098 1307,1173 79,1173"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_17l2" points="407,1148 1026,1148 1026,1201 407,1201"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_17l3" points="84,1153 216,1153 216,1204 84,1204"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_18" subtype="paragraph" points="10,1189 1305,1189 1305,1276 10,1276">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_18l1" points="75,1186 1306,1186 1306,1247 75,1247"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_19" subtype="paragraph" points="9,1255 1304,1255 1304,1355 9,1355">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_19l1" points="9,1247 1313,1247 1313,1318 9,1318"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_19l2" points="5,1289 1133,1289 1133,1364 5,1364"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_20" subtype="paragraph" points="43,1345 562,1345 562,1391 43,1391"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_21" subtype="paragraph" points="9,1376 1303,1376 1303,1464 9,1464">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_21l1" points="562,1346 596,1346 596,1387 562,1387"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_21l2" points="72,1372 1306,1372 1306,1439 72,1439"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_21l3" points="1,1415 139,1415 139,1472 1,1472"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_22" subtype="paragraph" points="85,1454 661,1454 661,1502 85,1502"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_23" subtype="paragraph" points="7,1484 1297,1484 1297,1578 7,1578">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_23l1" points="72,1484 1299,1484 1299,1546 72,1546"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_23l2" points="818,1524 956,1524 956,1573 818,1573"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_23l3" points="2,1517 84,1517 84,1587 2,1587"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_24" subtype="paragraph" points="79,1559 1301,1559 1301,1620 79,1620">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_24l1" points="714,1561 1305,1561 1305,1618 714,1618"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_25" subtype="paragraph" points="1,1600 881,1600 881,1654 1,1654">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_25l1" points="375,1591 879,1591 879,1655 375,1655"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_26" subtype="paragraph" points="1,1640 1304,1640 1304,1768 1,1768">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_26l1" points="80,1636 1306,1636 1306,1698 80,1698"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_26l2" points="-1,1672 1313,1672 1313,1735 -1,1735"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_27" subtype="paragraph" points="2,1750 1304,1750 1304,1928 2,1928">
+					<tei:zone rendition="Line" xml:id="facs_9_r_1_27l1" points="64,1737 1307,1737 1307,1808 64,1808"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_27l2" points="-3,1784 1309,1784 1309,1844 -3,1844"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_27l3" points="-1,1822 1311,1822 1311,1888 -1,1888"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_27l4" points="1176,1860 1307,1860 1307,1917 1176,1917"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_27l5" points="648,1865 752,1865 752,1930 648,1930"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_27l6" points="1070,1892 1160,1892 1160,1934 1070,1934"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_27l7" points="363,1889 457,1889 457,1918 363,1918"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_27l8" points="404,1894 503,1894 503,1935 404,1935"/>
+                <tei:zone rendition="Line" xml:id="facs_9_r_1_27l9" points="332,1895 370,1895 370,1937 332,1937"/>
+				</tei:zone>
+		</tei:surface>
+		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_10">
+			<tei:graphic url="anno:17200120-009.jpg" width="1453px" height="1981px"/>
+			<tei:zone rendition="printspace" points="50,4 1424,4 1424,1950 50,1950"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_1_1" subtype="paragraph" points="120,30 1409,30 1409,191 120,191">
+					<tei:zone rendition="Line" xml:id="facs_10_r_1_1l1" points="113,24 1416,24 1416,104 113,104"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_1_1l2" points="117,71 1414,71 1414,137 117,137"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_1_1l3" points="113,106 1413,106 1413,177 113,177"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_1_1l4" points="230,144 568,144 568,196 230,196"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_1_2" subtype="paragraph" points="112,182 1397,182 1397,345 112,345">
+					<tei:zone rendition="Line" xml:id="facs_10_r_1_2l1" points="190,174 1395,174 1395,250 190,250"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_1_2l2" points="115,216 1399,216 1399,290 115,290"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_1_2l3" points="111,256 1402,256 1402,330 111,330"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_1_2l4" points="106,293 573,293 573,347 106,347"/>
+				</tei:zone>
+			<tei:zone rendition="Graphic" xml:id="facs_10_r_2" points="189,326 1397,326 1397,473 189,473"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_1" subtype="paragraph" points="106,375 185,375 185,417 106,417">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_1l1" points="99,364 185,364 185,420 99,420"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_2" subtype="paragraph" points="106,448 493,448 493,494 106,494">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_2l1" points="105,450 177,450 177,497 105,497"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_3" subtype="paragraph" points="185,480 1277,480 1277,541 185,541">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_3l1" points="211,481 555,481 555,529 211,529"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_4" subtype="paragraph" points="106,520 1389,520 1389,623 106,623">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_4l1" points="184,520 1395,520 1395,585 184,585"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_4l2" points="104,555 648,555 648,606 104,606"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_4l3" points="1268,579 1309,579 1309,616 1268,616"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_5" subtype="paragraph" points="181,596 1275,596 1275,661 181,661">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_5l1" points="264,592 669,592 669,650 264,650"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_5l2" points="176,599 257,599 257,638 176,638"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_5l3" points="944,608 1282,608 1282,659 944,659"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_6" subtype="paragraph" points="181,633 947,633 947,689 181,689">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_6l1" points="268,637 376,637 376,680 268,680"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_7" subtype="paragraph" points="102,668 1376,668 1376,754 102,754">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_7l1" points="167,666 1376,666 1376,738 167,738"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_7l2" points="228,706 590,706 590,749 228,749"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_7l3" points="96,705 169,705 169,754 96,754"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_8" subtype="paragraph" points="177,743 1380,743 1380,841 177,841">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_8l1" points="171,743 1383,743 1383,816 171,816"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_8l2" points="243,782 465,782 465,831 243,831"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_8l3" points="650,794 687,794 687,825 650,825"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_8l4" points="479,783 598,783 598,830 479,830"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_9" subtype="paragraph" points="170,820 1375,820 1375,948 170,948">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_9l1" points="164,819 1376,819 1376,889 164,889"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_9l2" points="237,857 842,857 842,912 237,912"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_10" subtype="paragraph" points="169,929 1392,929 1392,997 169,997"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_11" subtype="paragraph" points="91,966 1376,966 1376,1037 91,1037">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_11l1" points="90,897 248,897 248,1015 90,1015"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_12" subtype="paragraph" points="245,1000 1372,1000 1372,1112 245,1112">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_12l1" points="246,1008 690,1008 690,1060 246,1060"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_13" subtype="paragraph" points="85,1070 1367,1070 1367,1217 85,1217">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_13l1" points="155,1015 246,1015 246,1091 155,1091"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_13l2" points="85,1083 776,1083 776,1139 85,1139"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_13l3" points="152,1109 1370,1109 1370,1180 152,1180"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_13l4" points="164,1161 438,1161 438,1211 164,1211"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_13l5" points="491,1158 808,1158 808,1209 491,1209"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_13l6" points="442,1159 488,1159 488,1208 442,1208"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_13l7" points="85,1163 161,1163 161,1208 85,1208"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_13l8" points="852,1152 1196,1152 1196,1225 852,1225"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_14" subtype="paragraph" points="161,1197 850,1197 850,1243 161,1243"/>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_15" subtype="paragraph" points="158,1229 1363,1229 1363,1371 158,1371">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_15l1" points="157,1232 1361,1232 1361,1294 157,1294"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_15l2" points="232,1269 1360,1269 1360,1336 232,1336"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_15l3" points="226,1305 761,1305 761,1360 226,1360"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_16" subtype="paragraph" points="227,1347 1364,1347 1364,1442 227,1442">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_16l1" points="220,1347 1364,1347 1364,1409 220,1409"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_16l2" points="222,1384 798,1384 798,1437 222,1437"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_16l3" points="1071,1394 1301,1394 1301,1442 1071,1442"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_17" subtype="paragraph" points="76,1423 1070,1423 1070,1481 76,1481">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_17l1" points="163,1422 638,1422 638,1473 163,1473"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_18" subtype="paragraph" points="73,1459 1071,1459 1071,1554 73,1554">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_18l1" points="70,1459 1075,1459 1075,1519 70,1519"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_18l2" points="74,1493 1071,1493 1071,1552 74,1552"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_19" subtype="paragraph" points="578,1632 1070,1632 1070,1710 578,1710">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_19l1" points="600,1628 840,1628 840,1706 600,1706"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_3_19l2" points="847,1642 1078,1642 1078,1719 847,1719"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_20" subtype="paragraph" points="638,1692 851,1692 851,1735 638,1735">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_20l1" points="633,1691 856,1691 856,1736 633,1736"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_3_21" subtype="paragraph" points="646,1734 784,1734 784,1765 646,1765">
+					<tei:zone rendition="Line" xml:id="facs_10_r_3_21l1" points="646,1728 778,1728 778,1774 646,1774"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_4_1" subtype="paragraph" points="68,1650 600,1650 600,1696 68,1696">
+					<tei:zone rendition="Line" xml:id="facs_10_r_4_1l1" points="65,1610 575,1610 575,1700 65,1700"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_4_2" subtype="paragraph" points="68,1690 598,1690 598,1735 68,1735">
+					<tei:zone rendition="Line" xml:id="facs_10_r_4_2l1" points="60,1678 139,1678 139,1731 60,1731"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_4_2l2" points="312,1689 526,1689 526,1737 312,1737"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_4_3" subtype="paragraph" points="68,1724 601,1724 601,1810 68,1810">
+					<tei:zone rendition="Line" xml:id="facs_10_r_4_3l1" points="67,1715 602,1715 602,1776 67,1776"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_4_3l2" points="67,1753 598,1753 598,1813 67,1813"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_4_4" subtype="paragraph" points="134,1802 683,1802 683,1887 134,1887">
+					<tei:zone rendition="Line" xml:id="facs_10_r_4_4l1" points="131,1800 684,1800 684,1854 131,1854"/>
+                <tei:zone rendition="Line" xml:id="facs_10_r_4_4l2" points="321,1840 417,1840 417,1880 321,1880"/>
+				</tei:zone>
+			<tei:zone rendition="TextRegion" xml:id="facs_10_r_4_5" subtype="paragraph" points="72,1874 1052,1874 1052,1938 72,1938">
+					<tei:zone rendition="Line" xml:id="facs_10_r_4_5l1" points="66,1870 1056,1870 1056,1939 66,1939"/>
+				</tei:zone>
+		</tei:surface>
+	</tei:facsimile>
+	<tei:text>
+		<tei:body>
+			<tei:div type="page" n="">
+					<tei:pb xml:id="pag1" n="" facs="#"/>
+				<tei:div xml:id="d2">
+					<tei:p xml:id="p4" rendition="#fc" facs="#facs_1_r_1_1">
+						<tei:lb xml:id="z1" facs="#facs_1_r_1_1l1"/>
+                        Num
+                        . 1719
+                        .
+                    </tei:p>
+					<tei:p xml:id="p5" rendition="#l" facs="#facs_1_r_1_2">
+						<tei:lb xml:id="z2" facs="#facs_1_r_1_2l1"/>
+                        1 
+						<tei:lb xml:id="z3" facs="#facs_1_r_1_2l2"/>
+                        dasjenige / was von Tag zu Tag /
+                        sowohl
+                    </tei:p>
+					<tei:p xml:id="p6" rendition="#l" facs="#facs_1_r_1_3">
+						<tei:lb xml:id="z4" facs="#facs_1_r_1_3l1"/>
+                        in dieser Residenz
+                        =
+                        Stadt Wien Denkwürdiges / und sich Neues 
+						<tei:lb xml:id="z5" facs="#facs_1_r_1_3l2"/>
+                        zugetragen
+                        : Als auch / was dergleichen nachrichtlich alda eingeloffen /
+						<tei:lb xml:id="z6" facs="#facs_1_r_1_3l3"/>
+                        samt einem Anhang jedermaliger Verzeichnuß
+                        : Erstlich deren täglich alhier 
+						Ankom=
+                            <tei:lb xml:id="z7" facs="#facs_1_r_1_3l4"/>menden
+                        : Zweytens deren in
+                        = und vor der Stadt getauften Kindern
+                        : Drittens 
+						<tei:lb xml:id="z8" facs="#facs_1_r_1_3l5"/>
+                        derer Verehlichten / und Vierdtens deren verstorbenen Personen
+                        .
+                    </tei:p>
+					<tei:p xml:id="p7" rendition="#?5-86-91--77-1318" facs="#facs_1_r_1_4">
+						<tei:lb xml:id="z9" facs="#facs_1_r_1_4l1"/>
+                        Mit Jhrer Römisch
+                        =
+                        Kaiserlich
+                        = und Catholischen Majestät Freyheit /
+						<tei:lb xml:id="z10" facs="#facs_1_r_1_4l2"/>
+                        Gedruckt in der Kaiserlichen Reichs
+                        = und Hof
+                        =
+                        Buchdruckerey /
+						<tei:lb xml:id="z11" facs="#facs_1_r_1_4l3"/>
+                        Zufinden im roten Ngel
+                        .
+                    </tei:p>
+					<tei:p xml:id="p8" rendition="#fc" facs="#facs_1_r_2_1">
+						<tei:lb xml:id="z12" facs="#facs_1_r_2_1l1"/>
+                        Wien / vom 20
+                        . bis 23
+                        . Jenner / 1720
+                        .
+                    </tei:p>
+					<tei:p xml:id="p9" rendition="#f" facs="#facs_1_r_2_2">
+						<tei:lb xml:id="z13" facs="#facs_1_r_2_2l1"/>
+                        |Amstag / den 20
+                        . Jenner
+                        . Heute / Früh / ware der Leichnam 
+						<tei:lb xml:id="z14" facs="#facs_1_r_2_2l2"/> der Gestern Gottseeligst verstorbenen Kaiserin / Eleonora 
+						<tei:lb xml:id="z15" facs="#facs_1_r_2_2l3"/>
+                        — Magdalena Theresia / in einem weissen Habit / und 
+						Himmel=
+                            <tei:lb xml:id="z16" facs="#facs_1_r_2_2l4"/>blauen Scapulier / auch weissen Schlayr / mit einer eisenen Ketten um 
+						<tei:lb xml:id="z17" facs="#facs_1_r_2_2l5"/>
+                        den Leib / daran ein Toden
+                        =
+                        Kopf gehangen / so der Habit von der 
+						Ge=
+                            <tei:lb xml:id="z18" facs="#facs_1_r_2_2l6"/>sellschaft derer Sclaven / oder Leibeigenen Dienerinnen 
+                            <tei:choice>
+                                <tei:orig>Mariæ</tei:orig>
+                                <tei:reg>Mariae</tei:reg>
+                            </tei:choice>
+                         (
+                        welche zu 
+						<tei:lb xml:id="z19" facs="#facs_1_r_2_2l7"/>
+                        München in der Churfüstl
+                        . Hof
+                        =
+                        Kirche derer WW
+                        . EE
+                        . PP
+                        . Cong
+                        . Cler
+                        .
+						<tei:lb xml:id="z20" facs="#facs_1_r_2_2l8"/>
+                        Reg
+                        . S
+                        . Cajetani und Adelheidis
+                        , aufgerichtet worden
+                        ) in Dero 
+						Antecam=
+                            <tei:lb xml:id="z21" facs="#facs_1_r_2_2l9"/>mer auf ein Paradabett ausgesetzet
+                        : auch bey demselben auf 4
+                        . 
+						aufge=
+                            <tei:lb xml:id="z22" facs="#facs_1_r_2_2l10"/>richteten Altären die Heilige Messe zulesen
+                        : dan von 12
+                        . bis 1
+                        . Uhr /
+						<tei:lb xml:id="z23" facs="#facs_1_r_2_2l11"/>
+                        mit allen Glocken zuläuten angefangen worden
+                        ; Womit dan diese
+                    </tei:p>
+					<tei:p xml:id="p10" rendition="#f" facs="#facs_1_r_2_3">
+						<tei:lb xml:id="z24" facs="#facs_1_r_2_3l1"/>
+                        Eodem ware von hier der Herr Baron von Neuperg / Obrister 
+						<tei:lb xml:id="z25" facs="#facs_1_r_2_3l2"/>
+                        über ein Kaiserliches Regiment zu Fuß / wieder von hier mit 
+						Kaiser=
+                            <tei:lb xml:id="z26" facs="#facs_1_r_2_3l3"/>lichen Verrichtungen nacher Neapel und Sicilien mittels der Post 
+						ab=
+                            <tei:lb xml:id="z27" facs="#facs_1_r_2_3l4"/>gangen
+                        ; Dahingegen / nemlichen aus Neapel / mit Brieffen / von dem 
+						<tei:lb xml:id="z28" facs="#facs_1_r_2_3l5"/>
+                        2
+                        . Jenner / berichtet worden / wie daß von dannen der Kaiserliche 
+						<tei:lb xml:id="z29" facs="#facs_1_r_2_3l6"/>
+                        Obrist Kriegs
+                        =
+                        Commissarius
+                        , Herr Graf von Nesselrode
+                        , nach 
+						ge=
+                            <tei:lb xml:id="z30" facs="#facs_1_r_2_3l7"/>meldtem Sicilien abgereiset / daselbsten man die jüngst dahin 
+						abgegan=
+                            <tei:lb xml:id="z31" facs="#facs_1_r_2_3l8"/>gene Schiffe glücklich angelangt zuseyn vermuhte
+                        ; Jnzwischen wäre 
+						<tei:lb xml:id="z32" facs="#facs_1_r_2_3l9"/>
+                        von dorten die Nachricht kommen / daß der Anjouinische General /
+						<tei:lb xml:id="z33" facs="#facs_1_r_2_3l10"/>
+                        Marches de Leede
+                        , sich entschlossen / nach Hinterlassung 6000
+                        . Mann 
+						<tei:lb xml:id="z34" facs="#facs_1_r_2_3l11"/>
+                        in seinem Lager / sich nach Palermo zubegeben
+                        .
+                    </tei:p>
+                    <tei:milestone type="separator" rend="horizontal" unit="section" rendition="#f"/>
+					<tei:p xml:id="p11" rendition="#f" facs="#facs_2_r_1_1">
+						<tei:lb xml:id="z35" facs="#facs_2_r_1_1l1"/>
+                        Dito waren Sechs P
+                        . P
+                        . Capuciner / und zwar derer 
+						ausserlesne=
+                            <tei:lb xml:id="z36" facs="#facs_2_r_1_1l2"/>sten Teutsch
+                        =
+                        Jtalienisch
+                        = und Französischer Predigern / aus dem Reich 
+						<tei:lb xml:id="z37" facs="#facs_2_r_1_1l3"/>
+                        dahier angelanget
+                        ; Welche von Jhro Groß
+                        =
+                        Czaarischen Majestät 
+						na=
+                            <tei:lb xml:id="z38" facs="#facs_2_r_1_1l4"/>cher Moscau begehret worden / und dahero dieselbe nächstens von hier 
+						<tei:lb xml:id="z39" facs="#facs_2_r_1_1l5"/>
+                        dero Reiß ferners durch Polen nach besagtem Moscau fortsetzen 
+						wer=
+                            <tei:lb xml:id="z40" facs="#facs_2_r_1_1l6"/>den
+                        ; Denen nächstens auch noch mehrere dahin folgen sollen
+                        .
+                    </tei:p>
+					<tei:p xml:id="p12" rendition="#f" facs="#facs_2_r_1_2">
+						<tei:lb xml:id="z41" facs="#facs_2_r_1_2l1"/>
+                        Jtem wurd aus Mähren berichtet / wie daß den 18
+                        . Jenner auf 
+						<tei:lb xml:id="z42" facs="#facs_2_r_1_2l2"/>
+                        der Graf
+                        =
+                        Questenbergischen Herrschaft in dem Städtel Jaromertz zwey 
+						<tei:lb xml:id="z43" facs="#facs_2_r_1_2l3"/>
+                        Paar alte Eheleuthe (
+                        welche bereits über 50
+                        . Jahr bey dieser 
+						Herr=
+                            <tei:lb xml:id="z44" facs="#facs_2_r_1_2l4"/>schaft in dem Heiligen Ehestand gelebet / von einem Priester / der 
+						eben=
+                            <tei:lb xml:id="z45" facs="#facs_2_r_1_2l5"/>fals in seiner Priesterschaft über 50
+                        . Jahr erstrecket / und im vorigen Jahr 
+						<tei:lb xml:id="z46" facs="#facs_2_r_1_2l6"/>
+                        die anderte Primiz gehalten
+                        ) den Heiligen Ehe
+                        =
+                        Seegen zum anderten 
+						<tei:lb xml:id="z47" facs="#facs_2_r_1_2l7"/>
+                        mal empfangen
+                        ; Bey welch
+                        =
+                        ersterem Paar Eheleuthe der 
+						Braut=
+                            <tei:lb xml:id="z48" facs="#facs_2_r_1_2l8"/>führer / oder junge Gesell / 72
+                        . Jahr
+                        : die Kranzel
+                        =
+                        Jungfrau aber 75
+                        .
+						<tei:lb xml:id="z49" facs="#facs_2_r_1_2l9"/>
+                        Jahr
+                        : und bey dem anderten Paar auch der Brautführer 66
+                        . Jahr
+                        :
+						<tei:lb xml:id="z50" facs="#facs_2_r_1_2l10"/>
+                        und die Kranzel
+                        =
+                        Jungfrau 72
+                        . Jahr alt gewesen
+                        .
+                    </tei:p>
+					<tei:p xml:id="p13" rendition="#f" facs="#facs_2_r_1_3">
+						<tei:lb xml:id="z51" facs="#facs_2_r_1_3l1"/>
+                        Sonntag / den 21
+                        . Jenner
+                        . Vorgestern / Gestern und Heut seynd 
+						<tei:lb xml:id="z52" facs="#facs_2_r_1_3l2"/>
+                        auf Verordnung Jhrer Hochfürstl
+                        . Gnaden / des H
+                        . R
+                        . Reichs Fürsten zu 
+						<tei:lb xml:id="z53" facs="#facs_2_r_1_3l3"/>
+                        Passau / in der Kirche / Maria
+                        =
+                        Stiegen genant / durch 3
+                        . Täg / von 
+						<tei:lb xml:id="z54" facs="#facs_2_r_1_3l4"/>
+                        7
+                        . Uhr Morgens / bis 7
+                        . Uhr / Nachts / die offentliche Gebehter / bey 
+						<tei:lb xml:id="z55" facs="#facs_2_r_1_3l5"/>
+                        Aussetzung des Hochwürdigen Guts / mit einem grossen Zulauf des 
+						<tei:lb xml:id="z56" facs="#facs_2_r_1_3l6"/>
+                        Volks und möglichster Solemnität begangen worden
+                        ; Und weilen 
+						<tei:lb xml:id="z57" facs="#facs_2_r_1_3l7"/>
+                        eben bey dem ersten Tag nach 5
+                        . Uhr die höchst
+                        =
+                        betrübte Nachricht 
+						<tei:lb xml:id="z58" facs="#facs_2_r_1_3l8"/>
+                        kommen / daß Jhre Verwittibt
+                        =
+                        Römisch
+                        =
+                        Kaiserliche Majestät / 
+						Eleo=
+                            <tei:lb xml:id="z59" facs="#facs_2_r_1_3l9"/>nora Magdalena Theresia / dieses Zeitliche GOttseeligst gesegnet
+                        ;
+						<tei:lb xml:id="z60" facs="#facs_2_r_1_3l10"/>
+                        Als hat ein wohlmeinende Feder nachfolgendes verfertiget
+                        :
+                    </tei:p>
+					<tei:p xml:id="p14" rendition="#fc" facs="#facs_2_r_1_4"/>
+					<tei:p xml:id="p15" rendition="#fc" facs="#facs_2_r_1_5">
+						<tei:lb xml:id="z61" facs="#facs_2_r_1_5l1"/>
+                        Augusta angustam tendit ad astra viam
+                        .
+                    </tei:p>
+					<tei:p xml:id="p16" rendition="#fc" facs="#facs_2_r_1_6">
+						<tei:lb xml:id="z62" facs="#facs_2_r_1_6l1"/>
+                        Quis dubitet
+                        , rectô
+                        , transisse ad sidera calle
+                        ,
+                    </tei:p>
+					<tei:p xml:id="p17" rendition="#fc" facs="#facs_2_r_1_7">
+						<tei:lb xml:id="z63" facs="#facs_2_r_1_7l1"/>
+                        Dum Maria ad faustos astitit ipsa gradus
+                        .
+                    </tei:p>
+					<tei:p xml:id="p18" rendition="#f" facs="#facs_2_r_1_8">
+						<tei:lb xml:id="z64" facs="#facs_2_r_1_8l1"/>
+                        Montag / den 22
+                        . Jenner
+                        . Heut / Abends / ware der Leichnam 
+						<tei:lb xml:id="z65" facs="#facs_2_r_1_8l2"/>
+                        der in GOtt Seeligst verschieden
+                        =
+                        frommen Kaiserin mit allen Dero 
+						<tei:lb xml:id="z66" facs="#facs_2_r_1_8l3"/>
+                        Kaiserlichen Würde gebührenden Traur
+                        = und Ehren
+                        =
+                        Gepräng unter 
+						Läu=
+                            <tei:lb xml:id="z67" facs="#facs_2_r_1_8l4"/>tung der Glocken / vermög beygehender Ordnung / (
+                        von welch allem 
+						<tei:lb xml:id="z68" facs="#facs_2_r_1_8l5"/>
+                        aber nächstens ein ausführliche Beschreibung zu haben seyn wird
+                        ) in der 
+						<tei:lb xml:id="z69" facs="#facs_2_r_1_8l6"/>
+                        Kirche derer W
+                        . W
+                        . E
+                        . E
+                        . P
+                        . P
+                        . Capncineren / auf dem neuen Markt /
+						<tei:lb xml:id="z70" facs="#facs_2_r_1_8l7"/>
+                        in dasig
+                        = Kaiserliche Gruft beygesetzet
+                        : und dabey beobachtet worden /
+						<tei:lb xml:id="z71" facs="#facs_2_r_1_8l8"/>
+                        daß auf Dero Toden
+                        =
+                        Sarg ein Crucifix gemahlen
+                        : und unten auf
+                    </tei:p>
+					<tei:p xml:id="p19" rendition="#rr" facs="#facs_2_r_1_9">
+						<tei:lb xml:id="z72" facs="#facs_2_r_1_9l1"/>
+                        einem
+                    </tei:p>
+					<tei:p xml:id="p20" rendition="#l" facs="#facs_3_r_1_1">
+						<tei:lb xml:id="z73" facs="#facs_3_r_1_1l1"/>
+                        einem messingen Blat die Aufschrift / so die fromme Kaiserin Selbsten 
+						<tei:lb xml:id="z74" facs="#facs_3_r_1_1l2"/>
+                        Sich gemacht / gewesen
+                        :
+                    </tei:p>
+					<tei:p xml:id="p21" rendition="#fc" facs="#facs_3_r_1_2">
+						<tei:lb xml:id="z75" facs="#facs_3_r_1_2l1"/>
+                        EL EONORA
+                    </tei:p>
+					<tei:p xml:id="p22" rendition="#fc" facs="#facs_3_r_1_3">
+						<tei:lb xml:id="z76" facs="#facs_3_r_1_3l1"/>
+                        MAGDALENA
+                    </tei:p>
+					<tei:p xml:id="p23" rendition="#fc" facs="#facs_3_r_1_4">
+						<tei:lb xml:id="z77" facs="#facs_3_r_1_4l1"/>
+                        THERESIA
+                        ,
+                    </tei:p>
+					<tei:p xml:id="p24" rendition="#fc" facs="#facs_3_r_1_5">
+						<tei:lb xml:id="z78" facs="#facs_3_r_1_5l1"/>
+                        Arme Sünderin /
+						<tei:lb xml:id="z79" facs="#facs_3_r_1_5l2"/>
+                        gestorben im Jahr 1720
+                        . den 19
+                        . Jan
+                        .
+                    </tei:p>
+					<tei:p xml:id="p25" rendition="#f" facs="#facs_3_r_1_6">
+						<tei:lb xml:id="z80" facs="#facs_3_r_1_6l1"/>
+                        Dito wurd auf einer Hohen Lands
+                        =
+                        Fürstlichen Obrigkeit 
+						ergan=
+                            <tei:lb xml:id="z81" facs="#facs_3_r_1_6l2"/>gen
+                        =
+                        gnädigen Verordnung all
+                        = und jeden kund und zuwissen getahn /
+						<tei:lb xml:id="z82" facs="#facs_3_r_1_6l3"/>
+                        was Massen Jhre Kaiserlich
+                        = und Königlich
+                        =
+                        Catholische Majestät 
+						<tei:lb xml:id="z83" facs="#facs_3_r_1_6l4"/>
+                        Allergnädigst verordnet
+                        : daß auf Ableiben Weiland der 
+						Allerdurchleuch=
+                            <tei:lb xml:id="z84" facs="#facs_3_r_1_6l5"/>tigst
+                        = und Großmächtigsten Fürstin / und Frauen / Frauen Eleonora 
+						<tei:lb xml:id="z85" facs="#facs_3_r_1_6l6"/>
+                        Magdalena Theresia / Römischen Kaiserin / Dero geliebtesten Frauen 
+						<tei:lb xml:id="z86" facs="#facs_3_r_1_6l7"/>
+                        Mutter / Christ
+                        =
+                        Seeligsten Angedenkens / all
+                        = offentliche Freuden
+                        =
+                        Fest /
+						<tei:lb xml:id="z87" facs="#facs_3_r_1_6l8"/>
+                        Comödien / Sail
+                        =
+                        Tanzen / und andere dergleichen Schau
+                        = und 
+						Sai=
+                            <tei:lb xml:id="z88" facs="#facs_3_r_1_6l9"/>piel gänzlichen eingestellet seyn sollen
+                        .
+						<tei:lb xml:id="z89" facs="#facs_3_r_1_6l10"/>
+                        2
+                    </tei:p>
+					<tei:p xml:id="p26" rendition="#f" facs="#facs_3_r_1_7">
+						<tei:lb xml:id="z90" facs="#facs_3_r_1_7l1"/>
+                        Jtem war in dem Königlichen Stift derer W
+                        . W
+                        . E
+                        . E
+                        . Closter
+                        =
+						<tei:lb xml:id="z91" facs="#facs_3_r_1_7l2"/>
+                        Frauen St
+                        . Clara Ordens der Jahr
+                        =
+                        Tag dasig
+                        = Gottseeligster 
+						Stif=
+                            <tei:lb xml:id="z92" facs="#facs_3_r_1_7l3"/>terin / Weiland Carl des XII
+                        . Königs in Frankreich / Gemahlin / 
+						ei=
+                            <tei:lb xml:id="z93" facs="#facs_3_r_1_7l4"/>ner gebohrnen Erz
+                        =
+                        Herzogin zu Oesterreich / gewöhnlicher Massen 
+						be=
+                            <tei:lb xml:id="z94" facs="#facs_3_r_1_7l5"/>gangen worden
+                        ; Dabey unter der in GOtt Seelig verschiedenen 
+						Ka=
+                            <tei:lb xml:id="z95" facs="#facs_3_r_1_7l6"/>serin / Eleonora Magdalena Theresia / Hof
+                        =
+                        Music Jhre Hochwürden /
+                    </tei:p>
+					<tei:p xml:id="p27" rendition="#l" facs="#facs_3_r_1_8">
+						<tei:lb xml:id="z96" facs="#facs_3_r_1_8l1"/>
+                        Titl
+                        . Herr Ferdinand / Probst des Kaiserlichen Collegiat
+                        -
+                        Stifts zu 
+						<tei:lb xml:id="z97" facs="#facs_3_r_1_8l2"/>
+                        St
+                        . Dorothe / Can
+                        . Reg
+                        . Lar
+                        . den ersten
+                        : und Jhre Hochwürden / Titl
+                        .
+                    </tei:p>
+					<tei:p xml:id="p28" rendition="#l" facs="#facs_3_r_1_9">
+						<tei:lb xml:id="z98" facs="#facs_3_r_1_9l1"/>
+                        Herr Probst von Guarient / den anderten Gottes
+                        =
+                        Dienst verrichtet
+                        .
+                    </tei:p>
+					<tei:p xml:id="p29" rendition="#f" facs="#facs_3_r_1_10">
+						<tei:lb xml:id="z99" facs="#facs_3_r_1_10l1"/>
+                        Eodem wurde mit Brieffen / vom 15
+                        . Jenner / von Dresden / aus 
+						<tei:lb xml:id="z100" facs="#facs_3_r_1_10l2"/>
+                        Sachsen / gemeldet
+                        : wie daß man aldorten jüngstens ein herrliche 
+						<tei:lb xml:id="z101" facs="#facs_3_r_1_10l3"/>
+                        Schlittenfahrt angestellet
+                        : aber alsobald / nachdeme die Nachricht von 
+						<tei:lb xml:id="z102" facs="#facs_3_r_1_10l4"/>
+                        0
+                        .
+						<tei:lb xml:id="z103" facs="#facs_3_r_1_10l5"/>
+                        Jhrer Majestät / der Verwittibten Kaiserin / Eleonora / Unpäslichkeit 
+						<tei:lb xml:id="z104" facs="#facs_3_r_1_10l6"/>
+                        eingeloffen / besagte Schlittenfahrt wieder eingestellet habe
+                        .
+                    </tei:p>
+					<tei:p xml:id="p30" rendition="#f" facs="#facs_3_r_1_11">
+						<tei:lb xml:id="z105" facs="#facs_3_r_1_11l1"/>
+                        Dienstag / den 23
+                        . Jenner
+                        . Heute / Nachmittag / haben Jhre 
+						Rö=
+                            <tei:lb xml:id="z106" facs="#facs_3_r_1_11l2"/>misch
+                        =
+                        Kaiserlich
+                        = und Königlich
+                        =
+                        Catholische Majestät das Erstemal /
+						<tei:lb xml:id="z107" facs="#facs_3_r_1_11l3"/>
+                        seithero des betrübtesten Tod
+                        =
+                        Falls Dero geliebtesten Frauen Mutter /
+						<tei:lb xml:id="z108" facs="#facs_3_r_1_11l4"/>
+                        wieder offentliche Audienz ertheilet
+                        ; Als darin bey Allerhöchst
+                        =
+                        gedacht
+                        =
+						<tei:lb xml:id="z109" facs="#facs_3_r_1_11l5"/>
+                        Jhro Regierend
+                        =
+                        Kaiserlich
+                        = und Königlich
+                        =
+                        Catholischen Majestät 
+						ver=
+                            <tei:lb xml:id="z110" facs="#facs_3_r_1_11l6"/>schieden
+                        = vornehm
+                        = ausländische Ministern die Condolenz wegen 
+						Al=
+                            <tei:lb xml:id="z111" facs="#facs_3_r_1_11l7"/>lerhöch 
+						<tei:lb xml:id="z112" facs="#facs_3_r_1_11l8"/>
+                        rtes Tod
+                        =
+                        Falls abgeleget haben
+                        .
+                    </tei:p>
+					<tei:p xml:id="p31" rendition="#f" facs="#facs_3_r_1_12">
+						<tei:lb xml:id="z113" facs="#facs_3_r_1_12l1"/>
+                        Aus Polen / von dem 15
+                        . Jenner
+                        . Daß zu Warschau 
+                            <tei:choice>
+                                <tei:orig>beschlos</tei:orig>
+                                <tei:reg>beschlossen</tei:reg>
+                            </tei:choice>
+                        
+                        = </tei:p>
+					<tei:p xml:id="p32" rendition="#r" facs="#facs_3_r_1_13">
+						<tei:lb xml:id="z114" facs="#facs_3_r_1_13l1"/>
+                        sen 
+						<tei:lb xml:id="z115" facs="#facs_3_r_1_13l2"/>
+                        )( 2
+                    </tei:p>
+					<tei:p xml:id="p33" rendition="#f" facs="#facs_4_r_1_1">
+						<tei:lb xml:id="z116" facs="#facs_4_r_1_1l1"/>
+                        sen worden / wie nemlichen keiner von den Protestirenden 
+						Religio=
+                            <tei:lb xml:id="z117" facs="#facs_4_r_1_1l2"/>nen künftighin weder auf dem Reichs
+                        =
+                        Tage / noch auf den Land
+                        =
+						Tä=
+                            <tei:lb xml:id="z118" facs="#facs_4_r_1_1l3"/>gen Stimmen haben
+                        : weder einige Aemter besitzen
+                        : noch Ehrenstellen 
+						<tei:lb xml:id="z119" facs="#facs_4_r_1_1l4"/>
+                        bekleiden solle
+                        ; Dabey habe man auch stark darauf getrungen / daß 
+						<tei:lb xml:id="z120" facs="#facs_4_r_1_1l5"/>
+                        alle in Kriegs
+                        =
+                        Diensten befindlich
+                        = uncatholische Officiers abgeschaffet
+                        :
+						<tei:lb xml:id="z121" facs="#facs_4_r_1_1l6"/>
+                        hingegen der einheimische Adel Catholischer Religion dafür eingesetzet 
+						<tei:lb xml:id="z122" facs="#facs_4_r_1_1l7"/>
+                        werden möge
+                        ; Der Czaarische Fürst Dolhorucki hab in Gegenwart 
+						<tei:lb xml:id="z123" facs="#facs_4_r_1_1l8"/>
+                        Jhrer Königlichen Majestät von Polen auch dem geheimen Staats
+                        =
+                        Raht 
+						<tei:lb xml:id="z124" facs="#facs_4_r_1_1l9"/>
+                        eygewohnt
+                        .
+                    </tei:p>
+					<tei:p xml:id="p34" rendition="#f" facs="#facs_4_r_1_2">
+						<tei:lb xml:id="z125" facs="#facs_4_r_1_2l1"/>
+                        Aus Rom / von dem 6
+                        . Jenner
+                        . Daß Jhre Päbstl
+                        . Heiligkeit 
+						<tei:lb xml:id="z126" facs="#facs_4_r_1_2l2"/>
+                        am lezten Sonntage jüngst verstrichenes Jahr für alle in selbigem 
+						<tei:lb xml:id="z127" facs="#facs_4_r_1_2l3"/>
+                        genossene Wohltahten den Ambrosianischen Dank
+                        = und Lob
+                        =
+                        Gesang 
+						<tei:lb xml:id="z128" facs="#facs_4_r_1_2l4"/>
+                        absingen
+                        : und dan am Neu
+                        =
+                        Jahrs
+                        =
+                        Fest zu Hofe Capell halten 
+						las=
+                            <tei:lb xml:id="z129" facs="#facs_4_r_1_2l5"/>sen
+                        ; Höchsterwehnt
+                        =
+                        Jhre Heiligkeit hätten bereits dero zukünftige 
+						<tei:lb xml:id="z130" facs="#facs_4_r_1_2l6"/>
+                        Nuhestatt im Chor der Herrlichen St
+                        . Peters
+                        =
+                        Kirchen 
+						aufzurich=
+                            <tei:lb xml:id="z131" facs="#facs_4_r_1_2l7"/>ten anfangen lassen
+                        ; Darauf die Grabschrift soll eingetragen werden
+                        :
+						<tei:lb xml:id="z132" facs="#facs_4_r_1_2l8"/>
+                        Clemens
+                        . Xl
+                        . Pontilex
+                        . Max
+                        . Antea
+                        . Vicarius
+                        . Er
+                        . Canonicus
+                        . 
+						Ejus-
+                            <tei:lb xml:id="z133" facs="#facs_4_r_1_2l9"/>dem
+                        . Sacro
+                        -
+                        Sanctae
+                        . Basilicae
+                        . Pro
+                        . Eo
+                        . Vixit
+                        . In
+                        . Pontisicatu
+                        . Annos
+                        . Etc
+                        .
+						<tei:lb xml:id="z134" facs="#facs_4_r_1_2l10"/>
+                        Ubrigens seye der gewest
+                        =
+                        Savoysche Commandant von Melazzo aus 
+						<tei:lb xml:id="z135" facs="#facs_4_r_1_2l11"/>
+                        Sicilien zu Rom angekommen
+                        : und / nachdem derselbe beym Herrn 
+						<tei:lb xml:id="z136" facs="#facs_4_r_1_2l12"/>
+                        Grafen Gubernatis sich einige Täg aufgehalten / ferners nach Turin
+                    </tei:p>
+					<tei:p xml:id="p35" rendition="#f" facs="#facs_4_r_1_3">
+						<tei:lb xml:id="z137" facs="#facs_4_r_1_3l1"/>
+                        Aus Venedig / von dem 13
+                        . Jenner
+                        . Daß in dem aldortigen 
+						<tei:lb xml:id="z138" facs="#facs_4_r_1_3l2"/>
+                        Arsenal an verschiedenen Schiffen vom erst
+                        = und andern Rang 
+						derge=
+                            <tei:lb xml:id="z139" facs="#facs_4_r_1_3l3"/>stalten gearbeitet würde / daß selbige mit nächstem ganz fertig seyn 
+						<tei:lb xml:id="z140" facs="#facs_4_r_1_3l4"/>
+                        ; Desgleichen auch die aus Levat
+                    </tei:p>
+					<tei:p xml:id="p36" rendition="#f" facs="#facs_4_r_1_4">
+						<tei:lb xml:id="z141" facs="#facs_4_r_1_4l1"/>
+                        dem grossen Canal della Giudecca eingeleget worden / außgebesseret 
+						<tei:lb xml:id="z142" facs="#facs_4_r_1_4l2"/>
+                        werden sollen
+                        . Aus Dalmatien wären 3
+                        . Peotten angelangt / 
+						de=
+                            <tei:lb xml:id="z143" facs="#facs_4_r_1_4l3"/>ren eine den Herrn Girolamo Zarzi
+                        , gewesten Castellan der Festung 
+						<tei:lb xml:id="z144" facs="#facs_4_r_1_4l4"/>
+                        Sebenico
+                        , mitgebracht hätte
+                        ; Damit zugleich zu vernehmen gewesen /
+						<tei:lb xml:id="z145" facs="#facs_4_r_1_4l5"/>
+                        wie daß der Monsignor Capelli
+                        , Bischof von Spalato
+                        , das Zeitliche 
+						<tei:lb xml:id="z146" facs="#facs_4_r_1_4l6"/>
+                        segnet habe
+                        .
+                    </tei:p>
+					<tei:p xml:id="p37" rendition="#f" facs="#facs_4_r_1_5">
+						<tei:lb xml:id="z147" facs="#facs_4_r_1_5l1"/>
+                        Aus Spannien / von dem 21
+                        . December
+                        . Daß die vor einiger 
+						<tei:lb xml:id="z148" facs="#facs_4_r_1_5l2"/>
+                        Zeit / auf die Kaiserlich
+                        = und Engellischen zu creutzen / von Corunna 
+						<tei:lb xml:id="z149" facs="#facs_4_r_1_5l3"/>
+                        ausgewest
+                        =
+                        Spannische Schiffe wiederum heimgekehret
+                        ; Desgleichen 
+						<tei:lb xml:id="z150" facs="#facs_4_r_1_5l4"/>
+                        16
+                        . andere zu Denia
+                        . und deren 18
+                        . zu Gandia und Peniscola
+                        : dan 12
+                        .
+						<tei:lb xml:id="z151" facs="#facs_4_r_1_5l5"/>
+                        zu Alicante mit Kriegs
+                        =
+                        Gereitschaften angelanget wären
+                        . Zu Cadix
+                        ,
+						<tei:lb xml:id="z152" facs="#facs_4_r_1_5l6"/>
+                        alda die 2
+                        . Schiffe / welche nacher Cartagena und Vera
+                        -
+                        Cruz 
+						gewid=
+                            <tei:lb xml:id="z153" facs="#facs_4_r_1_5l7"/>met / ausgerüstet würden / wäre den Engelländischen Kaufleuten die 
+						<tei:lb xml:id="z154" facs="#facs_4_r_1_5l8"/>
+                        Freyheit zu handeln wieder erlaubet worden
+                        .
+						<tei:lb xml:id="z155" facs="#facs_4_r_1_5l9"/>
+                        Aug
+                    </tei:p>
+					<tei:p xml:id="p38" rendition="#l" facs="#facs_5_r_1_1">
+						<tei:lb xml:id="z156" facs="#facs_5_r_1_1l1"/>
+                        Aus Groß
+                        =
+                        Britannien / von dem 6
+                        . Jenner
+                        . Daß die 
+						Africa-
+                            <tei:lb xml:id="z157" facs="#facs_5_r_1_1l2"/>nische mit der Suder
+                        =
+                        Compagnie vereinbahret werden solle / um 
+						da=
+                            <tei:lb xml:id="z158" facs="#facs_5_r_1_1l3"/>mittels ein
+                        = und anderm geschwind vorzukommen
+                        . Die Pompee
+                        =
+                        Galley /
+						<tei:lb xml:id="z159" facs="#facs_5_r_1_1l4"/>
+                        ob welcher man überaus bekümmert gewesen / wäre zu Pleymuht 
+						endit=
+                            <tei:lb xml:id="z160" facs="#facs_5_r_1_1l5"/>chen angelanget
+                        ; Deroselben Ladung über 12000000
+                        . Rthlr
+                        . sich 
+						be=
+                            <tei:lb xml:id="z161" facs="#facs_5_r_1_1l6"/>liefe
+                        . Sonsten wären zu Londen voriges Jahr 18437
+                        . Personen 
+						<tei:lb xml:id="z162" facs="#facs_5_r_1_1l7"/>
+                        storben
+                        .
+                    </tei:p>
+					<tei:p xml:id="p39" rendition="#f" facs="#facs_5_r_1_2">
+						<tei:lb xml:id="z163" facs="#facs_5_r_1_2l1"/>
+                        Aus Frankreich / von dem 9
+                        . Jenner
+                        . Daß nun auch zu Pariß 
+						<tei:lb xml:id="z164" facs="#facs_5_r_1_2l2"/>
+                        die Gemahlin des Herrn Laws sich zu dem Catholischen Glauben 
+						be=
+                            <tei:lb xml:id="z165" facs="#facs_5_r_1_2l3"/>kennet
+                        . Der Herzog von Anjou solle dem Herzogen von Orleans zu 
+						er=
+                            <tei:lb xml:id="z166" facs="#facs_5_r_1_2l4"/>kennen gegeben haben / daß derselbe nicht wenig bedaure / daß er dem 
+						<tei:lb xml:id="z167" facs="#facs_5_r_1_2l5"/>
+                        Cardinal Alberoni
+                        , als welcher an aller Entzweyung Schuld wäre /
+						<tei:lb xml:id="z168" facs="#facs_5_r_1_2l6"/>
+                        nicht ehender seinen Abschied mitgegeben
+                        . Der Herzog und Herzogin 
+						<tei:lb xml:id="z169" facs="#facs_5_r_1_2l7"/>
+                        von Maine wären nunmehro zu Pariß zuruckgekommen
+                        ; Deren Herr 
+						<tei:lb xml:id="z170" facs="#facs_5_r_1_2l8"/>
+                        Sohn / Prinz von Dombes
+                        , so von den Kinds
+                        =
+                        Blatern genesen /
+						<tei:lb xml:id="z171" facs="#facs_5_r_1_2l9"/>
+                        sich mit der Mademoiselle de la Roche
+                        -
+                        Sur
+                        -
+                        Von vermählen werde
+                        .
+						<tei:lb xml:id="z172" facs="#facs_5_r_1_2l10"/>
+                        Jhre Königliche Hoheit / der Herzog von Orleans
+                        , Regent von 
+						Frank=
+                            <tei:lb xml:id="z173" facs="#facs_5_r_1_2l11"/>reich / hätten unter andern dem Grafen von Blanzar 100000
+                        . Rthrl
+                        .
+						<tei:lb xml:id="z174" facs="#facs_5_r_1_2l12"/>
+                        für Actien / und dem Herzogen von Tresmes eben so viel
+                        : dan 200000
+                        .
+						<tei:lb xml:id="z175" facs="#facs_5_r_1_2l13"/>
+                        dem Sohndes Prinzenwon Courtenay
+                        : nicht weniger 300000
+                        . Livres der 
+						<tei:lb xml:id="z176" facs="#facs_5_r_1_2l14"/>
+                        Abtissin von Montmarte
+                        : und eine Million dem Grafen von Luc
+                        , in 
+                            <tei:choice>
+                                <tei:orig>Er</tei:orig>
+                                <tei:reg>ErAus</tei:reg>
+                            </tei:choice>
+                        
+                        =
+                    </tei:p>
+					<tei:p xml:id="p40" rendition="#f" facs="#facs_5_r_1_3">
+						<tei:lb xml:id="z177" facs="#facs_5_r_1_3l1"/>
+                        Aus Holland / von dem 12
+                        . Jenner
+                        . Daß in dem Haag die 
+						<tei:lb xml:id="z178" facs="#facs_5_r_1_3l2"/>
+                        Herren Staaten von Holl
+                        = und West
+                        =
+                        Frießland den 9
+                        . dieses 
+						wie=
+                            <tei:lb xml:id="z179" facs="#facs_5_r_1_3l3"/>derum sich versamlet
+                        : und über sehr wichtige Staats
+                        =
+                        Sachen sich 
+						be=
+                            <tei:lb xml:id="z180" facs="#facs_5_r_1_3l4"/>ratschlaget hätten
+                        ; Desgleichen die ausländische Ministers fast täglich 
+						<tei:lb xml:id="z181" facs="#facs_5_r_1_3l5"/>
+                        tähten
+                        ; Jm besagten Haag solle man auf den nacher Madrit samt 
+						<tei:lb xml:id="z182" facs="#facs_5_r_1_3l6"/>
+                        dem jüngst gefasten Entschluß abgeschickten Currier mit Ungeduld 
+						war=
+                            <tei:lb xml:id="z183" facs="#facs_5_r_1_3l7"/>ten / um so dan zu vernehmen / wessen man sich zu versehen
+                        . Sonsien 
+						<tei:lb xml:id="z184" facs="#facs_5_r_1_3l8"/>
+                        habe man ungern zu Amsterdam vernommen / daß das Schif /
+                        t Huys 
+						<tei:lb xml:id="z185" facs="#facs_5_r_1_3l9"/>
+                        ter Nessel genant / wohlbeladen / bey Calangs
+                        =
+                        Oog verunglücket /
+						<tei:lb xml:id="z186" facs="#facs_5_r_1_3l10"/>
+                        gesunken wäre
+                        .
+						<tei:lb xml:id="z187" facs="#facs_5_r_1_3l11"/>
+                        rm Te
+                    </tei:p>
+					<tei:p xml:id="p41" rendition="#f" facs="#facs_5_r_1_4">
+						<tei:lb xml:id="z188" facs="#facs_5_r_1_4l1"/>
+                        Aus Brabant / von dem 12
+                        . Jenner
+                        . Daß in der frey
+                        =
+						Kai=
+                            <tei:lb xml:id="z189" facs="#facs_5_r_1_4l2"/>serlichen Haven zu Ostende wieder 3
+                        . Schiffe Seegelfertig stünden
+                        ;
+						<tei:lb xml:id="z190" facs="#facs_5_r_1_4l3"/>
+                        Gleich wie dan dasige neu
+                        =
+                        Jndianische Compagnie auch noch einige 
+						<tei:lb xml:id="z191" facs="#facs_5_r_1_4l4"/>
+                        dergleichen ausrüsten liese
+                        . Um die bishero vorgeweste 
+						Mißverständ=
+                            <tei:lb xml:id="z192" facs="#facs_5_r_1_4l5"/>nüsse wegen der Gränz
+                        =
+                        Scheidung völlig abzutuhen / habe der Herr 
+						<tei:lb xml:id="z193" facs="#facs_5_r_1_4l6"/>
+                        von Pesters nach Flandern sich verfüget
+                        . Sonst seye der Duc d'Hav
+                        .
+						<tei:lb xml:id="z194" facs="#facs_5_r_1_4l7"/>
+                        re
+                        , welcher des Herzogs von Anzou Diensten unlängst verlassen /
+						<tei:lb xml:id="z195" facs="#facs_5_r_1_4l8"/>
+                        zum 
+						<tei:lb xml:id="z196" facs="#facs_5_r_1_4l9"/>
+                        )( 3
+                    </tei:p>
+					<tei:p xml:id="p42" rendition="#f" facs="#facs_6_r_1_1">
+						<tei:lb xml:id="z197" facs="#facs_6_r_1_1l1"/>
+                        zum Besiz seiner schon vorhin innengehabten Gühtern hergestellet
+                    </tei:p>
+					<tei:p xml:id="p43" rendition="#f" facs="#facs_6_r_1_2">
+						<tei:lb xml:id="z198" facs="#facs_6_r_1_2l1"/>
+                        Von dem Nieder
+                        =
+                        Rheinstrom / vom 14
+                        . Jener
+                        . Daß zu Cöllen 
+						<tei:lb xml:id="z199" facs="#facs_6_r_1_2l2"/>
+                        mehrmalen verschiedene Schiffe mit Bomben und Kuglen 
+                            <tei:choice>
+                                <tei:orig>angekom</tei:orig>
+                                <tei:reg>angekomVon</tei:reg>
+                            </tei:choice>
+                        
+                        =
+                    </tei:p>
+					<tei:p xml:id="p44" rendition="#f" facs="#facs_6_r_1_3">
+						<tei:lb xml:id="z200" facs="#facs_6_r_1_3l1"/>
+                        Von dem Maynstrom / vom 16
+                        . Jenner
+                        . Daß die Catholische 
+						<tei:lb xml:id="z201" facs="#facs_6_r_1_3l2"/>
+                        Geistliche / welche unlängstens zu Heydelberg wegen Religions
+                        =
+						Sa=
+                            <tei:lb xml:id="z202" facs="#facs_6_r_1_3l3"/>chen angekommen / von dar wieder sich hinweg
+                        : und anderwärtshin 
+                            <tei:choice>
+                                <tei:orig>be</tei:orig>
+                                <tei:reg>beAus</tei:reg>
+                            </tei:choice>
+                        
+                        =
+                    </tei:p>
+					<tei:p xml:id="p45" rendition="#f" facs="#facs_6_r_1_4">
+						<tei:lb xml:id="z203" facs="#facs_6_r_1_4l1"/>
+                        Aus der Schweitz / von dem 14
+                        . Jenner
+                        . Daß zu Genf ein 
+						Cal=
+                            <tei:lb xml:id="z204" facs="#facs_6_r_1_4l2"/>vinischer Doctor
+                        . Namens Turretin
+                        , ein Tractätlein heraus gegeben /
+						<tei:lb xml:id="z205" facs="#facs_6_r_1_4l3"/>
+                        w
+                    </tei:p>
+					<tei:p xml:id="p46" rendition="#f" facs="#facs_6_r_1_5">
+						<tei:lb xml:id="z206" facs="#facs_6_r_1_5l1"/>
+                        Von dem Elbstrom / vom 15
+                        . Jenner
+                        . Daß / vermög der 
+						Nach=
+                            <tei:lb xml:id="z207" facs="#facs_6_r_1_5l2"/>richt aus Petersburg / der Groß
+                        =
+                        Czaar / dessen Gemahlin sich wieder 
+						<tei:lb xml:id="z208" facs="#facs_6_r_1_5l3"/>
+                        grosses Leibs befinden solle / den Befehl nach Riga und Reval ergehen 
+						<tei:lb xml:id="z209" facs="#facs_6_r_1_5l4"/>
+                        lassen / die Vorstädte dasiger Festungen abzubrechen / um desto füglicher 
+						<tei:lb xml:id="z210" facs="#facs_6_r_1_5l5"/>
+                        die nach dem Plan angefangen
+                        =
+                        feste Werker fortzuführen
+                        . Zu 
+						Stock=
+                            <tei:lb xml:id="z211" facs="#facs_6_r_1_5l6"/>holm beruhe alles auf den Reichs
+                        =
+                        Tag
+                        ; Jedoch vermuhte man / daß 
+						<tei:lb xml:id="z212" facs="#facs_6_r_1_5l7"/>
+                        schwerlich alles auf demselben werde abgemacht werden
+                        . Zu 
+						Koppenha=
+                            <tei:lb xml:id="z213" facs="#facs_6_r_1_5l8"/>gen habe der König in Dänemarkt alle die Officiers / so bey der 
+						ehe=
+                            <tei:lb xml:id="z214" facs="#facs_6_r_1_5l9"/>maligen Unternehmung auf Marstrand gewesen / mit Gold
+                        = und 
+						Sil=
+                            <tei:lb xml:id="z215" facs="#facs_6_r_1_5l10"/>bernen Denkmünzen beschenket
+                        .
+                    </tei:p>
+					<tei:p xml:id="p47" rendition="#f" facs="#facs_6_r_1_6">
+						<tei:lb xml:id="z216" facs="#facs_6_r_1_6l1"/>
+                        NB
+                        . Jm roten 
+						<tei:lb xml:id="z217" facs="#facs_6_r_1_6l2"/>
+                        igel ist zu
+                    </tei:p>
+					<tei:p xml:id="p48" rendition="#?11-84-95--159-1375" facs="#facs_6_r_1_7">
+						<tei:lb xml:id="z218" facs="#facs_6_r_1_7l1"/>
+                        grosse Unternehmungen des Herrn Laws
+                        , welche derselbe /
+						<tei:lb xml:id="z219" facs="#facs_6_r_1_7l2"/>
+                        zum Nutzen seiner neuerrichtet
+                        =
+                        Indianischen Compagnie
+                        : vornemlich aber zur 
+						<tei:lb xml:id="z220" facs="#facs_6_r_1_7l3"/>
+                        Verbesserung derer Königlichen Financien / und des Französischen Comercii bis 
+						<tei:lb xml:id="z221" facs="#facs_6_r_1_7l4"/>
+                        hieher fortgeführet
+                        ; Dabey zugleich von der Natur der Actien insgemein
+                        : und /
+						<tei:lb xml:id="z222" facs="#facs_6_r_1_7l5"/>
+                        was es mit diesen in dergleichen grossen Compagnien vor eine Bewandnuß habe /
+						<tei:lb xml:id="z223" facs="#facs_6_r_1_7l6"/>
+                        auch welche die feste Länder / Jnsulen / Festungen und See
+                        =
+                        Porten seyen / welche in 
+						<tei:lb xml:id="z224" facs="#facs_6_r_1_7l7"/>
+                        America Septentrionali der Französischen neu
+                        =
+                        lndianischen Compagnie zu ihrem 
+						<tei:lb xml:id="z225" facs="#facs_6_r_1_7l8"/>
+                        Handels
+                        =
+                        Gebrauch / und Nutzen zugeeignet worden / gehandelt wird / entworffen 
+						<tei:lb xml:id="z226" facs="#facs_6_r_1_7l9"/>
+                        von P
+                        . J
+                        . M
+                        .
+                    </tei:p>
+					<tei:p xml:id="p49" rendition="#fc" facs="#facs_6_r_1_8">
+						<tei:lb xml:id="z227" facs="#facs_6_r_1_8l1"/>
+                        Ankunft derer Hoh und Niederen Star 
+						<tei:lb xml:id="z228" facs="#facs_6_r_1_8l2"/>
+                        sonen
+                        .
+                    </tei:p>
+					<tei:p xml:id="p50" rendition="#fc" facs="#facs_6_r_1_9">
+						<tei:lb xml:id="z229" facs="#facs_6_r_1_9l1"/>
+                        De
+                    </tei:p>
+					<tei:p xml:id="p51" rendition="#f" facs="#facs_6_r_1_10">
+						<tei:lb xml:id="z230" facs="#facs_6_r_1_10l1"/>
+                        Stuben
+                        =
+                        Thor
+                        . Herr von Becker / Kaiserl
+                        . Herr von Pfefferkorn / Obrist
+                        =
+                        Lieutenant 
+						<tei:lb xml:id="z231" facs="#facs_6_r_1_10l2"/>
+                        Fiscal in Mähren / komt von Brün / log
+                        . vom Bayreutischen Regiment / komt 
+						<tei:lb xml:id="z232" facs="#facs_6_r_1_10l3"/>
+                        bey der Anten
+                    </tei:p>
+					<tei:p xml:id="p52" rendition="#f" facs="#facs_6_r_1_11">
+						<tei:lb xml:id="z233" facs="#facs_6_r_1_11l1"/>
+                        raf Barbo / Stuben
+                        =
+                        Thor
+                        . Herr Baron Hallerstein /
+						<tei:lb xml:id="z234" facs="#facs_6_r_1_11l2"/>
+                        Hauptmann vom Heisterischen Regi
+                        = komt von Clagenfurt / log
+                        . beym Radel
+                        .
+						<tei:lb xml:id="z235" facs="#facs_6_r_1_11l3"/>
+                        ment / komt von Arrath /
+                        log
+                        . im goldenen Roten
+                        =
+                        Thurn
+                        . Ein Curzier / komt aus 
+						<tei:lb xml:id="z236" facs="#facs_6_r_1_11l4"/>
+                        Ochs
+                        .
+						<tei:lb xml:id="z237" facs="#facs_6_r_1_11l5"/>
+                        Engelland / log
+                        . bey dem Hrn Gesandten
+                        .
+                    </tei:p>
+                    <tei:milestone type="separator" rend="horizontal" unit="section" rendition="#f"/>
+                    <tei:milestone type="separator" rend="horizontal" unit="section" rendition="#f"/>
+					<tei:p xml:id="p53" rendition="#fc" facs="#facs_7_r_1_1">
+						<tei:lb xml:id="z238" facs="#facs_7_r_1_1l1"/>
+                        Lista derer Verehelichten in
+                        = und vor der Stadt
+                        .
+                    </tei:p>
+					<tei:p xml:id="p54" rendition="#fc" facs="#facs_7_r_1_2">
+						<tei:lb xml:id="z239" facs="#facs_7_r_1_2l1"/>
+                        Den 23
+                        . Dito
+                        .
+                    </tei:p>
+					<tei:p xml:id="p55" rendition="#l" facs="#facs_7_r_1_3">
+						<tei:lb xml:id="z240" facs="#facs_7_r_1_3l1"/>
+                        Joh
+                        . ünschalt / Koch mi Ana Pretzingerin Herr Franz Balthasar Jecklin / Kais
+                        . 
+						Ban=
+                            <tei:lb xml:id="z241" facs="#facs_7_r_1_3l2"/>täts
+                        =
+                        Militar
+                        =
+                        Buchhalterey
+                        = 
+                            <tei:choice>
+                                <tei:orig>Ingros</tei:orig>
+                                <tei:reg>IngrosHerr</tei:reg>
+                            </tei:choice>
+                        
+                        -
+                    </tei:p>
+					<tei:p xml:id="p56" rendition="#l" facs="#facs_7_r_1_4">
+						<tei:lb xml:id="z242" facs="#facs_7_r_1_4l1"/>
+                        Herr Joh Leopold Dollhopf
+                        =
+                        Kaiserl
+                        . Hof
+                        = sist
+                        ; mit Jungfr
+                        . Maria Elisabeth 
+                            <tei:choice>
+                                <tei:orig>Lier</tei:orig>
+                                <tei:reg>Lierrey</tei:reg>
+                            </tei:choice>
+                        
+                        =
+                    </tei:p>
+					<tei:p xml:id="p57" rendition="#f" facs="#facs_7_r_1_5">
+						<tei:lb xml:id="z243" facs="#facs_7_r_1_5l1"/>
+                        rey
+                        =
+                        ngrossist
+                        , mit Jungfr
+                        . Anna Maria Johann Michael Dopping / Sollicitator
+                        ,
+						<tei:lb xml:id="z244" facs="#facs_7_r_1_5l2"/>
+                        nit Maria Regina Ecklin /
+                    </tei:p>
+					<tei:p xml:id="p58" rendition="#l" facs="#facs_7_r_1_6">
+						<tei:lb xml:id="z245" facs="#facs_7_r_1_6l1"/>
+                        Jacob Fridl / Post
+                        =
+                        Knecht / mit Ursula Johann Franz Staub / Schreiber / mit 
+						<tei:lb xml:id="z246" facs="#facs_7_r_1_6l2"/>
+                        Susanna Theresia Gaßnerin / Wittib
+                        .
+                    </tei:p>
+					<tei:p xml:id="p59" rendition="#l" facs="#facs_7_r_1_7">
+						<tei:lb xml:id="z247" facs="#facs_7_r_1_7l1"/>
+                        Den 24
+                        . Dito
+                        .
+						<tei:lb xml:id="z248" facs="#facs_7_r_1_7l2"/>
+                        M
+                        .
+                    </tei:p>
+					<tei:p xml:id="p60" rendition="#f" facs="#facs_7_r_1_8">
+						<tei:lb xml:id="z249" facs="#facs_7_r_1_8l1"/>
+                        Raphael Herrsam / Schneider / mit 
+                            <tei:choice>
+                                <tei:orig>Catha</tei:orig>
+                                <tei:reg>Catharina</tei:reg>
+                            </tei:choice>
+                        
+                        =
+                    </tei:p>
+					<tei:p xml:id="p61" rendition="#l" facs="#facs_7_r_1_9">
+						<tei:lb xml:id="z250" facs="#facs_7_r_1_9l1"/>
+                        rina Löwin
+                        .
+						<tei:lb xml:id="z251" facs="#facs_7_r_1_9l2"/>
+                        J
+                        .
+                    </tei:p>
+					<tei:p xml:id="p62" rendition="#f" facs="#facs_7_r_1_10">
+						<tei:lb xml:id="z252" facs="#facs_7_r_1_10l1"/>
+                        Johann Kohler / Schneider / mit Catharina 
+						<tei:lb xml:id="z253" facs="#facs_7_r_1_10l2"/>
+                        
+                            <tei:choice>
+                                <tei:orig>Aifted</tei:orig>
+                                <tei:reg>AiftedThomas</tei:reg>
+                            </tei:choice>
+                        
+                        =
+                    </tei:p>
+					<tei:p xml:id="p63" rendition="#fc" facs="#facs_7_r_1_11"/>
+					<tei:p xml:id="p64" rendition="#l" facs="#facs_7_r_1_12">
+						<tei:lb xml:id="z254" facs="#facs_7_r_1_12l1"/>
+                        Thomas Huber / Schneider / mit Maria Johann Georg Manker / Rothgerber / mit 
+						<tei:lb xml:id="z255" facs="#facs_7_r_1_12l2"/>
+                        Anna Barbara Braitengeyerin
+                        .
+                    </tei:p>
+					<tei:p xml:id="p65" rendition="#l" facs="#facs_7_r_1_13">
+						<tei:lb xml:id="z256" facs="#facs_7_r_1_13l1"/>
+                        Sebastian Resch / Schuknecht / mit Anna Christoph Geschmaitner / Laggey / mit 
+						Wal=
+                            <tei:lb xml:id="z257" facs="#facs_7_r_1_13l2"/>b 
+						<tei:lb xml:id="z258" facs="#facs_7_r_1_13l3"/>
+                        urga Mülnerin
+                        .
+                    </tei:p>
+					<tei:p xml:id="p66" rendition="#l" facs="#facs_7_r_1_14">
+						<tei:lb xml:id="z259" facs="#facs_7_r_1_14l1"/>
+                        Wolfgang Wiengl / Beck / mit Anna Ca
+                        = Johann Georg Kurzmann / Kutscher / mit 
+						<tei:lb xml:id="z260" facs="#facs_7_r_1_14l2"/>
+                        Magdalena Höldin / Wittib
+                        .
+                    </tei:p>
+					<tei:p xml:id="p67" rendition="#l" facs="#facs_7_r_1_15">
+						<tei:lb xml:id="z261" facs="#facs_7_r_1_15l1"/>
+                        Johann Fuger / Huterer / mit Elisabeth Un
+                        = Johann Rascher / Laufer / mit Catharina 
+						<tei:lb xml:id="z262" facs="#facs_7_r_1_15l2"/>
+                        terederin
+                        .
+                    </tei:p>
+					<tei:p xml:id="p68" rendition="#fc" facs="#facs_7_r_1_16">
+						<tei:lb xml:id="z263" facs="#facs_7_r_1_16l1"/>
+                        Lista derer Getauften / in
+                        = und vor der Stadt
+                        .
+                    </tei:p>
+					<tei:p xml:id="p69" rendition="#?12-80-92--174-1328" facs="#facs_7_r_1_17">
+						<tei:lb xml:id="z264" facs="#facs_7_r_1_17l1"/>
+                        Ana Cathar
+                        . s
+                        . Ehew
+                        . ihr S
+                        . Jgnaz Bened
+                        .
+                    </tei:p>
+					<tei:p xml:id="p70" rendition="#l" facs="#facs_7_r_1_18">
+						<tei:lb xml:id="z265" facs="#facs_7_r_1_18l1"/>
+                        Dem Hrn
+                        . Veit Würth / Mahler / und Maria Dem Franz Joseph Setz / Schneider / und 
+						<tei:lb xml:id="z266" facs="#facs_7_r_1_18l2"/>
+                        0 
+						<tei:lb xml:id="z267" facs="#facs_7_r_1_18l3"/>
+                        Maria s
+                        . Ehew
+                        . ihr S
+                        . Leopold Philipp
+                        .
+                    </tei:p>
+					<tei:p xml:id="p71" rendition="#l" facs="#facs_7_r_1_19">
+						<tei:lb xml:id="z268" facs="#facs_7_r_1_19l1"/>
+                        Dem Caspar Vogel / Zinngieser / und Anna Dem Michael Koman / Kräutler / und 
+						<tei:lb xml:id="z269" facs="#facs_7_r_1_19l2"/>
+                        . garetha s
+                        . Ehew
+                        . ihr S
+                        . Johann Leopold
+                        .
+                    </tei:p>
+					<tei:p xml:id="p72" rendition="#l" facs="#facs_7_r_1_20">
+						<tei:lb xml:id="z270" facs="#facs_7_r_1_20l1"/>
+                        Dem Matthias Saidel / Strümpfstricker / Vier gefundene Kinder / als Maria 
+						Marga=
+                            <tei:lb xml:id="z271" facs="#facs_7_r_1_20l2"/>retha / Francisca / Paul / und Franz
+                        .
+						<tei:lb xml:id="z272" facs="#facs_7_r_1_20l3"/>
+                        und Reg
+                        .
+                        s
+                        . C
+                    </tei:p>
+					<tei:p xml:id="p73" rendition="#?17-75-92--248-1328" facs="#facs_7_r_1_21">
+						<tei:lb xml:id="z273" facs="#facs_7_r_1_21l1"/>
+                        el / Kräutler / und Maria 
+						<tei:lb xml:id="z274" facs="#facs_7_r_1_21l2"/>
+                        Antor
+                    </tei:p>
+					<tei:p xml:id="p74" rendition="#l" facs="#facs_7_r_1_22">
+						<tei:lb xml:id="z275" facs="#facs_7_r_1_22l1"/>
+                        Regina s
+                        . Ehew
+                        . ihr S
+                        . Leopold Anton
+                        .
+                    </tei:p>
+					<tei:p xml:id="p75" rendition="#f" facs="#facs_7_r_1_23">
+						<tei:lb xml:id="z276" facs="#facs_7_r_1_23l1"/>
+                        bPauer
+                        = Becker / und Regina sein
+                        .
+                    </tei:p>
+					<tei:p xml:id="p76" rendition="#fc" facs="#facs_7_r_1_24">
+						<tei:lb xml:id="z277" facs="#facs_7_r_1_24l1"/>
+                        Ehew
+                        . ihr T
+                        . Anna Sophia Rosina
+                        .
+                    </tei:p>
+					<tei:p xml:id="p77" rendition="#l" facs="#facs_7_r_1_25">
+						<tei:lb xml:id="z278" facs="#facs_7_r_1_25l1"/>
+                        Dem Hrn
+                        . Matthias Hattzi / und Sabina s
+                        . Dem Joh
+                        . Georg Zauner / Tagwerker / und 
+						<tei:lb xml:id="z279" facs="#facs_7_r_1_25l2"/>
+                        eS
+                        .
+						<tei:lb xml:id="z280" facs="#facs_7_r_1_25l3"/>
+                        istian Johan
+                        .
+                    </tei:p>
+					<tei:p xml:id="p78" rendition="#l" facs="#facs_7_r_1_26">
+						<tei:lb xml:id="z281" facs="#facs_7_r_1_26l1"/>
+                        Den 21
+                        . Dito
+                        .
+                    </tei:p>
+					<tei:p xml:id="p79" rendition="#l" facs="#facs_7_r_1_27">
+						<tei:lb xml:id="z282" facs="#facs_7_r_1_27l1"/>
+                        Maria Ther
+                        . s
+                        . Ehew ihr T
+                        . Mar
+                        . Monica
+                        . Dem Hrn
+                        . Joseph Anton Schraub / Kais
+                        .
+						<tei:lb xml:id="z283" facs="#facs_7_r_1_27l2"/>
+                        Dem Michael Hecker / Fleischhacker / und Proviant
+                        =
+                        Officier / und Anna Maria 
+						<tei:lb xml:id="z284" facs="#facs_7_r_1_27l3"/>
+                        Hausfr
+                        . ihr S
+                        . Matthias Step
+                        . Jgnaz
+                        .
+                    </tei:p>
+					<tei:p xml:id="p80" rendition="#l" facs="#facs_7_r_1_28">
+						<tei:lb xml:id="z285" facs="#facs_7_r_1_28l1"/>
+                        Dem Joseph Jacob Kloster / und Elisabeth Dem Matthias Kuntinger / Kaiserl
+                        . 
+						Vorreu=
+                            <tei:lb xml:id="z286" facs="#facs_7_r_1_28l2"/>ter / und Barbara sein
+                        . Ehew
+                        . ihr S
+                        . Carl 
+						<tei:lb xml:id="z287" facs="#facs_7_r_1_28l3"/>
+                        sein
+                        . Ehew
+                        . ihr S
+                        . Anton Simon
+                        .
+						<tei:lb xml:id="z288" facs="#facs_7_r_1_28l4"/>
+                        oseph Matthias
+                        .
+                    </tei:p>
+					<tei:p xml:id="p81" rendition="#l" facs="#facs_7_r_1_29">
+						<tei:lb xml:id="z289" facs="#facs_7_r_1_29l1"/>
+                        Dem Martin Cornich / und Maria Magdal
+                        .
+						<tei:lb xml:id="z290" facs="#facs_7_r_1_29l2"/>
+                        sein
+                        . Ehew
+                        . ihr T
+                        . Maria Elisabeth
+                        .
+						<tei:lb xml:id="z291" facs="#facs_7_r_1_29l3"/>
+                        Dem Wolfgang Stumpf / Flaschner / und | s
+                        . Ehew
+                        . ihr T
+                        . Ursula Apollonia Cathar
+                        .
+                    </tei:p>
+					<tei:p xml:id="p82" rendition="#r" facs="#facs_7_r_1_30">
+						<tei:lb xml:id="z292" facs="#facs_7_r_1_30l1"/>
+                        Dem
+                    </tei:p>
+                    <tei:milestone type="separator" rend="horizontal" unit="section" rendition="#?15-77-92--223-1331"/>
+                    <tei:milestone type="separator" rend="horizontal" unit="section" rendition="#l"/>
+					<tei:p xml:id="p83" rendition="#?11-88-99--159-1435" facs="#facs_8_r_1_1">
+						<tei:lb xml:id="z293" facs="#facs_8_r_1_1l1"/>
+                        Dem Andre Pächler / Kutscher
+                    </tei:p>
+					<tei:p xml:id="p84" rendition="#?11-89-100--161-1443" facs="#facs_8_r_1_2">
+						<tei:lb xml:id="z294" facs="#facs_8_r_1_2l1"/>
+                        s
+                        . Ehew
+                        . ihr S
+                        . Joh
+                        . Leopold Benedict
+                        . Dem Georg Eggenpauer / Tagwerker / und 
+						<tei:lb xml:id="z295" facs="#facs_8_r_1_2l2"/>
+                        Dem Joh
+                        . Georg Hin 
+						<tei:lb xml:id="z296" facs="#facs_8_r_1_2l3"/>
+                        ann Simon
+                        .
+                    </tei:p>
+					<tei:p xml:id="p85" rendition="#fc" facs="#facs_8_r_1_3">
+						<tei:lb xml:id="z297" facs="#facs_8_r_1_3l1"/>
+                        und Ana Maric
+                    </tei:p>
+					<tei:p xml:id="p86" rendition="#?11-89-100--161-1444" facs="#facs_8_r_1_4">
+						<tei:lb xml:id="z298" facs="#facs_8_r_1_4l1"/>
+                        Dem Peter Marschelly / und Susanna sein
+                        . Dem Hrn
+                        . Johann Maximilian Gottfried 
+						<tei:lb xml:id="z299" facs="#facs_8_r_1_4l2"/>
+                        Ehew
+                        . ihr T
+                        .
+                    </tei:p>
+					<tei:p xml:id="p87" rendition="#?11-89-100--162-1442" facs="#facs_8_r_1_5">
+						<tei:lb xml:id="z300" facs="#facs_8_r_1_5l1"/>
+                        Dem Johann Schrepffer / Würth / und Ma
+                        = Ehefr
+                        . ihr T
+                        . Maria 
+						<tei:lb xml:id="z301" facs="#facs_8_r_1_5l2"/>
+                        Johanna
+                        .
+                    </tei:p>
+					<tei:p xml:id="p88" rendition="#fc" facs="#facs_8_r_1_6">
+						<tei:lb xml:id="z302" facs="#facs_8_r_1_6l1"/>
+                        Lista derer Verstorbenen / in
+                        = und vor der
+                    </tei:p>
+					<tei:p xml:id="p89" rendition="#?17-83-100--240-1438" facs="#facs_8_r_1_7">
+						<tei:lb xml:id="z303" facs="#facs_8_r_1_7l1"/>
+                        Den 20
+                        . Jenner / 1720
+                        . starb
+                    </tei:p>
+					<tei:p xml:id="p90" rendition="#?25-75-100--356-1438" facs="#facs_8_r_1_8">
+						<tei:lb xml:id="z304" facs="#facs_8_r_1_8l1"/>
+                        Jn der Ste
+                    </tei:p>
+					<tei:p xml:id="p91" rendition="#?11-88-100--161-1438" facs="#facs_8_r_1_9">
+						<tei:lb xml:id="z305" facs="#facs_8_r_1_9l1"/>
+                        Hr
+                        . Joh
+                        . Michael Rieder 
+						<tei:lb xml:id="z306" facs="#facs_8_r_1_9l2"/>
+                        ederin von Adelshausen /
+                    </tei:p>
+					<tei:p xml:id="p92" rendition="#fc" facs="#facs_8_r_1_10">
+						<tei:lb xml:id="z307" facs="#facs_8_r_1_10l1"/>
+                        Zollerischen Hauß /
+                    </tei:p>
+					<tei:p xml:id="p93" rendition="#?11-89-100--159-1439" facs="#facs_8_r_1_11">
+						<tei:lb xml:id="z308" facs="#facs_8_r_1_11l1"/>
+                        Dem Michael Auer / Garde
+                        =
+                        Profos
+                        =
+                        Lieu
+                        = Dem Joseph Domaly / 
+						Schlafrockschnei=
+                            <tei:lb xml:id="z309" facs="#facs_8_r_1_11l2"/>tenant / unterm nenen Thor / sein W
+                        . der / im Fischhof / s
+                        . K
+                        . Anna / alt 6
+                        . V
+                        . J
+                        .
+						<tei:lb xml:id="z310" facs="#facs_8_r_1_11l3"/>
+                        Anna / alt 40
+                        . Jahr
+                        .
+                    </tei:p>
+					<tei:p xml:id="p94" rendition="#?24-76-99--342-1433" facs="#facs_8_r_1_12">
+						<tei:lb xml:id="z311" facs="#facs_8_r_1_12l1"/>
+                        Vor der 
+						<tei:lb xml:id="z312" facs="#facs_8_r_1_12l2"/>
+                        sab alt 72 J
+                        .
+                    </tei:p>
+					<tei:p xml:id="p95" rendition="#fc" facs="#facs_8_r_1_13">
+						<tei:lb xml:id="z313" facs="#facs_8_r_1_13l1"/>
+                        Fr
+                        . Maria Magdalena Le Cont 
+						<tei:lb xml:id="z314" facs="#facs_8_r_1_13l2"/>
+                        n
+                        , A
+                    </tei:p>
+					<tei:p xml:id="p96" rendition="#?11-89-99--157-1435" facs="#facs_8_r_1_14">
+						<tei:lb xml:id="z315" facs="#facs_8_r_1_14l1"/>
+                        in der Leopoldstadt / alt 25
+                        . Jahr
+                        .
+						<tei:lb xml:id="z316" facs="#facs_8_r_1_14l2"/>
+                        Franz Christoph Kunz / Kaiserl
+                        . Trabant /
+						<tei:lb xml:id="z317" facs="#facs_8_r_1_14l3"/>
+                        Dem Michael Eßler / Kaiserl
+                        . H
+                    </tei:p>
+					<tei:p xml:id="p97" rendition="#?11-89-100--160-1440" facs="#facs_8_r_1_15">
+						<tei:lb xml:id="z318" facs="#facs_8_r_1_15l1"/>
+                        im Liechtent
+                        . s
+                        . W
+                        . Susanna / alt 50
+                        . J
+                        . Margaretha Dobischauerin / Wittib / in der 
+						<tei:lb xml:id="z319" facs="#facs_8_r_1_15l2"/>
+                        Dem Jacob Cantes / Gartnei
+                    </tei:p>
+					<tei:p xml:id="p98" rendition="#?11-89-99--152-1433" facs="#facs_8_r_1_16">
+						<tei:lb xml:id="z320" facs="#facs_8_r_1_16l1"/>
+                        Laimgrub / s
+                        . W
+                        . Veronica / alt 77
+                        . J
+                        . Simon Stöckl / Bestand
+                        =
+                        Würth / in der 
+						<tei:lb xml:id="z321" facs="#facs_8_r_1_16l2"/>
+                        Dem Benedict Wallner / Bauholz
+                        =
+                        W
+                    </tei:p>
+					<tei:p xml:id="p99" rendition="#?11-89-99--154-1434" facs="#facs_8_r_1_17">
+						<tei:lb xml:id="z322" facs="#facs_8_r_1_17l1"/>
+                        rer / in der Roßau / s
+                        . W
+                        . Susan
+                        . alt 44
+                        . J
+                        . Dem Gregori Strizl / Zimergesell / im Liech
+                        =
+						<tei:lb xml:id="z323" facs="#facs_8_r_1_17l2"/>
+                        Paul Donau / Satlergesel
+                    </tei:p>
+					<tei:p xml:id="p100" rendition="#?13-86-99--192-1434" facs="#facs_8_r_1_18">
+						<tei:lb xml:id="z324" facs="#facs_8_r_1_18l1"/>
+                        alt 19
+                        . Jahr
+                        .
+                    </tei:p>
+					<tei:p xml:id="p101" rendition="#?10-89-99--151-1430" facs="#facs_8_r_1_19">
+						<tei:lb xml:id="z325" facs="#facs_8_r_1_19l1"/>
+                        em Jacob Bözl
+                    </tei:p>
+					<tei:p xml:id="p102" rendition="#?10-89-99--151-1433" facs="#facs_8_r_1_20">
+						<tei:lb xml:id="z326" facs="#facs_8_r_1_20l1"/>
+                        Zahringergaß / s
+                        . W
+                        . Anna / alt 58
+                        . Jahr
+                        . Joh
+                        . Thaller / alt 28
+                        . J
+                        . im Kranken
+                        =
+                        Hauß /
+						<tei:lb xml:id="z327" facs="#facs_8_r_1_20l2"/>
+                        Eva Hochhauserin / alt 40
+                        . J
+                        . Johanna Ha
+                        =
+						<tei:lb xml:id="z328" facs="#facs_8_r_1_20l3"/>
+                        Den 23
+                        . Dito / in der Stadt
+                        .
+						<tei:lb xml:id="z329" facs="#facs_8_r_1_20l4"/>
+                        sin / alt 18
+                        . J
+                        . und Kunigund Mortin / alt R
+                        . D
+                        . Joh
+                        . Tobias Peter / Weltlicher 
+						Prie=
+                            <tei:lb xml:id="z330" facs="#facs_8_r_1_20l5"/>22
+						<tei:lb xml:id="z331" facs="#facs_8_r_1_20l5"/>
+                        22
+                        . Jahr / im Kranken
+                        =
+                        Hauß
+                        .
+                    </tei:p>
+					<tei:p xml:id="p103" rendition="#?10-89-99--150-1430" facs="#facs_8_r_1_21">
+						<tei:lb xml:id="z332" facs="#facs_8_r_1_21l1"/>
+                        Den 21
+                        . Dito / in der Stadt
+                        .
+						<tei:lb xml:id="z333" facs="#facs_8_r_1_21l2"/>
+                        Ainsliul ge l Mleletlt gedl
+                        .
+						<tei:lb xml:id="z334" facs="#facs_8_r_1_21l3"/>
+                        Dem Joh
+                        . Burgold / Se 
+						<tei:lb xml:id="z335" facs="#facs_8_r_1_21l4"/>
+                        /
+                        alt 1
+                        . Jahr
+                        .
+                    </tei:p>
+					<tei:p xml:id="p104" rendition="#fc" facs="#facs_8_r_1_22">
+						<tei:lb xml:id="z336" facs="#facs_8_r_1_22l1"/>
+                        mannischen Hauß /
+                        s
+                        .
+                        K
+                    </tei:p>
+					<tei:p xml:id="p105" rendition="#?10-89-99--149-1431" facs="#facs_8_r_1_23">
+						<tei:lb xml:id="z337" facs="#facs_8_r_1_23l1"/>
+                        Dem Paul Lichtenberger / Hausknecht / im Herr Christian Gottfried von Khin / gew
+                        .
+						<tei:lb xml:id="z338" facs="#facs_8_r_1_23l2"/>
+                        Hub
+                        =
+                        Hauß / s
+                        . K
+                        . Franz / alt 6
+                        . V
+                        . Jahr
+                        . Obrist
+                        =
+                        Wachtm
+                        . am Spitlberg / alt 60
+                        . J
+                        .
+						<tei:lb xml:id="z339" facs="#facs_8_r_1_23l3"/>
+                        Vor der Stadt
+                        .
+						<tei:lb xml:id="z340" facs="#facs_8_r_1_23l4"/>
+                        
+                            <tei:choice>
+                                <tei:orig>Tra</tei:orig>
+                                <tei:reg>TraDem</tei:reg>
+                            </tei:choice>
+                        
+                        =
+                    </tei:p>
+					<tei:p xml:id="p106" rendition="#?10-83-94--149-1352" facs="#facs_8_r_1_24">
+						<tei:lb xml:id="z341" facs="#facs_8_r_1_24l1"/>
+                        Dem Nicl
+                    </tei:p>
+					<tei:p xml:id="p107" rendition="#?10-89-99--147-1431" facs="#facs_8_r_1_25">
+						<tei:lb xml:id="z342" facs="#facs_8_r_1_25l1"/>
+                        Josephstadt / s
+                        . K
+                        . Matthias / alt 2
+                        . J
+                        . Dem Joh
+                        . Gamp / Bau
+                        =
+                        Holz
+                        =
+                        Versilberer /
+						<tei:lb xml:id="z343" facs="#facs_8_r_1_25l2"/>
+                        Martin Rauer / im Liechtenthal / alt 70
+                        . J
+                        . in der Roßau / s
+                        . K
+                        . Simon / alt 6
+                        . Jahr
+                        .
+						<tei:lb xml:id="z344" facs="#facs_8_r_1_25l3"/>
+                        Paul Lacher / im Contumaz / alt 30
+                        . Jahr
+                        . Franz Stollhofer / Laggey / im Liechten
+                        =
+						<tei:lb xml:id="z345" facs="#facs_8_r_1_25l4"/>
+                        Dem Simpert Köpf / Zimergesell / im 
+                            <tei:choice>
+                                <tei:orig>Liech</tei:orig>
+                                <tei:reg>Liechtenthal</tei:reg>
+                            </tei:choice>
+                        
+                        =
+                    </tei:p>
+					<tei:p xml:id="p108" rendition="#?10-89-99--146-1432" facs="#facs_8_r_1_26">
+						<tei:lb xml:id="z346" facs="#facs_8_r_1_26l1"/>
+                        tenthal / sein K
+                        . Elisabeth / alt 5
+                        . Jahr
+                        . Dem Michael Keiz / Schneider / am Spill
+                        =
+						<tei:lb xml:id="z347" facs="#facs_8_r_1_26l2"/>
+                        Tybias Kaltenbrunner / Tagwerker / am berg / sein K
+                        . Anna / alt 5
+                        . Jahr
+                        .
+						<tei:lb xml:id="z348" facs="#facs_8_r_1_26l3"/>
+                        Neustift / alt 60
+                        . Jahr
+                        .
+						<tei:lb xml:id="z349" facs="#facs_8_r_1_26l4"/>
+                        in / in der 
+                            <tei:choice>
+                                <tei:orig>Jo</tei:orig>
+                                <tei:reg>JoDen</tei:reg>
+                            </tei:choice>
+                        
+                        =
+                    </tei:p>
+					<tei:p xml:id="p109" rendition="#fc" facs="#facs_8_r_1_27">
+						<tei:lb xml:id="z350" facs="#facs_8_r_1_27l1"/>
+                        Den
+                    </tei:p>
+					<tei:p xml:id="p110" rendition="#?17-77-94--242-1356" facs="#facs_8_r_1_28">
+						<tei:lb xml:id="z351" facs="#facs_8_r_1_28l1"/>
+                        itl
+                        . Hrn
+                        . Georg Christoph von Hä
+                        = Anna N
+                        . zu St
+                        . Marx / alt 26
+                        . Jahr
+                        .
+                    </tei:p>
+					<tei:p xml:id="p111" rendition="#rr" facs="#facs_8_r_1_29">
+						<tei:lb xml:id="z352" facs="#facs_8_r_1_29l1"/>
+                        
+                            <tei:choice>
+                                <tei:orig>Ord</tei:orig>
+                                <tei:reg>Ordgsten</tei:reg>
+                            </tei:choice>
+                        
+                        =
+                    </tei:p>
+                    <tei:milestone type="separator" rend="horizontal" unit="section" rendition="#?11-89-100--156-1444"/>
+					<tei:p xml:id="p112" rendition="#l" facs="#facs_9_r_1_1">
+						<tei:lb xml:id="z353" facs="#facs_9_r_1_1l1"/>
+                        gsten Leichbegängnuß Jhrer weyl
+                        . Kaiserlichen
+                    </tei:p>
+					<tei:p xml:id="p113" rendition="#l" facs="#facs_9_r_1_2">
+						<tei:lb xml:id="z354" facs="#facs_9_r_1_2l1"/>
+                        Majestät Eleonora Magdalena Theresia / so den 22
+                        . Jenner 1720
+                        . des Abends bey den 
+						<tei:lb xml:id="z355" facs="#facs_9_r_1_2l2"/>
+                        W
+                        . W
+                        . E
+                        . E
+                        . P
+                        . P
+                        . Capucinern auf dem neuen Markt / mit gewöhnlichen 
+						Cere=
+                            <tei:lb xml:id="z356" facs="#facs_9_r_1_2l3"/>monien beygesetzet worden
+                        .
+                    </tei:p>
+					<tei:p xml:id="p114" rendition="#l" facs="#facs_9_r_1_3">
+						<tei:lb xml:id="z357" facs="#facs_9_r_1_3l1"/>
+                        Erstlich kamen die in allhiesigem vor dem Schotten
+                        =
+                        Thor aufgerichteten 
+						Sol=
+                            <tei:lb xml:id="z358" facs="#facs_9_r_1_3l2"/>arme Männer und Weiber an der
+                    </tei:p>
+					<tei:p xml:id="p115" rendition="#l" facs="#facs_9_r_1_4">
+						<tei:lb xml:id="z359" facs="#facs_9_r_1_4l1"/>
+                        1200
+                        . die Ober
+                        =
+                        Kriegs
+                        =
+                        Officiers mitgerechnet
+                        ; So geführet hat dasiger Pfarrer
+                        ,
+						<tei:lb xml:id="z360" facs="#facs_9_r_1_4l2"/>
+                        3
+                    </tei:p>
+					<tei:p xml:id="p116" rendition="#l" facs="#facs_9_r_1_5"/>
+					<tei:p xml:id="p117" rendition="#l" facs="#facs_9_r_1_6">
+						<tei:lb xml:id="z361" facs="#facs_9_r_1_6l1"/>
+                        Die in dem Kaiserlichen Hof
+                        =
+                        Spittal befindliche Väter und Mütter / 
+						zusam=
+                            <tei:lb xml:id="z362" facs="#facs_9_r_1_6l2"/>cob Erlacher
+                        .
+                    </tei:p>
+					<tei:p xml:id="p118" rendition="#l" facs="#facs_9_r_1_7">
+						<tei:lb xml:id="z363" facs="#facs_9_r_1_7l1"/>
+                        Die PIP
+                        . Trinitarii von Erlösung der gefangenen Christen / auf der Alstergassen /
+						<tei:lb xml:id="z364" facs="#facs_9_r_1_7l2"/>
+                        derer waren / mit ihrem General
+                        =
+                        Commissarius / R
+                        . P
+                        . Marto ab Assumptione
+                        , und
+                    </tei:p>
+					<tei:p xml:id="p119" rendition="#l" facs="#facs_9_r_1_8">
+						<tei:lb xml:id="z365" facs="#facs_9_r_1_8l1"/>
+                        Die P
+                        . P
+                        . Carmeliter bey St
+                        . Joseph / auf der Laimgruben / deren waren 
+						<tei:lb xml:id="z366" facs="#facs_9_r_1_8l2"/>
+                        . Georgio
+                    </tei:p>
+					<tei:p xml:id="p120" rendition="#l" facs="#facs_9_r_1_9">
+						<tei:lb xml:id="z367" facs="#facs_9_r_1_9l1"/>
+                        Die P
+                        . P
+                        . Ord
+                        . Serv
+                        . B
+                        . M
+                        . V
+                        . bey unser Lieben Frauen Verkündigung / in der 
+						<tei:lb xml:id="z368" facs="#facs_9_r_1_9l2"/>
+                        rem Priore
+                        , R
+                        . P
+                        . Honorio Maria Mayr / 35
+                        .
+                    </tei:p>
+					<tei:p xml:id="p121" rendition="#f" facs="#facs_9_r_1_10">
+						<tei:lb xml:id="z369" facs="#facs_9_r_1_10l1"/>
+                        Die P
+                        . P
+                        . Paulaner auf der Wyden / deren waren mit ihrem Correctore
+                        , R
+                        . P
+                        .
+						<tei:lb xml:id="z370" facs="#facs_9_r_1_10l2"/>
+                        Greg
+                    </tei:p>
+					<tei:p xml:id="p122" rendition="#fc" facs="#facs_9_r_1_11">
+						<tei:lb xml:id="z371" facs="#facs_9_r_1_11l1"/>
+                        ie P
+                        . P
+                        . Carmeliter Barfüsser in der Leopoldstadt / deren waren mit ihrem
+                    </tei:p>
+					<tei:p xml:id="p123" rendition="#l" facs="#facs_9_r_1_12">
+						<tei:lb xml:id="z372" facs="#facs_9_r_1_12l1"/>
+                        stino ab Angelis
+                        , 31
+                        .
+                    </tei:p>
+					<tei:p xml:id="p124" rendition="#l" facs="#facs_9_r_1_13">
+						<tei:lb xml:id="z373" facs="#facs_9_r_1_13l1"/>
+                        Die Barmherzige Brüder in der Leopoldstadt / deren waren mit ihrem Priore
+                        ,
+                    </tei:p>
+					<tei:p xml:id="p125" rendition="#f" facs="#facs_9_r_1_14">
+						<tei:lb xml:id="z374" facs="#facs_9_r_1_14l1"/>
+                        Die P
+                        . P
+                        . Augustiner zu St
+                        . Sebastian und Rochus / auf der Landstrassen /
+						<tei:lb xml:id="z375" facs="#facs_9_r_1_14l2"/>
+                        deren waren mit ihrem R
+                        . P
+                        . Priore
+                        , Magistro
+                        , Fr
+                        . Hyacintho Maristoni
+                        , Ord
+                        . Erem
+                        .
+						<tei:lb xml:id="z376" facs="#facs_9_r_1_14l3"/>
+                        S
+                        .
+                    </tei:p>
+					<tei:p xml:id="p126" rendition="#l" facs="#facs_9_r_1_15">
+						<tei:lb xml:id="z377" facs="#facs_9_r_1_15l1"/>
+                        Die P
+                        . P
+                        . Minariten zum Heil
+                        . Creutz / deren waren mit ihrem Guardian /
+                    </tei:p>
+					<tei:p xml:id="p127" rendition="#l" facs="#facs_9_r_1_16">
+						<tei:lb xml:id="z378" facs="#facs_9_r_1_16l1"/>
+                    </tei:p>
+					<tei:p xml:id="p128" rendition="#l" facs="#facs_9_r_1_17">
+						<tei:lb xml:id="z379" facs="#facs_9_r_1_17l1"/>
+                        Die P
+                        . P
+                        . Franciscaner zu St
+                        . Hieronymus / deren waren mit ihrem Guardian /
+						<tei:lb xml:id="z380" facs="#facs_9_r_1_17l2"/>
+                        d Custodr
+                        , R
+                        . P
+                        . Wolfgango Seiler / 113
+                        .
+						<tei:lb xml:id="z381" facs="#facs_9_r_1_17l3"/>
+                        Aloysio
+                    </tei:p>
+					<tei:p xml:id="p129" rendition="#f" facs="#facs_9_r_1_18">
+						<tei:lb xml:id="z382" facs="#facs_9_r_1_18l1"/>
+                        Die P
+                        .
+                        . Dominicaner bey St
+                        . Maria Rotunda
+                        , deren waren mit ihrem Priore
+                        , R
+                        . P
+                        .
+                    </tei:p>
+					<tei:p xml:id="p130" rendition="#f" facs="#facs_9_r_1_19">
+						<tei:lb xml:id="z383" facs="#facs_9_r_1_19l1"/>
+                        Die Herren Caßopici Reguiares S
+                        . Augustini
+                        , zu St
+                        . Dorothe / deren waren mit 
+						ih=
+                            <tei:lb xml:id="z384" facs="#facs_9_r_1_19l2"/>rein Dechant / Herm Abam Wilhelm / Freyherrn von Walterskirchen / 15
+                        .
+                    </tei:p>
+					<tei:p xml:id="p131" rendition="#l" facs="#facs_9_r_1_20"/>
+					<tei:p xml:id="p132" rendition="#f" facs="#facs_9_r_1_21">
+						<tei:lb xml:id="z385" facs="#facs_9_r_1_21l1"/>
+                        .
+						<tei:lb xml:id="z386" facs="#facs_9_r_1_21l2"/>
+                        Die P
+                        . P
+                        . Benedictiner zun Schotten / deren waren mit ihrem Priore
+                        , Hrn
+                        . P
+                        . Anton 
+						<tei:lb xml:id="z387" facs="#facs_9_r_1_21l3"/>
+                        Cramme
+                    </tei:p>
+					<tei:p xml:id="p133" rendition="#l" facs="#facs_9_r_1_22"/>
+					<tei:p xml:id="p134" rendition="#l" facs="#facs_9_r_1_23">
+						<tei:lb xml:id="z388" facs="#facs_9_r_1_23l1"/>
+                        Die P
+                        . P
+                        . Clerici Regulares S
+                        . Pauli
+                        , oder Barnabiten / zu St
+                        . Michael / deren 
+						<tei:lb xml:id="z389" facs="#facs_9_r_1_23l2"/>
+                        ung / 25
+                        .
+						<tei:lb xml:id="z390" facs="#facs_9_r_1_23l3"/>
+                        ware
+                    </tei:p>
+					<tei:p xml:id="p135" rendition="#?5-85-90--78-1300" facs="#facs_9_r_1_24">
+						<tei:lb xml:id="z391" facs="#facs_9_r_1_24l1"/>
+                        r Kaiserl
+                        . Hof
+                        =
+                        Kirchen / derer waren
+                    </tei:p>
+					<tei:p xml:id="p136" rendition="#l" facs="#facs_9_r_1_25">
+						<tei:lb xml:id="z392" facs="#facs_9_r_1_25l1"/>
+                        Jonnne Baptista
+                        , à S
+                        . Regina
+                        , 63
+                        .
+                    </tei:p>
+					<tei:p xml:id="p137" rendition="#f" facs="#facs_9_r_1_26">
+						<tei:lb xml:id="z393" facs="#facs_9_r_1_26l1"/>
+                        Die P
+                        . P
+                        . Capuciner auf dem neuen Markt / und bey St
+                        . Ulrich / deren waren 
+						<tei:lb xml:id="z394" facs="#facs_9_r_1_26l2"/>
+                        mit ihrem Provinciali
+                        , R
+                        . P
+                        . Erasmo Lincensi
+                        , und dan R
+                        . P
+                        . Guardiano
+                        , 
+                            <tei:choice>
+                                <tei:orig>Sera</tei:orig>
+                                <tei:reg>SeraDie</tei:reg>
+                            </tei:choice>
+                        
+                        -
+                    </tei:p>
+					<tei:p xml:id="p138" rendition="#f" facs="#facs_9_r_1_27">
+						<tei:lb xml:id="z395" facs="#facs_9_r_1_27l1"/>
+                        Die P
+                        . P
+                        . Soc
+                        . JESU belangend / so giengen die Kaiserliche Herren Beicht Wäter 
+						<tei:lb xml:id="z396" facs="#facs_9_r_1_27l2"/>
+                        unter denen Kaiserlichen Cammer
+                        =
+                        Herren / die andere P
+                        . P
+                        . S
+                        . J
+                        . aber / benebens den 
+						<tei:lb xml:id="z397" facs="#facs_9_r_1_27l3"/>
+                        übrigen Ordens
+                        =
+                        Geistlichen / als denen P
+                        . P
+                        . Benedictiner de Monte
+                        -
+                        Serrato
+                        , vor dem 
+						<tei:lb xml:id="z398" facs="#facs_9_r_1_27l4"/>
+						<tei:lb xml:id="z399" facs="#facs_9_r_1_27l5"/>
+                        )( )(
+						<tei:lb xml:id="z400" facs="#facs_9_r_1_27l6"/>
+						<tei:lb xml:id="z401" facs="#facs_9_r_1_27l7"/>
+                        .
+                        P
+                        .
+						<tei:lb xml:id="z402" facs="#facs_9_r_1_27l8"/>
+						<tei:lb xml:id="z403" facs="#facs_9_r_1_27l9"/>
+                        "
+                    </tei:p>
+					<tei:p xml:id="p139" rendition="#f" facs="#facs_10_r_1_1">
+						<tei:lb xml:id="z404" facs="#facs_10_r_1_1l1"/>
+                        Schokten
+                        =
+                        Thor / denen P
+                        . P
+                        . Congregitionis Gratorii S
+                        . Philippi Nerii
+                        , wie auch denen
+                        .
+						<tei:lb xml:id="z405" facs="#facs_10_r_1_1l2"/>
+                        Clerici Regularibus Piarum deholarum
+                        , Josepher genant / und des Heil
+                        . Cajetani
+                        .
+						<tei:lb xml:id="z406" facs="#facs_10_r_1_1l3"/>
+                        Theatiner benamset / hin
+                        = und wieder unter Geist
+                        = und Weltlichen vermischt
+                        ; So alle 
+						<tei:lb xml:id="z407" facs="#facs_10_r_1_1l4"/>
+                        ser Anzahl erschienen
+                        .
+                    </tei:p>
+					<tei:p xml:id="p140" rendition="#f" facs="#facs_10_r_1_2">
+						<tei:lb xml:id="z408" facs="#facs_10_r_1_2l1"/>
+                        Der alhiesige aussere Stadt
+                        =
+                        Raht / wie auch das Kaiserl
+                        . Stadt
+                        = und Land 
+						<tei:lb xml:id="z409" facs="#facs_10_r_1_2l2"/>
+                        Gericht / sodan der innere Stadt
+                        =
+                        Raht / mit dem Kaiserl
+                        . Stadt
+                        =
+                        Anwald / Herrn 
+						<tei:lb xml:id="z410" facs="#facs_10_r_1_2l3"/>
+                        von Loiselli / dan dem alhiesigen Burgermaister / Herrn Joseph Hartman / J
+                        . U
+                        . D
+                        . und 
+						<tei:lb xml:id="z411" facs="#facs_10_r_1_2l4"/>
+                        Herrn Sta t
+                        =
+                        Richter / Hauer
+                        .
+                    </tei:p>
+                    <tei:figure type="graphic" facs="#facs_10_r_2"/>
+					<tei:p xml:id="p141" rendition="#lc" facs="#facs_10_r_3_1">
+						<tei:lb xml:id="z412" facs="#facs_10_r_3_1l1"/>
+                        Aloy
+                    </tei:p>
+					<tei:p xml:id="p142" rendition="#lc" facs="#facs_10_r_3_2">
+						<tei:lb xml:id="z413" facs="#facs_10_r_3_2l1"/>
+                        auch
+                    </tei:p>
+					<tei:p xml:id="p143" rendition="#fc" facs="#facs_10_r_3_3">
+						<tei:lb xml:id="z414" facs="#facs_10_r_3_3l1"/>
+                        die allseitig
+                        =
+                        Kaiserliche
+                    </tei:p>
+					<tei:p xml:id="p144" rendition="#f" facs="#facs_10_r_3_4">
+						<tei:lb xml:id="z415" facs="#facs_10_r_3_4l1"/>
+                        Das alhiesige Dom
+                        =
+                        Copitul / davon waren erstlich von der Bischöflichen Cur 
+						<tei:lb xml:id="z416" facs="#facs_10_r_3_4l2"/>
+                        J
+                        . Curaten / 4
+                        . Leviten / 4
+                        . Cur
+                        =
+                        C 
+						<tei:lb xml:id="z417" facs="#facs_10_r_3_4l3"/>
+                        r /
+                    </tei:p>
+					<tei:p xml:id="p145" rendition="#fc" facs="#facs_10_r_3_5">
+						<tei:lb xml:id="z418" facs="#facs_10_r_3_5l1"/>
+                        9
+                        . Dom
+                        =
+                        Herren
+                        = mit dero 
+						<tei:lb xml:id="z419" facs="#facs_10_r_3_5l2"/>
+                        Dan 
+						<tei:lb xml:id="z420" facs="#facs_10_r_3_5l3"/>
+                        derrn vom Lamprecht
+                        .
+                    </tei:p>
+					<tei:p xml:id="p146" rendition="#fc" facs="#facs_10_r_3_6">
+						<tei:lb xml:id="z421" facs="#facs_10_r_3_6l1"/>
+                        Herren
+                    </tei:p>
+					<tei:p xml:id="p147" rendition="#f" facs="#facs_10_r_3_7">
+						<tei:lb xml:id="z422" facs="#facs_10_r_3_7l1"/>
+                        1
+                        . Herr von Quarient / Probst zu St
+                        . Maria de Batta
+                        , dan der Herr Anton /
+						<tei:lb xml:id="z423" facs="#facs_10_r_3_7l2"/>
+                        Montserrat / O
+                        . S
+                        . Ben
+                        .
+						<tei:lb xml:id="z424" facs="#facs_10_r_3_7l3"/>
+                        Abt
+                    </tei:p>
+					<tei:p xml:id="p148" rendition="#?12-83-95--176-1379" facs="#facs_10_r_3_8">
+						<tei:lb xml:id="z425" facs="#facs_10_r_3_8l1"/>
+                        2
+                        . Herz Ferdinand / Probst zu St
+                        . Dorothe / O
+                        . C
+                        . R
+                        . S
+                        . A
+                        . und Herr Michaek /
+						<tei:lb xml:id="z426" facs="#facs_10_r_3_8l2"/>
+                        Probst zu St
+                        .
+						<tei:lb xml:id="z427" facs="#facs_10_r_3_8l3"/>
+                        39 
+						<tei:lb xml:id="z428" facs="#facs_10_r_3_8l4"/>
+                        Pölten
+                        .
+                    </tei:p>
+					<tei:p xml:id="p149" rendition="#?12-83-95--169-1374" facs="#facs_10_r_3_9">
+						<tei:lb xml:id="z429" facs="#facs_10_r_3_9l1"/>
+                        3
+                        . Herr Melchior / Prälat zu Zwetzl / O
+                        . Cist
+                        . und Herr Ernst / Probst / zu 
+						Clo=
+                            <tei:lb xml:id="z430" facs="#facs_10_r_3_9l2"/>ster
+                        =
+                        Neuburg / O
+                        . C
+                        . R
+                        . S
+                        . Küg
+                        . </tei:p>
+					<tei:p xml:id="p150" rendition="#?12-85-96--168-1391" facs="#facs_10_r_3_10"/>
+					<tei:p xml:id="p151" rendition="#f" facs="#facs_10_r_3_11">
+						<tei:lb xml:id="z431" facs="#facs_10_r_3_11l1"/>
+                        l
+                    </tei:p>
+					<tei:p xml:id="p152" rendition="#?17-78-95--244-1371" facs="#facs_10_r_3_12">
+						<tei:lb xml:id="z432" facs="#facs_10_r_3_12l1"/>
+                        Capellanen in Chor
+                        =
+                        Röcken
+                        .
+                    </tei:p>
+					<tei:p xml:id="p153" rendition="#f" facs="#facs_10_r_3_13">
+						<tei:lb xml:id="z433" facs="#facs_10_r_3_13l1"/>
+                        on 
+						<tei:lb xml:id="z434" facs="#facs_10_r_3_13l2"/>
+                        verstorbenen Kaiserin / mit Rauchfässern
+                        .
+						<tei:lb xml:id="z435" facs="#facs_10_r_3_13l3"/>
+                        Die Herren Capellanen von dem Regierenden Hof Als Herr Sax
+                        / Mascaro /
+						<tei:lb xml:id="z436" facs="#facs_10_r_3_13l4"/>
+                        Wolf / Trillsan /
+						<tei:lb xml:id="z437" facs="#facs_10_r_3_13l5"/>
+                        anfroni / und Passoti 
+						<tei:lb xml:id="z438" facs="#facs_10_r_3_13l6"/>
+                        M 
+						<tei:lb xml:id="z439" facs="#facs_10_r_3_13l7"/>
+                        Poli=
+                            <tei:lb xml:id="z440" facs="#facs_10_r_3_13l8"/>lein Vesper
+                        =
+                        Mäntelen
+                        .
+                    </tei:p>
+					<tei:p xml:id="p154" rendition="#fc" facs="#facs_10_r_3_14"/>
+					<tei:p xml:id="p155" rendition="#?11-83-94--157-1362" facs="#facs_10_r_3_15">
+						<tei:lb xml:id="z441" facs="#facs_10_r_3_15l1"/>
+                        Dan kamen Jhre Fürstliche Gnaden der Herr Bischof
+                        . zu Wien / Titl
+                        . Herr 
+						<tei:lb xml:id="z442" facs="#facs_10_r_3_15l2"/>
+                        Sigmund / Graf von Kollonitsch / unter Assistirung des Dom
+                        =
+                        Probsteni
+                        =
+						<tei:lb xml:id="z443" facs="#facs_10_r_3_15l3"/>
+                        Herrn von Breitenbücher / und H
+                    </tei:p>
+					<tei:p xml:id="p156" rendition="#?16-79-94--226-1363" facs="#facs_10_r_3_16">
+						<tei:lb xml:id="z444" facs="#facs_10_r_3_16l1"/>
+                        S
+                        . Benedicti
+                        . mit einem
+                        , Aststanten im Vesper
+                        =
+                        Mantel / und 2
+                        . Herren 
+						Ca=
+                            <tei:lb xml:id="z445" facs="#facs_10_r_3_16l2"/>pellanen von der Seeligst
+                        =
+                        verstorben 
+						<tei:lb xml:id="z446" facs="#facs_10_r_3_16l3"/>
+                        wviten Röcken
+                        .
+                    </tei:p>
+					<tei:p xml:id="p157" rendition="#?5-69-74--75-1069" facs="#facs_10_r_3_17">
+						<tei:lb xml:id="z447" facs="#facs_10_r_3_17l1"/>
+                        diesem wurde der Gottseeligst
+                        =
+                        ver
+                    </tei:p>
+					<tei:p xml:id="p158" rendition="#?5-69-74--72-1070" facs="#facs_10_r_3_18">
+						<tei:lb xml:id="z448" facs="#facs_10_r_3_18l1"/>
+                        . Cammerern denen die Kaiserlich
+                        =
+                        Camerdienere assistiret / getra 
+						<tei:lb xml:id="z449" facs="#facs_10_r_3_18l2"/>
+                        1 ten Seiten die Kaiserliche Edelknaben von dem Regierenden 4
+                    </tei:p>
+					<tei:p xml:id="p159" rendition="#?40-34-74--577-1069" facs="#facs_10_r_3_19">
+						<tei:lb xml:id="z450" facs="#facs_10_r_3_19l1"/>
+                        aiserin / Amalia 
+						<tei:lb xml:id="z451" facs="#facs_10_r_3_19l2"/>
+                        Wilhelmina
+                        .
+                    </tei:p>
+					<tei:p xml:id="p160" rendition="#fc" facs="#facs_10_r_3_20">
+						<tei:lb xml:id="z452" facs="#facs_10_r_3_20l1"/>
+                        saria Amalia
+                        .
+                    </tei:p>
+					<tei:p xml:id="p161" rendition="#fc" facs="#facs_10_r_3_21">
+						<tei:lb xml:id="z453" facs="#facs_10_r_3_21l1"/>
+                        ia Elisal
+                    </tei:p>
+					<tei:p xml:id="p162" rendition="#lc" facs="#facs_10_r_4_1">
+						<tei:lb xml:id="z454" facs="#facs_10_r_4_1l1"/>
+                        A
+                        . Kilh i ile
+                        ,
+                    </tei:p>
+					<tei:p xml:id="p163" rendition="#lc" facs="#facs_10_r_4_2">
+						<tei:lb xml:id="z455" facs="#facs_10_r_4_2l1"/>
+                        Jhr=
+                            <tei:lb xml:id="z456" facs="#facs_10_r_4_2l2"/>cht / Erz
+                        =
+                        Herzo
+                    </tei:p>
+					<tei:p xml:id="p164" rendition="#lc" facs="#facs_10_r_4_3">
+						<tei:lb xml:id="z457" facs="#facs_10_r_4_3l1"/>
+                        Jhre Durchleucht
+                        : Erz
+                        =
+                        Herzogin A 
+						<tei:lb xml:id="z458" facs="#facs_10_r_4_3l2"/>
+                        Jhre Durchleucht / Erz
+                        =
+                        Herzogin /
+                    </tei:p>
+					<tei:p xml:id="p165" rendition="#l" facs="#facs_10_r_4_4">
+						<tei:lb xml:id="z459" facs="#facs_10_r_4_4l1"/>
+                        ners kamen die Kaiserliche Obrist
+                        =
+                        Ho 
+						<tei:lb xml:id="z460" facs="#facs_10_r_4_4l2"/>
+                        tadt
+                        =
+                        T
+                    </tei:p>
+					<tei:p xml:id="p166" rendition="#?5-68-73--71-1051" facs="#facs_10_r_4_5">
+						<tei:lb xml:id="z461" facs="#facs_10_r_4_5l1"/>
+                        und endlichen machte den Schluß die Kaiserliche Stad
+                        =
+                        Garde
+                        .
+                    </tei:p>
+                </tei:div>
+				</tei:div>
+		</tei:body>
+	</tei:text>
+</tei:TEI>
