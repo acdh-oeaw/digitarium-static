@@ -88,14 +88,59 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <div class="row">
+                                <xsl:for-each select=".//tei:body//tei:div[@type='page']">
+                                    <xsl:variable name="pageId">
+                                        <xsl:value-of select="@xml:id"/>
+                                    </xsl:variable>
+                                    <xsl:variable name="facsId">
+                                        <xsl:value-of select="concat('facs_', @n)"/>
+                                    </xsl:variable>
+                                    <xsl:variable name="graphicUrl">
+                                        <xsl:value-of select="data(.//ancestor::tei:TEI//tei:surface[@xml:id=$facsId]/tei:graphic/@url)"/>
+                                    </xsl:variable>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <xsl:apply-templates select="//tei:div[@type='page'] | //tei:front"/>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div style="width:600px; height:800px">
+                                                        <xsl:attribute name="id">
+                                                            <xsl:value-of select="concat('img', $pageId)"/>
+                                                        </xsl:attribute>
+                                                    </div>
+                                                    
+                                                    <script type="text/javascript">
+                                                        var source = "<xsl:value-of select="concat($graphicUrl, '/info.json')"/>";
+                                                        OpenSeadragon({
+                                                        id: "<xsl:value-of select="concat('img', $pageId)"/>",
+                                                        tileSources: [
+                                                        source
+                                                        ],
+                                                        sequence: false,
+                                                        prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
+                                                        });
+                                                    </script>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <a>
+                                                        <xsl:attribute name="href"><xsl:value-of select="$graphicUrl"/></xsl:attribute>
+                                                        <xsl:value-of select="$graphicUrl"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </xsl:for-each>
+                                <!--<div class="row">
                                     <div class="col-md-6">
                                         <xsl:apply-templates select="//tei:div[@type='page'] | //tei:front"/>
                                     </div>
                                     <div class="col-md-6">
                                         <h2>images</h2>
                                     </div>
-                                </div>
+                                </div>-->
                                 
                             </div>
                             <div class="card-footer">
