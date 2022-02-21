@@ -8,7 +8,7 @@ jobs:
     name: Ingest Data into ARCHE
     runs-on: ubuntu-latest
     env:
-      ANT_OPTS: -Xmx5g
+      ANT_OPTS: -Xmx7g
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v2
