@@ -53,17 +53,16 @@
                 <acdh:Resource rdf:about="{$id}">
                     <!--<acdh:hasPid><xsl:value-of select=".//tei:idno[@type='handle']/text()"/></acdh:hasPid>-->
                     <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>, <xsl:value-of select=".//tei:title[@type='num'][1]/text()"/></acdh:hasTitle>
-                    <!--<acdh:hasCoverage xml:lang="de"><xsl:value-of select="$datum"/></acdh:hasCoverage>-->
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
                     <acdh:isPartOf rdf:resource="{$partOf}"/>
-<!--                    <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="$datum"/></acdh:hasCoverageStartDate>-->
+                    <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="replace(replace(@xml:id, '.xml', ''), 'ed__', '')"/></acdh:hasCoverageStartDate>
                     <xsl:copy-of select="$constants"/>
                 </acdh:Resource>
                 <xsl:for-each select=".//tei:graphic">
                     <xsl:variable name="facsId">
-                        <xsl:value-of select="replace(replace(@url, 'anno:', ''), '.jpg', '.png')"/>
+                        <xsl:value-of select="replace(@url, 'anno:', '')"/>
                     </xsl:variable>
                     <xsl:variable name="facsUrl">
                         <xsl:value-of select="concat($TopColId, '/facs/', substring-before($facsId, '-'), '/', $facsId)"/>

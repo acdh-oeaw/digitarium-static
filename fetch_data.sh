@@ -8,8 +8,10 @@ echo "delete invalid files"
 python delete_invalid_files.py
 find ./data/editions/ -type f -name "*.xml"  -print0 | xargs -0 sed -i 's@^.*<TEI xmlns@<TEI xmlns@g'
 find ./data/editions/ -type f -name "*.xml"  -print0 | xargs -0 sed -i 's@notBefore="" notAfter=""@@'
+find ./data/editions/ -type f -name "*.xml"  -print0 | xargs -0 sed -i 's@.jpg"@.png"@'
 
 
 echo "add ids"
 add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/digitarium"
 add-attributes -g "./data/meta/*.xml" -b "https://id.acdh.oeaw.ac.at/digitarium"
+rm -rf tempdir
