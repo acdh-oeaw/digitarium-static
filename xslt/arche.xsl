@@ -61,6 +61,22 @@
 <!--                    <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="$datum"/></acdh:hasCoverageStartDate>-->
                     <xsl:copy-of select="$constants"/>
                 </acdh:Resource>
+                <xsl:for-each select=".//tei:graphic">
+                    <xsl:variable name="facsId">
+                        <xsl:value-of select="replace(replace(@url, 'anno:', ''), '.jpg', '.png')"/>
+                    </xsl:variable>
+                    <xsl:variable name="facsUrl">
+                        <xsl:value-of select="concat($TopColId, '/facs/', substring-before($facsId, '-'), '/', $facsId)"/>
+                    </xsl:variable>
+                    <acdh:Resource rdf:about="{$facsUrl}">
+                        <acdh:hasTitle xml:lang="de"><xsl:value-of select="$facsId"/></acdh:hasTitle>
+                        <!--<acdh:hasCoverage xml:lang="de"><xsl:value-of select="$datum"/></acdh:hasCoverage>-->
+                        <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
+                        <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/image"/>
+                        <acdh:isPartOf rdf:resource="{concat($TopColId, '/facs')}"/>
+                        <xsl:copy-of select="$constants"/>
+                    </acdh:Resource>
+                </xsl:for-each>
             </xsl:for-each>
         </rdf:RDF>
     </xsl:template>   
