@@ -10,6 +10,7 @@ find ./data/editions/ -type f -name "*.xml"  -print0 | xargs -0 sed -i 's@^.*<TE
 find ./data/editions/ -type f -name "*.xml"  -print0 | xargs -0 sed -i 's@notBefore="" notAfter=""@@'
 find ./data/editions/ -type f -name "*.xml"  -print0 | xargs -0 sed -i 's@.jpg"@.png"@'
 find ./data/editions/ -type f -name "*.xml"  -print0 | xargs -0 sed -i 's@url="anno:.*-17@url="anno:17@'
+find ./data/editions/ -type f -name "*.xml"  -print0 | xargs -0 sed -i 's@url="anno:.*_17@url="anno:17@'
 
 echo "add ids"
 add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/digitarium"
