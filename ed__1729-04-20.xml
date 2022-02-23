@@ -97,7 +97,7 @@
     </tei:teiHeader>
 	<tei:facsimile>
 		<tei:surface ulx="0" uly="0" lry="2282" lrx="1707" xml:id="facs_1">
-			<tei:graphic url="anno:0001_17290420-000.png" width="1707px" height="2282px"/>
+			<tei:graphic url="anno:17290420-000.png" width="1707px" height="2282px"/>
 			<tei:zone rendition="printspace" points="0,0 1707,0 1707,2282 0,2282"/>
 			<tei:zone rendition="TextRegion" subtype="header" xml:id="facs_1_r_1_1" points="40,97 341,97 341,158 40,158">
 					<tei:zone rendition="Line" xml:id="facs_1_tl_1" points="36,94 345,94 345,160 36,160"/>
@@ -234,7 +234,7 @@
 			<tei:zone rendition="Separator" xml:id="facs_1_r_14" points="63,536 1505,536 1505,545 63,545"/>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lry="2274" lrx="1695" xml:id="facs_2">
-			<tei:graphic url="anno:0002_17290420-001.png" width="1695px" height="2274px"/>
+			<tei:graphic url="anno:17290420-001.png" width="1695px" height="2274px"/>
 			<tei:zone rendition="printspace" points="0,0 1695,0 1695,2274 0,2274"/>
 			<tei:zone rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r_1_1" points="187,71 910,71 910,614 187,614">
 					<tei:zone rendition="Line" xml:id="facs_2_tl_1" points="185,70 913,70 913,118 185,118"/>
@@ -361,7 +361,7 @@
 				</tei:zone>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lry="2288" lrx="1714" xml:id="facs_3">
-			<tei:graphic url="anno:0003_17290420-002.png" width="1714px" height="2288px"/>
+			<tei:graphic url="anno:17290420-002.png" width="1714px" height="2288px"/>
 			<tei:zone rendition="printspace" points="0,0 1714,0 1714,2288 0,2288"/>
 			<tei:zone rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r_1_1" points="32,82 719,82 719,253 32,253">
 					<tei:zone rendition="Line" xml:id="facs_3_tl_1" points="28,74 719,74 719,138 28,138"/>
@@ -494,7 +494,7 @@
 				</tei:zone>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lry="2264" lrx="1682" xml:id="facs_4">
-			<tei:graphic url="anno:0004_17290420-003.png" width="1682px" height="2264px"/>
+			<tei:graphic url="anno:17290420-003.png" width="1682px" height="2264px"/>
 			<tei:zone rendition="printspace" points="0,0 1682,0 1682,2264 0,2264"/>
 			<tei:zone rendition="TextRegion" subtype="paragraph" xml:id="facs_4_r_1_1" points="169,54 898,54 898,1061 169,1061">
 					<tei:zone rendition="Line" xml:id="facs_4_tl_1" points="177,51 902,51 902,98 177,98"/>
@@ -620,7 +620,7 @@
 				</tei:zone>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lry="2273" lrx="1694" xml:id="facs_5">
-			<tei:graphic url="anno:0005_17290420-004.png" width="1694px" height="2273px"/>
+			<tei:graphic url="anno:17290420-004.png" width="1694px" height="2273px"/>
 			<tei:zone rendition="printspace" points="0,0 1694,0 1694,2273 0,2273"/>
 			<tei:zone rendition="TextRegion" subtype="paragraph" xml:id="facs_5_r_1_1" points="37,71 733,71 733,727 37,727">
 					<tei:zone rendition="Line" xml:id="facs_5_tl_1" points="36,68 737,68 737,116 36,116"/>
@@ -745,7 +745,7 @@
 				</tei:zone>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lry="2291" lrx="1719" xml:id="facs_6">
-			<tei:graphic url="anno:0006_17290420-005.png" width="1719px" height="2291px"/>
+			<tei:graphic url="anno:17290420-005.png" width="1719px" height="2291px"/>
 			<tei:zone rendition="printspace" points="0,0 1719,0 1719,2291 0,2291"/>
 			<tei:zone rendition="TextRegion" subtype="paragraph" xml:id="facs_6_TextRegion_1512980502948_42" points="174,60 901,60 901,335 174,335">
 					<tei:zone rendition="Line" xml:id="facs_6_tl_1" points="173,59 899,59 899,103 173,103"/>
@@ -871,7 +871,7 @@
 			<tei:zone rendition="Separator" xml:id="facs_6_r_8" points="1108,1159 1645,1159 1645,1172 1108,1172"/>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lry="2271" lrx="1691" xml:id="facs_7">
-			<tei:graphic url="anno:0007_17290420-006.png" width="1691px" height="2271px"/>
+			<tei:graphic url="anno:17290420-006.png" width="1691px" height="2271px"/>
 			<tei:zone rendition="printspace" points="0,0 1691,0 1691,2271 0,2271"/>
 			<tei:zone rendition="TextRegion" subtype="paragraph" xml:id="facs_7_r_1_1" points="35,88 730,88 730,253 35,253">
 					<tei:zone rendition="Line" xml:id="facs_7_tl_1" points="31,86 734,86 734,136 31,136"/>
@@ -1039,7 +1039,7 @@
 			<tei:zone rendition="Separator" xml:id="facs_7_Separator_1513235725382_24" points="784,530 1494,530 1494,539 784,539"/>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lry="2262" lrx="1679" xml:id="facs_8">
-			<tei:graphic url="anno:0008_17290420-007.png" width="1679px" height="2262px"/>
+			<tei:graphic url="anno:17290420-007.png" width="1679px" height="2262px"/>
 			<tei:zone rendition="printspace" points="0,0 1679,0 1679,2262 0,2262"/>
 			<tei:zone rendition="TextRegion" subtype="list" xml:id="facs_8_TextRegion_1513235875852_26" points="200,60 921,60 921,126 200,126">
 					<tei:zone rendition="Line" xml:id="facs_8_tl_1" points="196,58 925,58 925,102 196,102"/>
@@ -1280,7 +1280,7 @@
 				</tei:zone>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lry="2288" lrx="1714" xml:id="facs_9">
-			<tei:graphic url="anno:0009_17290420-008.png" width="1714px" height="2288px"/>
+			<tei:graphic url="anno:17290420-008.png" width="1714px" height="2288px"/>
 			<tei:zone rendition="printspace" points="0,0 1714,0 1714,2288 0,2288"/>
 			<tei:zone rendition="TextRegion" subtype="header" xml:id="facs_9_r_1_1" points="10,119 1447,119 1447,192 10,192">
 					<tei:zone rendition="Line" xml:id="facs_9_tl_1" points="2,115 1456,115 1456,196 2,196"/>
@@ -1437,7 +1437,7 @@
 			<tei:zone rendition="Separator" xml:id="facs_9_r_8" points="744,962 1462,962 1462,974 744,974"/>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lry="2259" lrx="1676" xml:id="facs_10">
-			<tei:graphic url="anno:0010_17290420-009.png" width="1676px" height="2259px"/>
+			<tei:graphic url="anno:17290420-009.png" width="1676px" height="2259px"/>
 			<tei:zone rendition="printspace" points="0,0 1676,0 1676,2259 0,2259"/>
 			<tei:zone rendition="TextRegion" subtype="list" xml:id="facs_10_r_2_1" points="203,84 932,84 932,170 203,170">
 					<tei:zone rendition="Line" xml:id="facs_10_tl_3" points="235,81 936,81 936,132 235,132"/>

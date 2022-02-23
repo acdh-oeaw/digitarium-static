@@ -96,7 +96,7 @@
     </tei:teiHeader>
 	<tei:facsimile>
 		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_1">
-			<tei:graphic url="anno:17200120-000.jpg" width="1453px" height="1981px"/>
+			<tei:graphic url="anno:17200120-000.png" width="1453px" height="1981px"/>
 			<tei:zone rendition="printspace" points="26,21 1383,21 1383,1900 26,1900"/>
 			<tei:zone rendition="TextRegion" xml:id="facs_1_r_1_1" subtype="paragraph" points="510,47 845,47 845,117 510,117">
 					<tei:zone rendition="Line" xml:id="facs_1_r_1_1l1" points="506,41 852,41 852,121 506,121"/>
@@ -149,7 +149,7 @@
 			<tei:zone rendition="Separator" xml:id="facs_1_r_3" points="60,679 1344,679 1344,705 60,705"/>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_2">
-			<tei:graphic url="anno:17200120-001.jpg" width="1453px" height="1981px"/>
+			<tei:graphic url="anno:17200120-001.png" width="1453px" height="1981px"/>
 			<tei:zone rendition="printspace" points="98,34 1416,34 1416,1890 98,1890"/>
 			<tei:zone rendition="TextRegion" xml:id="facs_2_r_1_1" subtype="paragraph" points="112,41 1404,41 1404,323 112,323">
 					<tei:zone rendition="Line" xml:id="facs_2_r_1_1l1" points="193,37 1405,37 1405,98 193,98"/>
@@ -208,7 +208,7 @@
 				</tei:zone>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_3">
-			<tei:graphic url="anno:17200120-002.jpg" width="1453px" height="1981px"/>
+			<tei:graphic url="anno:17200120-002.png" width="1453px" height="1981px"/>
 			<tei:zone rendition="printspace" points="27,62 1452,62 1452,1938 27,1938"/>
 			<tei:zone rendition="TextRegion" xml:id="facs_3_r_1_1" subtype="paragraph" points="35,69 1323,69 1323,173 35,173">
 					<tei:zone rendition="Line" xml:id="facs_3_r_1_1l1" points="31,65 1323,65 1323,127 31,127"/>
@@ -281,7 +281,7 @@
 				</tei:zone>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_4">
-			<tei:graphic url="anno:17200120-003.jpg" width="1453px" height="1981px"/>
+			<tei:graphic url="anno:17200120-003.png" width="1453px" height="1981px"/>
 			<tei:zone rendition="printspace" points="75,44 1419,44 1419,1927 75,1927"/>
 			<tei:zone rendition="TextRegion" xml:id="facs_4_r_1_1" subtype="paragraph" points="104,51 1387,51 1387,477 104,477">
 					<tei:zone rendition="Line" xml:id="facs_4_r_1_1l1" points="95,55 1394,55 1394,119 95,119"/>
@@ -335,7 +335,7 @@
 				</tei:zone>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_5">
-			<tei:graphic url="anno:17200120-004.jpg" width="1453px" height="1981px"/>
+			<tei:graphic url="anno:17200120-004.png" width="1453px" height="1981px"/>
 			<tei:zone rendition="printspace" points="18,43 1365,43 1365,1918 18,1918"/>
 			<tei:zone rendition="TextRegion" xml:id="facs_5_r_1_1" subtype="paragraph" points="29,50 1321,50 1321,395 29,395">
 					<tei:zone rendition="Line" xml:id="facs_5_r_1_1l1" points="119,47 1325,47 1325,113 119,113"/>
@@ -388,7 +388,7 @@
 				</tei:zone>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_6">
-			<tei:graphic url="anno:17200120-005.jpg" width="1453px" height="1981px"/>
+			<tei:graphic url="anno:17200120-005.png" width="1453px" height="1981px"/>
 			<tei:zone rendition="printspace" points="49,33 1425,33 1425,1885 49,1885"/>
 			<tei:zone rendition="TextRegion" xml:id="facs_6_r_1_1" subtype="paragraph" points="104,40 1397,40 1397,145 104,145">
 					<tei:zone rendition="Line" xml:id="facs_6_r_1_1l1" points="104,49 1398,49 1398,123 104,123"/>
@@ -457,7 +457,7 @@
 			<tei:zone rendition="Separator" xml:id="facs_6_r_3" points="86,1457 1365,1457 1365,1500 86,1500"/>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_7">
-			<tei:graphic url="anno:17200120-006.jpg" width="1453px" height="1981px"/>
+			<tei:graphic url="anno:17200120-006.png" width="1453px" height="1981px"/>
 			<tei:zone rendition="printspace" points="23,17 1349,17 1349,1882 23,1882"/>
 			<tei:zone rendition="TextRegion" xml:id="facs_7_r_1_1" subtype="paragraph" points="200,27 1167,27 1167,92 200,92">
 					<tei:zone rendition="Line" xml:id="facs_7_r_1_1l1" points="191,22 1169,22 1169,93 191,93"/>
@@ -577,7 +577,7 @@
 			<tei:zone rendition="Separator" xml:id="facs_7_r_3" points="48,932 202,932 202,942 48,942"/>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_8">
-			<tei:graphic url="anno:17200120-007.jpg" width="1453px" height="1981px"/>
+			<tei:graphic url="anno:17200120-007.png" width="1453px" height="1981px"/>
 			<tei:zone rendition="printspace" points="123,20 1453,20 1453,1904 123,1904"/>
 			<tei:zone rendition="TextRegion" xml:id="facs_8_r_1_1" subtype="paragraph" points="160,29 1436,29 1436,94 160,94">
 					<tei:zone rendition="Line" xml:id="facs_8_r_1_1l1" points="159,24 596,24 596,82 159,82"/>
@@ -699,7 +699,7 @@
 			<tei:zone rendition="Separator" xml:id="facs_8_r_2" points="157,301 1445,301 1445,336 157,336"/>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_9">
-			<tei:graphic url="anno:17200120-008.jpg" width="1453px" height="1981px"/>
+			<tei:graphic url="anno:17200120-008.png" width="1453px" height="1981px"/>
 			<tei:zone rendition="printspace" points="0,25 1324,25 1324,1931 0,1931"/>
 			<tei:zone rendition="TextRegion" xml:id="facs_9_r_1_1" subtype="paragraph" points="5,33 1291,33 1291,99 5,99">
 					<tei:zone rendition="Line" xml:id="facs_9_r_1_1l1" points="383,27 1290,27 1290,99 383,99"/>
@@ -805,7 +805,7 @@
 				</tei:zone>
 		</tei:surface>
 		<tei:surface ulx="0" uly="0" lrx="1453" lry="1981" xml:id="facs_10">
-			<tei:graphic url="anno:17200120-009.jpg" width="1453px" height="1981px"/>
+			<tei:graphic url="anno:17200120-009.png" width="1453px" height="1981px"/>
 			<tei:zone rendition="printspace" points="50,4 1424,4 1424,1950 50,1950"/>
 			<tei:zone rendition="TextRegion" xml:id="facs_10_r_1_1" subtype="paragraph" points="120,30 1409,30 1409,191 120,191">
 					<tei:zone rendition="Line" xml:id="facs_10_r_1_1l1" points="113,24 1416,24 1416,104 113,104"/>

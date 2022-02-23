@@ -97,7 +97,7 @@
     </teiHeader>
 	<facsimile>
 		<surface ulx="0" uly="0" lrx="1525" lry="2039" xml:id="facs_1">
-			<graphic url="anno:17160815-000.jpg" width="1525px" height="2039px"/>
+			<graphic url="anno:17160815-000.png" width="1525px" height="2039px"/>
 			<zone rendition="printspace" points="76,72 1431,72 1431,1964 76,1964"/>
 			<zone rendition="TextRegion" xml:id="facs_1_r_1_1" subtype="header" points="580,87 910,87 910,153 580,153">
 					<zone rendition="Line" xml:id="facs_1_r_1_1l1" points="571,82 909,82 909,155 571,155"/>
@@ -157,7 +157,7 @@
 				</zone>
 		</surface>
 		<surface ulx="0" uly="0" lrx="1527" lry="2039" xml:id="facs_2">
-			<graphic url="anno:17160815-001.jpg" width="1527px" height="2039px"/>
+			<graphic url="anno:17160815-001.png" width="1527px" height="2039px"/>
 			<zone rendition="printspace" points="64,77 1527,77 1527,1998 64,1998"/>
 			<zone rendition="TextRegion" xml:id="facs_2_r_1_1" subtype="paragraph" points="107,84 1423,84 1423,795 107,795">
 					<zone rendition="Line" xml:id="facs_2_r_1_1l1" points="112,82 1428,82 1428,168 112,168"/>
@@ -210,7 +210,7 @@
 				</zone>
 		</surface>
 		<surface ulx="0" uly="0" lrx="1525" lry="2039" xml:id="facs_3">
-			<graphic url="anno:17160815-002.jpg" width="1525px" height="2039px"/>
+			<graphic url="anno:17160815-002.png" width="1525px" height="2039px"/>
 			<zone rendition="printspace" points="66,106 1404,106 1404,2004 66,2004"/>
 			<zone rendition="TextRegion" xml:id="facs_3_r_1_1" subtype="paragraph" points="80,116 1385,116 1385,447 80,447">
 					<zone rendition="Line" xml:id="facs_3_r_1_1l1" points="159,109 1387,109 1387,174 159,174"/>
@@ -270,7 +270,7 @@
 				</zone>
 		</surface>
 		<surface ulx="0" uly="0" lrx="1527" lry="2039" xml:id="facs_4">
-			<graphic url="anno:17160815-003.jpg" width="1527px" height="2039px"/>
+			<graphic url="anno:17160815-003.png" width="1527px" height="2039px"/>
 			<zone rendition="printspace" points="76,108 1441,108 1441,2031 76,2031"/>
 			<zone rendition="TextRegion" xml:id="facs_4_r_1_1" subtype="paragraph" points="122,118 1430,118 1430,735 122,735">
 					<zone rendition="Line" xml:id="facs_4_r_1_1l1" points="123,117 1435,117 1435,184 123,184"/>
@@ -324,7 +324,7 @@
 				</zone>
 		</surface>
 		<surface ulx="0" uly="0" lrx="1525" lry="2039" xml:id="facs_5">
-			<graphic url="anno:17160815-004.jpg" width="1525px" height="2039px"/>
+			<graphic url="anno:17160815-004.png" width="1525px" height="2039px"/>
 			<zone rendition="printspace" points="83,112 1444,112 1444,2021 83,2021"/>
 			<zone rendition="TextRegion" xml:id="facs_5_r_1_1" subtype="paragraph" points="109,119 1419,119 1419,422 109,422">
 					<zone rendition="Line" xml:id="facs_5_r_1_1l1" points="109,118 1425,118 1425,187 109,187"/>
@@ -392,7 +392,7 @@
 				</zone>
 		</surface>
 		<surface ulx="0" uly="0" lrx="1527" lry="2039" xml:id="facs_6">
-			<graphic url="anno:17160815-005.jpg" width="1527px" height="2039px"/>
+			<graphic url="anno:17160815-005.png" width="1527px" height="2039px"/>
 			<zone rendition="printspace" points="44,86 1527,86 1527,2019 44,2019"/>
 			<zone rendition="TextRegion" xml:id="facs_6_r_1_1" subtype="paragraph" points="115,95 1423,95 1423,291 115,291">
 					<zone rendition="Line" xml:id="facs_6_r_1_1l1" points="109,96 1422,96 1422,179 109,179"/>
@@ -453,7 +453,7 @@
 				</zone>
 		</surface>
 		<surface ulx="0" uly="0" lrx="1525" lry="2039" xml:id="facs_7">
-			<graphic url="anno:17160815-006.jpg" width="1525px" height="2039px"/>
+			<graphic url="anno:17160815-006.png" width="1525px" height="2039px"/>
 			<zone rendition="printspace" points="0,0 1524,0 1524,2031 0,2031"/>
 			<zone rendition="TextRegion" xml:id="facs_7_r_1_1" subtype="heading" points="208,134 1291,134 1291,202 208,202">
 					<zone rendition="Line" xml:id="facs_7_r_1_1l1" points="206,129 1298,129 1298,204 206,204"/>
@@ -641,7 +641,7 @@
 				</zone>
 		</surface>
 		<surface ulx="0" uly="0" lrx="1527" lry="2039" xml:id="facs_8">
-			<graphic url="anno:17160815-007.jpg" width="1527px" height="2039px"/>
+			<graphic url="anno:17160815-007.png" width="1527px" height="2039px"/>
 			<zone rendition="printspace" points="99,64 1516,64 1516,1959 99,1959"/>
 			<zone rendition="TextRegion" xml:id="facs_8_r_1_1" subtype="heading" points="322,76 1289,76 1289,164 322,164">
 					<zone rendition="Line" xml:id="facs_8_r_1_1l1" points="313,77 1287,77 1287,164 313,164"/>
@@ -815,7 +815,7 @@
 				</zone>
 		</surface>
 		<surface ulx="0" uly="0" xml:id="facs_9" lrx="1525" lry="2039">
-			<graphic url="anno:17160815-008.jpg" width="1525px" height="2039px"/>
+			<graphic url="anno:17160815-008.png" width="1525px" height="2039px"/>
 			<zone rendition="printspace" points="17,101 2039,101 2039,1450 17,1450"/>
 			<zone rendition="TextRegion" xml:id="facs_9_region_1561455587181_220" subtype="heading" points="17,111 2032,111 2032,435 17,435">
 					<zone rendition="Line" xml:id="facs_9_region_1561455587181_220l1" points="748,99 1270,99 1270,172 748,172"/>
@@ -835,7 +835,7 @@
 				</zone>
 		</surface>
 		<surface ulx="0" uly="0" lrx="1527" lry="2039" xml:id="facs_10">
-			<graphic url="anno:17160815-009.jpg" width="1527px" height="2039px"/>
+			<graphic url="anno:17160815-009.png" width="1527px" height="2039px"/>
 			<zone rendition="printspace" points="1,0 1527,0 1527,2039 1,2039"/>
 			<zone rendition="TextRegion" xml:id="facs_10_TextRegion_1561456634199_2817" subtype="heading" points="105,5 1416,5 1416,124 105,124">
 					<zone rendition="Line" xml:id="facs_10_r_1_1l1" points="109,6 1426,6 1426,70 109,70"/>
@@ -843,7 +843,7 @@
 				</zone>
 		</surface>
 		<surface ulx="0" uly="0" lrx="1525" lry="2039" xml:id="facs_11">
-			<graphic url="anno:17160815-010.jpg" width="1525px" height="2039px"/>
+			<graphic url="anno:17160815-010.png" width="1525px" height="2039px"/>
 			<zone rendition="printspace" points="71,9 1417,9 1417,2039 71,2039"/>
 			<zone rendition="TextRegion" xml:id="facs_11_TextRegion_1561465321981_4674" subtype="heading" points="95,14 1405,14 1405,122 95,122">
 					<zone rendition="Line" xml:id="facs_11_line_1561465344384_4690" points="93,22 1403,22 1403,81 93,81"/>
@@ -857,7 +857,7 @@
 				</zone>
 		</surface>
 		<surface ulx="0" uly="0" lrx="1527" lry="2039" xml:id="facs_12">
-			<graphic url="anno:17160815-011.jpg" width="1527px" height="2039px"/>
+			<graphic url="anno:17160815-011.png" width="1527px" height="2039px"/>
 			<zone rendition="printspace" points="128,5 1505,5 1505,1912 128,1912"/>
 			<zone rendition="TextRegion" xml:id="facs_12_TextRegion_1561456923936_2896" subtype="heading" points="149,20 1457,20 1457,824 149,824">
 					<zone rendition="Line" xml:id="facs_12_r_1_1l1" points="224,33 1391,33 1391,116 224,116"/>
