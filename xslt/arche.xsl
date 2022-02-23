@@ -72,7 +72,11 @@
                     <xsl:variable name="facsUrl">
                         <xsl:value-of select="concat($TopColId, '/facs/', substring-before($facsId, '-'), '/', $facsId)"/>
                     </xsl:variable>
+                    <xsl:variable name="flatId">
+                        <xsl:value-of select="concat($TopColId, '/facs/', $facsId)"/>
+                    </xsl:variable>
                     <acdh:Resource rdf:about="{$facsUrl}">
+                        <acdh:hasIdentifier rdf:resource="{$flatId}"/>
                         <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="$date"/></acdh:hasCoverageStartDate>
                         <acdh:hasTitle xml:lang="de"><xsl:value-of select="$facsId"/></acdh:hasTitle>
                         <acdh:isSourceOf rdf:resource="{$id}"/>
