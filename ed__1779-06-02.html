@@ -12,8 +12,7 @@
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="js/function.js"></script><script src="js/project.js"></script><script src="https://diarium-reporting.acdh-dev.oeaw.ac.at/openseadragon/openseadragon.min.js"></script></head>
-   <body class="page">
-      <div class="hfeed site" id="page">
+   <body class="page"><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script><div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="dist/fundament/images/fundament_logo.svg" class="img-fluid" title="Digitarium" alt="Digitarium" itemprop="logo" /></a><a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="Digitarium" itemprop="url">Digitarium</a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                      <ul id="main-menu" class="navbar-nav">
@@ -167,9 +166,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd1",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -467,9 +467,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd3",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -787,9 +788,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd9",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -1069,9 +1071,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd13",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -1375,9 +1378,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd16",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -1709,9 +1713,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd21",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -2365,9 +2370,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd29",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -3019,9 +3025,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd36",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -3368,9 +3375,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd42",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -3626,9 +3634,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd44",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -4001,9 +4010,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd46",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -4383,9 +4393,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd51",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -4724,9 +4735,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd53",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -5174,9 +5186,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd56",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -5680,9 +5693,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd59",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -6022,9 +6036,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd62",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -6400,9 +6415,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd64",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -6790,9 +6806,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd67",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -7150,9 +7167,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd69",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -7503,9 +7521,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd71",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -7865,9 +7884,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd73",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -8203,9 +8223,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd75",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -8557,9 +8578,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd77",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
@@ -8894,9 +8916,10 @@
                                                         var source = "https://id.acdh.oeaw.ac.at/digitarium/facs/?format=iiif";
                                                         OpenSeadragon({
                                                         id: "imgd80",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
