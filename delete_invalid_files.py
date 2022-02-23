@@ -17,6 +17,11 @@ for x in tqdm(files, total=len(files)):
         continue
     body = doc.any_xpath('//tei:body')[0]
     ET.strip_tags(body, '{http://www.tei-c.org/ns/1.0}w', '{http://www.tei-c.org/ns/1.0}pc')
+    # fix graphic-urls
+    for graphic in doc.any_xpath('.//tei:graphic'):
+        if '_' in graphic.attrib['url']:
+            new_attr = f"anno:{graphic.attrib['url'][10:]}"
+            graphic.attrib['url'] = new_attr
     doc.tree_to_file(x)
 
 with open('faulty.csv', 'w', newline='') as csvfile:
