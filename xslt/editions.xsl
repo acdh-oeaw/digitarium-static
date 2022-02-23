@@ -32,6 +32,7 @@
     <xsl:variable name="doc_title">
         <xsl:value-of select=".//tei:title[@type='label'][1]/text()"/>
     </xsl:variable>
+    <xsl:variable name="IIIFEndpoint" select="'https://id.acdh.oeaw.ac.at/digitarium/facs/'"></xsl:variable>
 
     <xsl:template match="/">
         <xsl:variable name="doc_title">
@@ -95,8 +96,8 @@
                                     <xsl:variable name="facsId">
                                         <xsl:value-of select="concat('facs_', @n)"/>
                                     </xsl:variable>
-                                    <xsl:variable name="graphicUrl">
-                                        <xsl:value-of select="data(.//ancestor::tei:TEI//tei:surface[@xml:id=$facsId]/tei:graphic/@url)"/>
+                                    <xsl:variable name="IIIFJSON">
+                                        <xsl:value-of select="concat($IIIFEndpoint, replace(data(.//ancestor::tei:TEI//tei:surface[@xml:id=$facsId]/tei:graphic/@url), 'anno:', ''))"/>
                                     </xsl:variable>
                                     <div class="row">
                                         <div class="col-md-5">
@@ -112,7 +113,7 @@
                                                     </div>
                                                     
                                                     <script type="text/javascript">
-                                                        var source = "<xsl:value-of select="concat($graphicUrl, '/info.json')"/>";
+                                                        var source = "<xsl:value-of select="concat($IIIFJSON, '?format=iiif')"/>";
                                                         OpenSeadragon({
                                                         id: "<xsl:value-of select="concat('img', $pageId)"/>",
                                                         tileSources: [
@@ -125,8 +126,8 @@
                                                 </div>
                                                 <div class="card-footer">
                                                     <a>
-                                                        <xsl:attribute name="href"><xsl:value-of select="$graphicUrl"/></xsl:attribute>
-                                                        <xsl:value-of select="$graphicUrl"/>
+                                                        <xsl:attribute name="href"><xsl:value-of select="$IIIFJSON"/></xsl:attribute>
+                                                        <xsl:value-of select="$IIIFJSON"/>
                                                     </a>
                                                 </div>
                                             </div>

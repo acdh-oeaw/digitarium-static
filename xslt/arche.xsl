@@ -50,6 +50,9 @@
                 <xsl:variable name="id">
                     <xsl:value-of select="concat($TopColId, '/', @xml:id)"/>
                 </xsl:variable>
+                <xsl:variable name="date">
+                    <xsl:value-of select="replace(replace(@xml:id, '.xml', ''), 'ed__', '')"/>
+                </xsl:variable>
                 <acdh:Resource rdf:about="{$id}">
                     <xsl:if test=".//tei:idno[@type='URI']/text()">
                         <acdh:hasPid><xsl:value-of select=".//tei:idno[@type='URI']/text()"/></acdh:hasPid>
@@ -59,7 +62,7 @@
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
                     <acdh:isPartOf rdf:resource="{$partOf}"/>
-                    <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="replace(replace(@xml:id, '.xml', ''), 'ed__', '')"/></acdh:hasCoverageStartDate>
+                    <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="$date"/></acdh:hasCoverageStartDate>
                     <xsl:copy-of select="$constants"/>
                 </acdh:Resource>
                 <xsl:for-each select=".//tei:graphic">
@@ -70,6 +73,7 @@
                         <xsl:value-of select="concat($TopColId, '/facs/', substring-before($facsId, '-'), '/', $facsId)"/>
                     </xsl:variable>
                     <acdh:Resource rdf:about="{$facsUrl}">
+                        <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="$date"/></acdh:hasCoverageStartDate>
                         <acdh:hasTitle xml:lang="de"><xsl:value-of select="$facsId"/></acdh:hasTitle>
                         <acdh:isSourceOf rdf:resource="{$id}"/>
                         <!--<acdh:hasCoverage xml:lang="de"><xsl:value-of select="$datum"/></acdh:hasCoverage>-->
