@@ -45,6 +45,7 @@
             </xsl:call-template>
             
             <body class="page">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
@@ -116,9 +117,10 @@
                                                         var source = "<xsl:value-of select="concat($IIIFJSON, '?format=iiif')"/>";
                                                         OpenSeadragon({
                                                         id: "<xsl:value-of select="concat('img', $pageId)"/>",
-                                                        tileSources: [
-                                                        source
-                                                        ],
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
                                                         sequence: false,
                                                         prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
                                                         });
