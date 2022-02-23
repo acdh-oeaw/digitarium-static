@@ -51,7 +51,9 @@
                     <xsl:value-of select="concat($TopColId, '/', @xml:id)"/>
                 </xsl:variable>
                 <acdh:Resource rdf:about="{$id}">
-                    <!--<acdh:hasPid><xsl:value-of select=".//tei:idno[@type='handle']/text()"/></acdh:hasPid>-->
+                    <xsl:if test=".//tei:idno[@type='URI']/text()">
+                        <acdh:hasPid><xsl:value-of select=".//tei:idno[@type='URI']/text()"/></acdh:hasPid>
+                    </xsl:if>
                     <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>, <xsl:value-of select=".//tei:title[@type='num'][1]/text()"/></acdh:hasTitle>
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
