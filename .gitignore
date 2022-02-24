@@ -10,6 +10,7 @@ html/static-search
 tempdir/
 secret.sh
 *.ipynb
+!image_match_report.ipynb
 temp/
 
 # Byte-compiled / optimized / DLL files
