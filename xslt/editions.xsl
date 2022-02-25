@@ -10,12 +10,7 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
-    <xsl:import href="./partials/tei-facsimile.xsl"/>
-    <xsl:import href="./partials/osd-container.xsl"/>
-    <xsl:import href="./partials/person.xsl"/>
-    <xsl:import href="./partials/place.xsl"/>
-    <xsl:import href="./partials/org.xsl"/>
-    <xsl:import href="./tei-transcript.xsl"/>
+<!--    <xsl:import href="./tei-transcrispt.xsl"/>-->
     
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"/>
@@ -49,7 +44,7 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid">                        
+                    <div style="padding: 4em;">                        
                         <div class="card" data-index="true">
                             <div class="card-header">
                                 <div class="row">
@@ -100,51 +95,41 @@
                                     <xsl:variable name="IIIFJSON">
                                         <xsl:value-of select="concat($IIIFEndpoint, replace(data(.//ancestor::tei:TEI//tei:surface[@xml:id=$facsId]/tei:graphic/@url), 'anno:', ''))"/>
                                     </xsl:variable>
+                                    <xsl:variable name="imgContainerId">
+                                        <xsl:value-of select="concat('img__', position())"/>
+                                    </xsl:variable>
                                     <div class="row">
                                         <div class="col-md-5">
-                                            <xsl:apply-templates/>
+                                            <xsl:apply-templates select="."/>
                                         </div>
                                         <div class="col-md-7">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <div style="width:600px; height:800px">
-                                                        <xsl:attribute name="id">
-                                                            <xsl:value-of select="concat('img', $pageId)"/>
-                                                        </xsl:attribute>
-                                                    </div>
-                                                    
-                                                    <script type="text/javascript">
-                                                        var source = "<xsl:value-of select="concat($IIIFJSON, '?format=iiif')"/>";
-                                                        OpenSeadragon({
-                                                        id: "<xsl:value-of select="concat('img', $pageId)"/>",
-                                                        tileSources: [{
-                                                        type: 'image',
-                                                        url:  source,
-                                                        }],
-                                                        sequence: false,
-                                                        prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
-                                                        });
-                                                    </script>
+                                            
+                                            
+                                                
+                                                <div style="width:80%; height:80%">
+                                                    <xsl:attribute name="id">
+                                                        <xsl:value-of select="$imgContainerId"/>
+                                                    </xsl:attribute>
                                                 </div>
-                                                <div class="card-footer">
-                                                    <a>
-                                                        <xsl:attribute name="href"><xsl:value-of select="$IIIFJSON"/></xsl:attribute>
-                                                        <xsl:value-of select="$IIIFJSON"/>
-                                                    </a>
-                                                </div>
-                                            </div>
+                                                
+                                                <script type="text/javascript">
+                                                    var source = "<xsl:value-of select="concat($IIIFJSON, '?format=iiif')"/>";
+                                                    OpenSeadragon({
+                                                    id: "<xsl:value-of select="$imgContainerId"/>",
+                                                    tileSources: [{
+                                                    type: 'image',
+                                                    url:  source,
+                                                    }],
+                                                    sequence: false,
+                                                    prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
+                                                    });
+                                                </script>
+                                                
+                                                
+                                            
                                         </div>
                                     </div>
                                 </xsl:for-each>
-                                <!--<div class="row">
-                                    <div class="col-md-6">
-                                        <xsl:apply-templates select="//tei:div[@type='page'] | //tei:front"/>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h2>images</h2>
-                                    </div>
-                                </div>-->
-                                
                             </div>
                             <div class="card-footer">
                             </div>
@@ -154,5 +139,8 @@
                 </div>
             </body>
         </html>
+    </xsl:template>
+    <xsl:template match="tei:p">
+        <p><xsl:apply-templates/></p>
     </xsl:template>
 </xsl:stylesheet>
