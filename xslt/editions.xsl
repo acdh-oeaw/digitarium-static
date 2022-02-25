@@ -104,30 +104,27 @@
                                         </div>
                                         <div class="col-md-7">
                                             
-                                            
-                                                
-                                                <div style="width:80%; height:80%">
-                                                    <xsl:attribute name="id">
-                                                        <xsl:value-of select="$imgContainerId"/>
-                                                    </xsl:attribute>
-                                                </div>
-                                                
-                                                <script type="text/javascript">
-                                                    var source = "<xsl:value-of select="concat($IIIFJSON, '?format=iiif')"/>";
-                                                    OpenSeadragon({
-                                                    id: "<xsl:value-of select="$imgContainerId"/>",
-                                                    tileSources: [{
-                                                    type: 'image',
-                                                    url:  source,
-                                                    }],
-                                                    sequence: false,
-                                                    prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
-                                                    });
-                                                </script>
-                                                
-                                                
-                                            
-                                        </div>
+                                                    <div style="width:80%; height:80%">
+                                                        <xsl:attribute name="id">
+                                                            <xsl:value-of select="$imgContainerId"/>
+                                                        </xsl:attribute>
+                                                    </div>
+                                                    
+                                                    <script type="text/javascript">
+                                                        var source = "<xsl:value-of select="concat($IIIFJSON, '?format=iiif')"/>";
+                                                        OpenSeadragon({
+                                                        id: "<xsl:value-of select="$imgContainerId"/>",
+                                                        tileSources: [{
+                                                        type: 'image',
+                                                        url:  source,
+                                                        }],
+                                                        sequence: false,
+                                                        prefixUrl:"https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/"
+                                                        });
+                                                    </script>
+
+                                            <p><a href="{$IIIFJSON}"><xsl:value-of select="$IIIFJSON"/></a></p>
+                                            </div>
                                     </div>
                                 </xsl:for-each>
                             </div>
