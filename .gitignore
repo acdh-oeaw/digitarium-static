@@ -148,3 +148,7 @@ desktop.ini
 
 # MacOS
 .DS_Store
+
+node_modules
+package-lock.json
+html/js/lunr_index.js

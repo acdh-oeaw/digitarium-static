@@ -1,0 +1,23 @@
+{
+  "name": "diarium-static",
+  "version": "1.0.0",
+  "description": "[![Build and publish](https://github.com/acdh-oeaw/diarium-static/actions/workflows/build.yml/badge.svg)](https://github.com/acdh-oeaw/diarium-static/actions/workflows/build.yml) [![ARCHE-Ingest](https://github.com/acdh-oeaw/diarium-static/actions/workflows/arche.yml/badge.svg)](https://github.com/acdh-oeaw/diarium-static/actions/workflows/arche.yml)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acdh-oeaw/diarium-static.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acdh-oeaw/diarium-static/issues"
+  },
+  "homepage": "https://github.com/acdh-oeaw/diarium-static#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "lunr": "^2.3.9"
+  }
+}
