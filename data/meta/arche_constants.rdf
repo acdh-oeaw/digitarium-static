@@ -11,6 +11,10 @@
       <acdh:hasNonLinkedIdentifier>Austrian Academy of Sciences programme "go!digital 2.0": GD 2016/16</acdh:hasNonLinkedIdentifier>
       <acdh:hasDescription xml:lang="en">Wienerisches DIGITARIUM is a digital collection of more than 300 transcribed full text issues of the “Wien[n]erisches Diarium”, a historical newspaper that was founded in Vienna in 1703 and is still published under the title “Wiener Zeitung”. The issues provided as XML/TEI P5 including different layers of annotation are evenly distributed over the 18th century and offer a reliable basis for a wide range of research interests. 
          The collection was created within the project “Das Wien[n]erische Diarium: Digitaler Datenschatz für die geisteswissenschaftlichen Disziplinen“ (PI: Claudia Resch) which was funded by the “go!digital2.0” program of the Austrian Academy of Sciences and carried out at the Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) from 1 March 2017 to 29 February 2020 (Project-Nr. GD 2016/16, ÖAW 0704).</acdh:hasDescription>
+      <acdh:hasAppliedMethodDescription xml:lang="en">In a next step the transcribed full-text was exported as a single TEI XML file per issue. Some post-processing was then required to prepare the text for publishing, e.g.the application of a basic whitespace tokenization in order to be able to address every “word” in the text with a unique identifier. Additionally, the pixel coordinates of the text regions were used to find their relative position within a page. This was done by applying a series of XSLT transformations to the files exported from Transkribus. As soon as all automated processes were completed, the results were checked visually and uploaded to the project’s web application DIGITARIUM.</acdh:hasAppliedMethodDescription>
+      <acdh:hasEditorialPractice xml:lang="en">In order to create a scientifically sound basis for for philological interpretation and allow as many research interests as possible, only complete issues have been included. Normalising interventions were preferably avoided and the historical language was reproduced as close to the printed original as possible. Hence, the typography of the original was largely retained, i.e. "u" and "v" or "i" and "j" have been preserved as well as ligatures, small caps or the change between Fraktur and Antiqua printing – only the differentiation of the two variants of "s" and "r" (so-called "long s" and "round r") was omitted. Consonantal ligatures, such as those found in "tz", "ct", "st" or "ff", are resolved in the transcribed text. Double hyphens (in compositions such as "Reichs=Raht") are represented by equal signs, since these come closest to the print image of the time. Unreadable passages as well as uncertain passages added by the editors have been marked in the transcription with angle brackets.</acdh:hasEditorialPractice>
+      <acdh:hasCompleteness xml:lang="en">project completed, no further changes</acdh:hasCompleteness>
+      <acdh:hasLifeCycleStatus rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/completed"/>
       <acdh:hasContact rdf:resource="https://d-nb.info/gnd/132312794"/>
       <acdh:hasMetadataCreator rdf:resource="https://d-nb.info/gnd/132312794"/>
       <acdh:hasDepositor rdf:resource="https://d-nb.info/gnd/132312794"/>
@@ -19,7 +23,9 @@
       <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1789-12-31</acdh:hasCoverageEndDate>
       <!-- <acdh:hasCreatedStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-01</acdh:hasCreatedStartDate>
       <acdh:hasCreatedEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-31</acdh:hasCreatedEndDate> -->
-      <acdh:hasSubject xml:lang="de">Edition</acdh:hasSubject>
+      <acdh:hasSubject xml:lang="en">historical newspapers</acdh:hasSubject>
+      <acdh:hasSubject xml:lang="de">Wiener Zeitung</acdh:hasSubject>
+      <acdh:hasSubject xml:lang="de">Wien[n]erisches Diariumg</acdh:hasSubject>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
    </acdh:TopCollection>
    <acdh:Cols>
