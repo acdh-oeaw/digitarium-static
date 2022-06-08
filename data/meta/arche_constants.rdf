@@ -6,8 +6,11 @@
    </acdh:Constanst>
    <acdh:TopCollection rdf:about="https://id.acdh.oeaw.ac.at/digitarium">
       <!--<acdh:hasPid>https://hdl.handle.net/21.11115/0000-000E-8562-D</acdh:hasPid>-->
-      <acdh:hasTitle xml:lang="de">Wien[n]erisches Diarium</acdh:hasTitle>
-      <acdh:hasDescription xml:lang="de">Projektbeschreibung</acdh:hasDescription>
+      <acdh:hasTitle xml:lang="de">DIGITARIUM</acdh:hasTitle>
+      <acdh:hasAlternativeTitle xml:lang="de">Wienerisches DIGITARIUM</acdh:hasAlternativeTitle>
+      <acdh:hasNonLinkedIdentifier>Austrian Academy of Sciences programme "go!digital 2.0": GD 2016/16</acdh:hasNonLinkedIdentifier>
+      <acdh:hasDescription xml:lang="en">Wienerisches DIGITARIUM is a digital collection of more than 300 transcribed full text issues of the “Wien[n]erisches Diarium”, a historical newspaper that was founded in Vienna in 1703 and is still published under the title “Wiener Zeitung”. The issues provided as XML/TEI P5 including different layers of annotation are evenly distributed over the 18th century and offer a reliable basis for a wide range of research interests. 
+         The collection was created within the project “Das Wien[n]erische Diarium: Digitaler Datenschatz für die geisteswissenschaftlichen Disziplinen“ (PI: Claudia Resch) which was funded by the “go!digital2.0” program of the Austrian Academy of Sciences and carried out at the Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) from 1 March 2017 to 29 February 2020 (Project-Nr. GD 2016/16, ÖAW 0704).</acdh:hasDescription>
       <acdh:hasContact rdf:resource="https://d-nb.info/gnd/132312794"/>
       <acdh:hasMetadataCreator rdf:resource="https://d-nb.info/gnd/132312794"/>
       <acdh:hasDepositor rdf:resource="https://d-nb.info/gnd/132312794"/>
