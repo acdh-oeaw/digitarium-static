@@ -152,3 +152,7 @@ desktop.ini
 node_modules
 package-lock.json
 html/js/lunr_index.js
+
+vendor
+composer.*
+local_ingest.sh

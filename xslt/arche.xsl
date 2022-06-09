@@ -42,7 +42,7 @@
                     </xsl:for-each>
                 </acdh:Collection>
             </xsl:for-each>
-            <xsl:for-each select="collection('../data/editions')//tei:TEI">
+            <!--<xsl:for-each select="collection('../data/editions')//tei:TEI">
 
                 <xsl:variable name="partOf">
                     <xsl:value-of select="concat(@xml:base, '/editions')"/>
@@ -57,7 +57,7 @@
                     <xsl:if test=".//tei:idno[@type='URI']/text()">
                         <acdh:hasPid><xsl:value-of select=".//tei:idno[@type='URI']/text()"/></acdh:hasPid>
                     </xsl:if>
-                    <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>, <xsl:value-of select=".//tei:title[@type='num'][1]/text()"/></acdh:hasTitle>
+                    <acdh:hasTitle xml:lang="de"><xsl:value-of select="normalize-space(string-join(.//tei:titleStmt//tei:title/text(), ' '))"/></acdh:hasTitle>
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
@@ -80,14 +80,14 @@
                         <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="$date"/></acdh:hasCoverageStartDate>
                         <acdh:hasTitle xml:lang="de"><xsl:value-of select="$facsId"/></acdh:hasTitle>
                         <acdh:isSourceOf rdf:resource="{$id}"/>
-                        <!--<acdh:hasCoverage xml:lang="de"><xsl:value-of select="$datum"/></acdh:hasCoverage>-->
+                        <!-\-<acdh:hasCoverage xml:lang="de"><xsl:value-of select="$datum"/></acdh:hasCoverage>-\->
                         <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                         <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/image"/>
                         <acdh:isPartOf rdf:resource="{concat($TopColId, '/facs')}"/>
                         <xsl:copy-of select="$constants"/>
                     </acdh:Resource>
                 </xsl:for-each>
-            </xsl:for-each>
+            </xsl:for-each>-->
         </rdf:RDF>
     </xsl:template>   
 </xsl:stylesheet>

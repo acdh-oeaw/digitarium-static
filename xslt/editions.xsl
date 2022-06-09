@@ -25,14 +25,11 @@
         <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
     </xsl:variable>
     <xsl:variable name="doc_title">
-        <xsl:value-of select=".//tei:title[@type='label'][1]/text()"/>
+        <xsl:value-of select="normalize-space(string-join(.//tei:titleStmt//tei:title/text(), ' '))"/>
     </xsl:variable>
     <xsl:variable name="IIIFEndpoint" select="'https://id.acdh.oeaw.ac.at/digitarium/facs/'"></xsl:variable>
 
     <xsl:template match="/">
-        <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
-        </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
             <xsl:call-template name="html_head">
