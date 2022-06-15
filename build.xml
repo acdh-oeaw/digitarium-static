@@ -48,5 +48,4 @@
             <include name="**/*.xml"/>
         </fileset>
     </copy>
-    <copy file="lunr-search.html" todir="${target}"/>
 </project>
