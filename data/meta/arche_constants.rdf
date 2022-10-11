@@ -40,6 +40,11 @@
       <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/none"/>
       <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/>
       <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/>
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/605007"/>
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/605008"/>
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602"/>
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/601"/>
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/508"/>
    </acdh:TopCollection>
    
    <!-- definition of agents mentioned in the Metadata as e.g. PI, Curator, ... but not yet in ARCHE -->
@@ -216,7 +221,7 @@
          <acdh:hasAuthor rdf:resource="https://id.acdh.oeaw.ac.at/cresch"/>
          <acdh:hasAuthor rdf:resource="https://id.acdh.oeaw.ac.at/mschloegl"/>
          <acdh:hasAuthor rdf:resource="https://id.acdh.oeaw.ac.at/nrastinger"/>
-         <acdh:hasAuthor rdf:resource="https://id.acdh.oeaw.ac.at/dkampkkaspar"/>
+         <acdh:hasAuthor rdf:resource="https://id.acdh.oeaw.ac.at/dkampkaspar"/>
          <acdh:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-06</acdh:hasIssuedDate>
          <acdh:hasPages>18</acdh:hasPages>
          <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/eng"/>
@@ -385,26 +390,6 @@
          </acdh:hasCustomCitation>
       </acdh:Publication>
    </acdh:MetaAgents>
-   <!-- mandatory properties shared by acdh:Collection AND acdh:Resource -->
-   <acdh:RepoObject>
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"/>
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/>
-      <acdh:hasContact rdf:resource="https://d-nb.info/gnd/132312794"/>
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/>
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"/>
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/605007"/>
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/605008"/>
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602"/>
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/601"/>
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/508"/>
-      <acdh:hasCreator rdf:resource="https://d-nb.info/gnd/132312794"/>
-      <acdh:hasCreator rdf:resource="https://id.acdh.oeaw.ac.at/dkampkaspar"/>
-      <acdh:hasContributor rdf:resource="https://id.acdh.oeaw.ac.at/nfischer"/>
-      <acdh:hasContributor rdf:resource="https://id.acdh.oeaw.ac.at/nrastinger"/>
-      <acdh:hasDepositor rdf:resource="https://d-nb.info/gnd/132312794"/>
-      <acdh:hasMetadataCreator rdf:resource="https://d-nb.info/gnd/132312794"/>
-      <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/132312794"/>
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"/>
-   </acdh:RepoObject>
+   
+   
 </acdh:ACDH>
