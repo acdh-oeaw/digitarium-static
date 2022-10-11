@@ -66,7 +66,9 @@
             <xsl:for-each select=".//node()[parent::acdh:MetaAgents]">
                 <xsl:copy-of select="."/>
             </xsl:for-each>
-            <xsl:for-each select="collection('../data/editions')//tei:TEI[starts-with(@xml:id, 'ed__1703')]">
+            <!-- <xsl:for-each select="collection('../data/editions')//tei:TEI[starts-with(@xml:id, 'ed__1703')]"> -->
+            <xsl:for-each select="collection('../data/editions')//tei:TEI">
+
 
                 <xsl:variable name="partOf">
                     <xsl:value-of select="concat(@xml:base, '/editions')"/>

@@ -16,7 +16,7 @@ for x in tqdm(files, total=len(files)):
         faulty.append([x, e])
         continue
     body = doc.any_xpath('//tei:body')[0]
-    ET.strip_tags(body, '{http://www.tei-c.org/ns/1.0}w', '{http://www.tei-c.org/ns/1.0}pc')
+    # ET.strip_tags(body, '{http://www.tei-c.org/ns/1.0}w', '{http://www.tei-c.org/ns/1.0}pc')
     # fix graphic-urls
     for graphic in doc.any_xpath('.//tei:graphic'):
         if '_' in graphic.attrib['url']:
