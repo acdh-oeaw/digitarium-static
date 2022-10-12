@@ -60,7 +60,7 @@
      <acdh:Organisation rdf:about="https://id.acdh.oeaw.ac.at/onb">
           <acdh:hasIdentifier rdf:resource="https://d-nb.info/gnd/2020893-5"/>
           <acdh:hasTitle xml:lang="de">Österreichische Nationalbibliothek</acdh:hasTitle>
-          <acdh:hasTitle xml:lang="en"Austrian National Library</acdh:hasTitle>
+          <acdh:hasTitle xml:lang="en">Austrian National Library</acdh:hasTitle>
        </acdh:Organisation>
       <acdh:Person rdf:about="https://d-nb.info/gnd/132312794">
          <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/cresch"/>
@@ -122,12 +122,6 @@
          <acdh:hasTitle xml:lang="und">Thomas Kirchmair</acdh:hasTitle>
          <acdh:hasLastName xml:lang="und">Kirchmair</acdh:hasLastName>
          <acdh:hasFirstName xml:lang="und">Thomas</acdh:hasFirstName>
-      </acdh:Person>
-      <acdh:Person rdf:about="https://d-nb.info/gnd/1135171262">
-         <acdh:hasTitle xml:lang="und">Adele Schopenhauer 1135171262</acdh:hasTitle>
-      </acdh:Person>
-      <acdh:Person rdf:about="https://d-nb.info/gnd/11880510X">
-         <acdh:hasTitle xml:lang="und">Die Andere Schopenhauer Adele 11880510X</acdh:hasTitle>
       </acdh:Person>
       <!-- added publications -->
       <!-- not yet published
