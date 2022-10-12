@@ -20,8 +20,14 @@
       <acdh:hasEditorialPractice xml:lang="en">In order to create a scientifically sound basis for philological interpretation and allow as many research interests as possible, only complete issues have been included. Normalising interventions were preferably avoided and the historical language was reproduced as close to the printed original as possible. Hence, the typography of the original was largely retained, i.e. "u" and "v" or "i" and "j" have been preserved as well as ligatures, small caps or the change between Fraktur and Antiqua printing – only the differentiation of the two variants of "s" and "r" (so-called "long s" and "round r") was omitted. Consonantal ligatures, such as those found in "tz", "ct", "st" or "ff", are resolved in the transcribed text. Double hyphens (in compositions such as "Reichs=Raht") are represented by equal signs, since these come closest to the print image of the time. Unreadable passages as well as uncertain passages added by the editors have been marked in the transcription with angle brackets.</acdh:hasEditorialPractice>
       <acdh:hasEditorialPractice xml:lang="de">Um eine wissenschaftlich fundierte Grundlage für die philologische Interpretation und möglichst viele Erkenntnisinteressen zu schaffen, wurden nur komplette Ausgaben in die Sammlung aufgenommen. Auf normalisierende und glättende Eingriffe wurde weitgehend verzichtet und der historischen Sprachstand der Druckvorlagen nahezu unverändert wiedergegeben. Die Typografie des Originals ist weitgehend beibehalten, d.h. „u“ und „v“ sowie „i“ und „j“ bleiben ebenso bestehen wie Ligaturen, Kapitälchen oder der Wechsel von Fraktur- und Antiquadruck – lediglich auf eine Differenzierung der beiden Varianten von „s“ und „r“ (sogenanntes „langes s“ und „rundes r“) wird verzichtet. Konsonantische Ligaturen, wie sie etwa bei „tz“, „ct“, „st“ oder „ff“ vorkommen, werden im transkribierten Text aufgelöst. Zusammenfügungen mit Mittelstrichschreibung (etwa in „Reichs=Raht“) werden mit dem Istgleichzeichen dargestellt, weil es dem damaligen Druckbild am nächsten kommt. Unleserliche Textstellen sowie durch die Herausgeber*innen ergänzte Textstellen werden in der Transkription mit spitzen Klammern gekennzeichnet.</acdh:hasEditorialPractice>
       <acdh:hasCompleteness xml:lang="en">project completed, no further changes</acdh:hasCompleteness>
+      <acdh:hasCompleteness xml:lang="de">Projekt abgeschlossen, keine weiteren Änderungen</acdh:hasCompleteness>
       <acdh:hasLifeCycleStatus rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/completed"/>
       <acdh:hasContact rdf:resource="https://d-nb.info/gnd/132312794"/>
+      <acdh:hasCreator rdf:resource="https://d-nb.info/gnd/132312794"/>
+      <acdh:hasCreator rdf:resource="https://id.acdh.oeaw.ac.at/dkampkaspar"/>
+      <acdh:hasContributor rdf:resource="https://id.acdh.oeaw.ac.at/nfischer"/>
+      <acdh:hasContributor rdf:resource="https://id.acdh.oeaw.ac.at/nrastinger"/>
+      <acdh:hasDigitisingAgent rdf:resource="https://d-nb.info/gnd/2020893-5"/>
       <acdh:hasMetadataCreator rdf:resource="https://d-nb.info/gnd/132312794"/>
       <acdh:hasDepositor rdf:resource="https://d-nb.info/gnd/132312794"/>
       <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/1043833846"/>
@@ -45,11 +51,17 @@
       <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602"/>
       <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/601"/>
       <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/508"/>
+      <acdh:hasCustomCitation>author = {Resch, Claudia and Kampkaspar, Dario}</acdh:hasCustomCitation>
    </acdh:TopCollection>
    
    <!-- definition of agents mentioned in the Metadata as e.g. PI, Curator, ... but not yet in ARCHE -->
    <acdh:MetaAgents>
    <!-- I have changed the titles of persons to the old pattern - we will wait with the changes until Mateusz' script is ready. -->
+     <acdh:Organisation rdf:about="https://id.acdh.oeaw.ac.at/onb">
+          <acdh:hasIdentifier rdf:resource="https://d-nb.info/gnd/2020893-5"/>
+          <acdh:hasTitle xml:lang="de">Österreichische Nationalbibliothek</acdh:hasTitle>
+          <acdh:hasTitle xml:lang="en"Austrian National Library</acdh:hasTitle>
+       </acdh:Organisation>
       <acdh:Person rdf:about="https://d-nb.info/gnd/132312794">
          <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/cresch"/>
          <acdh:hasIdentifier rdf:resource=" https://orcid.org/0000-0001-8066-7363"/>
