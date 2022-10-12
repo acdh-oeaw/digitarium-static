@@ -23,6 +23,7 @@
                 </xsl:for-each>
             </acdh:TopCollection>
             <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/digitarium/facs">
+                <acdh:hasPid>https://hdl.handle.net/21.11115/0000-000F-746B-7</acdh:hasPid>
                 <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/digitarium"/>
                 <acdh:hasTitle xml:lang="de">DIGITARIUM Faksimiles</acdh:hasTitle>
                 <acdh:hasTitle xml:lang="en">DIGITARIUM Facsimiles</acdh:hasTitle>
@@ -40,6 +41,7 @@
                 <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
             </acdh:Collection>
             <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/digitarium/editions">
+                <acdh:hasPid>https://hdl.handle.net/21.11115/0000-000F-746C-6</acdh:hasPid>
                 <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/digitarium"/>
                 <acdh:hasTitle xml:lang="de">DIGITARIUM XML/TEI-Ausgaben</acdh:hasTitle>
                 <acdh:hasTitle xml:lang="en">DIGITARIUM XML/TEI issues</acdh:hasTitle>
