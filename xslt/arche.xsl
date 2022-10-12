@@ -24,26 +24,26 @@
             </acdh:TopCollection>
             <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/digitarium/facs">
                 <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/digitarium"/>
-                <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/132312794"/>
                 <acdh:hasTitle xml:lang="de">DIGITARIUM Faksimiles</acdh:hasTitle>
                 <acdh:hasTitle xml:lang="en">DIGITARIUM Facsimiles</acdh:hasTitle>
                 <acdh:hasDescription xml:lang="en">The subcollection contains the image files of the newspaper pages scanned by the ÖNB and aligned and/or cropped by the project team as required.</acdh:hasDescription>
-                <acdh:hasDescription xml:lang="en">The subcollection contains the image files of the newspaper pages scanned by the ÖNB and aligned and/or cropped by the project team as required.</acdh:hasDescription>
+                <acdh:hasDescription xml:lang="de">Die Untersammlung enthält die Bilddateien der Zeitungsseiten, die von der ÖNB gescannt und vom Projektteam nach Bedarf ausgerichtet und/oder beschnitten wurden.</acdh:hasDescription>
                 <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc0-1-0"/>
                 <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/none"/>
                 <acdh:hasContact rdf:resource="https://d-nb.info/gnd/132312794"/>
+                <acdh:hasDigitisingAgent rdf:resource="https://d-nb.info/gnd/2020893-5"/>
                 <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/>
                 <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/none"/>
                 <acdh:hasDepositor rdf:resource="https://d-nb.info/gnd/132312794"/>
                 <acdh:hasMetadataCreator rdf:resource="https://d-nb.info/gnd/132312794"/>
-                <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/132312794"/>
+                <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/1043833846"/>
                 <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
             </acdh:Collection>
             <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/digitarium/editions">
                 <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/digitarium"/>
                 <acdh:hasTitle xml:lang="de">DIGITARIUM XML/TEI-Ausgaben</acdh:hasTitle>
                 <acdh:hasTitle xml:lang="en">DIGITARIUM XML/TEI issues</acdh:hasTitle>
-                <acdh:hasDescription xml:lang="de">Die Subcollection beinhaltet die vom Projektteam im XML/TEI-Format annotierten Volltexte.</acdh:hasDescription>     
+                <acdh:hasDescription xml:lang="de">Die Untersammlung beinhaltet die vom Projektteam im XML/TEI-Format annotierten Volltexte.</acdh:hasDescription>     
                 <acdh:hasDescription xml:lang="en">The subcollection contains the full texts, annotated by the project team in XML/TEI format.</acdh:hasDescription>
                 <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
                 <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"/>
@@ -57,9 +57,10 @@
                 <acdh:hasContributor rdf:resource="https://id.acdh.oeaw.ac.at/nrastinger"/>
                 <acdh:hasDepositor rdf:resource="https://d-nb.info/gnd/132312794"/>
                 <acdh:hasMetadataCreator rdf:resource="https://d-nb.info/gnd/132312794"/>
-                <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/132312794"/>
+                <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/1043833846"/>
                 <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
                 <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"/>
+                <acdh:hasCustomCitation>author = {Resch, Claudia and Kampkaspar, Dario}</acdh:hasCustomCitation>
             </acdh:Collection> 
             
             
@@ -103,9 +104,10 @@
                     <acdh:hasContributor rdf:resource="https://id.acdh.oeaw.ac.at/nrastinger"/>
                     <acdh:hasDepositor rdf:resource="https://d-nb.info/gnd/132312794"/>
                     <acdh:hasMetadataCreator rdf:resource="https://d-nb.info/gnd/132312794"/>
-                    <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/132312794"/>
+                    <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/1043833846"/>
                     <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
                     <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"/>
+                    <acdh:hasCustomCitation>author = {Resch, Claudia and Kampkaspar, Dario}</acdh:hasCustomCitation>
                 </acdh:Resource>
                 <xsl:for-each select=".//tei:graphic">
                     <xsl:variable name="facsId">
@@ -127,10 +129,13 @@
                         <acdh:isPartOf rdf:resource="{concat($TopColId, '/facs')}"/>
                         <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc0-1-0"/>
                         <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/none"/>
+                        <acdh:hasContact rdf:resource="https://d-nb.info/gnd/132312794"/>
+                        <acdh:hasDigitisingAgent rdf:resource="https://d-nb.info/gnd/2020893-5"/>
                         <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/>
                         <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/none"/>
                         <acdh:hasDepositor rdf:resource="https://d-nb.info/gnd/132312794"/>
                         <acdh:hasMetadataCreator rdf:resource="https://d-nb.info/gnd/132312794"/>
+                        <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/1043833846"/>
                         <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
                     </acdh:Resource>
                 </xsl:for-each>
