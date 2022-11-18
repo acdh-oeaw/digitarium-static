@@ -36,7 +36,8 @@ jobs:
     - name: Copy XML Files to to_ingest 
       run: |
         mkdir $PWD/to_ingest
-        find -path "./data/editions/*.xml" -exec cp -prv '{}' './to_ingest' ';'
+        # find -path "./data/editions/*.xml" -exec cp -prv '{}' './to_ingest' ';'
+        mv ./digitarium-logo.jpg ./to_ingest/digitarium-logo.jpg
         # find -path "./data/meta/*.xml" -exec cp -prv '{}' './to_ingest' ';'
     - name: install repo-file-checker
       run: |
