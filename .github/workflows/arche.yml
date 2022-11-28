@@ -59,7 +59,7 @@ jobs:
       run: |
         echo 'STEP=Run repo-file-checker' >> $GITHUB_ENV
         #php -f vendor/acdh-oeaw/repo-file-checker/index.php -- --tmpDir filechecker/tmp --reportDir filechecker/reports to_ingest 0
-        docker run --rm -v `pwd`/to_ingest:/data -v `pwd`/filechecker/reports to_ingest:/reports -v ~/.cvdupdate/database/:/var/lib/clamav acdhch/arche-filechecker 0
+        docker run --rm -v `pwd`/to_ingest:/data -v `pwd`/filechecker/reports:/reports -v ~/.cvdupdate/database/:/var/lib/clamav acdhch/arche-filechecker 0
         vendor/bin/arche-update-redmine --token ${{ secrets.REDMINE_TOKEN }} --append "$RUN_URL" $REDMINE_ID 'Virus scan'
         vendor/bin/arche-update-redmine --token ${{ secrets.REDMINE_TOKEN }} --append "$RUN_URL" $REDMINE_ID 'Run repo-file-checker'
     - name: ingest binaries
