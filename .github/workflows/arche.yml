@@ -50,7 +50,7 @@ jobs:
       run: |
         echo 'STEP=Run repo-file-checker' >> $GITHUB_ENV
         php -f vendor/acdh-oeaw/repo-file-checker/index.php -- --tmpDir filechecker/tmp --reportDir filechecker/reports to_ingest 0
-        vendor/bin/arche-update-redmine --token ${{ secrets.REDMINE_TOKEN }} --append "$RUN_URL" $REDMINE_ID 'Run repo-file-checker' --append "$RUN_URL"
+        vendor/bin/arche-update-redmine --token ${{ secrets.REDMINE_TOKEN }} --append "$RUN_URL" $REDMINE_ID 'Run repo-file-checker'
     - name: ingest binaries
       run: |
         echo 'STEP=Upload AIP to Curation Instance (Minerva)' >> $GITHUB_ENV
