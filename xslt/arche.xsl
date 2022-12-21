@@ -70,7 +70,7 @@
                 <xsl:copy-of select="."/>
             </xsl:for-each>
             <!-- <xsl:for-each select="collection('../data/editions')//tei:TEI[starts-with(@xml:id, 'ed__1716')]"> -->
-            <!--<xsl:for-each select="collection('../data/editions')//tei:TEI">
+            <xsl:for-each select="collection('../data/editions')//tei:TEI">
 
 
                 <xsl:variable name="partOf">
@@ -83,12 +83,12 @@
                     <xsl:value-of select="replace(replace(@xml:id, '.xml', ''), 'ed__', '')"/>
                 </xsl:variable>
                 <acdh:Resource rdf:about="{$id}">
-                    <!-\-<xsl:if test=".//tei:idno[@type='URI']/text()">
+                    <!--<xsl:if test=".//tei:idno[@type='URI']/text()">
                         <acdh:hasPid><xsl:value-of select=".//tei:idno[@type='URI']/text()"/></acdh:hasPid>
-                    </xsl:if>-\->
-                    <!-\-<xsl:if test=".//tei:idno[@type='URI']/text()">
+                    </xsl:if>-->
+                    <!--<xsl:if test=".//tei:idno[@type='URI']/text()">
                         <acdh:hasUrl><xsl:value-of select=".//tei:idno[@type='URI']/text()"/></acdh:hasUrl>
-                    </xsl:if>-\->
+                    </xsl:if>-->
                     <acdh:hasTitle xml:lang="de">Wienerisches DIGITARIUM - <xsl:value-of select="$date"/></acdh:hasTitle>
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
@@ -141,7 +141,7 @@
                         <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
                     </acdh:Resource>
                 </xsl:for-each> 
-            </xsl:for-each>-->
+            </xsl:for-each>
         </rdf:RDF>
     </xsl:template>   
 </xsl:stylesheet>
