@@ -35,7 +35,7 @@ jobs:
       run: echo "RUN_URL=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" >> $GITHUB_ENV
     - name: ingest resources
       run: |
-        vendor/bin/arche-import-metadata html/arche.rdf https://arche-curation.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
+        vendor/bin/arche-import-metadata html/arche.rdf https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
     - name: Copy XML Files to to_ingest 
       run: |
         mkdir $PWD/to_ingest
@@ -65,7 +65,7 @@ jobs:
     - name: ingest binaries
       run: |
         echo 'STEP=Upload AIP to Curation Instance (Minerva)' >> $GITHUB_ENV
-        vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/digitarium https://arche-curation.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --skip not_exist
+        vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/digitarium https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --skip not_exist
         vendor/bin/arche-update-redmine --token ${{ secrets.REDMINE_TOKEN }} --append "$RUN_URL" $REDMINE_ID 'Upload AIP to Curation Instance (Minerva)'
     - name: on failure
       if: ${{ failure() }}
