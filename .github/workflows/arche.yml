@@ -21,8 +21,6 @@ jobs:
       run: |
         pip install -r requirements.txt
     - name: Fetch Data
-      env:
-        GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
       run: |
         ./fetch_data.sh
     # - name: Build
