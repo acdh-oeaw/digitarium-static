@@ -55,7 +55,7 @@
    </acdh:TopCollection>
    <!-- definition of agents mentioned in the Metadata as e.g. PI, Curator, ... but not yet in ARCHE -->
    <acdh:MetaAgents>
-   <acdh:Ressource rdf:about="https://id.acdh.oeaw.ac.at/digitarium/digitarium-logo.jpg">
+   <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/digitarium/digitarium-logo.jpg">
        <acdh:hasTitle xml:lang="und">Digitarium Logo</acdh:hasTitle>
        <acdh:hasCreator rdf:resource="https://id.acdh.oeaw.ac.at/slehecka"/>
        <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"/>
@@ -69,7 +69,7 @@
        <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/1043833846"/>
        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/digitarium"/>
        <acdh:isTitleImageOf rdf:resource="https://id.acdh.oeaw.ac.at/digitarium"/>
-      </acdh:Ressource>
+      </acdh:Resource>
    <!-- I have changed the titles of persons to the old pattern - we will wait with the changes until Mateusz' script is ready. -->
      <acdh:Organisation rdf:about="https://id.acdh.oeaw.ac.at/onb">
           <acdh:hasIdentifier rdf:resource="https://d-nb.info/gnd/2020893-5"/>
