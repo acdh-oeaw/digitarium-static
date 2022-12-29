@@ -33,7 +33,7 @@ jobs:
       run: echo "RUN_URL=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" >> $GITHUB_ENV
     - name: ingest resources
       run: |
-        vendor/bin/arche-import-metadata html/arche.rdf https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
+        vendor/bin/arche-import-metadata html/arche.rdf https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --concurrency 1
     - name: Copy XML Files to to_ingest 
       run: |
         mkdir $PWD/to_ingest
